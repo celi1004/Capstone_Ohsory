@@ -23,6 +23,8 @@ router.register(r'tests', views.TestViewSet)
 
 urlpatterns = [
     path('test_app/', include('test_app.urls')),
+    path('auth_app/', include('auth_app.urls')),
+    path('auth_app/auth', include('knox.urls')),
     path('', include(router.urls)),
     re_path('admin/', admin.site.urls),
 ]

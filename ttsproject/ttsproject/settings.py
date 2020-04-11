@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'knox',
     'test_app',
     'auth_app',
-    'share_app'
+    'share_app',
+    'tts_app'
 ]
 
 REST_FRAMEWORK = {
@@ -131,3 +132,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Media files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

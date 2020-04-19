@@ -35,14 +35,25 @@
         android:background="#80000000"
         android:layout_below="@id/ll_top_bar"/>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="2dp"
-        android:layout_below="@id/ll_top_bar">
+        android:layout_below="@id/ll_top_bar"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
 
-    </RelativeLayout>
+        <include
+            android:id="@+id/header"
+            layout="@layout/rv_item_shared_model_manage" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_model_manage_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"

@@ -42,6 +42,35 @@
         android:layout_marginBottom="2dp"
         android:layout_below="@id/ll_top_bar">
 
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/al"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TopTabTheme">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tl_my_share_navi_act_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.google.android.material.tabs.TabLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#80000000"
+            android:layout_below="@id/al"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_my_share_navi_act_frag_pager"
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/al"
+            android:background="#ebebeb">
+        </androidx.viewpager.widget.ViewPager>
+
     </RelativeLayout>
 
     <View

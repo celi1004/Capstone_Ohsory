@@ -71,6 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:textColor="#000000"
                 android:text="25%"
                 android:textSize="48dp"
                 android:paddingBottom="40dp"/>
@@ -100,14 +101,14 @@
                 android:layout_height="72dp"
                 android:text="TTS 테스트"
                 android:layout_weight="1"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:textSize="20dp"/>
 
             <Button
                 android:id="@+id/bt_add_rec"
                 android:layout_width="0dp"
                 android:layout_height="72dp"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="추가녹음진행"
                 android:textSize="20dp"
                 android:layout_weight="1"/>

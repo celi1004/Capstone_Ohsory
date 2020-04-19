@@ -42,15 +42,11 @@ class MainActivity : AppCompatActivity() {
         vp_bottom_navi_act_frag_pager.offscreenPageLimit = 4
 
         tl_bottom_navi_act_bottom_menu.setupWithViewPager(vp_bottom_navi_act_frag_pager)
-        //TabLayout에 붙일 layout을 찾아준 다음
-        val bottomNaviLayout: View = this.layoutInflater.inflate(R.layout.tab_bar, null, false)
-        //탭 하나하나 TabLayout에 연결시켜줍니다.
-        tl_bottom_navi_act_bottom_menu.getTabAt(0)!!.customView = bottomNaviLayout.findViewById(R.id.ibtn_main_act_chart) as ImageView
-        tl_bottom_navi_act_bottom_menu.getTabAt(1)!!.customView = bottomNaviLayout.findViewById(R.id.ibtn_main_act_file) as ImageView
-        tl_bottom_navi_act_bottom_menu.getTabAt(2)!!.customView = bottomNaviLayout.findViewById(R.id.ibtn_main_act_bell) as ImageView
-        tl_bottom_navi_act_bottom_menu.getTabAt(3)!!.customView = bottomNaviLayout.findViewById(R.id.ibtn_main_act_user) as ImageView
-
-        tl_bottom_navi_act_bottom_menu.getTabAt(0)!!.select()
         //기본으로 0 셀렉됌
+
+        tl_bottom_navi_act_bottom_menu.getTabAt(0)?.setIcon(R.drawable.ic_tab_bar_chart)
+        tl_bottom_navi_act_bottom_menu.getTabAt(1)?.setIcon(R.drawable.ic_tab_file)
+        tl_bottom_navi_act_bottom_menu.getTabAt(2)?.setIcon(R.drawable.ic_tab_bell)
+        tl_bottom_navi_act_bottom_menu.getTabAt(3)?.setIcon(R.drawable.ic_tab_user)
     }
 }

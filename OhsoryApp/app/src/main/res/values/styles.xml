@@ -20,4 +20,13 @@
         <item name="colorAccent">#7759B6</item>                    <!-- 하단 움직이는 바 색-->
     </style>
 
+    <style name="TopTabTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/white</item>                                <!-- 배경 -->
+
+        <item name="android:textColorPrimary">@android:color/black</item>       <!-- 탭바 선택된 텍스트 -->
+        <item name="android:textColorSecondary">@color/colorPrimary</item>     <!-- 탭바 텍스트 -->
+
+        <item name="colorAccent">@color/colorPrimary</item>                    <!-- 하단 움직이는 바 색-->
+    </style>
+
 </resources>

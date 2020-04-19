@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btn_rv_item_alarm_my_model"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_mic_none_black_24dp"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_margin="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_rv_item_audio_file_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/mic"
+        android:layout_toRightOf="@+id/mic"
+        android:text="title"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_rv_item_audio_file_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/mic"
+        android:layout_toRightOf="@+id/mic"
+        android:text="explain"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_rv_item_audio_file_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="XX.XX.XX XX:XX AM"
+        android:layout_margin="12dp"
+        android:textSize="12dp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary" />
+
+</RelativeLayout>

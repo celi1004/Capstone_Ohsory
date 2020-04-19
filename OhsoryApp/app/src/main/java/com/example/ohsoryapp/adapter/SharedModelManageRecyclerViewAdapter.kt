@@ -22,17 +22,17 @@ class SharedModelManageRecyclerViewAdapter(val ctx: Context, val dataList: Array
         holder.username.text = dataList[position].username
         var tempString : String? = dataList[position].alarmsetting.toString()
         when(tempString){
-            "1" -> holder.alarmsetting.text="청취 / 다운로드 알람"
-            "2" -> holder.alarmsetting.text="청취 알림 없음 /\n다운로드 허락"
-            "3" -> holder.alarmsetting.text="청취 알람 없음 /\n다운로드 알람"
-            else -> holder.alarmsetting.text="전체 알림 없음"
+            "1" -> holder.alarmsetting.text="청취 알림 on /\n다운로드 허락 필요"
+            "2" -> holder.alarmsetting.text="청취 알림 on/\n다운로드 알림 on"
+            "3" -> holder.alarmsetting.text="청취 알림 off /\n다운로드 알람"
+            else -> holder.alarmsetting.text="알림/허락 없음"
         }
         holder.shareddate.text = dataList[position].shareddate.toString()
         tempString = dataList[position].state.toString()
         when(tempString){
             "1" -> holder.state.text="공유 중"
             "2" -> holder.state.text="공유 취소"
-            else -> holder.state.text="상태"
+            else -> holder.state.text="오류발"
         }
         //셋 온클릭같이 해야하는 일도 여기서!
     }

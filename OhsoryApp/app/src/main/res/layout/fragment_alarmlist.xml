@@ -67,8 +67,7 @@
             android:layout_width="match_parent"
             android:layout_marginTop="2dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/al"
-            android:background="#ebebeb">
+            android:layout_below="@id/al">
         </androidx.viewpager.widget.ViewPager>
 
     </RelativeLayout>

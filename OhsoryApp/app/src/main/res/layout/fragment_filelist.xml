@@ -40,7 +40,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="2dp"
-        android:layout_margin="40dp"
+        android:layout_margin="12dp"
         android:layout_below="@id/ll_top_bar">
 
         <androidx.appcompat.widget.AppCompatSpinner
@@ -50,6 +50,12 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/gradient_spinner"/>
 
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_audio_file"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </RelativeLayout>
 
     <View

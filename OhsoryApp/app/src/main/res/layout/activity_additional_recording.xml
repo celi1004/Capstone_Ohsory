@@ -42,12 +42,75 @@
         android:layout_marginBottom="2dp"
         android:layout_below="@id/ll_top_bar">
 
-    </RelativeLayout>
+        <view class="androidx.appcompat.app.AlertController$RecycleListView"
+            android:id="@+id/rv_"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_margin="80dp">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="#80000000"
-        android:layout_alignParentBottom="true"/>
+        </view>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:text="위에 제시된 문장을 녹음해주세요."
+            android:layout_below="@+id/rv_"/>
+
+        <LinearLayout
+            android:layout_below="@id/rv_"
+            android:layout_margin="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/bt_play"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_margin="12dp"
+                android:src="@drawable/ic_play_arrow_black_24dp"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="12dp">
+
+                <ImageButton
+                    android:id="@+id/bt_pause"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_pause_circle_filled_black_24dp" />
+
+                <ImageButton
+                    android:id="@+id/bt_start"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_fiber_manual_record_black_24dp"
+                    android:layout_margin="4dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/bt_stop"
+                android:layout_width="0dp"
+                android:layout_margin="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_stop_black_24dp"
+                android:adjustViewBounds="true"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </RelativeLayout>

@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         configureBottomNavigation()
 
         instance = this
+
+        //TODO Seekbar 안 움직이게 터치리스너 달고 막아버려
     }
 
     override fun onBackPressed() {

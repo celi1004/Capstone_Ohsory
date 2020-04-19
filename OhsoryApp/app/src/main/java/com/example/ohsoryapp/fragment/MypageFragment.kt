@@ -9,6 +9,7 @@ import android.view.ViewGroup
 
 import com.example.ohsoryapp.R
 
+
 /**
  * A simple [Fragment] subclass.
  */
@@ -21,6 +22,5 @@ class MypageFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_mypage, container, false)
     }
-
 
 }

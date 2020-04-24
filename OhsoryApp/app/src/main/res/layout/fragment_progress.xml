@@ -91,25 +91,27 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_alignBottom="@id/rl_progress_bar"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="40dp"
             android:weightSum="2"
-            android:layout_marginRight="20dp">
+            android:layout_marginRight="40dp">
 
             <Button
                 android:id="@+id/bt_ttstest"
                 android:layout_width="0dp"
-                android:layout_height="72dp"
+                android:layout_height="68dp"
                 android:text="TTS 테스트"
                 android:layout_weight="1"
-                android:layout_margin="4dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector"
                 android:textSize="20dp"/>
 
             <Button
                 android:id="@+id/bt_add_rec"
                 android:layout_width="0dp"
-                android:layout_height="72dp"
-                android:layout_margin="4dp"
+                android:layout_height="68dp"
+                android:layout_margin="8dp"
                 android:text="추가녹음진행"
+                android:background="@drawable/button_selector"
                 android:textSize="20dp"
                 android:layout_weight="1"/>
 

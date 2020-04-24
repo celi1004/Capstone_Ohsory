@@ -65,11 +65,12 @@
         <Button
             android:id="@+id/bt_hear"
             android:layout_width="match_parent"
-            android:layout_height="72dp"
+            android:layout_height="68dp"
+            android:background="@drawable/button_selector"
             android:layout_below="@id/et_text"
             android:text="음성 합성 결과 청취"
             android:layout_weight="1"
-            android:layout_margin="4dp"
+            android:layout_margin="8dp"
             android:textSize="20dp"/>
 
         <LinearLayout
@@ -82,19 +83,21 @@
             <Button
                 android:id="@+id/bt_dowload"
                 android:layout_width="0dp"
-                android:layout_height="72dp"
+                android:layout_height="68dp"
                 android:text=" 다운로드 "
                 android:layout_weight="1"
-                android:layout_margin="4dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_selector"
                 android:textSize="20dp"/>
 
             <Button
                 android:id="@+id/share"
                 android:layout_width="0dp"
-                android:layout_height="72dp"
-                android:layout_margin="4dp"
+                android:layout_height="68dp"
+                android:layout_margin="8dp"
                 android:text="공유"
                 android:textSize="20dp"
+                android:background="@drawable/button_selector"
                 android:layout_weight="1"/>
 
         </LinearLayout>

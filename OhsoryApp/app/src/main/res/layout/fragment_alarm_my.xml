@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <include
-            android:id="@+id/header"
-            layout="@layout/rv_item_alarm_my_model" />
-
         <View
             android:layout_width="match_parent"
             android:layout_height="68dp"
-            android:background="#34000000"/>
+            android:background="@color/colorLightAccent"/>
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/rv_item_alarm_my_model" />
 
     </RelativeLayout>
 

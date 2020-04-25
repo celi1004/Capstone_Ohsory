@@ -9,7 +9,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.example.ohsoryapp"
-        minSdkVersion 15
+        minSdkVersion 17
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -38,4 +38,7 @@ dependencies {
 
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha02'
+    implementation 'com.github.aykuttasil:CallRecorder:1.5.3'
+
+    implementation 'com.kailashdabhi:om-recorder:1.1.5'
 }

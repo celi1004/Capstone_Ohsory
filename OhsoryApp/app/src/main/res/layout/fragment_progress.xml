@@ -47,7 +47,7 @@
             android:layout_height="400dp"
             android:layout_marginTop="60dp">
 
-            <com.example.ohsoryapp.mclass.CircularSeekBar
+            <com.example.ohsoryapp.myclass.CircularSeekBar
                 android:id="@+id/sb_progress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

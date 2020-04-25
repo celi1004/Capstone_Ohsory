@@ -3,4 +3,16 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="notification_title">New Recording</string>
+    <string name="notification_text">A Phone Call has been Recorded.</string>
+    <string name="notification_more_text">Select to play</string>
+
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="noti_channel_id">thisisnoti</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="str_access_permissions">Call Recorder needs access to your contacts to identify your call recordings and prevent selected contacts from being recorded.</string>
+
 </resources>

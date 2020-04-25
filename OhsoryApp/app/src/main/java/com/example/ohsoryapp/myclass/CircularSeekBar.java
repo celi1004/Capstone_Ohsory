@@ -1,4 +1,4 @@
-package com.example.ohsoryapp.mclass;
+package com.example.ohsoryapp.myclass;
 
 import android.content.Context;
 import android.content.res.TypedArray;

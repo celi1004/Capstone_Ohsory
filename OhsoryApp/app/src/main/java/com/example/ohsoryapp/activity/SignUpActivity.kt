@@ -139,7 +139,7 @@ class SignUpActivity : AppCompatActivity() {
 
     fun postUserCreate(username: String, userfirstname: String, userlastname : String, userpw: String, useremail: String) {
         //userData에 값 넣기
-        signUpData = SignUpData(username, userpw, userpw, userlastname, userfirstname, useremail)
+        signUpData = SignUpData(username, userpw, userlastname, userfirstname, useremail)
         if (overlapNetWorking == "") {
             overlapNetWorking = "networking"
             networkservice = ApplicationController.instance.networkService

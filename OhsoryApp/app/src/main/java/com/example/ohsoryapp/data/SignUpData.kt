@@ -4,7 +4,6 @@ package com.example.ohsoryapp.data
 data class SignUpData(
         var username : String,
         var password : String,
-        var password_check : String,
         var last_name : String,
         var first_name : String,
         var email : String

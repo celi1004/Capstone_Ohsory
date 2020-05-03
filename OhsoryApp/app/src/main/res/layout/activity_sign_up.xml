@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:id="@+id/ll_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/bt_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"        android:textSize="22dp"
+        android:textColor="#000000"
+        android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo_sign_up_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="298dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:text="아이디"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/et_sign_up_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_vertical"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:lines="1"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:textColor="#b8191919"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_sign_up_id_notice"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_alignParentStart="true"
+                android:text="6글자 이상 영문으로 8~20자로 입력해주세요"
+                android:textColor="#80191919"
+                android:textSize="9.5sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"
+                        android:text="성"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/et_sign_up_first_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="3.5"
+                        android:layout_height="46dp"
+                        android:layout_gravity="center_vertical"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:lines="1"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:textColor="#b8191919"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"
+                        android:text="이름"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/et_sign_up_last_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:layout_gravity="center_vertical"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:lines="1"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:textColor="#b8191919"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_sign_up_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:text="이메일"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/et_sign_up_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:lines="1"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:textColor="#b8191919"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_activity_sign_up_check_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="유효하지 않은 이메일 형식입니다."
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="비밀번호"
+                    android:textSize="18dp"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/et_sign_up_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:textColor="#b8191919"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_sign_up_notice"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_alignParentStart="true"
+                android:text="영문 대소문자,숫자,특수문자(.!@#$%)를 혼합하여 8~20자로 입력해주세요"
+                android:textColor="#80191919"
+                android:textSize="9.5sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    android:id="@+id/tv_sign_up_password_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:text="비밀번호 확인"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/et_sign_up_password_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_sign_up_password_check"
+                    android:ems="10"
+                    android:lines="1"
+                    android:password="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_sign_up_check"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="비밀번호 확인이 일치하지 않습니다."
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_sign_up_end"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="가입하기"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

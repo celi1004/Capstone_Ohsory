@@ -21,7 +21,7 @@ public class WavRecorder {private static final int RECORDER_BPP = 16;
     private static final String AUDIO_RECORDER_FOLDER = "AudioRecorder";
     private static final String AUDIO_RECORDER_TEMP_FILE = "record_temp.raw";
     private int RECORDER_SAMPLERATE = 16000;
-    private static final int RECORDER_CHANNELS = AudioFormat.CHANNEL_IN_STEREO;
+    private static final int RECORDER_CHANNELS = AudioFormat.CHANNEL_IN_MONO;
     private static final int RECORDER_AUDIO_ENCODING = AudioFormat.ENCODING_PCM_16BIT;
     short[] audioData;
 
@@ -92,6 +92,7 @@ public class WavRecorder {private static final int RECORDER_BPP = 16;
     }
 
     private void threadedWriting(){
+        //읽어들인 레코드의 값을 넣어놓은 임시 버퍼를 파일에다 써
         String filename = getTempFilename();
         FileOutputStream os1 = null;
         byte []temp = new byte[bufferSize];
@@ -102,11 +103,8 @@ public class WavRecorder {private static final int RECORDER_BPP = 16;
         }
         try {
             while(isRecording || this.writeBuffer.getSize()!=0){
-
-
                 temp=this.writeBuffer.remove();
                 if(temp==null) {
-
                     Thread.sleep(1);
                 }
                 else{
@@ -129,6 +127,7 @@ public class WavRecorder {private static final int RECORDER_BPP = 16;
 
     }
     private void writeAudioDataToFile() {
+        //레코드를 읽어들여서 바이트 버퍼에 값 넣어
         byte data[] = new byte[bufferSize];
 
         int read = 0;
@@ -149,11 +148,9 @@ public class WavRecorder {private static final int RECORDER_BPP = 16;
     }
 
     public void stopRecording() {
-
-
+        //레코링 종료시 해야 할 일
         if (null != recorder) {
-
-
+            //레코더가 있으면
             int i = recorder.getState();
             if (i == 1)
                 recorder.stop();
@@ -163,10 +160,11 @@ public class WavRecorder {private static final int RECORDER_BPP = 16;
 
             while(writingThread!=null){
                 if(this.writeBuffer.getSize()==0){
-//                    Log.d(tag,"Buffer Size 0"+this.writeBuffer.getSize().toString());
+                    //Log.d(tag,"Buffer Size 0"+this.writeBuffer.getSize().toString());
                     this.writingThread.interrupt();
                     this.writingThread=null;
                     this.recordingThread.interrupt();
+                    //두 쓰레드 다 와일로 돌아가고 있는데 멈추기 위해 interrupt를 사용하자 쓰레드 빠이
                 }
                 try {
                     Thread.sleep(900);

@@ -22,7 +22,9 @@ public class PermissionHelper {
             {
                     Manifest.permission.RECORD_AUDIO,
                     Manifest.permission.CALL_PHONE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                    Manifest.permission.WRITE_CONTACTS,
+                    Manifest.permission.READ_CALL_LOG
             };
 
     public PermissionHelper(Context context) {

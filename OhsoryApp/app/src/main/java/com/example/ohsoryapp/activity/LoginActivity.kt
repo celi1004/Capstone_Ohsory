@@ -3,14 +3,24 @@ package com.example.ohsoryapp.activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.example.ohsoryapp.R
 import com.example.ohsoryapp.data.LoginData
 import com.example.ohsoryapp.db.SharedPreferenceController
+import com.example.ohsoryapp.network.ApplicationController
+import com.example.ohsoryapp.network.NetworkService
+import com.example.ohsoryapp.post.PostSignUpResponse
 import kotlinx.android.synthetic.main.activity_login.*
 import org.jetbrains.anko.startActivity
 import org.json.JSONObject
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class LoginActivity : AppCompatActivity() {
+    val networkService: NetworkService by lazy {
+        ApplicationController.instance.networkService
+    }
 
     lateinit var tok :String
     lateinit var loginData: LoginData
@@ -30,22 +40,13 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    private fun setOnBtnClickListener() {                          //로그인 버튼
+    private fun setOnBtnClickListener() {
         bt_log_in_confirm.setOnClickListener {
             getLoginResponse()
-
-            //여기 밑은 임시 로그인
-            val token = "임시완"
-//저번 시간에 배웠던 SharedPreference에 토큰을 저장!
-
-            SharedPreferenceController.setAuthorization(this@LoginActivity, token)
-            // toast(SharedPreferenceController.getAuthorization(this@LogInActivity))
-            startActivity<MainActivity>()
-            finish()
         }
 
         bt_log_in_join.setOnClickListener() {
-            startActivity<JoinActivity>()
+            startActivity<SignUpActivity>()
         }
 
         bt_log_in_find_pw.setOnClickListener{
@@ -57,71 +58,37 @@ class LoginActivity : AppCompatActivity() {
         if (et_log_in_email.text.toString().isNotEmpty() && et_log_in_pw.text.toString().isNotEmpty()) {
             val input_id = et_log_in_email.text.toString()
             val input_pw = et_log_in_pw.text.toString()
-            val jsonObject: JSONObject = JSONObject()
-            jsonObject.put("email", input_id)
-            jsonObject.put("password", input_pw)
 
             loginData = LoginData(input_id,input_pw)
 
-            /* 로그인 통신 부분 django면 retropit 써되는가? 이렇게 하는거 맞아?
             val postLogInResponse = networkService.postLoginResponse(loginData)
 
-            postLogInResponse.enqueue(object : Callback<PostLoginResponse> {
-                override fun onFailure(call: Call<PostLoginResponse>, t: Throwable) {
+            postLogInResponse!!.enqueue(object : Callback<PostSignUpResponse> {
+                //통신을 못 했을 때
+                override fun onFailure(call: Call<PostSignUpResponse>, t: Throwable) {
                     Log.e("Login fail", t.toString())
                 }
 
-                override fun onResponse(call: Call<PostLoginResponse>, response: Response<PostLoginResponse>) {
+                override fun onResponse(call: Call<PostSignUpResponse>, response: Response<PostSignUpResponse>) {
+                    //통신을 성공적으로 했을 때
                     if (response.isSuccessful) {
-
-                        Log.v("success communicate", response.body().toString())
-                        when (response.body()!!.status) {
-                            200 -> {
-
-                                Log.v("success", response.message().toString())
-                                val token = response.body()!!.data.token
-//저번 시간에 배웠던 SharedPreference에 토큰을 저장!
-
-                                SharedPreferenceController.setAuthorization(this@LogInActivity, token)
-                                // toast(SharedPreferenceController.getAuthorization(this@LogInActivity))
-                                startActivity<AAAAMainActivity>()
-                                finish()
-
-
-                            }
-
-
-
-                            401 -> {
-                                Log.v("401 fail", response.message())
-                                Log.v("fail", response.errorBody().toString())
-                                toast("인증 실패")
-                            }
-
-                            500 -> {
-
-                                Log.v("409 error", response.message())
-                                Log.v("server error", response.errorBody().toString())
-                                toast("서버 내부 에러")
-                            }
-                            600 -> {
-                                Log.v("600 error", response.message())
-                                Log.v("database error", response.errorBody().toString())
-                                toast("데이터베이스 에러")
-                            }
-                            else -> {
-                                toast("Error")
-                            }
-                        }
+                        val token = response.body()!!.token
+                        //저번 시간에 배웠던 SharedPreference에 토큰을 저장!
+                        SharedPreferenceController.setAuthorization(this@LoginActivity, token)
+                        // toast(SharedPreferenceController.getAuthorization(this@LogInActivity))
+                        startActivity<MainActivity>()
+                        finish()
                     }
                     else{
-                        toast("로그인 실패")
+                        Toast.makeText(this@LoginActivity,
+                                "아이디 비밀번호가 일치하지 않습니다.", Toast.LENGTH_LONG).show()
                     }
                 }
             })
 
-            */
-
+        }else{
+            Toast.makeText(this,
+                    "빈칸이 있습니다.", Toast.LENGTH_LONG).show()
         }
     }
 }

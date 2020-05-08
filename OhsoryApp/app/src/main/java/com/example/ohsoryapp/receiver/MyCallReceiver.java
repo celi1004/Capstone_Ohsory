@@ -19,7 +19,6 @@ public class MyCallReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.i("JLCreativeCallRecorder", "MyCallReceiver.onReceive ");
 
         if (!AppPreferences.getInstance(context).isRecordingEnabled()) {
             removeListener();

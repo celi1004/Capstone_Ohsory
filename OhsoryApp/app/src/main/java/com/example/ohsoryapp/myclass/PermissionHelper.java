@@ -20,11 +20,13 @@ public class PermissionHelper {
      */
     private String[] mRequiredPermissions =
             {
-                    Manifest.permission.RECORD_AUDIO,
+                    Manifest.permission.READ_CONTACTS,
+                    Manifest.permission.READ_PHONE_STATE,
                     Manifest.permission.CALL_PHONE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                    Manifest.permission.WRITE_CONTACTS,
-                    Manifest.permission.READ_CALL_LOG
+                    Manifest.permission.RECORD_AUDIO,
+                    Manifest.permission.READ_CALL_LOG,
+                    Manifest.permission.READ_EXTERNAL_STORAGE,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE
             };
 
     public PermissionHelper(Context context) {

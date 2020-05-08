@@ -25,7 +25,6 @@ class ApplicationController : Application(){
     //레트로핏 빌더를 통해 클라이언트와 컨버터 설정
     //인터페이스 선택
     fun buildNetWork(){
-        Log.i("에","에")
         val retrofit: Retrofit = Retrofit.Builder()
                 .baseUrl(baseURL)
                 .addConverterFactory(GsonConverterFactory.create())

@@ -72,9 +72,11 @@ class LoginActivity : AppCompatActivity() {
                 override fun onResponse(call: Call<PostSignUpResponse>, response: Response<PostSignUpResponse>) {
                     //통신을 성공적으로 했을 때
                     if (response.isSuccessful) {
+                        val id = response.body()!!.user.id
                         val token = response.body()!!.token
                         //저번 시간에 배웠던 SharedPreference에 토큰을 저장!
                         SharedPreferenceController.setAuthorization(this@LoginActivity, token)
+                        SharedPreferenceController.setUserID(this@LoginActivity, id)
                         // toast(SharedPreferenceController.getAuthorization(this@LogInActivity))
                         startActivity<MainActivity>()
                         finish()

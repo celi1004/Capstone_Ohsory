@@ -73,7 +73,6 @@ public class PhoneListener extends PhoneStateListener {
         switch (state) {
             case TelephonyManager.CALL_STATE_IDLE: // Idle... no call
                 if (isRecording.get()) {
-                    Log.i("시발", "리시버전화끝");
 
                     context.stopService(mIntent);
                     //mDatabase.addRecording(mFileName, mFilePath);
@@ -89,7 +88,6 @@ public class PhoneListener extends PhoneStateListener {
                     isRecording.set(true);
                     // start: Probably not ever usefull
                     // end: Probably not ever usefull끝
-                    Log.i("시발", "리시버전화시작");
 
                     long now = System.currentTimeMillis();
                     Date date = new Date(now);

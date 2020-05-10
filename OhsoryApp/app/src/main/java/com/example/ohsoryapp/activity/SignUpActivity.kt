@@ -24,7 +24,6 @@ class SignUpActivity : AppCompatActivity() {
 
     lateinit var networkservice: NetworkService
     lateinit var signUpData: SignUpData
-    private var overlapNetWorking: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -140,30 +139,39 @@ class SignUpActivity : AppCompatActivity() {
     fun postUserCreate(username: String, userfirstname: String, userlastname : String, userpw: String, useremail: String) {
         //userData에 값 넣기
         signUpData = SignUpData(username, userpw, userlastname, userfirstname, useremail)
-        if (overlapNetWorking == "") {
-            overlapNetWorking = "networking"
-            networkservice = ApplicationController.instance.networkService
-            //액티비티에서 NetworkService 초기화 레트로핏 인스턴스를 가져와
-            var userCreateResponse = networkservice.postSignUpResponse(signUpData)
-            //만들어준 UserData객체를 넘겨주고 통신하고 받은 정보
-            userCreateResponse!!.enqueue(object : Callback<PostSignUpResponse> {
-                override fun onFailure(call: Call<PostSignUpResponse>, t: Throwable) {
-                    Log.v("Error SignUpActivity : ", t.message)
-                    overlapNetWorking = ""
-                }
+        networkservice = ApplicationController.instance.networkService
+        //액티비티에서 NetworkService 초기화 레트로핏 인스턴스를 가져와
+        var userCreateResponse = networkservice.postSignUpResponse(signUpData)
+        //만들어준 UserData객체를 넘겨주고 통신하고 받은 정보
+        userCreateResponse!!.enqueue(object : Callback<PostSignUpResponse> {
+            override fun onFailure(call: Call<PostSignUpResponse>, t: Throwable) {
+                Log.v("Error SignUpActivity : ", t.message)
+            }
 
-                override fun onResponse(call: Call<PostSignUpResponse>, response: Response<PostSignUpResponse>) {
+            override fun onResponse(call: Call<PostSignUpResponse>, response: Response<PostSignUpResponse>) {
 
-                    response?.let {
-                        //Log.v("resoponse_signup",response.body()!!.status.toString())
+                when (response.code()) {
+                    200 -> {
                         Toast.makeText(applicationContext,
                                 "회원가입이 완료되었습니다.", Toast.LENGTH_LONG).show()
                         finish()
-                    }?.also {
-                        overlapNetWorking = " "
+                    }
+                    400 -> {
+                        Toast.makeText(applicationContext,
+                                "중복된 아이디가 존재합니다. 다른 아이디를 입력해주세요.", Toast.LENGTH_LONG).show()
+                    }
+                    406 ->{
+                        Toast.makeText(applicationContext,
+                                "아이디 길이를 6글자 이상으로 해주세요.", Toast.LENGTH_LONG).show()
+                        //  toast("중복된 이메일 입니다")
+                    }
+                    else -> {
+                        Log.i("에",response.code().toString())
+                        Toast.makeText(applicationContext,
+                                "서버 에러.", Toast.LENGTH_LONG).show()
                     }
                 }
-            })
-        }
+            }
+        })
     }
 }

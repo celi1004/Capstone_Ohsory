@@ -6,18 +6,12 @@ import android.content.SharedPreferences
 object SharedPreferenceController {
     private val USER_NAME: String? = null
     private val myAuth = "myAuth"
-    private val USER_IDX : String = "user_idx"
     private val USER_ID: String = "user_id"
     private val USER_PW: String = "user_pw"
-    private val USER_TOKEN : String = "my_token"
-
-
-
+    private val USER_PROGRESS: String = "user_progress"
+    private val USER_AUDIO_TIME: String = "user_audio_time"
 
     private var pref: SharedPreferences? = null
-
-
-
 
     fun setAuthorization(context: Context, authorization: String) {
         val pref = context.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
@@ -31,18 +25,6 @@ object SharedPreferenceController {
         val pref = context.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
         return pref.getString(myAuth, "")!!
     }
-
-    /*fun getPref(context: Context) {
-        if (pref == null) {
-            pref = context.getSharedPreferences(SHARED_PREFS_CONFIGURATION, Context.MODE_PRIVATE)
-        }
-    }
-    */
-
-    /*fun load(context: Context) {
-        getPref(context)
-    }
-    */
 
     fun setPrefData(key: String, value: Float) {
         val editor = pref!!.edit()
@@ -72,16 +54,7 @@ object SharedPreferenceController {
         editor.commit()
     }
 
-
-
     //여기서부터 아이디패스워드
-    fun setUserID(ctx: Context, input_id: String) {                        //아이디 설정
-        val preferences: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
-        val editor: SharedPreferences.Editor = preferences.edit()
-        editor.putString(USER_ID, input_id)
-        editor.commit()
-    }
-
     fun setUserPW(ctx: Context, input_pw: String) {                            //비밀번호 설정
         val preferences: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
         val editor: SharedPreferences.Editor = preferences.edit()
@@ -89,26 +62,44 @@ object SharedPreferenceController {
         editor.commit()
     }
 
-    fun getUserID(ctx: Context): String {
-        val preferences: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
-        return preferences.getString(USER_ID, "")!!
-    }
-
     fun getUserPW(ctx: Context): String {
         val preferences: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
         return preferences.getString(USER_PW, "")!!
     }
 
-    fun getUserIDX(ctx: Context) : Int {
-        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_IDX, Context.MODE_PRIVATE)
-        return preferences.getInt(USER_IDX, -1)
+    fun getUserID(ctx: Context) : Int {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_ID, Context.MODE_PRIVATE)
+        return preferences.getInt(USER_ID, -1)
     }
-    fun setUserIDX(ctx: Context, input_idx : Int)  {
-        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_IDX, Context.MODE_PRIVATE)
+    fun setUserID(ctx: Context, input_idx : Int)  {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_ID, Context.MODE_PRIVATE)
         val editor: SharedPreferences.Editor = preferences.edit()
-        editor.putInt(USER_IDX, input_idx)
+        editor.putInt(USER_ID, input_idx)
         editor.commit()
     }
+    fun getUserPG(ctx: Context) : Int {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_PROGRESS, Context.MODE_PRIVATE)
+        return preferences.getInt(USER_PROGRESS, 0)
+    }
+    fun setUserPG(ctx: Context, input_idx : Int)  {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_PROGRESS, Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = preferences.edit()
+        editor.putInt(USER_PROGRESS, input_idx)
+        editor.commit()
+    }
+
+    fun getUserAT(ctx: Context) : Float {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_AUDIO_TIME, Context.MODE_PRIVATE)
+        return preferences.getFloat(USER_AUDIO_TIME, 0.0F)
+    }
+    fun setUserAT(ctx: Context, input_idx : Float)  {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_AUDIO_TIME, Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = preferences.edit()
+        editor.putFloat(USER_AUDIO_TIME, input_idx)
+        editor.commit()
+    }
+
+
     fun clearUserSharedPreferences(ctx: Context) {
         val preference: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context. MODE_PRIVATE )
         val editor: SharedPreferences.Editor = preference.edit()

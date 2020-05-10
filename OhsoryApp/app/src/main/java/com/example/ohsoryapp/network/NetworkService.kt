@@ -2,11 +2,10 @@ package com.example.ohsoryapp.network
 
 import com.example.ohsoryapp.data.LoginData
 import com.example.ohsoryapp.data.SignUpData
+import com.example.ohsoryapp.get.GetProgressResponse
 import com.example.ohsoryapp.post.PostSignUpResponse
 import retrofit2.Call
-import retrofit2.http.Body
-import retrofit2.http.Headers
-import retrofit2.http.POST
+import retrofit2.http.*
 
 interface NetworkService{
 
@@ -24,5 +23,12 @@ interface NetworkService{
     fun postLoginResponse(
             @Body loginData: LoginData
     ): Call<PostSignUpResponse>
+
+    // 진척도 받아오기
+    @GET("/auth_app/auth/profile/{user_pk}/get-progress")
+    @Headers("Content-Type: application/json")
+    fun getProgressResponse(
+            @Path("user_pk") user_pk: Int
+    ): Call<GetProgressResponse>
 
 }

@@ -67,7 +67,7 @@
                 app:pointer_alpha_ontouch="0"/>
 
             <TextView
-
+                android:id="@+id/tv_progress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -77,6 +77,7 @@
                 android:paddingBottom="40dp"/>
 
             <TextView
+                android:id="@+id/tv_audio_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"

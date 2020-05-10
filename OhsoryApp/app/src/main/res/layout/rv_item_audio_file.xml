@@ -19,20 +19,11 @@
         android:id="@+id/tv_rv_item_audio_file_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/mic"
+        android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/mic"
         android:text="title"
         android:textStyle="bold"
         android:textSize="18dp" />
-
-    <TextView
-        android:id="@+id/tv_rv_item_audio_file_exp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/mic"
-        android:layout_toRightOf="@+id/mic"
-        android:text="explain"
-        android:textSize="16dp" />
 
     <TextView
         android:id="@+id/tv_rv_item_audio_file_date"

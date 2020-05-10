@@ -7,6 +7,12 @@ import com.example.ohsoryapp.R
 import com.example.ohsoryapp.myclass.DBHelper
 import kotlinx.android.synthetic.main.activity_ttstest.*
 import java.io.File
+import android.widget.Toast
+import java.io.FileOutputStream
+import java.io.IOException
+
+
+
 
 class TTSTestActivity : AppCompatActivity() {
 
@@ -28,16 +34,40 @@ class TTSTestActivity : AppCompatActivity() {
         bt_dowload.setOnClickListener(){
             //서버에서 받아온 파일 내장 디비에
 
-            //우선 임시로 아무 템프파일 생성해서 뿌리는 거 까지 해보자
-            mDatabase = DBHelper(this)
+            val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
+            val subPath = "/내 모델/"
+            val filename = et_text.text.toString() +".wav"
 
-            val mFileName = et_text.text.toString()
-            var mFilePath = Environment.getExternalStorageDirectory().absolutePath + "/OhSory/"
-            val newfile = File(mFilePath+mFileName+".wav")
-            mFilePath += "/Ohsory/" + mFileName
-            newfile.createNewFile()
+            //디렉토리 없으면 생성
+            val dir = File(dirPath)
+            if (!dir.exists()) {
+                dir.mkdir()
+            }
 
-            mDatabase.addRecording(mFileName, mFilePath)
+            val subdir = File(dir, subPath)
+            if (!subdir.exists()) {
+                subdir.mkdir()
+            }
+
+            //파일객체
+            val file = File(subdir, filename)
+            try {
+                //쓰기객체
+                val fos = FileOutputStream(file)
+                //버퍼 - 1MB씩쓰기
+                val buffer = ByteArray(1 * 1024 * 1024)
+                for (i in 0..9) {    //10MB
+                    fos.write(buffer, 0, buffer.size)    //1MB씩 10번쓰기
+                    fos.flush()
+                }
+                val len = 0
+
+                fos.close()
+
+                Toast.makeText(this, "다운로드 완", Toast.LENGTH_SHORT).show()
+            } catch (e: IOException) {
+                e.printStackTrace()
+            }
         }
 
         bt_share.setOnClickListener(){

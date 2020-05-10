@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 
-import com.example.ohsoryapp.data.RecordingItem;
+import com.example.ohsoryapp.data.RecordingData;
 import com.example.ohsoryapp.listener.OnDatabaseChangedListener;
 
 import java.util.Comparator;
@@ -62,7 +62,7 @@ public class DBHelper extends SQLiteOpenHelper {
         mOnDatabaseChangedListener = listener;
     }
 
-    public RecordingItem getItemAt(int position) {
+    public RecordingData getItemAt(int position) {
         SQLiteDatabase db = getReadableDatabase();
         String[] projection = {
                 DBHelperItem._ID,
@@ -72,7 +72,7 @@ public class DBHelper extends SQLiteOpenHelper {
         };
         Cursor c = db.query(DBHelperItem.TABLE_NAME, projection, null, null, null, null, null);
         if (c.moveToPosition(position)) {
-            RecordingItem item = new RecordingItem();
+            RecordingData item = new RecordingData();
             item.setId(c.getInt(c.getColumnIndex(DBHelperItem._ID)));
             item.setName(c.getString(c.getColumnIndex(DBHelperItem.COLUMN_NAME_RECORDING_NAME)));
             item.setFilePath(c.getString(c.getColumnIndex(DBHelperItem.COLUMN_NAME_RECORDING_FILE_PATH)));
@@ -102,8 +102,8 @@ public class DBHelper extends SQLiteOpenHelper {
         return mContext;
     }
 
-    public class RecordingComparator implements Comparator<RecordingItem> {
-        public int compare(RecordingItem item1, RecordingItem item2) {
+    public class RecordingComparator implements Comparator<RecordingData> {
+        public int compare(RecordingData item1, RecordingData item2) {
             Long o1 = item1.getTime();
             Long o2 = item2.getTime();
             return o2.compareTo(o1);
@@ -126,7 +126,7 @@ public class DBHelper extends SQLiteOpenHelper {
         return rowId;
     }
 
-    public void renameItem(RecordingItem item, String recordingName, String filePath) {
+    public void renameItem(RecordingData item, String recordingName, String filePath) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues cv = new ContentValues();
         cv.put(DBHelperItem.COLUMN_NAME_RECORDING_NAME, recordingName);

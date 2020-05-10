@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         mNetworkManager = NetworkManager(this)
         if(mNetworkManager!!.checkNetworkState()){
             //데이터가 연결되어있으면
-            Toast.makeText(this@MainActivity, "인터연결", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, "인터넷 연결", Toast.LENGTH_SHORT).show()
 
             //파일 서버로 보내고
 

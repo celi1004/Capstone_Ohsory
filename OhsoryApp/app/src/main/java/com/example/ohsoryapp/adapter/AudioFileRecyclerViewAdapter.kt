@@ -3,6 +3,8 @@ package com.example.ohsoryapp.adapter
 import android.app.AlertDialog
 import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
+import android.net.Uri
 import android.os.Environment
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +15,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ohsoryapp.R
 import com.example.ohsoryapp.data.AudioFileData
+import com.example.ohsoryapp.data.RecordingData
 import com.example.ohsoryapp.myclass.DBHelper
 import java.io.File
 
@@ -49,7 +52,7 @@ class AudioFileRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<Aud
             builder.setTitle("Option")
             builder.setItems(items) { dialog, item ->
                 if (item == 0) {
-                    //shareFileDialog(position)
+                    shareFileDialog(position)
                 }
                 if (item == 1) {
                     //renameFileDialog(position)
@@ -76,5 +79,15 @@ class AudioFileRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<Aud
         val body : RelativeLayout = itemView.findViewById(R.id.bt_rv_audio_file) as RelativeLayout
     }
 
+    fun getItem(position: Int): RecordingData {
+        return mDatabase.getItemAt(position)
+    }
 
+    fun shareFileDialog(position: Int) {
+        val shareIntent = Intent()
+        shareIntent.action = Intent.ACTION_SEND
+        shareIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(File(getItem(position).getFilePath())))
+        shareIntent.type = "audio/mp4"
+        mContext.startActivity(Intent.createChooser(shareIntent, "공유하기"))
+    }
 }

@@ -3,18 +3,21 @@ package com.example.ohsoryapp.data;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class RecordingItem implements Parcelable {
+/**
+ * Created by Daniel on 12/30/2014.
+ */
+public class RecordingData implements Parcelable {
     private String mName; // file name
     private String mFilePath; //file path
     private int mId; //id in database
     private int mLength; // length of recording in seconds
     private long mTime; // date/time of the recording
 
-    public RecordingItem()
+    public RecordingData()
     {
     }
 
-    public RecordingItem(Parcel in) {
+    public RecordingData(Parcel in) {
         mName = in.readString();
         mFilePath = in.readString();
         mId = in.readInt();
@@ -62,13 +65,13 @@ public class RecordingItem implements Parcelable {
         mTime = time;
     }
 
-    public static final Parcelable.Creator<RecordingItem> CREATOR = new Parcelable.Creator<RecordingItem>() {
-        public RecordingItem createFromParcel(Parcel in) {
-            return new RecordingItem(in);
+    public static final Parcelable.Creator<RecordingData> CREATOR = new Parcelable.Creator<RecordingData>() {
+        public RecordingData createFromParcel(Parcel in) {
+            return new RecordingData(in);
         }
 
-        public RecordingItem[] newArray(int size) {
-            return new RecordingItem[size];
+        public RecordingData[] newArray(int size) {
+            return new RecordingData[size];
         }
     };
 

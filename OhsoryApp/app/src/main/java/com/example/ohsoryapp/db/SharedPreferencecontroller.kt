@@ -10,6 +10,7 @@ object SharedPreferenceController {
     private val USER_PW: String = "user_pw"
     private val USER_PROGRESS: String = "user_progress"
     private val USER_AUDIO_TIME: String = "user_audio_time"
+    private val USER_FCM_KEY : String = "user_fcm_key"
 
     private var pref: SharedPreferences? = null
 
@@ -65,6 +66,18 @@ object SharedPreferenceController {
     fun getUserPW(ctx: Context): String {
         val preferences: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
         return preferences.getString(USER_PW, "")!!
+    }
+
+    fun setUserFCMKey(ctx: Context, input_k: String) {                            //비밀번호 설정
+        val preferences: SharedPreferences = ctx.getSharedPreferences(USER_FCM_KEY, Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = preferences.edit()
+        editor.putString(USER_FCM_KEY, input_k)
+        editor.commit()
+    }
+
+    fun getUserFCMKey(ctx: Context): String {
+        val preferences: SharedPreferences = ctx.getSharedPreferences(USER_FCM_KEY, Context.MODE_PRIVATE)
+        return preferences.getString(USER_FCM_KEY, "")!!
     }
 
     fun getUserID(ctx: Context) : Int {

@@ -1,9 +1,11 @@
 package com.example.ohsoryapp.network
 
+import com.example.ohsoryapp.data.FCMData
 import com.example.ohsoryapp.data.LoginData
 import com.example.ohsoryapp.data.SignUpData
 import com.example.ohsoryapp.get.GetProgressResponse
 import com.example.ohsoryapp.post.PostSignUpResponse
+import com.example.ohsoryapp.put.PutFCMKeyUpdateResponse
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -31,4 +33,11 @@ interface NetworkService{
             @Path("user_pk") user_pk: Int
     ): Call<GetProgressResponse>
 
+    // fcm키 업데이트
+    @PUT("/auth_app/auth/profile/{user_pk}/fcm-key-update")
+    @Headers("Content-Type: application/json")
+    fun putFCMKeyUpdateResponse(
+            @Path("user_pk") user_pk: Int,
+            @Body fcmData: FCMData
+    ): Call<PutFCMKeyUpdateResponse>
 }

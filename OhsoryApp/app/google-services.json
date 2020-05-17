@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "333752522761",
+    "firebase_url": "https://ohsory-e66d5.firebaseio.com",
+    "project_id": "ohsory-e66d5",
+    "storage_bucket": "ohsory-e66d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333752522761:android:4c4d7a92c8a2d560b780d8",
+        "android_client_info": {
+          "package_name": "com.example.ohsoryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333752522761-ii0h72abkhc3dfc8lpe1a2alh05cnv1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAywlFSWmwaFS4evU6agCKldf_dagL0dnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333752522761-ii0h72abkhc3dfc8lpe1a2alh05cnv1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

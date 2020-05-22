@@ -56,16 +56,16 @@ object SharedPreferenceController {
     }
 
     //여기서부터 아이디패스워드
-    fun setUserPW(ctx: Context, input_pw: String) {                            //비밀번호 설정
+    fun setUserName(ctx: Context, input_name: String) {                            //비밀번호 설정
         val preferences: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
         val editor: SharedPreferences.Editor = preferences.edit()
-        editor.putString(USER_PW, input_pw)
+        editor.putString(USER_NAME, input_name)
         editor.commit()
     }
 
-    fun getUserPW(ctx: Context): String {
+    fun getUserName(ctx: Context): String {
         val preferences: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context.MODE_PRIVATE)
-        return preferences.getString(USER_PW, "")!!
+        return preferences.getString(USER_NAME, "")!!
     }
 
     fun setUserFCMKey(ctx: Context, input_k: String) {                            //비밀번호 설정

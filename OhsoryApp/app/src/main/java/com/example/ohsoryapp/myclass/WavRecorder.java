@@ -3,9 +3,12 @@ package com.example.ohsoryapp.myclass;
 import android.app.Activity;
 import android.content.Context;
 import android.media.AudioFormat;
+import android.media.AudioManager;
 import android.media.AudioRecord;
+import android.media.AudioRecordingConfiguration;
 import android.media.MediaRecorder;
 import android.os.Environment;
+import android.util.Log;
 import android.widget.EditText;
 import android.widget.Switch;
 

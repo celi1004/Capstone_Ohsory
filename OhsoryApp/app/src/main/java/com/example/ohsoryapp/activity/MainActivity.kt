@@ -7,6 +7,19 @@ import com.example.ohsoryapp.adapter.MainPagerAdapter
 import com.example.ohsoryapp.myclass.NetworkManager
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.ohsoryapp.myclass.PermissionHelper
+import android.content.Intent
+import android.content.DialogInterface
+import android.accessibilityservice.AccessibilityServiceInfo
+import android.content.Context
+import androidx.core.view.accessibility.AccessibilityManagerCompat.getEnabledAccessibilityServiceList
+import android.content.Context.ACCESSIBILITY_SERVICE
+import android.view.accessibility.AccessibilityManager
+import androidx.core.app.ComponentActivity
+import androidx.core.app.ComponentActivity.ExtraData
+import androidx.core.content.ContextCompat.getSystemService
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import androidx.appcompat.app.AlertDialog
+import android.provider.Settings
 
 
 class MainActivity : AppCompatActivity() {

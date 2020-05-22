@@ -23,15 +23,23 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import android.view.MotionEvent
-
-
-
+import android.content.DialogInterface
+import com.example.ohsoryapp.activity.MainActivity
+import android.widget.EditText
+import android.app.AlertDialog
+import android.widget.RadioButton
+import android.widget.ToggleButton
+import com.example.ohsoryapp.data.ShareCreateData
+import com.example.ohsoryapp.post.PostShareCreateResponse
+import kotlinx.android.synthetic.main.dialog_sharemymodel.*
 
 
 /**
  * A simple [Fragment] subclass.
  */
 class ProgressFragment : Fragment() {
+
+    lateinit var shareCreateData: ShareCreateData
 
     internal var mNetworkManager : NetworkManager? = null
     val networkService: NetworkService by lazy {
@@ -140,5 +148,65 @@ class ProgressFragment : Fragment() {
                 startActivity(iT)
             }
         }
+
+        bt_share.setOnClickListener(){
+            showShareDialog()
+        }
+    }
+
+    fun showShareDialog(){
+        val builder = AlertDialog.Builder(activity!!)
+        val dialogView = layoutInflater.inflate(R.layout.dialog_sharemymodel, null)
+        val dialogText = dialogView.findViewById<EditText>(R.id.et_username)
+        val listen_noti = dialogView.findViewById<ToggleButton>(R.id.rb_listennoti)
+        val down_noti = dialogView.findViewById<ToggleButton>(R.id.rb_downnoti)
+        val down_auth = dialogView.findViewById<ToggleButton>(R.id.rb_downauth)
+
+        builder.setView(dialogView)
+                .setPositiveButton("확인") { dialogInterface, i ->
+                    //공유 해주는 서버 작업해줘
+                    val b1 = listen_noti.isChecked
+                    val b2 = down_noti.isChecked
+                    val b3 = down_auth.isChecked
+                    val username = SharedPreferenceController.getUserName(activity!!)
+                    shareCreateData = ShareCreateData(username, dialogText.text.toString(), b1, b2, b3)
+
+                    Log.i("에", shareCreateData.toString())
+                    shareMyModel()
+                }
+                .setNegativeButton("취소") { dialogInterface, i ->
+
+                }
+                .show()
+
+    }
+
+    fun shareMyModel(){
+        val postShareCreateResponse = networkService.postShareCreateResponse(shareCreateData)
+
+        postShareCreateResponse!!.enqueue(object : Callback<PostShareCreateResponse> {
+            //통신을 못 했을 때
+
+            override fun onFailure(call: Call<PostShareCreateResponse>, t: Throwable) {
+                Log.i("서버에러", "실패")
+            }
+
+            override fun onResponse(call: Call<PostShareCreateResponse>, response: Response<PostShareCreateResponse>) {
+                when (response.code()) {
+                    201 -> {
+                        Toast.makeText(activity!!,
+                                "공유 완료", Toast.LENGTH_LONG).show()
+                    }
+                    404 ->{
+                        Toast.makeText(activity!!,
+                                "공유 받을 사람의 이름을 정확히 입력해주세요", Toast.LENGTH_LONG).show()
+                    }
+                    else -> {
+                        Toast.makeText(activity!!,
+                                "저장 실패", Toast.LENGTH_LONG).show()
+                    }
+                }
+            }
+        })
     }
 }

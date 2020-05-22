@@ -76,11 +76,14 @@ class LoginActivity : AppCompatActivity() {
                     //통신을 성공적으로 했을 때
                     if (response.isSuccessful) {
                         val id = response.body()!!.user.id
+                        val name = response.body()!!.user.username
                         val token = response.body()!!.token
                         val fcm = SharedPreferenceController.getUserFCMKey(this@LoginActivity)
+
                         //저번 시간에 배웠던 SharedPreference에 토큰을 저장!
                         SharedPreferenceController.setAuthorization(this@LoginActivity, token)
                         SharedPreferenceController.setUserID(this@LoginActivity, id)
+                        SharedPreferenceController.setUserName(this@LoginActivity, name)
                         // toast(SharedPreferenceController.getAuthorization(this@LogInActivity))
 
                         setFCMKey(id, fcm)

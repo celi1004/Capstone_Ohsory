@@ -44,14 +44,13 @@
         <RelativeLayout
             android:id="@+id/rl_progress_bar"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:layout_marginTop="60dp">
+            android:layout_height="280dp"
+            android:layout_marginTop="80dp">
 
             <com.example.ohsoryapp.myclass.CircularSeekBar
                 android:id="@+id/sb_progress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="40dp"
                 android:layout_centerInParent="true"
                 android:focusable="false"
                 app:circle_color="#32000000"
@@ -87,36 +86,58 @@
 
         </RelativeLayout>
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_alignBottom="@id/rl_progress_bar"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
             android:layout_marginLeft="40dp"
-            android:weightSum="2"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:layout_below="@id/rl_progress_bar">
 
             <Button
                 android:id="@+id/bt_ttstest"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:background="@drawable/button_selector"
+
+                android:text="TTS 테스트"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/bt_ttstest"
+                android:weightSum="2">
+
+            <Button
+                android:id="@+id/bt_add_rec"
                 android:layout_width="0dp"
                 android:layout_height="68dp"
-                android:text="TTS 테스트"
+                android:text="추가녹음진행"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
                 android:background="@drawable/button_selector"
                 android:textSize="20dp"/>
 
             <Button
-                android:id="@+id/bt_add_rec"
+                android:id="@+id/bt_share"
                 android:layout_width="0dp"
                 android:layout_height="68dp"
                 android:layout_margin="8dp"
-                android:text="추가녹음진행"
-                android:background="@drawable/button_selector"
+                android:text="내 모델 공유"
                 android:textSize="20dp"
-                android:layout_weight="1"/>
+                android:background="@drawable/button_selector"
+                android:clickable="false"
+                android:layout_weight="1"/></LinearLayout>
+        </RelativeLayout>
 
-        </LinearLayout>
+
+
+
 
     </RelativeLayout>
 

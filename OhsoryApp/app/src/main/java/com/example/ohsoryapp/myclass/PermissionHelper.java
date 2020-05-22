@@ -26,7 +26,8 @@ public class PermissionHelper {
                     Manifest.permission.RECORD_AUDIO,
                     Manifest.permission.READ_CALL_LOG,
                     Manifest.permission.READ_EXTERNAL_STORAGE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                    Manifest.permission.CAPTURE_AUDIO_OUTPUT
             };
 
     public PermissionHelper(Context context) {

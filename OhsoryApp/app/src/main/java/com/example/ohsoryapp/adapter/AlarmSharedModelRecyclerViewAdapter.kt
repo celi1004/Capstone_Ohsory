@@ -28,15 +28,18 @@ class AlarmSharedModelRecyclerViewAdapter(val ctx: Context, val dataList: ArrayL
 
     override fun getItemCount(): Int = dataList.size
 
+    //0 다운로드 승인 대기 중 1 다운 승인 2 다운 거절 3 청취
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.date.text = dataList[position].date
         holder.username.text = dataList[position].username
         holder.sentence.text = dataList[position].sentence
         var tempInt : Int = dataList[position].state
         when(tempInt){
+            0 -> holder.state.text="승인 대기"
             1 -> {holder.state.visibility = View.GONE
                 holder.download.visibility = View.VISIBLE}
-            2 -> holder.state.text="승인 대기"
+            2 -> holder.state.text="요청 거절"
+            3 -> holder.state.text="청취 기록"
             else -> holder.state.text="오류 발생"
         }
 

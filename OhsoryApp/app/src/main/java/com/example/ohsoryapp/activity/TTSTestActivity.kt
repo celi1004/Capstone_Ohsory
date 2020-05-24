@@ -31,13 +31,14 @@ import androidx.core.app.ComponentActivity
 import androidx.core.app.ComponentActivity.ExtraData
 import androidx.core.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-
-
+import com.example.ohsoryapp.data.NotificationData
+import com.example.ohsoryapp.post.PostNotificationResponse
 
 
 class TTSTestActivity : AppCompatActivity() {
 
     lateinit var shareeData: ShareeData
+    lateinit var notificationData: NotificationData
 
     internal var mNetworkManager : NetworkManager? = null
     val networkService: NetworkService by lazy {
@@ -45,10 +46,14 @@ class TTSTestActivity : AppCompatActivity() {
     }
 
     var model_name_list = ArrayList<String>()
+    var selected_model_name = ""
+    var sharee_name = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ttstest)
+
+        sharee_name = SharedPreferenceController.getUserName(this)
 
         setSpinnser()
 
@@ -59,13 +64,16 @@ class TTSTestActivity : AppCompatActivity() {
 
         bt_hear.setOnClickListener(){
             //서버에 듣고 싶은 문장 보내고 받아오고 들려주기
+            Toast.makeText(this@TTSTestActivity, et_text.text.toString(), Toast.LENGTH_SHORT).show()
+            sendAlarm(0, et_text.text.toString())
         }
 
         bt_dowload.setOnClickListener(){
             //서버에서 받아온 파일 내장 디비에
+            sendAlarm(1, et_text.text.toString())
 
             val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
-            val subPath = "/내 모델/"
+            val subPath = "/"+selected_model_name+"/"
             val filename = et_text.text.toString() +".wav"
 
             //디렉토리 없으면 생성
@@ -105,6 +113,27 @@ class TTSTestActivity : AppCompatActivity() {
         }
     }
 
+    private fun sendAlarm(req_type : Int, req_text : String){
+        notificationData = NotificationData(selected_model_name, sharee_name, req_type, req_text)
+        val postNotificationResponse = networkService.postNotificationResponse(notificationData)
+
+        postNotificationResponse!!.enqueue(object : Callback<PostNotificationResponse> {
+            //통신을 못 했을 때
+            override fun onFailure(call: Call<PostNotificationResponse>, t: Throwable) {
+                Log.e("load fail", t.toString())
+            }
+
+            override fun onResponse(call: Call<PostNotificationResponse>, response: Response<PostNotificationResponse>) {
+                //통신을 성공적으로 했을 때
+                if (response.isSuccessful) {
+                    Toast.makeText(this@TTSTestActivity, notificationData.toString(), Toast.LENGTH_SHORT).show()
+                } else {
+                    Log.e("서버 에러", "서버 에러")
+                }
+            }
+        })
+    }
+
     private fun setSpinnser(){
         model_name_list.clear()
 
@@ -116,11 +145,10 @@ class TTSTestActivity : AppCompatActivity() {
             //model_name_list.add("내 모델")
 
             //서버랑 통신해서 내가 가진 모델 유저 네임들 나타내기
-            val sharee_name = SharedPreferenceController.getUserName(this)
             shareeData = ShareeData(sharee_name)
-            val getProgressResponse = networkService.getSharedModelListResponse(shareeData)
+            val getSharedModelListResponse = networkService.getSharedModelListResponse(shareeData)
 
-            getProgressResponse!!.enqueue(object : Callback<ArrayList<GetShareModelListResponse>> {
+            getSharedModelListResponse!!.enqueue(object : Callback<ArrayList<GetShareModelListResponse>> {
                 //통신을 못 했을 때
                 override fun onFailure(call: Call<ArrayList<GetShareModelListResponse>>, t: Throwable) {
                     Log.e("load fail", t.toString())
@@ -133,10 +161,26 @@ class TTSTestActivity : AppCompatActivity() {
                         for (element in 0 .. listlen - 1) {
                             model_name_list.add(response.body()!![listlen - element - 1].sharer_name)
                         }
-                        response
                     }
                     else{
                         Log.e("서버 에러", "서버 에러")
+                    }
+
+                    val arrayAdapter = ArrayAdapter(this@TTSTestActivity, android.R.layout.simple_spinner_item, model_name_list)
+                    arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+
+                    sp_model_name.adapter = arrayAdapter
+
+                    //볼 파일이 있을 때만 클릭리스너 작동
+                    sp_model_name.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
+                        override fun onNothingSelected(p0: AdapterView<*>?) {
+
+                        }
+
+                        override fun onItemSelected(p0: AdapterView<*>?, p1: View?, position: Int, p3: Long) {
+                            //선택된 모델로 할일 하세요
+                            selected_model_name = model_name_list[position]
+                        }
                     }
                 }
             })
@@ -144,21 +188,21 @@ class TTSTestActivity : AppCompatActivity() {
             //model_name_list.add("minhee0325")
         }else{
             model_name_list.add("네트워크 연결이 필요합니다")
-        }
 
-        val arrayAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, model_name_list)
-        arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            val arrayAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, model_name_list)
+            arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
-        sp_model_name.adapter = arrayAdapter
+            sp_model_name.adapter = arrayAdapter
 
-        //볼 파일이 있을 때만 클릭리스너 작동
-        sp_model_name.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
-            override fun onNothingSelected(p0: AdapterView<*>?) {
+            //볼 파일이 있을 때만 클릭리스너 작동
+            sp_model_name.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
+                override fun onNothingSelected(p0: AdapterView<*>?) {
 
-            }
+                }
 
-            override fun onItemSelected(p0: AdapterView<*>?, p1: View?, position: Int, p3: Long) {
-                //선택된 모델로 할일 하세요
+                override fun onItemSelected(p0: AdapterView<*>?, p1: View?, position: Int, p3: Long) {
+                    //선택된 모델로 할일 하세요
+                }
             }
         }
     }

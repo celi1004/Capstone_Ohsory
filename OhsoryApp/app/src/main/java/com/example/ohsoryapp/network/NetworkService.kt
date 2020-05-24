@@ -1,9 +1,7 @@
 package com.example.ohsoryapp.network
 
 import com.example.ohsoryapp.data.*
-import com.example.ohsoryapp.get.GetProgressResponse
-import com.example.ohsoryapp.get.GetMyShareModelListResponse
-import com.example.ohsoryapp.get.GetShareModelListResponse
+import com.example.ohsoryapp.get.*
 import com.example.ohsoryapp.post.PostNotificationResponse
 import com.example.ohsoryapp.post.PostShareCreateResponse
 import com.example.ohsoryapp.post.PostSignUpResponse
@@ -48,6 +46,31 @@ interface NetworkService{
 
 
 
+
+
+
+
+    // 내가 공유 해준 모델 사용된 기록
+    @POST("/share_app/share-info/myshare")
+    @Headers("Content-Type: application/json")
+    fun getMyShareModelRecordResponse(
+            @Body sharerData: SharerData
+    ): Call<ArrayList<GetMyShareAlarmListResponse>>
+
+    // 내가 공유 받은 모델 사용된 기록
+    @POST("/share_app/share-info/share-list")
+    @Headers("Content-Type: application/json")
+    fun getSharedModelRecordResponse(
+            @Body shareeData: ShareeData
+    ):Call<ArrayList<GetShareAlarmListResponse>>
+
+
+
+
+
+
+
+
     // 공유 모델 사용 시 알림 요청
     @POST("/share_app/share-info/notification")
     @Headers("Content-Type: application/json")
@@ -59,9 +82,14 @@ interface NetworkService{
     @PUT("/share_app/share-info/{id}/approve")
     @Headers("Content-Type: application/json")
     fun putApproveResponse(
-            @Path("id") user_pk: Int,
+            @Path("id") share_id: Int,
             @Body putNotificationResponse: PutAfterRequestNotificationResponse
     ): Call<PutAfterRequestNotificationResponse>
+
+
+
+
+
 
 
 
@@ -82,6 +110,12 @@ interface NetworkService{
 
 
 
+
+
+
+
+
+
     // 내가 공유 해준 모델 목록 확인
     @GET("/share_app/share/myshare")
     @Headers("Content-Type: application/json")
@@ -95,6 +129,7 @@ interface NetworkService{
     fun getSharedModelListResponse(
             @Body shareeData: ShareeData
     ):Call<ArrayList<GetShareModelListResponse>>
+
 
 
 

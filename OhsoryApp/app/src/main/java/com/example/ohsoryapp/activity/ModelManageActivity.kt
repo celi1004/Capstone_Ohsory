@@ -7,12 +7,18 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.ohsoryapp.R
 import com.example.ohsoryapp.adapter.SharedModelManageRecyclerViewAdapter
 import com.example.ohsoryapp.data.SharedModelManageData
+import com.example.ohsoryapp.network.ApplicationController
+import com.example.ohsoryapp.network.NetworkService
 import kotlinx.android.synthetic.main.activity_model_manage.*
 import java.time.LocalDate
 
 class ModelManageActivity : AppCompatActivity() {
 
     lateinit var sharedModelManageRecyclerViewAdapter : SharedModelManageRecyclerViewAdapter
+
+    val networkService: NetworkService by lazy {
+        ApplicationController.instance.networkService
+    }
 
     val dataList: ArrayList<SharedModelManageData> by lazy {
         ArrayList<SharedModelManageData>()
@@ -29,8 +35,8 @@ class ModelManageActivity : AppCompatActivity() {
 
     private fun setRecyclerView() {
 
-        dataList.add(SharedModelManageData("이민희", 3, "2020년\n4월9일",1))
-        dataList.add(SharedModelManageData("박진영", 1, "2020년\n4월4일",2))
+        //getMyShareModelListResponse
+
 
        sharedModelManageRecyclerViewAdapter = SharedModelManageRecyclerViewAdapter(this, dataList, token)
 

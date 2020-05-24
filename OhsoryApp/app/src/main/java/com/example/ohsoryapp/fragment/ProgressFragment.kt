@@ -201,6 +201,10 @@ class ProgressFragment : Fragment() {
                         Toast.makeText(activity!!,
                                 "공유 받을 사람의 이름을 정확히 입력해주세요", Toast.LENGTH_LONG).show()
                     }
+                    406 ->{
+                        Toast.makeText(activity!!,
+                                "본인 username으로 요청을 하였습니다 공유 받을 사람의 이름으로 입력해주세요", Toast.LENGTH_LONG).show()
+                    }
                     else -> {
                         Toast.makeText(activity!!,
                                 "저장 실패", Toast.LENGTH_LONG).show()

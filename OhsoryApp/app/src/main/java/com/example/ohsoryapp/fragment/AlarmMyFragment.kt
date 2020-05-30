@@ -101,9 +101,9 @@ class AlarmMyFragment : Fragment() {
                             }
 
                             var temp_req_text = shareInfoList[infolistlen - element2 - 1].req_text
-                            var temp_share_id = shareInfoList[infolistlen - element2 - 1].share_id
+                            var temp_id = shareInfoList[infolistlen - element2 - 1].id
 
-                            dataList.add(AlarmModelData(temp_timestamp.toString(), temp_sharee_name, temp_req_text, temp_state, temp_share_id))
+                            dataList.add(AlarmModelData(temp_timestamp.toString(), temp_sharee_name, temp_req_text, temp_state, temp_id))
                         }
                     }
 

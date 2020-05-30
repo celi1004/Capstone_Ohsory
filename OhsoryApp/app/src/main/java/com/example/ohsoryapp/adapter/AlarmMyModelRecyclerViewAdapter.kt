@@ -18,6 +18,9 @@ import com.example.ohsoryapp.put.PutAfterRequestNotificationResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import androidx.core.os.HandlerCompat.postDelayed
+import android.os.Handler
+
 
 class AlarmMyModelRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<AlarmModelData>, val token : String) : RecyclerView.Adapter<AlarmMyModelRecyclerViewAdapter.Holder>() {
 
@@ -53,11 +56,11 @@ class AlarmMyModelRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<
 
         //셋 온클릭같이 해야하는 일도 여기서!
         holder.ok.setOnClickListener{
-            downloadApprove(dataList[position].share_id, 1,position)
+            downloadApprove(dataList[position].id, 1,position)
         }
 
         holder.rej.setOnClickListener{
-            downloadApprove(dataList[position].share_id, 2, position)
+            downloadApprove(dataList[position].id, 2, position)
         }
     }
 
@@ -85,6 +88,7 @@ class AlarmMyModelRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<
                 //통신을 성공적으로 했을 때
                 if (response.isSuccessful) {
                     Toast.makeText(ctx, "다운로드 요청을 처리하였습니다", Toast.LENGTH_SHORT).show()
+                    dataList[pos].state = if_approve
                     notifyItemChanged(pos)
                 }
                 else{

@@ -5,5 +5,5 @@ data class AlarmModelData(
     var username : String,
     var sentence : String,
     var state : Int,
-    var share_id : Int
+    var id : Int
 )

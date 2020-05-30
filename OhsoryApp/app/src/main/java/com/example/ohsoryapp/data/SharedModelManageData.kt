@@ -4,7 +4,8 @@ import java.time.LocalDate
 
 data class SharedModelManageData(
     var username : String,
-    var ln : Int,
-    var dn : Int,
-    var da : Int
+    var share_id : Int,
+    var ln : Boolean,
+    var dn : Boolean,
+    var da : Boolean
 )

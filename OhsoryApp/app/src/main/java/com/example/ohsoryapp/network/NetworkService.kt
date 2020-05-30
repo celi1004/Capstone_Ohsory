@@ -104,9 +104,8 @@ interface NetworkService{
     @DELETE("/share_app/share/{id}/delete")
     @Headers("Content-Type: application/json")
     fun deleteShareDeleteResponse(
-            @Path("id") share_pk: Int,
-            @Body id : Int
-    )
+            @Path("id") share_pk: Int
+    ): Call<Void>
 
 
 
@@ -117,11 +116,11 @@ interface NetworkService{
 
 
     // 내가 공유 해준 모델 목록 확인
-    @GET("/share_app/share/myshare")
+    @POST("/share_app/share/myshare")
     @Headers("Content-Type: application/json")
     fun getMyShareModelListResponse(
             @Body sharerData: SharerData
-    ): Call<GetMyShareModelListResponse>
+    ): Call<ArrayList<GetMyShareModelListResponse>>
 
     // 내가 공유 받은 모델 목록 확인
     @POST("/share_app/share/share-list")
@@ -138,11 +137,11 @@ interface NetworkService{
 
 
     // 공유모델 알림설정 다운로드 권한 수정
-    @PUT("/share_app/share-info/{id}/auth-update")
+    @PUT("/share_app/share/{id}/auth-update")
     @Headers("Content-Type: application/json")
-    fun putResponse(
+    fun putAuthUpdateResponse(
             @Path("id") share_pk: Int,
-            @Body putShareAuthResponse: PutShareAuthResponse
+            @Body listenDownloadAlarmData: ListenDownloadAlarmData
     ): Call<PutShareAuthResponse>
 
 

@@ -11,6 +11,11 @@ import com.example.ohsoryapp.put.PutShareAuthResponse
 import retrofit2.Call
 import retrofit2.http.*
 import com.example.ohsoryapp.data.ShareeData as ShareeData
+import okhttp3.RequestBody
+import retrofit2.http.POST
+import retrofit2.http.Multipart
+
+
 
 interface NetworkService{
 
@@ -48,8 +53,6 @@ interface NetworkService{
 
 
 
-
-
     // 내가 공유 해준 모델 사용된 기록
     @POST("/share_app/share-info/myshare")
     @Headers("Content-Type: application/json")
@@ -63,11 +66,6 @@ interface NetworkService{
     fun getSharedModelRecordResponse(
             @Body shareeData: ShareeData
     ):Call<ArrayList<GetShareAlarmListResponse>>
-
-
-
-
-
 
 
 
@@ -88,11 +86,6 @@ interface NetworkService{
 
 
 
-
-
-
-
-
     // 새로운 공유 생성
     @POST("/share_app/share/create")
     @Headers("Content-Type: application/json")
@@ -106,12 +99,6 @@ interface NetworkService{
     fun deleteShareDeleteResponse(
             @Path("id") share_pk: Int
     ): Call<Void>
-
-
-
-
-
-
 
 
 
@@ -129,13 +116,6 @@ interface NetworkService{
             @Body shareeData: ShareeData
     ):Call<ArrayList<GetShareModelListResponse>>
 
-
-
-
-
-
-
-
     // 공유모델 알림설정 다운로드 권한 수정
     @PUT("/share_app/share/{id}/auth-update")
     @Headers("Content-Type: application/json")
@@ -145,4 +125,15 @@ interface NetworkService{
     ): Call<PutShareAuthResponse>
 
 
+
+
+
+    // 녹음 음성 파일 전송
+    /*
+    @Multipart
+    @POST("/tts_app/train/file-upload")
+    fun postFileUpload(
+            @Part("file\"; filename=\"photo.jpg\" ") photo: RequestBody
+    ): Call<RestApiDefaultResponse>
+     */
 }

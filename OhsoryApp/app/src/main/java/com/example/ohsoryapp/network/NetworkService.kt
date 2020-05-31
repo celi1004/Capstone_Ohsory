@@ -2,6 +2,7 @@ package com.example.ohsoryapp.network
 
 import com.example.ohsoryapp.data.*
 import com.example.ohsoryapp.get.*
+import com.example.ohsoryapp.post.PostFileUpload
 import com.example.ohsoryapp.post.PostNotificationResponse
 import com.example.ohsoryapp.post.PostShareCreateResponse
 import com.example.ohsoryapp.post.PostSignUpResponse
@@ -126,14 +127,29 @@ interface NetworkService{
 
 
 
+/*
+    // 녹음 음성 파일 전송
+    @POST("/tts_app/train/file-upload")
+    @Headers("Content-Type: application/json")
+    fun postFileUpload(
+            @Body fileUploadData : FileUploadData
+    ): Call<PostFileUpload>
+*/
 
+
+    // 모델 생성 요청
+    @POST("/tts_app/train")
+    @Headers("Content-Type: application/json")
+    fun postTrainModel(
+            @Body userIdData: UserIdData
+    ): Call<Void>
 
     // 녹음 음성 파일 전송
-    /*
     @Multipart
     @POST("/tts_app/train/file-upload")
     fun postFileUpload(
-            @Part("file\"; filename=\"photo.jpg\" ") photo: RequestBody
-    ): Call<RestApiDefaultResponse>
-     */
+            @Part("user_id") user_id: Int,
+            @Part("voice\"; filename=\"audio.wav\" ") voice: RequestBody
+    ): Call<PostFileUpload>
+
 }

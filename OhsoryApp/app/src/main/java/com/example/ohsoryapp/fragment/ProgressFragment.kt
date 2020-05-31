@@ -30,6 +30,7 @@ import android.app.AlertDialog
 import android.widget.RadioButton
 import android.widget.ToggleButton
 import com.example.ohsoryapp.data.ShareCreateData
+import com.example.ohsoryapp.data.UserIdData
 import com.example.ohsoryapp.post.PostShareCreateResponse
 import kotlinx.android.synthetic.main.dialog_sharemymodel.*
 
@@ -45,6 +46,9 @@ class ProgressFragment : Fragment() {
     val networkService: NetworkService by lazy {
         ApplicationController.instance.networkService
     }
+
+    var mprogress : Int = 0
+    var user_id = 0
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -82,8 +86,8 @@ class ProgressFragment : Fragment() {
 
     private fun getProgressResponse() {
         //TODO 서버에서 진행률 가져와서 seekbar 그 값으로 바꾸기
-        val muser_pk = SharedPreferenceController.getUserID(activity!!)
-        val getProgressResponse = networkService.getProgressResponse(muser_pk)
+        user_id = SharedPreferenceController.getUserID(activity!!)
+        val getProgressResponse = networkService.getProgressResponse(user_id)
 
         getProgressResponse!!.enqueue(object : Callback<GetProgressResponse> {
             //통신을 못 했을 때
@@ -94,7 +98,7 @@ class ProgressFragment : Fragment() {
             override fun onResponse(call: Call<GetProgressResponse>, response: Response<GetProgressResponse>) {
                 //통신을 성공적으로 했을 때
                 if (response.isSuccessful) {
-                    val mprogress = response.body()!!.progress
+                    mprogress = response.body()!!.progress
                     val maudios = response.body()!!.audio_time
 
                     sb_progress.progress = mprogress
@@ -104,6 +108,17 @@ class ProgressFragment : Fragment() {
 
                     tv_progress.setText(mprogress.toString()+"%")
                     setAudioTimeTextView(maudios)
+
+                    if (mprogress == 100){
+                        //모델 생성할 수 있으면
+                        if(SharedPreferenceController.getUserME(activity!!)==0){
+                            //모델이 생성된적 없으면
+                            SharedPreferenceController.setUserME(activity!!, 1)
+                            //생성하도록 요청했다는 말하고
+                            trainModel()
+                            //요청 보내자
+                        }
+                    }
                 }
                 else{
                     Toast.makeText(activity,
@@ -209,6 +224,29 @@ class ProgressFragment : Fragment() {
                         Toast.makeText(activity!!,
                                 "저장 실패", Toast.LENGTH_LONG).show()
                     }
+                }
+            }
+        })
+    }
+
+    private fun trainModel(){
+
+        val postTrainModel = networkService.postTrainModel(UserIdData(user_id))
+
+        postTrainModel!!.enqueue(object : Callback<Void> {
+            //통신을 못 했을 때
+            override fun onFailure(call: Call<Void>, t: Throwable) {
+                Log.e("file upload fail", t.toString())
+            }
+
+            override fun onResponse(call: Call<Void>, response: Response<Void>) {
+                //통신을 성공적으로 했을 때
+                if (response.isSuccessful) {
+                    //서버로 보내는 거 성공하면 삭제
+                    Toast.makeText(activity!!, "모델 생성 요청", Toast.LENGTH_LONG).show()
+                }
+                else{
+                    Toast.makeText(activity!!, "모델 생성 요청 실패" + response.code().toString(), Toast.LENGTH_LONG).show()
                 }
             }
         })

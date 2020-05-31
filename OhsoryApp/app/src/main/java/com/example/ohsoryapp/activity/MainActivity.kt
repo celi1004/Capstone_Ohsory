@@ -7,19 +7,18 @@ import com.example.ohsoryapp.adapter.MainPagerAdapter
 import com.example.ohsoryapp.myclass.NetworkManager
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.ohsoryapp.myclass.PermissionHelper
-import android.content.Intent
-import android.content.DialogInterface
-import android.accessibilityservice.AccessibilityServiceInfo
-import android.content.Context
-import androidx.core.view.accessibility.AccessibilityManagerCompat.getEnabledAccessibilityServiceList
-import android.content.Context.ACCESSIBILITY_SERVICE
-import android.view.accessibility.AccessibilityManager
-import androidx.core.app.ComponentActivity
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import androidx.appcompat.app.AlertDialog
-import android.provider.Settings
+import okhttp3.RequestBody
+import okhttp3.MediaType
+import java.io.File
+import android.util.Log
+import com.example.ohsoryapp.data.FileUploadData
+import com.example.ohsoryapp.db.SharedPreferenceController
+import com.example.ohsoryapp.network.ApplicationController
+import com.example.ohsoryapp.network.NetworkService
+import com.example.ohsoryapp.post.PostFileUpload
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 
 class MainActivity : AppCompatActivity() {
@@ -29,8 +28,16 @@ class MainActivity : AppCompatActivity() {
 
     var time : Long = 0
 
+    var mDirPath = "/sdcard/AudioRecorder/"
+
+    var user_id = 0
+
     companion object {
         lateinit var instance: MainActivity
+    }
+
+    val networkService: NetworkService by lazy {
+        ApplicationController.instance.networkService
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +45,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(com.example.ohsoryapp.R.layout.activity_main)
 
         configureBottomNavigation()
+
+        user_id = SharedPreferenceController.getUserID(this)
 
         instance = this
 
@@ -77,10 +86,65 @@ class MainActivity : AppCompatActivity() {
 
             //파일 서버로 보내고
 
+            val directory = File(mDirPath);
+            val dir_name_list : Array<File> = directory.listFiles();
+
+            var fpath : String
+
+            if(dir_name_list==null){
+
+            }else{
+                if(dir_name_list.size==0){
+
+                }else{
+                    for(i in 0 until dir_name_list.size){
+                        //파일들을 하나하나 돌면서 이름, 생성날짜 가져오기
+                        fpath = dir_name_list[i].path
+
+                        uploadFile(fpath)
+                    }
+                }
+            }
+
+
             //그 파일 지워
         }else{
             Toast.makeText(this@MainActivity, "연결없음", Toast.LENGTH_SHORT).show()
         }
 
+    }
+
+    private fun uploadFile(fpath : String){
+
+        val file = File(fpath)
+
+//        val tfile = RequestBody.create(MediaType.parse("audio/*"), file)
+//        val fileUploadData = FileUploadData(user_id, tfile)
+
+//        val postFileUpload = networkService.postFileUpload(fileUploadData)
+
+        val tfile = RequestBody.create(MediaType.parse("multipart/form-data"), file)
+
+        val postFileUpload = networkService.postFileUpload(user_id, tfile)
+
+        postFileUpload!!.enqueue(object : Callback<PostFileUpload> {
+            //통신을 못 했을 때
+            override fun onFailure(call: Call<PostFileUpload>, t: Throwable) {
+                Log.e("file upload fail", t.toString())
+            }
+
+            override fun onResponse(call: Call<PostFileUpload>, response: Response<PostFileUpload>) {
+                //통신을 성공적으로 했을 때
+                if (response.isSuccessful) {
+                    //서버로 보내는 거 성공하면 삭제
+                    Toast.makeText(this@MainActivity, fpath+"삭제", Toast.LENGTH_LONG).show()
+                    val f : File = File(fpath)
+                    f.delete()
+                }
+                else{
+                    Toast.makeText(this@MainActivity, fpath+" "+response.code().toString(), Toast.LENGTH_LONG).show()
+                }
+            }
+        })
     }
 }

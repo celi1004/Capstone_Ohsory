@@ -8,6 +8,7 @@ object SharedPreferenceController {
     private val myAuth = "myAuth"
     private val USER_ID: String = "user_id"
     private val USER_PW: String = "user_pw"
+    private val USER_MODEL_EXIST: String = "user_model_exist"
     private val USER_PROGRESS: String = "user_progress"
     private val USER_AUDIO_TIME: String = "user_audio_time"
     private val USER_FCM_KEY : String = "user_fcm_key"
@@ -90,6 +91,18 @@ object SharedPreferenceController {
         editor.putInt(USER_ID, input_idx)
         editor.commit()
     }
+
+    fun getUserME(ctx: Context) : Int {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_MODEL_EXIST, Context.MODE_PRIVATE)
+        return preferences.getInt(USER_MODEL_EXIST, 0)
+    }
+    fun setUserME(ctx: Context, input_idx : Int)  {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(USER_MODEL_EXIST, Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = preferences.edit()
+        editor.putInt(USER_MODEL_EXIST, input_idx)
+        editor.commit()
+    }
+
     fun getUserPG(ctx: Context) : Int {
         val preferences : SharedPreferences = ctx.getSharedPreferences(USER_PROGRESS, Context.MODE_PRIVATE)
         return preferences.getInt(USER_PROGRESS, 0)

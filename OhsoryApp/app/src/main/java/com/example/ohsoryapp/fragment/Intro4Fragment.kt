@@ -32,7 +32,7 @@ class Intro4Fragment : Fragment() {
 
         val token = SharedPreferenceController.getAuthorization(activity!!)
 
-        bt_start.setOnClickListener(){
+        bt_record.setOnClickListener(){
             if(token.length!=0)
             {
                 startActivity<MainActivity>("token" to token)

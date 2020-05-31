@@ -34,7 +34,7 @@
         android:layout_gravity="center_horizontal" />
 
     <Button
-        android:id="@+id/bt_start"
+        android:id="@+id/bt_record"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_selector"

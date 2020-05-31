@@ -48,7 +48,7 @@ class LoginActivity : AppCompatActivity() {
             getLoginResponse()
         }
 
-        bt_log_in_join.setOnClickListener() {
+        bt_log_in_join.setOnClickListener {
             startActivity<SignUpActivity>()
         }
 

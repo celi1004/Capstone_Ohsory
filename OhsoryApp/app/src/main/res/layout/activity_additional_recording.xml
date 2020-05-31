@@ -42,11 +42,16 @@
         android:layout_marginBottom="2dp"
         android:layout_below="@id/ll_top_bar">
 
-        <view class="androidx.appcompat.app.AlertController$RecycleListView"
+        <view
             android:id="@+id/rv_"
+            class="androidx.appcompat.app.AlertController$RecycleListView"
             android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:layout_margin="80dp">
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="80dp"
+            android:text="예시 문장">
 
         </view>
 
@@ -70,11 +75,12 @@
                 android:id="@+id/bt_play"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"
                 android:layout_margin="12dp"
-                android:src="@drawable/ic_play_arrow_black_24dp"/>
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_play_arrow_black_24dp"
+                android:visibility="invisible" />
 
             <RelativeLayout
                 android:layout_width="0dp"
@@ -90,7 +96,7 @@
                     android:background="@drawable/ic_pause_circle_filled_black_24dp" />
 
                 <ImageButton
-                    android:id="@+id/bt_start"
+                    android:id="@+id/bt_record"
                     android:layout_centerInParent="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -100,14 +106,15 @@
             </RelativeLayout>
 
             <ImageView
-                android:id="@+id/bt_stop"
+                android:id="@+id/bt_end"
                 android:layout_width="0dp"
-                android:layout_margin="12dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="12dp"
                 android:layout_weight="1"
+                android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_stop_black_24dp"
-                android:adjustViewBounds="true"/>
+                android:visibility="invisible" />
 
         </LinearLayout>
 

@@ -179,6 +179,24 @@
             android:background="#80000000"
             android:layout_below="@id/ll_top_bar"/>
 
+        <TextView
+            android:id="@+id/tv_log_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#80000000"
+            android:layout_below="@id/ll_top_bar"/>
+
     </LinearLayout>
 
     <View

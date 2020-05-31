@@ -9,8 +9,11 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.example.ohsoryapp.R
+import com.example.ohsoryapp.activity.LoginActivity
 import com.example.ohsoryapp.activity.ModelManageActivity
+import com.example.ohsoryapp.db.SharedPreferenceController
 import kotlinx.android.synthetic.main.fragment_mypage.*
+import org.jetbrains.anko.support.v4.startActivity
 
 
 /**
@@ -57,6 +60,12 @@ class MypageFragment : Fragment() {
                 val iT = Intent(context, ModelManageActivity::class.java)
                 startActivity(iT)
             }
+        }
+
+        tv_log_out.setOnClickListener(){
+            SharedPreferenceController.clearUserSharedPreferences(activity!!)
+            startActivity<LoginActivity>()
+            activity!!.finish()
         }
 
     }

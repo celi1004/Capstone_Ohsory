@@ -92,18 +92,7 @@ public class RecordingService extends Service {
     // 서비스가 종료될 때 실행
 
     public void setupRecorder(Intent intent) {
-        setFileNameAndPath(intent);
-        wavRecorder.setFilename(mFileName);
-    }
-
-    public void setFileNameAndPath(Intent intent) {
-        int count = 0;
-
-        now = System.currentTimeMillis();
-        Date date = new Date(now);
-        SimpleDateFormat sdf = new SimpleDateFormat("MMdd_hhmmss");
-        String getTime = sdf.format(date);
-
         mFileName = intent.getStringExtra("name");
+        wavRecorder.setFilename(mFileName);
     }
 }

@@ -42,18 +42,32 @@
         android:layout_marginBottom="2dp"
         android:layout_below="@id/ll_top_bar">
 
-        <view
-            android:id="@+id/rv_"
-            class="androidx.appcompat.app.AlertController$RecycleListView"
+        <ImageView
+            android:id="@+id/icon_left"
+            android:layout_width="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@id/rv_example_sentence"
+            android:layout_alignTop="@id/rv_example_sentence"
+
+            android:background="@drawable/ic_chevron_left_black_24dp" />
+
+        <ImageView
+            android:id="@+id/icon_right"
+            android:layout_width="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_height="100dp"
+            android:layout_alignRight="@id/rv_example_sentence"
+            android:layout_alignTop="@id/rv_example_sentence"
+            android:background="@drawable/ic_chevron_right_black_24dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_example_sentence"
             android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:layout_marginStart="80dp"
             android:layout_marginTop="80dp"
-            android:layout_marginEnd="80dp"
-            android:layout_marginBottom="80dp"
-            android:text="예시 문장">
-
-        </view>
+            android:gravity="center"
+            android:layout_marginBottom="80dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -61,10 +75,10 @@
             android:textSize="16dp"
             android:gravity="center"
             android:text="위에 제시된 문장을 녹음해주세요."
-            android:layout_below="@+id/rv_"/>
+            android:layout_below="@+id/rv_example_sentence"/>
 
         <LinearLayout
-            android:layout_below="@id/rv_"
+            android:layout_below="@+id/rv_example_sentence"
             android:layout_margin="40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -117,6 +131,8 @@
                 android:visibility="invisible" />
 
         </LinearLayout>
+
+
 
     </RelativeLayout>
 

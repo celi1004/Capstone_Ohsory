@@ -24,7 +24,6 @@ public class PhoneListener extends PhoneStateListener {
     static private DBHelper mDatabase;
 
     private String mFileName = null;
-    private String mFilePath = null;
     private long mElapsedMillis = 0;
 
     /**
@@ -75,7 +74,6 @@ public class PhoneListener extends PhoneStateListener {
                 if (isRecording.get()) {
 
                     context.stopService(mIntent);
-                    //mDatabase.addRecording(mFileName, mFilePath);
                     isRecording.set(false);
                 }
                 break;
@@ -95,7 +93,6 @@ public class PhoneListener extends PhoneStateListener {
                     String getTime = sdf.format(date);
 
                     mFileName = getTime + ".wav";
-                    mFilePath += "/SoundRecorder/" + mFileName;
 
                     mIntent.putExtra("name", mFileName);
 

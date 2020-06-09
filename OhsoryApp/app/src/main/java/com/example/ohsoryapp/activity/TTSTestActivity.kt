@@ -11,7 +11,6 @@ import android.widget.Toast
 import com.example.ohsoryapp.R
 import com.example.ohsoryapp.myclass.DBHelper
 import kotlinx.android.synthetic.main.activity_ttstest.*
-import java.io.File
 import com.example.ohsoryapp.data.ShareeData
 import com.example.ohsoryapp.db.SharedPreferenceController
 import com.example.ohsoryapp.get.GetProgressResponse
@@ -23,22 +22,25 @@ import org.jetbrains.anko.share
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.io.FileOutputStream
-import java.io.IOException
 import java.util.*
 import kotlin.collections.ArrayList
-import androidx.core.app.ComponentActivity
-import androidx.core.app.ComponentActivity.ExtraData
 import androidx.core.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import com.example.ohsoryapp.data.FileDownloadData
 import com.example.ohsoryapp.data.NotificationData
+import com.example.ohsoryapp.get.GetFileDownloadResponse
 import com.example.ohsoryapp.post.PostNotificationResponse
+import okhttp3.ResponseBody
+import java.io.*
+
+
 
 
 class TTSTestActivity : AppCompatActivity() {
 
     lateinit var shareeData: ShareeData
-    lateinit var notificationData: NotificationData
+    lateinit var fileDownloadData : FileDownloadData
+    lateinit var notificationData : NotificationData
 
     internal var mNetworkManager : NetworkManager? = null
     val networkService: NetworkService by lazy {
@@ -63,6 +65,7 @@ class TTSTestActivity : AppCompatActivity() {
     fun setButtonClickListener(){
 
         bt_hear.setOnClickListener(){
+            downloadFile(et_text.text.toString())
             //서버에 듣고 싶은 문장 보내고 받아오고 들려주기
             Toast.makeText(this@TTSTestActivity, et_text.text.toString(), Toast.LENGTH_SHORT).show()
             sendAlarm(0, et_text.text.toString())
@@ -110,7 +113,113 @@ class TTSTestActivity : AppCompatActivity() {
 
         bt_share.setOnClickListener(){
             //서버에서 받아온 파일 공유
+            //파일이 있으면 공유 없으면 청취 버튼부터 누르라고!
         }
+    }
+
+    private fun downloadFile(req_text : String){
+        fileDownloadData = FileDownloadData(sharee_name, req_text) //FileDownloadData(selected_model_name, req_text)
+        val getFileDownload = networkService.getFileDownload(fileDownloadData)
+
+        getFileDownload!!.enqueue(object : Callback<GetFileDownloadResponse> {
+            //통신을 못 했을 때
+            override fun onFailure(call: Call<GetFileDownloadResponse>, t: Throwable) {
+                Log.e("load fail", t.toString())
+            }
+
+            override fun onResponse(call: Call<GetFileDownloadResponse>, response: Response<GetFileDownloadResponse>) {
+                //통신을 성공적으로 했을 때
+                if (response.isSuccessful) {
+
+                    val getFileDownloadUseUrl = networkService.getFileDownloadUseUrl(response.body()!!.tts_file)
+
+                    getFileDownloadUseUrl!!.enqueue(object : Callback<ResponseBody> {
+                        //통신을 못 했을 때
+                        override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+                            Log.e("load fail", t.toString())
+                        }
+
+                        override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+                            //통신을 성공적으로 했을 때
+                            if (response.isSuccessful) {
+                                val writtenToDisk = writeResponseBodyToDisk(response.body()!!)
+                                Log.i("success?", writtenToDisk.toString())
+                            } else {
+                                Log.e("서버에러" + response.code().toString(), "파일 다운로드 실패")
+                            }
+                        }
+                    })
+                } else {
+                    Log.e("서버에러" + response.code().toString(), "파일 다운로드 링크 불러오기 실패")
+                }
+            }
+        })
+    }
+
+    private fun writeResponseBodyToDisk(body: ResponseBody): Boolean {
+        try {
+            val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
+            val subPath = "/"+sharee_name+"/"
+            val filename = et_text.text.toString() +".wav"
+
+            //디렉토리 없으면 생성
+            val dir = File(dirPath)
+            if (!dir.exists()) {
+                dir.mkdir()
+            }
+
+            val subdir = File(dir, subPath)
+            if (!subdir.exists()) {
+                subdir.mkdir()
+            }
+
+            // todo change the file location/name according to your needs
+            val futureStudioIconFile = File(subdir, filename)
+
+            var inputStream: InputStream? = null
+            var outputStream: OutputStream? = null
+
+            try {
+                val fileReader = ByteArray(4096)
+
+                val fileSize = body.contentLength()
+                var fileSizeDownloaded: Long = 0
+
+                inputStream = body.byteStream()
+                outputStream = FileOutputStream(futureStudioIconFile)
+
+                while (true) {
+                    val read = inputStream!!.read(fileReader)
+
+                    if (read == -1) {
+                        break
+                    }
+
+                    outputStream!!.write(fileReader, 0, read)
+
+                    fileSizeDownloaded += read.toLong()
+
+                    Log.d("File Download: ", "$fileSizeDownloaded of $fileSize")
+                }
+
+                outputStream!!.flush()
+
+                return true
+            } catch (e: IOException) {
+                return false
+            } finally {
+                if (inputStream != null) {
+                    inputStream!!.close()
+                }
+
+                if (outputStream != null) {
+                    outputStream!!.close()
+                }
+            }
+        } catch (e: IOException) {
+            return false
+        }
+
     }
 
     private fun sendAlarm(req_type : Int, req_text : String){
@@ -128,7 +237,7 @@ class TTSTestActivity : AppCompatActivity() {
                 if (response.isSuccessful) {
                     Toast.makeText(this@TTSTestActivity, notificationData.toString(), Toast.LENGTH_SHORT).show()
                 } else {
-                    Log.e("서버 에러", "서버 에러")
+                    Log.e("알람" + response.code().toString(), "서버 에러")
                 }
             }
         })
@@ -163,7 +272,13 @@ class TTSTestActivity : AppCompatActivity() {
                         }
                     }
                     else{
-                        Log.e("서버 에러", "서버 에러")
+                        if(response.code() == 400){
+                            if(model_name_list.size == 0){
+                                model_name_list.add("사용할 수 있는 모델이 없습니다")
+                            }
+                        }else{
+                            Log.e("스피너" + response.code().toString(), "서버 에러")
+                        }
                     }
 
                     val arrayAdapter = ArrayAdapter(this@TTSTestActivity, android.R.layout.simple_spinner_item, model_name_list)
@@ -184,8 +299,6 @@ class TTSTestActivity : AppCompatActivity() {
                     }
                 }
             })
-
-            //model_name_list.add("minhee0325")
         }else{
             model_name_list.add("네트워크 연결이 필요합니다")
 

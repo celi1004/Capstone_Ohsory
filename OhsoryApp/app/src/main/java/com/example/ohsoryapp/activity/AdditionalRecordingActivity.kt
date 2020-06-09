@@ -14,19 +14,35 @@ import com.example.ohsoryapp.db.SharedPreferenceController
 import com.example.ohsoryapp.myclass.WavRecorder
 import com.example.ohsoryapp.network.ApplicationController
 import com.example.ohsoryapp.network.NetworkService
-import com.example.ohsoryapp.post.PostFileUpload
-import com.example.ohsoryapp.service.RecordingService
+import com.example.ohsoryapp.post.PostFileUploadResponse
 import kotlinx.android.synthetic.main.activity_additional_recording.*
 import okhttp3.MediaType
 import okhttp3.RequestBody
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
+import com.google.android.gms.common.util.IOUtils.toByteArray
+import androidx.core.app.ComponentActivity
+import androidx.core.app.ComponentActivity.ExtraData
+import androidx.core.content.ContextCompat.getSystemService
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import android.content.Context
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.PagerSnapHelper
+import androidx.recyclerview.widget.SnapHelper
+import com.example.ohsoryapp.adapter.ExampleSentenceRecyclerViewAdapter
+import java.io.*
+
 
 class AdditionalRecordingActivity : AppCompatActivity() {
+
+    lateinit var exampleSentenceRecyclerViewAdapter : ExampleSentenceRecyclerViewAdapter
+
+    val dataList: ArrayList<String> by lazy {
+        ArrayList<String>()
+    }
 
     private var isPlaying = false
 
@@ -49,11 +65,13 @@ class AdditionalRecordingActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_additional_recording)
+        setContentView(com.example.ohsoryapp.R.layout.activity_additional_recording)
 
         user_id = SharedPreferenceController.getUserID(this)
 
         setButtonClickListener()
+
+        setRecyclerView()
     }
 
     private fun setButtonClickListener(){
@@ -74,7 +92,33 @@ class AdditionalRecordingActivity : AppCompatActivity() {
         }
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        if (isPlaying) {
+            if (player != null) {
+                try {
+                    player!!.stop()
+                    player!!.reset()
+                } catch (e: Exception) {
+                }
+
+            }
+            isPlaying = false
+        }
+    }
+
     private fun onRecord(){
+        if (isPlaying) {
+            if (player != null) {
+                try {
+                    player!!.stop()
+                    player!!.reset()
+                } catch (e: Exception) {
+                }
+
+            }
+            isPlaying = false
+        }
         if (first) {
             //녹음 처음 시작
             bt_play.visibility = View.INVISIBLE
@@ -192,22 +236,23 @@ class AdditionalRecordingActivity : AppCompatActivity() {
 
         //예시문장 업데이트
     }
-
     private fun uploadFile(fpath : String){
 
         val file = File(fpath)
 
         val tfile = RequestBody.create(MediaType.parse("multipart/form-data"), file)
 
-        val postFileUpload = networkService.postFileUpload(user_id, tfile)
+        val text = "헬로"
 
-        postFileUpload!!.enqueue(object : Callback<PostFileUpload> {
+        val postFileUpload = networkService.postAddFileUpload(user_id, text, tfile)
+
+        postFileUpload!!.enqueue(object : Callback<PostFileUploadResponse> {
             //통신을 못 했을 때
-            override fun onFailure(call: Call<PostFileUpload>, t: Throwable) {
+            override fun onFailure(call: Call<PostFileUploadResponse>, t: Throwable) {
                 Log.e("file upload fail", t.toString())
             }
 
-            override fun onResponse(call: Call<PostFileUpload>, response: Response<PostFileUpload>) {
+            override fun onResponse(call: Call<PostFileUploadResponse>, response: Response<PostFileUploadResponse>) {
                 //통신을 성공적으로 했을 때
                 if (response.isSuccessful) {
                     //서버로 보내는 거 성공하면 삭제
@@ -216,9 +261,52 @@ class AdditionalRecordingActivity : AppCompatActivity() {
                     f.delete()
                 }
                 else{
-                    Toast.makeText(this@AdditionalRecordingActivity, response.code().toString(), Toast.LENGTH_LONG).show()
+                    if(response.code() == 400){
+                        Log.i("빈 파일", "빈 파일")
+                        val f : File = File(fpath)
+                        f.delete()
+                    }else{
+                        Toast.makeText(this@AdditionalRecordingActivity, response.code().toString(), Toast.LENGTH_LONG).show()
+                    }
                 }
             }
         })
+    }
+
+    private fun setRecyclerView() {
+
+        readTxtfileAddDataList()
+
+        exampleSentenceRecyclerViewAdapter = ExampleSentenceRecyclerViewAdapter(this, dataList)
+        rv_example_sentence.adapter = exampleSentenceRecyclerViewAdapter
+
+        var snapHelper : SnapHelper = PagerSnapHelper();
+        snapHelper.attachToRecyclerView(rv_example_sentence);
+
+        rv_example_sentence.scrollToPosition(dataList.size/2)
+        var mLayoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        rv_example_sentence.layoutManager = mLayoutManager
+        rv_example_sentence.layoutManager!!.scrollToPosition(((Int.MAX_VALUE/2)-((Int.MAX_VALUE/2)%dataList.size)))
+    }
+
+    fun readTxtfileAddDataList(){
+
+        try {
+            val inputStream: InputStream = this.getResources().openRawResource(R.raw.ohsory)
+            val inputStreamReader = InputStreamReader(inputStream)
+            val sb = StringBuilder()
+            var line: String?
+            val br = BufferedReader(inputStreamReader)
+            line = br.readLine()
+            while (line != null) {
+                if (line != ""){
+                    dataList.add(line)
+                }
+                line = br.readLine()
+            }
+            br.close()
+        } catch (e:Exception){
+            Log.d("호", e.toString())
+        }
     }
 }

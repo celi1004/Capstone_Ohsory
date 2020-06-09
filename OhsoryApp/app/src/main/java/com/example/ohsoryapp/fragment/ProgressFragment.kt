@@ -60,11 +60,14 @@ class ProgressFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
-        setProgressSeekBar()
         setButtonClickListener()
 
         sb_progress.setOnTouchListener(View.OnTouchListener { v, event -> true })
+    }
+
+    override fun onResume() {
+        super.onResume()
+        setProgressSeekBar()
     }
 
     fun setProgressSeekBar(){

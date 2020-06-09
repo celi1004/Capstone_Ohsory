@@ -2,7 +2,7 @@ package com.example.ohsoryapp.network
 
 import com.example.ohsoryapp.data.*
 import com.example.ohsoryapp.get.*
-import com.example.ohsoryapp.post.PostFileUpload
+import com.example.ohsoryapp.post.PostFileUploadResponse
 import com.example.ohsoryapp.post.PostNotificationResponse
 import com.example.ohsoryapp.post.PostShareCreateResponse
 import com.example.ohsoryapp.post.PostSignUpResponse
@@ -13,6 +13,7 @@ import retrofit2.Call
 import retrofit2.http.*
 import com.example.ohsoryapp.data.ShareeData as ShareeData
 import okhttp3.RequestBody
+import okhttp3.ResponseBody
 import retrofit2.http.POST
 import retrofit2.http.Multipart
 
@@ -133,9 +134,8 @@ interface NetworkService{
     @Headers("Content-Type: application/json")
     fun postFileUpload(
             @Body fileUploadData : FileUploadData
-    ): Call<PostFileUpload>
+    ): Call<PostFileUploadResponse>
 */
-
 
     // 모델 생성 요청
     @POST("/tts_app/train")
@@ -144,12 +144,33 @@ interface NetworkService{
             @Body userIdData: UserIdData
     ): Call<Void>
 
-    // 녹음 음성 파일 전송
+    // 전화 녹음 음성 파일 전송
     @Multipart
     @POST("/tts_app/train/file-upload")
-    fun postFileUpload(
+    fun postCallFileUpload(
             @Part("user_id") user_id: Int,
             @Part("voice\"; filename=\"audio.wav\" ") voice: RequestBody
-    ): Call<PostFileUpload>
+    ): Call<PostFileUploadResponse>
 
+    // 추가 녹음 음성 파일 전송
+    @Multipart
+    @POST("/tts_app/train/extra-file-upload")
+    fun postAddFileUpload(
+            @Part("user_id") user_id: Int,
+            @Part("text") text: String,
+            @Part("voice\"; filename=\"audio.wav\" ") voice: RequestBody
+    ): Call<PostFileUploadResponse>
+
+    // TTS 링크 요청
+    @POST("/tts_app/tts")
+    @Headers("Content-Type: application/json")
+    fun getFileDownload(
+            @Body fileDownloadData: FileDownloadData
+    ): Call<GetFileDownloadResponse>
+
+    //다운로드 링크에 가서 음성 다운로드
+    @GET
+    fun getFileDownloadUseUrl(
+            @Url fileUrl : String
+    ): Call<ResponseBody>
 }

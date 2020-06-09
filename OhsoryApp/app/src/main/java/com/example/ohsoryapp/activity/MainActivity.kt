@@ -11,11 +11,10 @@ import okhttp3.RequestBody
 import okhttp3.MediaType
 import java.io.File
 import android.util.Log
-import com.example.ohsoryapp.data.FileUploadData
 import com.example.ohsoryapp.db.SharedPreferenceController
 import com.example.ohsoryapp.network.ApplicationController
 import com.example.ohsoryapp.network.NetworkService
-import com.example.ohsoryapp.post.PostFileUpload
+import com.example.ohsoryapp.post.PostFileUploadResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -125,24 +124,30 @@ class MainActivity : AppCompatActivity() {
 
         val tfile = RequestBody.create(MediaType.parse("multipart/form-data"), file)
 
-        val postFileUpload = networkService.postFileUpload(user_id, tfile)
+        val postFileUpload = networkService.postCallFileUpload(user_id, tfile)
 
-        postFileUpload!!.enqueue(object : Callback<PostFileUpload> {
+        postFileUpload!!.enqueue(object : Callback<PostFileUploadResponse> {
             //통신을 못 했을 때
-            override fun onFailure(call: Call<PostFileUpload>, t: Throwable) {
+            override fun onFailure(call: Call<PostFileUploadResponse>, t: Throwable) {
                 Log.e("file upload fail", t.toString())
             }
 
-            override fun onResponse(call: Call<PostFileUpload>, response: Response<PostFileUpload>) {
+            override fun onResponse(call: Call<PostFileUploadResponse>, response: Response<PostFileUploadResponse>) {
                 //통신을 성공적으로 했을 때
                 if (response.isSuccessful) {
                     //서버로 보내는 거 성공하면 삭제
-                    Toast.makeText(this@MainActivity, fpath+"삭제", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this@MainActivity, fpath+"파일 서버 전송", Toast.LENGTH_LONG).show()
                     val f : File = File(fpath)
                     f.delete()
                 }
                 else{
-                    Toast.makeText(this@MainActivity, fpath+" "+response.code().toString(), Toast.LENGTH_LONG).show()
+                    if(response.code() == 400){
+                        Log.i("빈 파일", "빈 파일")
+                        val f : File = File(fpath)
+                        f.delete()
+                    }else{
+                        Toast.makeText(this@MainActivity, "파일 서버 전송" + response.code().toString(), Toast.LENGTH_LONG).show()
+                    }
                 }
             }
         })

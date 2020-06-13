@@ -33,18 +33,24 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.SnapHelper
 import com.example.ohsoryapp.adapter.ExampleSentenceRecyclerViewAdapter
+import kotlinx.android.synthetic.main.activity_ttstest.*
 import java.io.*
 
 
 class AdditionalRecordingActivity : AppCompatActivity() {
 
+    val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
+    val filename = "ohsory.txt"
+
     lateinit var exampleSentenceRecyclerViewAdapter : ExampleSentenceRecyclerViewAdapter
+    lateinit var mLayoutManager : LinearLayoutManager
 
     val dataList: ArrayList<String> by lazy {
         ArrayList<String>()
     }
 
     private var isPlaying = false
+    private var isRecording = false
 
     private var first = true
 
@@ -56,6 +62,7 @@ class AdditionalRecordingActivity : AppCompatActivity() {
 
     var mFileName = ""
     var mFilePath = ""
+    var do_flag = false
 
     val networkService: NetworkService by lazy {
         ApplicationController.instance.networkService
@@ -75,6 +82,16 @@ class AdditionalRecordingActivity : AppCompatActivity() {
     }
 
     private fun setButtonClickListener(){
+        icon_right.setOnClickListener{
+            var lastVisibleItemIndex = mLayoutManager.findLastVisibleItemPosition();
+            mLayoutManager.smoothScrollToPosition(rv_example_sentence,null,lastVisibleItemIndex+1)
+        }
+
+        icon_left.setOnClickListener {
+            var firstVisibleItemIndex = mLayoutManager.findLastVisibleItemPosition();
+            mLayoutManager.smoothScrollToPosition(rv_example_sentence, null, firstVisibleItemIndex - 1)
+        }
+
         bt_record.setOnClickListener{
             onRecord()
         }
@@ -93,7 +110,6 @@ class AdditionalRecordingActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-        super.onDestroy()
         if (isPlaying) {
             if (player != null) {
                 try {
@@ -105,9 +121,22 @@ class AdditionalRecordingActivity : AppCompatActivity() {
             }
             isPlaying = false
         }
+
+        if(isRecording){
+            //저장 안하구 그냥 녹음 중이였을 때
+            val file = File(mFilePath)
+            file.delete()
+        }
+
+        if (do_flag){
+            //녹음을 한 기록이 있으면 파일을 업데이트 해서 저장하기
+            writeTxtfileAddDataList()
+        }
+        super.onDestroy()
     }
 
     private fun onRecord(){
+        isRecording = true
         if (isPlaying) {
             if (player != null) {
                 try {
@@ -180,6 +209,7 @@ class AdditionalRecordingActivity : AppCompatActivity() {
         recorder.stopRecording()
         //allow the screen to turn off again once recording is finished
         this.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        do_flag = true
     }
 
     private fun onPlay() {
@@ -233,9 +263,14 @@ class AdditionalRecordingActivity : AppCompatActivity() {
         //예시 문장 변경
 
         uploadFile(mFilePath)
+        isRecording = false
 
+        val nowpos = mLayoutManager.findLastVisibleItemPosition() % dataList.size
+        dataList.removeAt(nowpos)
+        exampleSentenceRecyclerViewAdapter.notifyDataSetChanged()
         //예시문장 업데이트
     }
+
     private fun uploadFile(fpath : String){
 
         val file = File(fpath)
@@ -284,28 +319,75 @@ class AdditionalRecordingActivity : AppCompatActivity() {
         snapHelper.attachToRecyclerView(rv_example_sentence);
 
         rv_example_sentence.scrollToPosition(dataList.size/2)
-        var mLayoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        mLayoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         rv_example_sentence.layoutManager = mLayoutManager
         rv_example_sentence.layoutManager!!.scrollToPosition(((Int.MAX_VALUE/2)-((Int.MAX_VALUE/2)%dataList.size)))
     }
 
     fun readTxtfileAddDataList(){
+        //디렉토리 없으면 생성
+        val dir = File(dirPath)
+        if (!dir.exists()) {
+            dir.mkdir()
+        }
+
+        val txtFile = File(dir, filename)
 
         try {
-            val inputStream: InputStream = this.getResources().openRawResource(R.raw.ohsory)
-            val inputStreamReader = InputStreamReader(inputStream)
-            val sb = StringBuilder()
-            var line: String?
-            val br = BufferedReader(inputStreamReader)
-            line = br.readLine()
+            var line : String?
+            val buf = BufferedReader(FileReader(txtFile))
+            line = buf.readLine()
             while (line != null) {
                 if (line != ""){
                     dataList.add(line)
                 }
-                line = br.readLine()
+                line = buf.readLine()
             }
-            br.close()
-        } catch (e:Exception){
+
+            buf.close();
+        }catch (e:Exception){
+            Log.d("호", e.toString())
+        }
+
+        if(dataList.size == 0){
+            //내부저장소에 파일이 아직 안 생성 or 다 읽어벌이 문장을
+            //raw에서 꺼내서 datalist에 넣어놔
+            try {
+                val inputStream: InputStream = this.getResources().openRawResource(R.raw.ohsory)
+                val inputStreamReader = InputStreamReader(inputStream)
+                var line: String?
+                val br = BufferedReader(inputStreamReader)
+                line = br.readLine()
+                while (line != null) {
+                    if (line != ""){
+                        dataList.add(line)
+                    }
+                    line = br.readLine()
+                }
+                br.close()
+            } catch (e:Exception){
+                Log.d("호", e.toString())
+            }
+        }
+
+    }
+
+    fun writeTxtfileAddDataList(){
+        val dir = File(dirPath)
+        if (!dir.exists()) {
+            dir.mkdir()
+        }
+
+        val txtFile = File(dir, filename)
+
+        try {
+            val buf = BufferedWriter(FileWriter(txtFile))
+            for (str in dataList){
+                buf.append(str)
+                buf.newLine()
+            }
+            buf.close()
+        }catch (e:Exception){
             Log.d("호", e.toString())
         }
     }

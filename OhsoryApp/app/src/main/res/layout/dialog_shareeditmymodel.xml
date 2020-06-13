@@ -37,7 +37,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="16dp"
+                    android:textSize="14dp"
                     android:layout_marginRight="8dp"
                     android:text="청취 시"
                     android:textColor="#000000" />
@@ -60,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="16dp"
+                    android:textSize="14dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginLeft="8dp"
                     android:text="다운로드 시"
@@ -84,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:text="다운로드 시 허락 요청 필수"
                 android:layout_marginRight="8dp"
                 android:textColor="#000000" />

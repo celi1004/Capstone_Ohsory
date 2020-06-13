@@ -12,6 +12,8 @@ object SharedPreferenceController {
     private val USER_PROGRESS: String = "user_progress"
     private val USER_AUDIO_TIME: String = "user_audio_time"
     private val USER_FCM_KEY : String = "user_fcm_key"
+    private val ACTIVATE_CALL_RECORDING : String = "activate_call_recording"
+    private val ACTIVATE_ALARM : String = "activate_alarm"
 
     private var pref: SharedPreferences? = null
 
@@ -130,6 +132,28 @@ object SharedPreferenceController {
         val preference: SharedPreferences = ctx.getSharedPreferences(USER_NAME, Context. MODE_PRIVATE )
         val editor: SharedPreferences.Editor = preference.edit()
         editor.clear()
+        editor.commit()
+    }
+
+    fun getActivateCallRecording(ctx: Context) : Boolean {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(ACTIVATE_CALL_RECORDING, Context.MODE_PRIVATE)
+        return preferences.getBoolean(ACTIVATE_CALL_RECORDING, true)
+    }
+    fun setActivateCallRecording(ctx: Context, isflag : Boolean)  {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(ACTIVATE_CALL_RECORDING, Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = preferences.edit()
+        editor.putBoolean(ACTIVATE_CALL_RECORDING, isflag)
+        editor.commit()
+    }
+
+    fun getActivateAlarm(ctx: Context) : Boolean {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(ACTIVATE_ALARM, Context.MODE_PRIVATE)
+        return preferences.getBoolean(ACTIVATE_ALARM, true)
+    }
+    fun setActivateAlarm(ctx: Context, isflag : Boolean)  {
+        val preferences : SharedPreferences = ctx.getSharedPreferences(ACTIVATE_ALARM, Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = preferences.edit()
+        editor.putBoolean(ACTIVATE_ALARM, isflag)
         editor.commit()
     }
 }

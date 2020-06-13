@@ -159,7 +159,7 @@ interface NetworkService{
             @Part("user_id") user_id: Int,
             @Part("text") text: String,
             @Part("voice\"; filename=\"audio.wav\" ") voice: RequestBody
-    ): Call<PostFileUploadResponse>
+    ): Call<Void>
 
     // TTS 링크 요청
     @POST("/tts_app/tts")

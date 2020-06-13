@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit
 
 class ApplicationController : Application(){
     //액티비티 통신 부 이전에 레트로핏 세팅을 위함
-    private val baseURL =  "http://96bb8d6a0dbd.ngrok.io" //"http://3.34.3.134"
+    private val baseURL =  "http://0e662efce4c1.ngrok.io" //"http://3.34.3.134" // "http://96bb8d6a0dbd.ngrok.io"
     lateinit var networkService: NetworkService
 
     //싱글톤 구현

@@ -8,6 +8,7 @@ import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
+import com.example.ohsoryapp.myclass.AppPreferences;
 import com.example.ohsoryapp.myclass.DBHelper;
 import com.example.ohsoryapp.service.RecordingService;
 
@@ -38,7 +39,6 @@ public class PhoneListener extends PhoneStateListener {
             instance = new PhoneListener(context);
         }
         mDatabase = new DBHelper(context);
-        mIntent = new Intent(context, RecordingService.class);
 
         return instance;
     }
@@ -67,42 +67,48 @@ public class PhoneListener extends PhoneStateListener {
 
     @Override
     public void onCallStateChanged(int state, String incomingNumber) {
+
         super.onCallStateChanged(state, incomingNumber);
+        mIntent = new Intent(context, RecordingService.class);
 
-        switch (state) {
-            case TelephonyManager.CALL_STATE_IDLE: // Idle... no call
-                if (isRecording.get()) {
+        if (AppPreferences.getInstance(context).isRecordingEnabled()) {
+            switch (state) {
+                case TelephonyManager.CALL_STATE_IDLE: // Idle... no call
+                    if (isRecording.get()) {
 
-                    context.stopService(mIntent);
-                    isRecording.set(false);
-                }
-                break;
-            case TelephonyManager.CALL_STATE_OFFHOOK: // Call answered
-                if (isWhitelisted.get()) {
-                    isWhitelisted.set(false);
-                    return;
-                }
-                if (!isRecording.get()) {
-                    isRecording.set(true);
-                    // start: Probably not ever usefull
-                    // end: Probably not ever usefull끝
-
-                    long now = System.currentTimeMillis();
-                    Date date = new Date(now);
-                    SimpleDateFormat sdf = new SimpleDateFormat("MMdd_hhmmss");
-                    String getTime = sdf.format(date);
-
-                    mFileName = getTime + ".wav";
-
-                    mIntent.putExtra("name", mFileName);
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                        context.startForegroundService(mIntent);
-                    } else {
-                        context.startService(mIntent);
+                        context.stopService(mIntent);
+                        isRecording.set(false);
                     }
-                }
-                break;
+                    break;
+                case TelephonyManager.CALL_STATE_OFFHOOK: // Call answered
+                    if (isWhitelisted.get()) {
+                        isWhitelisted.set(false);
+                        return;
+                    }
+                    if (!isRecording.get()) {
+                        isRecording.set(true);
+                        // start: Probably not ever usefull
+                        // end: Probably not ever usefull끝
+
+                        long now = System.currentTimeMillis();
+                        Date date = new Date(now);
+                        SimpleDateFormat sdf = new SimpleDateFormat("MMdd_hhmmss");
+                        String getTime = sdf.format(date);
+
+                        mFileName = getTime + ".wav";
+
+                        mIntent.putExtra("name", mFileName);
+
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                            context.startForegroundService(mIntent);
+                        } else {
+                            context.startService(mIntent);
+                        }
+                    }
+                    break;
+            }
+        }else{
+
         }
     }
 }

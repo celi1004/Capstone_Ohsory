@@ -45,7 +45,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="220dp"
+            android:layout_height="180dp"
             android:background="@color/colorAccent">
 
             <TextView
@@ -65,30 +65,9 @@
                 android:text="이민희"
                 android:textSize="32dp"
                 android:textColor="#ffffff"
-                android:layout_above="@id/tv_mail"
-                android:layout_marginLeft="20dp"/>
-
-            <TextView
-                android:id="@+id/tv_nickname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="mini"
-                android:textSize="18dp"
-                android:textColor="#ffffff"
-                android:layout_toRightOf="@id/tv_name"
-                android:layout_alignBottom="@id/tv_name"
-                android:layout_marginLeft="12dp"/>
-
-            <TextView
-                android:id="@+id/tv_mail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="alsrjs2516@naver.com"
-                android:textColor="#ffffff"
                 android:layout_alignParentBottom="true"
-                android:layout_marginLeft="20dp"
                 android:layout_marginBottom="24dp"
-                android:textSize="18dp"/>
+                android:layout_marginLeft="20dp"/>
 
         </RelativeLayout>
 

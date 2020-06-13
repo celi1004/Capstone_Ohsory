@@ -12,7 +12,9 @@ import com.example.ohsoryapp.R
 import com.example.ohsoryapp.activity.LoginActivity
 import com.example.ohsoryapp.activity.ModelManageActivity
 import com.example.ohsoryapp.db.SharedPreferenceController
+import com.example.ohsoryapp.myclass.AppPreferences
 import kotlinx.android.synthetic.main.fragment_mypage.*
+import org.jetbrains.anko.support.v4.act
 import org.jetbrains.anko.support.v4.startActivity
 
 
@@ -32,21 +34,29 @@ class MypageFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        setInfo()
-        //setState() 종료 되었을 때 state 변한거 있늕는지 봐바
+        getInfo()
+
         setButtonClickListener()
     }
 
-    fun setInfo(){
-        //TODO 서버에서 정보 가져와서 띄워줘
+    override fun onStop() {
+
+        setState()
+
+        super.onStop()
     }
 
-    fun getState(){
-        //TODO 프리퍼런스에서 스위치 정보가져와..? 저장해놔?
+    fun getInfo(){
+        //디비에서 꺼내서 정보 띄워줘
+        tv_name.text = SharedPreferenceController.getUserName(activity!!)
+        sw_call_rec.isChecked = AppPreferences.getInstance(context).isRecordingEnabled()
+        sw_alarm.isChecked = SharedPreferenceController.getActivateAlarm(activity!!)
     }
 
     fun setState(){
-        //TODO 화면 끌 때 스위치 상태 저장해 그리고 그렇게 행동
+        //디비 업데이트
+        AppPreferences.getInstance(context).setRecordingEnabled(sw_call_rec.isChecked)
+        SharedPreferenceController.setActivateAlarm(activity!!, sw_alarm.isChecked)
     }
 
     fun setButtonClickListener(){

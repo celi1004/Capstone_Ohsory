@@ -74,6 +74,9 @@ class AdditionalRecordingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(com.example.ohsoryapp.R.layout.activity_additional_recording)
 
+        //TODO
+        //추가 녹음 와이파이 연결 상태에서만 하기
+
         user_id = SharedPreferenceController.getUserID(this)
 
         setButtonClickListener()
@@ -277,17 +280,18 @@ class AdditionalRecordingActivity : AppCompatActivity() {
 
         val tfile = RequestBody.create(MediaType.parse("multipart/form-data"), file)
 
-        val text = "헬로"
+        val nowpos = mLayoutManager.findLastVisibleItemPosition() % dataList.size
+        val text = dataList[nowpos]
 
         val postFileUpload = networkService.postAddFileUpload(user_id, text, tfile)
 
-        postFileUpload!!.enqueue(object : Callback<PostFileUploadResponse> {
+        postFileUpload!!.enqueue(object : Callback<Void> {
             //통신을 못 했을 때
-            override fun onFailure(call: Call<PostFileUploadResponse>, t: Throwable) {
+            override fun onFailure(call: Call<Void>, t: Throwable) {
                 Log.e("file upload fail", t.toString())
             }
 
-            override fun onResponse(call: Call<PostFileUploadResponse>, response: Response<PostFileUploadResponse>) {
+            override fun onResponse(call: Call<Void>, response: Response<Void>) {
                 //통신을 성공적으로 했을 때
                 if (response.isSuccessful) {
                     //서버로 보내는 거 성공하면 삭제

@@ -9,39 +9,39 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:orientation="vertical"
-        android:padding="40dp">
+        android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:textSize="24dp"
-            android:text="내 모델 공유"
             android:layout_marginBottom="24dp"
-            android:textColor="#000000" />
+            android:text="내 모델 공유"
+            android:textColor="#000000"
+            android:textSize="24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:textSize="22dp"
-            android:text="- UserName"
             android:layout_marginBottom="4dp"
-            android:textColor="#000000" />
+            android:text="- UserName"
+            android:textColor="#000000"
+            android:textSize="22dp" />
 
         <EditText
             android:id="@+id/et_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:layout_marginBottom="16dp"
             android:ems="10"
+            android:hint="공유 받을 사람의\nusername을 입력해주세요"
             android:inputType="textEmailAddress"
             android:lines="1"
             android:paddingLeft="8dp"
-            android:hint="공유 받을 사람의\nusername을 입력해주세요"
             android:paddingRight="8dp"
             android:textColor="#b8191919"
-            android:layout_marginBottom="16dp"
             android:textSize="14sp" />
 
         <TextView
@@ -50,31 +50,31 @@
             android:layout_gravity="center_vertical"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
-            android:textSize="22dp"
             android:text="- 알림 설정"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="22dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:orientation="horizontal"
-            android:weightSum="2"
-            android:layout_marginBottom="16dp">
+            android:weightSum="2">
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="0.85"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.85"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="16dp"
                     android:layout_marginRight="8dp"
                     android:text="청취 시"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
 
                 <ToggleButton
                     android:id="@+id/rb_listennoti"
@@ -86,19 +86,19 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1.15"
                 android:layout_height="wrap_content"
+                android:layout_weight="1.15"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="16dp"
-                    android:layout_marginRight="8dp"
                     android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
                     android:text="다운로드 시"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
 
                 <ToggleButton
                     android:id="@+id/rb_downnoti"
@@ -118,10 +118,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="16dp"
-                android:text="다운로드 시 허락 요청 필수"
                 android:layout_marginRight="8dp"
-                android:textColor="#000000" />
+                android:text="다운로드 시 허락 요청 필수"
+                android:textColor="#000000"
+                android:textSize="14dp" />
 
             <ToggleButton
                 android:id="@+id/rb_downauth"
@@ -130,7 +130,6 @@
                 android:checked="true" />
 
         </LinearLayout>
-
 
 
     </LinearLayout>

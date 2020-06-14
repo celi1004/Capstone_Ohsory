@@ -37,6 +37,10 @@ class AlarmMyFragment : Fragment() {
         ArrayList<AlarmModelData>()
     }
 
+    val tempDataList: ArrayList<AlarmModelData> by lazy {
+        ArrayList<AlarmModelData>()
+    }
+
     var shareInfoList = ArrayList<PostNotificationResponse>()
 
     val networkService: NetworkService by lazy {
@@ -75,7 +79,7 @@ class AlarmMyFragment : Fragment() {
 
     private fun setRecyclerView() {
 
-        dataList.clear()
+        tempDataList.clear()
 
         sharerData = SharerData(sharer_name)
 
@@ -113,9 +117,12 @@ class AlarmMyFragment : Fragment() {
                             var temp_req_text = shareInfoList[infolistlen - element2 - 1].req_text
                             var temp_id = shareInfoList[infolistlen - element2 - 1].id
 
-                            dataList.add(AlarmModelData(temp_timestamp.toString(), temp_sharee_name, temp_req_text, temp_state, temp_id))
+                            tempDataList.add(AlarmModelData(temp_timestamp.toString(), temp_sharee_name, temp_req_text, temp_state, temp_id))
                         }
                     }
+
+                    dataList.clear()
+                    dataList.addAll(tempDataList)
 
                     alarmMyModelRecyclerViewAdapter = AlarmMyModelRecyclerViewAdapter(activity!!, dataList, token)
 

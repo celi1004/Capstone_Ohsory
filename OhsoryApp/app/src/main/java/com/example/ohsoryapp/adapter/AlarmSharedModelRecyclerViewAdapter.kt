@@ -12,13 +12,24 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ohsoryapp.R
 import com.example.ohsoryapp.data.AlarmModelData
-import java.io.File
-import java.io.FileOutputStream
-import java.io.IOException
+import com.example.ohsoryapp.data.FileDownloadData
+import com.example.ohsoryapp.get.GetFileDownloadResponse
+import com.example.ohsoryapp.network.ApplicationController
+import com.example.ohsoryapp.network.NetworkService
+import kotlinx.android.synthetic.main.activity_ttstest.*
+import okhttp3.ResponseBody
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import java.io.*
 
 class AlarmSharedModelRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<AlarmModelData>, val token : String) : RecyclerView.Adapter<AlarmSharedModelRecyclerViewAdapter.Holder>() {
 
     lateinit var mContext : Context
+
+    val networkService: NetworkService by lazy {
+        ApplicationController.instance.networkService
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         mContext = ctx
@@ -44,7 +55,7 @@ class AlarmSharedModelRecyclerViewAdapter(val ctx: Context, val dataList: ArrayL
         }
 
         holder.download.setOnClickListener{
-            makeTempfile(dataList[position].username, dataList[position].sentence)
+            downloadFile(dataList[position])
         }
 
         //셋 온클릭같이 해야하는 일도 여기서!
@@ -58,40 +69,110 @@ class AlarmSharedModelRecyclerViewAdapter(val ctx: Context, val dataList: ArrayL
         val download : Button = itemView.findViewById(R.id.bt_rv_item_alarm_shared_download) as Button
     }
 
-    fun makeTempfile(username : String, filename : String){
-        val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
-        val subPath = "/"+username+"/"
-        val filename = filename +".wav"
+    private fun downloadFile(alarmModelData : AlarmModelData){
+        Toast.makeText(mContext, "다운로드 시작", Toast.LENGTH_SHORT).show()
+        val getFileDownload = networkService.getFileDownload(FileDownloadData(alarmModelData.username, alarmModelData.sentence))
 
-        //디렉토리 없으면 생성
-        val dir = File(dirPath)
-        if (!dir.exists()) {
-            dir.mkdir()
-        }
-
-        val subdir = File(dir, subPath)
-        if (!subdir.exists()) {
-            subdir.mkdir()
-        }
-
-        //파일객체
-        val file = File(subdir, filename)
-        try {
-            //쓰기객체
-            val fos = FileOutputStream(file)
-            //버퍼 - 1MB씩쓰기
-            val buffer = ByteArray(1 * 1024 * 1024)
-            for (i in 0..9) {    //10MB
-                fos.write(buffer, 0, buffer.size)    //1MB씩 10번쓰기
-                fos.flush()
+        getFileDownload!!.enqueue(object : Callback<GetFileDownloadResponse> {
+            //통신을 못 했을 때
+            override fun onFailure(call: Call<GetFileDownloadResponse>, t: Throwable) {
+                Log.e("load fail", t.toString())
             }
-            val len = 0
 
-            fos.close()
+            override fun onResponse(call: Call<GetFileDownloadResponse>, response: Response<GetFileDownloadResponse>) {
+                //통신을 성공적으로 했을 때
+                if (response.isSuccessful) {
 
-            Toast.makeText(mContext, "다운로드 완료", Toast.LENGTH_SHORT).show()
+                    val getFileDownloadUseUrl = networkService.getFileDownloadUseUrl(response.body()!!.tts_file)
+
+                    getFileDownloadUseUrl!!.enqueue(object : Callback<ResponseBody> {
+                        //통신을 못 했을 때
+                        override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+                            Log.e("load fail", t.toString())
+                        }
+
+                        override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+                            //통신을 성공적으로 했을 때
+                            if (response.isSuccessful) {
+                                val writtenToDisk = writeResponseBodyToDisk(response.body()!!, alarmModelData.username, alarmModelData.sentence)
+                                if(writtenToDisk){
+                                    Toast.makeText(mContext, "다운로드 완료", Toast.LENGTH_SHORT).show()
+                                }
+                            } else {
+                                Log.e("서버에러" + response.code().toString(), "파일 다운로드 실패")
+                            }
+                        }
+                    })
+                } else {
+                    Log.e("서버에러" + response.code().toString(), "파일 다운로드 링크 불러오기 실패")
+                }
+            }
+        })
+    }
+
+    private fun writeResponseBodyToDisk(body: ResponseBody, selected_model_name : String, sentence : String): Boolean {
+        try {
+            val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
+            val subPath = "/"+selected_model_name+"/"
+            val filename = sentence +".wav"
+
+            //디렉토리 없으면 생성
+            val dir = File(dirPath)
+            if (!dir.exists()) {
+                dir.mkdir()
+            }
+
+            val subdir = File(dir, subPath)
+            if (!subdir.exists()) {
+                subdir.mkdir()
+            }
+
+            // todo change the file location/name according to your needs
+            val futureStudioIconFile = File(subdir, filename)
+
+            var inputStream: InputStream? = null
+            var outputStream: OutputStream? = null
+
+            try {
+                val fileReader = ByteArray(4096)
+
+                val fileSize = body.contentLength()
+                var fileSizeDownloaded: Long = 0
+
+                inputStream = body.byteStream()
+                outputStream = FileOutputStream(futureStudioIconFile)
+
+                while (true) {
+                    val read = inputStream!!.read(fileReader)
+
+                    if (read == -1) {
+                        break
+                    }
+
+                    outputStream!!.write(fileReader, 0, read)
+
+                    fileSizeDownloaded += read.toLong()
+
+                    Log.d("File Download: ", "$fileSizeDownloaded of $fileSize")
+                }
+
+                outputStream!!.flush()
+
+                return true
+            } catch (e: IOException) {
+                return false
+            } finally {
+                if (inputStream != null) {
+                    inputStream!!.close()
+                }
+
+                if (outputStream != null) {
+                    outputStream!!.close()
+                }
+            }
         } catch (e: IOException) {
-            e.printStackTrace()
+            return false
         }
+
     }
 }

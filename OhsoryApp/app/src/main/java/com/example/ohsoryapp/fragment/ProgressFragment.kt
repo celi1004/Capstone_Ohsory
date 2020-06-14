@@ -78,7 +78,7 @@ class ProgressFragment : Fragment() {
         if(mNetworkManager!!.checkNetworkState()){
             //데이터가 연결되어있으면 서버에서 progress 가져와
             getProgressResponse()
-            setButton2()
+            setButton()
         }else{
             //제일 최근에 저장되있는 progress정보 띄워줘
             val progress_degree = SharedPreferenceController.getUserPG(activity!!)
@@ -91,7 +91,8 @@ class ProgressFragment : Fragment() {
 
     }
 
-    private fun setButton2(){
+    private fun setButton(){
+        //모델이 없으면 밑에 버튼은 비활성화
         val getMyModelIsEnable = networkService.getMyModelIsEnable(UserIdData(user_id))
 
         getMyModelIsEnable!!.enqueue(object : Callback<Void> {

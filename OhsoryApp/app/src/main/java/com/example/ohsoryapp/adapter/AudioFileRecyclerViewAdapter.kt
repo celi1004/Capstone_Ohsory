@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
+import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Environment
 import android.util.Log
@@ -20,6 +21,7 @@ import com.example.ohsoryapp.data.FileListData
 import com.example.ohsoryapp.data.RecordingData
 import com.example.ohsoryapp.myclass.DBHelper
 import java.io.File
+import java.io.FileInputStream
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
@@ -30,12 +32,16 @@ class AudioFileRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<Fil
 
     lateinit var mContext : Context
     lateinit var mDatabase: DBHelper
+    lateinit var mediaPlayer : MediaPlayer
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         mContext = ctx
         mDatabase = DBHelper(mContext)
         //mDatabase.setOnDatabaseChangedListener(this) ??
         val view: View = LayoutInflater.from(ctx).inflate(R.layout.rv_item_audio_file, parent, false)
+
+        mediaPlayer = MediaPlayer()
+
         return Holder(view)
     }
 
@@ -44,6 +50,19 @@ class AudioFileRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<Fil
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.date.text = dataList[position].date
         holder.title.text = dataList[position].title
+
+        holder.body.setOnClickListener{
+            
+            mediaPlayer.reset()
+
+            val fis = FileInputStream(File(dataList[position].path))
+
+            mediaPlayer.setDataSource(fis.getFD())
+
+            mediaPlayer.prepare()
+
+            mediaPlayer.start()
+        }
 
         holder.body.setOnLongClickListener {
             val entrys = java.util.ArrayList<String>()

@@ -1,5 +1,6 @@
 package com.example.ohsoryapp.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
@@ -26,6 +27,8 @@ import java.util.*
 import kotlin.collections.ArrayList
 import androidx.core.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import android.media.MediaPlayer
+import android.net.Uri
 import androidx.core.content.ContextCompat
 import com.example.ohsoryapp.data.FileDownloadData
 import com.example.ohsoryapp.data.NotificationData
@@ -33,12 +36,19 @@ import com.example.ohsoryapp.data.UserIdData
 import com.example.ohsoryapp.get.GetFileDownloadResponse
 import com.example.ohsoryapp.post.PostNotificationResponse
 import okhttp3.ResponseBody
+import org.jetbrains.anko.doAsync
 import java.io.*
 
 
 
 
+
+
+
 class TTSTestActivity : AppCompatActivity() {
+
+    lateinit var mediaPlayer1 : MediaPlayer
+    lateinit var mediaPlayer2 : MediaPlayer
 
     lateinit var shareeData: ShareeData
     lateinit var fileDownloadData : FileDownloadData
@@ -53,6 +63,8 @@ class TTSTestActivity : AppCompatActivity() {
     var selected_model_name = ""
     var sharee_name = ""
     var user_id = 0
+    var onactiflag = true
+    var fpath = ""
 
     lateinit var mResponse: Response<ResponseBody>
 
@@ -63,19 +75,36 @@ class TTSTestActivity : AppCompatActivity() {
         user_id = SharedPreferenceController.getUserID(this)
         sharee_name = SharedPreferenceController.getUserName(this)
 
+        mediaPlayer1 = MediaPlayer()
+        mediaPlayer2 = MediaPlayer.create(this, R.raw.backgroundsound)
+        mediaPlayer2.setVolume(0.15f,0.15f)
+
+        mediaPlayer1.setOnCompletionListener {
+            mediaPlayer2.stop()
+        }
+
         setSpinnser()
 
         setButtonClickListener()
+    }
+
+    override fun onDestroy() {
+        mediaPlayer1.stop()
+        mediaPlayer2.stop()
+        onactiflag = false
+
+        super.onDestroy()
     }
 
     fun setButtonClickListener(){
 
         bt_hear.setOnClickListener(){
             bt_share.isEnabled =false
-            bt_dowload.isEnabled = true
+            bt_dowload.isEnabled= false
+            Toast.makeText(this@TTSTestActivity, "음성 생성 중", Toast.LENGTH_LONG).show()
             sendAlarm(0, et_text.text.toString())
 
-            downloadFile(et_text.text.toString())
+            loadFile(et_text.text.toString())
             //서버에 듣고 싶은 문장 보내고 받아오고 들려주기
         }
 
@@ -86,10 +115,19 @@ class TTSTestActivity : AppCompatActivity() {
         bt_share.setOnClickListener(){
             //서버에서 받아온 파일 공유
             //파일이 있으면 공유 없으면 청취 버튼부터 누르라고!
+            shareFileDialog(fpath)
         }
     }
 
-    private fun downloadFile(req_text : String){
+    fun shareFileDialog(fpath: String) {
+        val shareIntent = Intent()
+        shareIntent.action = Intent.ACTION_SEND
+        shareIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse(fpath))
+        shareIntent.type = "audio/wav"
+        startActivity(Intent.createChooser(shareIntent, "공유하기"))
+    }
+
+    private fun loadFile(req_text : String){
         fileDownloadData = FileDownloadData(selected_model_name, req_text)
         val getFileDownload = networkService.getFileDownload(fileDownloadData)
 
@@ -115,7 +153,10 @@ class TTSTestActivity : AppCompatActivity() {
                             //통신을 성공적으로 했을 때
                             if (response.isSuccessful) {
                                 mResponse = response
-                                Log.i("옹","옹")
+                                bt_dowload.isEnabled = true
+                                if(onactiflag == true){
+                                    playResponseBody(mResponse.body()!!)
+                                }
                                 //val writtenToDisk = writeResponseBodyToDisk(response.body()!!)
                             } else {
                                 Log.e("서버에러" + response.code().toString(), "파일 다운로드 실패")
@@ -129,11 +170,77 @@ class TTSTestActivity : AppCompatActivity() {
         })
     }
 
+    private fun playResponseBody(body: ResponseBody){
+
+        try {
+            // todo change the file location/name according to your needs
+            val tempMp3 = File.createTempFile("temptemp", "wav", getCacheDir());
+            tempMp3.deleteOnExit()
+
+            var inputStream: InputStream? = null
+            var outputStream: OutputStream? = null
+
+            try {
+                val fileReader = ByteArray(4096)
+
+                val fileSize = body.contentLength()
+                var fileSizeDownloaded: Long = 0
+
+                inputStream = body.byteStream()
+                outputStream = FileOutputStream(tempMp3)
+
+                while (true) {
+                    val read = inputStream!!.read(fileReader)
+
+                    if (read == -1) {
+                        break
+                    }
+
+                    outputStream!!.write(fileReader, 0, read)
+
+                    fileSizeDownloaded += read.toLong()
+
+                    Log.d("File Download: ", "$fileSizeDownloaded of $fileSize")
+                }
+
+                outputStream!!.flush()
+
+            } catch (e: IOException) {
+
+            } finally {
+                if (inputStream != null) {
+                    inputStream!!.close()
+                }
+
+                if (outputStream != null) {
+                    outputStream!!.close()
+
+                }
+            }
+
+            mediaPlayer1.reset()
+
+            val fis = FileInputStream(tempMp3)
+            mediaPlayer1.setDataSource(fis.getFD())
+
+            mediaPlayer1.prepare()
+
+            mediaPlayer1.start()
+            mediaPlayer2.start()
+            mediaPlayer2.isLooping = true
+
+        } catch (e: IOException) {
+
+        }
+    }
+
     private fun writeResponseBodyToDisk(body: ResponseBody): Boolean {
         try {
             val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
             val subPath = "/"+selected_model_name+"/"
             val filename = et_text.text.toString() +".wav"
+
+            fpath = dirPath + subPath + filename
 
             //디렉토리 없으면 생성
             val dir = File(dirPath)
@@ -209,9 +316,10 @@ class TTSTestActivity : AppCompatActivity() {
                 //통신을 성공적으로 했을 때
                 if(req_type == 1){
                     //다운로드 요청인 경우
-                    if(response.code() == 200){
+                    if (sharee_name==selected_model_name || response.code() == 200){
                         //다운로드 가능
                         writeResponseBodyToDisk(mResponse.body()!!)
+                        Toast.makeText(this@TTSTestActivity, "다운로드 완료", Toast.LENGTH_SHORT).show()
                         bt_share.isEnabled =true
                     }else if(response.code() == 202){
                         //다운로드 불가능 -> 다운로드 요청
@@ -246,7 +354,7 @@ class TTSTestActivity : AppCompatActivity() {
 
                 override fun onResponse(call: Call<Void>, response: Response<Void>) {
                     if (response.isSuccessful) {
-                        model_name_list.add("내 모델")
+                        model_name_list.add(sharee_name)
                     }
                     else{
                     }
@@ -271,7 +379,6 @@ class TTSTestActivity : AppCompatActivity() {
                         for (element in 0 .. listlen - 1) {
                             model_name_list.add(response.body()!![listlen - element - 1].sharer_name)
                         }
-                        Log.i("야","야")
 
                         //이 화면 기능을 사용 가능 (버튼 클릭 활성화 뒷배경 변경)
                         et_text.isEnabled = true

@@ -61,7 +61,16 @@ class AlarmShareFragment : Fragment() {
 
         sharee_name = SharedPreferenceController.getUserName(activity!!)
 
+        setSwipeLayout()
+
         setRecyclerView()
+    }
+
+    private fun setSwipeLayout(){
+        srl_alarm_share_list.setOnRefreshListener {
+            setRecyclerView()
+            srl_alarm_share_list.isRefreshing = false
+        }
     }
 
     private fun setRecyclerView() {

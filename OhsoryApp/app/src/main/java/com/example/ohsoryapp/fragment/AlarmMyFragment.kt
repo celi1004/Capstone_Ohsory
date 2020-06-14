@@ -19,6 +19,7 @@ import com.example.ohsoryapp.network.ApplicationController
 import com.example.ohsoryapp.network.NetworkService
 import com.example.ohsoryapp.post.PostNotificationResponse
 import kotlinx.android.synthetic.main.fragment_alarm_my.*
+import kotlinx.android.synthetic.main.fragment_alarm_share.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -60,7 +61,16 @@ class AlarmMyFragment : Fragment() {
 
         sharer_name = SharedPreferenceController.getUserName(activity!!)
 
+        setSwipeLayout()
+
         setRecyclerView()
+    }
+
+    private fun setSwipeLayout(){
+        srl_alarm_my_list.setOnRefreshListener {
+            setRecyclerView()
+            srl_alarm_my_list.isRefreshing = false
+        }
     }
 
     private fun setRecyclerView() {

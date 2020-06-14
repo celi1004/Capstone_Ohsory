@@ -62,6 +62,8 @@ class ProgressFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         setButtonClickListener()
 
+        user_id = SharedPreferenceController.getUserID(activity!!)
+
         sb_progress.setOnTouchListener(View.OnTouchListener { v, event -> true })
     }
 
@@ -71,10 +73,12 @@ class ProgressFragment : Fragment() {
     }
 
     fun setProgressSeekBar(){
+
         mNetworkManager = NetworkManager(activity!!)
         if(mNetworkManager!!.checkNetworkState()){
             //데이터가 연결되어있으면 서버에서 progress 가져와
             getProgressResponse()
+            setButton2()
         }else{
             //제일 최근에 저장되있는 progress정보 띄워줘
             val progress_degree = SharedPreferenceController.getUserPG(activity!!)
@@ -87,9 +91,27 @@ class ProgressFragment : Fragment() {
 
     }
 
+    private fun setButton2(){
+        val getMyModelIsEnable = networkService.getMyModelIsEnable(UserIdData(user_id))
+
+        getMyModelIsEnable!!.enqueue(object : Callback<Void> {
+            override fun onFailure(call: Call<Void>, t: Throwable) {
+                Log.e("load fail", t.toString())
+            }
+
+            override fun onResponse(call: Call<Void>, response: Response<Void>) {
+                if (response.isSuccessful) {
+                    ll_b2.visibility = View.VISIBLE
+                }
+                else{
+                }
+            }
+        })
+    }
+
     private fun getProgressResponse() {
         //TODO 서버에서 진행률 가져와서 seekbar 그 값으로 바꾸기
-        user_id = SharedPreferenceController.getUserID(activity!!)
+
         val getProgressResponse = networkService.getProgressResponse(user_id)
 
         getProgressResponse!!.enqueue(object : Callback<GetProgressResponse> {
@@ -110,10 +132,10 @@ class ProgressFragment : Fragment() {
                     SharedPreferenceController.setUserAT(activity!!, maudios)
 
                     tv_progress.setText(mprogress.toString()+"%")
-                    setAudioTimeTextView(maudios)
+                    var hour = setAudioTimeTextView(maudios)
 
-                    if (mprogress == 100){
-                        //모델 생성할 수 있으면
+                    if (hour >= 1){
+                        //모델 생성할 수 있으면 == 1시간 이상 데이터가 모이면
                         if(SharedPreferenceController.getUserME(activity!!)==0){
                             //모델이 생성된적 없으면
                             SharedPreferenceController.setUserME(activity!!, 1)
@@ -131,7 +153,7 @@ class ProgressFragment : Fragment() {
         })
     }
 
-    fun setAudioTimeTextView(sec : Float){
+    fun setAudioTimeTextView(sec : Float) : Int{
         var hour: Int = 0
         var min: Int = 0
         var isec : Int = 0
@@ -149,6 +171,8 @@ class ProgressFragment : Fragment() {
             textString += min.toString() +"분 "
         }
         tv_audio_time.setText(isec.toString()+"초 데이터 획득")
+
+        return hour
     }
 
     fun setButtonClickListener(){
@@ -169,6 +193,10 @@ class ProgressFragment : Fragment() {
 
         bt_share.setOnClickListener(){
             showShareDialog()
+        }
+
+        bt_model_study.setOnClickListener{
+            trainModel()
         }
     }
 

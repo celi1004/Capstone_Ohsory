@@ -51,6 +51,13 @@ interface NetworkService{
             @Body fcmData: FCMData
     ): Call<PutFCMKeyUpdateResponse>
 
+    // 내 모델이 생성되어있는지
+    @POST("/auth_app/auth/profile/model")
+    @Headers("Content-Type: application/json")
+    fun getMyModelIsEnable(
+            @Body userIdData: UserIdData
+    ): Call<Void>
+
 
 
 

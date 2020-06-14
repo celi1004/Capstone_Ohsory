@@ -80,7 +80,10 @@ class FilelistFragment : Fragment() {
             }else{
                 flag = true
                 for(i in 0 until dir_name_list.size){
-                    model_name_list.add(dir_name_list[i].name)
+                    var item = dir_name_list[i].name
+                    if(item != "ohsory.txt"){
+                        model_name_list.add(item)
+                    }
                 }
             }
         }
@@ -109,43 +112,47 @@ class FilelistFragment : Fragment() {
         dataList.clear()
 
         val directory = File(mDirPath+'/'+folderName);
-        val dir_name_list : Array<File> = directory.listFiles();
-
-        var fpath : String
-        var fdate : String = ""
-        var ftitle : String
-
-        if(dir_name_list==null){
+        if (directory.listFiles() == null){
 
         }else{
-            if(dir_name_list.size==0){
+            val dir_name_list : Array<File> = directory.listFiles();
+
+            var fpath : String
+            var fdate : String = ""
+            var ftitle : String
+
+            if(dir_name_list==null){
 
             }else{
-                for(i in 0 until dir_name_list.size){
-                    //파일들을 하나하나 돌면서 이름, 생성날짜 가져오기
-                    fpath = dir_name_list[i].path
-                    ftitle = dir_name_list[i].name
+                if(dir_name_list.size==0){
 
-                    try{
-                        val file = File(fpath)
-                        val simpleDataFormat : SimpleDateFormat = SimpleDateFormat("yyyy.MM.dd HH:mm:ss")
-                        fdate = simpleDataFormat.format(file.lastModified())
-                    } catch (e: IOException) {
-                        e.printStackTrace()
+                }else{
+                    for(i in 0 until dir_name_list.size){
+                        //파일들을 하나하나 돌면서 이름, 생성날짜 가져오기
+                        fpath = dir_name_list[i].path
+                        ftitle = dir_name_list[i].name
+
+                        try{
+                            val file = File(fpath)
+                            val simpleDataFormat : SimpleDateFormat = SimpleDateFormat("yyyy.MM.dd HH:mm:ss")
+                            fdate = simpleDataFormat.format(file.lastModified())
+                        } catch (e: IOException) {
+                            e.printStackTrace()
+                        }
+                        dataList.add(FileListData(fpath, fdate, ftitle))
                     }
-                    dataList.add(FileListData(fpath, fdate, ftitle))
                 }
             }
+
+            audioFileRecyclerViewAdapter = AudioFileRecyclerViewAdapter(activity!!, dataList, folderName)
+
+            rv_audio_file.adapter = audioFileRecyclerViewAdapter
+            var mLayoutManager = LinearLayoutManager(activity)
+            mLayoutManager.reverseLayout = true
+            mLayoutManager.stackFromEnd = true
+            //최신 파일부터 보여주도록 역순출력
+            rv_audio_file.layoutManager = mLayoutManager
         }
-
-        audioFileRecyclerViewAdapter = AudioFileRecyclerViewAdapter(activity!!, dataList, folderName)
-
-        rv_audio_file.adapter = audioFileRecyclerViewAdapter
-        var mLayoutManager = LinearLayoutManager(activity)
-        mLayoutManager.reverseLayout = true
-        mLayoutManager.stackFromEnd = true
-        //최신 파일부터 보여주도록 역순출력
-        rv_audio_file.layoutManager = mLayoutManager
     }
 
 }

@@ -164,12 +164,9 @@ class AdditionalRecordingActivity : AppCompatActivity() {
                 folder.mkdir()
             }
 
-            val now = System.currentTimeMillis()
-            val date = Date(now)
-            val sdf = SimpleDateFormat("MMdd_hhmmss")
-            val getTime = sdf.format(date)
+            var nowpos = mLayoutManager.findLastVisibleItemPosition();
 
-            mFileName = getTime + ".wav"
+            mFileName = dataList[nowpos] + ".wav"
             mFilePath = "/sdcard/AudioRecorder/" + mFileName
 
             recorder.setFilename(mFileName)

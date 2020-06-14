@@ -86,25 +86,29 @@ class MainActivity : AppCompatActivity() {
             //파일 서버로 보내고
 
             val directory = File(mDirPath);
-            val dir_name_list : Array<File> = directory.listFiles();
 
-            var fpath : String
-
-            if(dir_name_list==null){
+            if(directory.listFiles() == null){
 
             }else{
-                if(dir_name_list.size==0){
+                val dir_name_list : Array<File> = directory.listFiles();
+
+                var fpath : String
+
+                if(dir_name_list==null){
 
                 }else{
-                    for(i in 0 until dir_name_list.size){
-                        //파일들을 하나하나 돌면서 이름, 생성날짜 가져오기
-                        fpath = dir_name_list[i].path
+                    if(dir_name_list.size==0){
 
-                        uploadFile(fpath)
+                    }else{
+                        for(i in 0 until dir_name_list.size){
+                            //파일들을 하나하나 돌면서 이름, 생성날짜 가져오기
+                            fpath = dir_name_list[i].path
+
+                            uploadFile(fpath)
+                        }
                     }
                 }
             }
-
 
             //그 파일 지워
         }else{
@@ -114,6 +118,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun uploadFile(fpath : String){
+        //날짜 (숫자 언더바)로 이루워진 데이터는 전화녹음
+        //한국어로 되어있는 데이터는 추가녹음
 
         val file = File(fpath)
 

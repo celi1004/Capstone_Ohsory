@@ -26,8 +26,10 @@ import java.util.*
 import kotlin.collections.ArrayList
 import androidx.core.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import androidx.core.content.ContextCompat
 import com.example.ohsoryapp.data.FileDownloadData
 import com.example.ohsoryapp.data.NotificationData
+import com.example.ohsoryapp.data.UserIdData
 import com.example.ohsoryapp.get.GetFileDownloadResponse
 import com.example.ohsoryapp.post.PostNotificationResponse
 import okhttp3.ResponseBody
@@ -50,11 +52,15 @@ class TTSTestActivity : AppCompatActivity() {
     var model_name_list = ArrayList<String>()
     var selected_model_name = ""
     var sharee_name = ""
+    var user_id = 0
+
+    lateinit var mResponse: Response<ResponseBody>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ttstest)
 
+        user_id = SharedPreferenceController.getUserID(this)
         sharee_name = SharedPreferenceController.getUserName(this)
 
         setSpinnser()
@@ -65,50 +71,16 @@ class TTSTestActivity : AppCompatActivity() {
     fun setButtonClickListener(){
 
         bt_hear.setOnClickListener(){
+            bt_share.isEnabled =false
+            bt_dowload.isEnabled = true
+            sendAlarm(0, et_text.text.toString())
+
             downloadFile(et_text.text.toString())
             //서버에 듣고 싶은 문장 보내고 받아오고 들려주기
-            Toast.makeText(this@TTSTestActivity, et_text.text.toString(), Toast.LENGTH_SHORT).show()
-            sendAlarm(0, et_text.text.toString())
         }
 
         bt_dowload.setOnClickListener(){
-            //서버에서 받아온 파일 내장 디비에
             sendAlarm(1, et_text.text.toString())
-
-            val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
-            val subPath = "/"+selected_model_name+"/"
-            val filename = et_text.text.toString() +".wav"
-
-            //디렉토리 없으면 생성
-            val dir = File(dirPath)
-            if (!dir.exists()) {
-                dir.mkdir()
-            }
-
-            val subdir = File(dir, subPath)
-            if (!subdir.exists()) {
-                subdir.mkdir()
-            }
-
-            //파일객체
-            val file = File(subdir, filename)
-            try {
-                //쓰기객체
-                val fos = FileOutputStream(file)
-                //버퍼 - 1MB씩쓰기
-                val buffer = ByteArray(1 * 1024 * 1024)
-                for (i in 0..9) {    //10MB
-                    fos.write(buffer, 0, buffer.size)    //1MB씩 10번쓰기
-                    fos.flush()
-                }
-                val len = 0
-
-                fos.close()
-
-                Toast.makeText(this, "다운로드 완료", Toast.LENGTH_SHORT).show()
-            } catch (e: IOException) {
-                e.printStackTrace()
-            }
         }
 
         bt_share.setOnClickListener(){
@@ -118,7 +90,7 @@ class TTSTestActivity : AppCompatActivity() {
     }
 
     private fun downloadFile(req_text : String){
-        fileDownloadData = FileDownloadData(sharee_name, req_text) //FileDownloadData(selected_model_name, req_text)
+        fileDownloadData = FileDownloadData(selected_model_name, req_text)
         val getFileDownload = networkService.getFileDownload(fileDownloadData)
 
         getFileDownload!!.enqueue(object : Callback<GetFileDownloadResponse> {
@@ -142,8 +114,9 @@ class TTSTestActivity : AppCompatActivity() {
                         override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
                             //통신을 성공적으로 했을 때
                             if (response.isSuccessful) {
-                                val writtenToDisk = writeResponseBodyToDisk(response.body()!!)
-                                Log.i("success?", writtenToDisk.toString())
+                                mResponse = response
+                                Log.i("옹","옹")
+                                //val writtenToDisk = writeResponseBodyToDisk(response.body()!!)
                             } else {
                                 Log.e("서버에러" + response.code().toString(), "파일 다운로드 실패")
                             }
@@ -159,7 +132,7 @@ class TTSTestActivity : AppCompatActivity() {
     private fun writeResponseBodyToDisk(body: ResponseBody): Boolean {
         try {
             val dirPath = Environment.getExternalStorageDirectory().toString() + "/OhSory"
-            val subPath = "/"+sharee_name+"/"
+            val subPath = "/"+selected_model_name+"/"
             val filename = et_text.text.toString() +".wav"
 
             //디렉토리 없으면 생성
@@ -234,10 +207,23 @@ class TTSTestActivity : AppCompatActivity() {
 
             override fun onResponse(call: Call<PostNotificationResponse>, response: Response<PostNotificationResponse>) {
                 //통신을 성공적으로 했을 때
-                if (response.isSuccessful) {
-                    Toast.makeText(this@TTSTestActivity, notificationData.toString(), Toast.LENGTH_SHORT).show()
-                } else {
-                    Log.e("알람" + response.code().toString(), "서버 에러")
+                if(req_type == 1){
+                    //다운로드 요청인 경우
+                    if(response.code() == 200){
+                        //다운로드 가능
+                        writeResponseBodyToDisk(mResponse.body()!!)
+                        bt_share.isEnabled =true
+                    }else if(response.code() == 202){
+                        //다운로드 불가능 -> 다운로드 요청
+                        Toast.makeText(this@TTSTestActivity, "다운로드 요청을 하였습니다. 알림목록에서 확인하세요", Toast.LENGTH_SHORT).show()
+                    }
+                }else{
+                    //듣기 요청인 경우
+                    if (response.isSuccessful) {
+
+                    }else{
+                        Log.e("알람" + response.code().toString(), "요청 에러")
+                    }
                 }
             }
         })
@@ -250,7 +236,22 @@ class TTSTestActivity : AppCompatActivity() {
         if(mNetworkManager!!.checkNetworkState()){
             //데이터가 연결되어있으면
 
-            //만약 내가 전 화면에서 progress가 100이라면 내 모델 사용 가능
+            //내 모델 사용 가능한가?
+            val getMyModelIsEnable = networkService.getMyModelIsEnable(UserIdData(user_id))
+
+            getMyModelIsEnable!!.enqueue(object : Callback<Void> {
+                override fun onFailure(call: Call<Void>, t: Throwable) {
+                    Log.e("load fail", t.toString())
+                }
+
+                override fun onResponse(call: Call<Void>, response: Response<Void>) {
+                    if (response.isSuccessful) {
+                        model_name_list.add("내 모델")
+                    }
+                    else{
+                    }
+                }
+            })
             //model_name_list.add("내 모델")
 
             //서버랑 통신해서 내가 가진 모델 유저 네임들 나타내기
@@ -270,6 +271,17 @@ class TTSTestActivity : AppCompatActivity() {
                         for (element in 0 .. listlen - 1) {
                             model_name_list.add(response.body()!![listlen - element - 1].sharer_name)
                         }
+                        Log.i("야","야")
+
+                        //이 화면 기능을 사용 가능 (버튼 클릭 활성화 뒷배경 변경)
+                        et_text.isEnabled = true
+                        sp_model_name.isEnabled = true
+
+                        bt_hear.isEnabled= true
+
+                        bt_hear.background = ContextCompat.getDrawable(this@TTSTestActivity, R.drawable.button_selector)
+                        bt_dowload.background = ContextCompat.getDrawable(this@TTSTestActivity, R.drawable.button_selector)
+                        bt_share.background = ContextCompat.getDrawable(this@TTSTestActivity, R.drawable.button_selector)
                     }
                     else{
                         if(response.code() == 400){
@@ -285,6 +297,7 @@ class TTSTestActivity : AppCompatActivity() {
                     arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
                     sp_model_name.adapter = arrayAdapter
+                    selected_model_name = model_name_list[0]
 
                     //볼 파일이 있을 때만 클릭리스너 작동
                     sp_model_name.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{

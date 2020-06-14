@@ -52,7 +52,7 @@ class AudioFileRecyclerViewAdapter(val ctx: Context, val dataList: ArrayList<Fil
         holder.title.text = dataList[position].title
 
         holder.body.setOnClickListener{
-            
+
             mediaPlayer.reset()
 
             val fis = FileInputStream(File(dataList[position].path))

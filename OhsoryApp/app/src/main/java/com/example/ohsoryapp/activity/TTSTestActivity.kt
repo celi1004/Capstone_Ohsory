@@ -45,6 +45,7 @@ import java.io.*
 
 
 
+
 class TTSTestActivity : AppCompatActivity() {
 
     lateinit var mediaPlayer1 : MediaPlayer
@@ -67,6 +68,8 @@ class TTSTestActivity : AppCompatActivity() {
     var fpath = ""
 
     lateinit var mResponse: Response<ResponseBody>
+
+    var filelink = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -141,7 +144,9 @@ class TTSTestActivity : AppCompatActivity() {
                 //통신을 성공적으로 했을 때
                 if (response.isSuccessful) {
 
-                    val getFileDownloadUseUrl = networkService.getFileDownloadUseUrl(response.body()!!.tts_file)
+                    filelink = response.body()!!.tts_file
+
+                    val getFileDownloadUseUrl = networkService.getFileDownloadUseUrl(filelink)
 
                     getFileDownloadUseUrl!!.enqueue(object : Callback<ResponseBody> {
                         //통신을 못 했을 때
@@ -171,7 +176,6 @@ class TTSTestActivity : AppCompatActivity() {
     }
 
     private fun playResponseBody(body: ResponseBody){
-
         try {
             // todo change the file location/name according to your needs
             val tempMp3 = File.createTempFile("temptemp", "wav", getCacheDir());
@@ -183,10 +187,12 @@ class TTSTestActivity : AppCompatActivity() {
             try {
                 val fileReader = ByteArray(4096)
 
+
                 val fileSize = body.contentLength()
                 var fileSizeDownloaded: Long = 0
 
-                inputStream = body.byteStream()
+
+                inputStream =body.byteStream()
                 outputStream = FileOutputStream(tempMp3)
 
                 while (true) {
@@ -265,11 +271,14 @@ class TTSTestActivity : AppCompatActivity() {
                 val fileSize = body.contentLength()
                 var fileSizeDownloaded: Long = 0
 
+                Log.i("아", body.byteStream().toString())
                 inputStream = body.byteStream()
                 outputStream = FileOutputStream(futureStudioIconFile)
 
                 while (true) {
                     val read = inputStream!!.read(fileReader)
+
+                    Log.i("아2", read.toString())
 
                     if (read == -1) {
                         break
@@ -318,7 +327,23 @@ class TTSTestActivity : AppCompatActivity() {
                     //다운로드 요청인 경우
                     if (sharee_name==selected_model_name || response.code() == 200){
                         //다운로드 가능
-                        writeResponseBodyToDisk(mResponse.body()!!)
+                        val getFileDownloadUseUrl = networkService.getFileDownloadUseUrl(filelink)
+
+                        getFileDownloadUseUrl!!.enqueue(object : Callback<ResponseBody> {
+                            //통신을 못 했을 때
+                            override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+                                Log.e("load fail", t.toString())
+                            }
+
+                            override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+                                //통신을 성공적으로 했을 때
+                                if (response.isSuccessful) {
+                                    val writtenToDisk = writeResponseBodyToDisk(response.body()!!)
+                                } else {
+                                    Log.e("서버에러" + response.code().toString(), "파일 다운로드 실패")
+                                }
+                            }
+                        })
                         Toast.makeText(this@TTSTestActivity, "다운로드 완료", Toast.LENGTH_SHORT).show()
                         bt_share.isEnabled =true
                     }else if(response.code() == 202){

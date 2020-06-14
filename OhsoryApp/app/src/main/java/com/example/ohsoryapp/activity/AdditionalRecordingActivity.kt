@@ -164,7 +164,7 @@ class AdditionalRecordingActivity : AppCompatActivity() {
                 folder.mkdir()
             }
 
-            var nowpos = mLayoutManager.findLastVisibleItemPosition();
+            var nowpos = mLayoutManager.findLastVisibleItemPosition() % dataList.size
 
             mFileName = dataList[nowpos] + ".wav"
             mFilePath = "/sdcard/AudioRecorder/" + mFileName

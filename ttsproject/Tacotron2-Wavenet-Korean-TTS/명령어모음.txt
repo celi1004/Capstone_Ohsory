@@ -1,0 +1,35 @@
+python preprocess.py --num_workers 10 --name son --in_dir .\datasets\son --out_dir .\data\son
+
+
+python preprocess.py --num_workers 10 --name moon --in_dir .\datasets\moon --out_dir .\data\moon
+
+python preprocess.py --num_workers 10 --name 001002 --in_dir .\datasets\001002 --out_dir .\data\001002
+
+
+python train_tacotron2.py
+
+
+python train_vocoder.py
+
+tensorboard --logdir=logdir-tacotron2\001M+002M+003M+004M_2020-05-10_21-18-59
+
+tensorboard --logdir=logdir-tacotron2\001M+002M+003M+004M+005M+006M+007F+008M+009M+010M_2020-05-14_16-29-56
+
+python synthesizer.py --load_path logdir-tacotron2/moon+son_2019-02-27_00-21-42 --num_speakers 2 --speaker_id 0 --text "오스트랄로피테쿠스 아파렌시스는 멸종된 사람족 종으로, 현재에는 뼈 화석이 발견되어 있다"
+python synthesizer.py --load_path logdir-tacotron2/moon+son_2019-02-27_00-21-42 --num_speakers 2 --speaker_id 1 --text "오스트랄로피테쿠스 아파렌시스는 멸종된 사람족 종으로, 현재에는 뼈 화석이 발견되어 있다"
+python synthesizer.py --load_path logdir-tacotron2/kaggle_2020-04-25_17-09-55 --num_speakers 1 --speaker_id 0 --text "안녕하세요, 캡스톤 5조 발표용 음성합성 테스트입니다."
+"유아 시기의 한글 교육은 단순한 읽기 쓰기의 발달이 목적이 아니에요."
+
+python synthesizer.py --load_path logdir-tacotron2\001M+002M+003M+004M_2020-05-10_21-18-59 --num_speakers 4 --speaker_id 0 --text "안녕하세요, 캡스톤 5조 발표용 음성합성 테스트입니다."
+
+python synthesizer.py --load_path logdir-tacotron2\001M+002M+003M+004M+005M+006M+007F+008M+009M+010M_2020-05-14_16-29-56 --num_speakers 10 --speaker_id 3 --text "안녕하세요, 캡스톤 5조 발표용 음성합성 테스트입니다."
+python synthesizer.py --load_path logdir-tacotron2\001M+002M+003M+004M+005M+006M+007F+008M+009M+010M_2020-05-14_16-29-56 --num_speakers 10 --speaker_id 3 --text "안녕하세요."
+
+python synthesizer.py --load_path logdir-tacotron2\001M_2020-05-19_17-28-30 --num_speakers 1 --speaker_id 0 --text "안녕하세요."
+
+python synthesizer.py --load_path logdir-tacotron2\00123_2020-05-24_03-51-26 --num_speakers 1 --speaker_id 0 --text "안녕하세요."
+
+python generate.py --mel ./logdir-wavenet/mel-moon.npy --gc_cardinality 2 --gc_id 0 ./logdir-wavenet/train/2019-03-27T20-27-18
+python generate.py --mel ./logdir-wavenet/mel-son.npy --gc_cardinality 2 --gc_id 1 ./logdir-wavenet/train/2019-03-27T20-27-18
+python generate.py --mel ./logdir-wavenet/moon-Aust.npy --gc_cardinality 2 --gc_id 0 ./logdir-wavenet/train/2019-03-27T20-27-18
+python generate.py --mel ./logdir-wavenet/son-Aust.npy --gc_cardinality 2 --gc_id 1 ./logdir-wavenet/train/2019-03-27T20-27-18

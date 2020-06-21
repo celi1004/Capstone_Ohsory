@@ -1,0 +1,998 @@
+1-audio.npy|1-mel.npy|1-linear.npy|75300|251|그렇지 않아도 영호 형님이 주의를 주시더라구요|1.npz
+10-audio.npy|10-mel.npy|10-linear.npy|62100|207|아이폰4 범퍼 케이스 추천 좀 부탁드립니다|10.npz
+100-audio.npy|100-mel.npy|100-linear.npy|81600|272|요한 사람이 되고 싶었는데 필요한 사람이 먼저 되었어요|100.npz
+101-audio.npy|101-mel.npy|101-linear.npy|75300|251|여보세요|101.npz
+102-audio.npy|102-mel.npy|102-linear.npy|50700|169|야 니가 웬일로 나한테 전화를 했어|102.npz
+103-audio.npy|103-mel.npy|103-linear.npy|29100|97|이런 상상을 했다|103.npz
+104-audio.npy|104-mel.npy|104-linear.npy|61200|204|햄님 오늘 하루도 뜻깊은 하루 되세요|104.npz
+105-audio.npy|105-mel.npy|105-linear.npy|61200|204|아이패드 관심 있는데 꼭 참고하세요|105.npz
+106-audio.npy|106-mel.npy|106-linear.npy|85200|284|비트를 타면서 나의 메모를 추가하는 법 좀 가르쳐 주세요|106.npz
+107-audio.npy|107-mel.npy|107-linear.npy|93600|312|아 그렇군요 전 제가 잘못하는 건 줄 알았어요 고맙습니다|107.npz
+108-audio.npy|108-mel.npy|108-linear.npy|75300|251|아이폰 실시간 방송 보는 방법이 있기는 했습니다|108.npz
+109-audio.npy|109-mel.npy|109-linear.npy|84900|283|기특하네요 선한 결과가 있을 거예요 돌아가겠습니다|109.npz
+11-audio.npy|11-mel.npy|11-linear.npy|108600|362|모두 모두 풍성하고 즐거운 명절 되시고 안전한 여행되시길 바랍니다|11.npz
+110-audio.npy|110-mel.npy|110-linear.npy|89400|298|이에 도움이 되었다니 다행이네요 3개 고리를 기다려 틀어라|110.npz
+111-audio.npy|111-mel.npy|111-linear.npy|90900|303|감사 회복은 행복한 삶을 영위하기 위해서 있는 거 아닌가요|111.npz
+112-audio.npy|112-mel.npy|112-linear.npy|44700|149|제가 틀릴 수도 있으니 확인해 보세요|112.npz
+113-audio.npy|113-mel.npy|113-linear.npy|102600|342|행장 눈물이 나려 하네요 개고기를 먹지 말아야 하는 노래 좀 보세요|113.npz
+114-audio.npy|114-mel.npy|114-linear.npy|75600|252|별말씀 을요 또 궁금한 건 언제든지 물어보세요|114.npz
+115-audio.npy|115-mel.npy|115-linear.npy|72600|242|유시민 후보 때문에 눈물이 앞을 가리고 있습니다|115.npz
+116-audio.npy|116-mel.npy|116-linear.npy|78300|261|미래를 예측하는 가장 좋은 방법은 미래를 발명하는 것|116.npz
+117-audio.npy|117-mel.npy|117-linear.npy|78300|261|한국 국민들은 언어 영역 공부를 열심히 한다|117.npz
+118-audio.npy|118-mel.npy|118-linear.npy|60000|200|오늘 행복한 사랑을 할 수 있으면 좋으련만|118.npz
+119-audio.npy|119-mel.npy|119-linear.npy|90900|303|이젠 그 여자의 미래를 위해 제가 좋아졌으니 잘 찾아보세요|119.npz
+12-audio.npy|12-mel.npy|12-linear.npy|102300|341|기분 좋아져서 저도 기분이 좋네요 제가 기분 좋았던 이유는 따로 있음|12.npz
+120-audio.npy|120-mel.npy|120-linear.npy|107100|357|역시 올라왔습니다 최종 버전과 크게 다르지 않을 것으로 생각되네요|120.npz
+121-audio.npy|121-mel.npy|121-linear.npy|73800|246|힘내자구요 대한민국의 사는게 다 그렇지 뭐|121.npz
+122-audio.npy|122-mel.npy|122-linear.npy|87600|292|고맙습니다 선배님 이셨네요 즐거운 월요일 보내시기 바랍니다|122.npz
+123-audio.npy|123-mel.npy|123-linear.npy|76800|256|시간 맞을 때 알려 주세요 기분 좋게 고기나 먹어요|123.npz
+124-audio.npy|124-mel.npy|124-linear.npy|95700|319|내 생각보다 엄청나네요 없나요 즐거운 하루 되세요|124.npz
+125-audio.npy|125-mel.npy|125-linear.npy|60600|202|오후 2시에 약속이 있어서 가능합니다|125.npz
+126-audio.npy|126-mel.npy|126-linear.npy|71700|239|예 오늘도 커피 당과 함께 하는 즐거운 하루 되세요|126.npz
+127-audio.npy|127-mel.npy|127-linear.npy|66300|221|선팔 감사합니다 타임 라인에서 자주 만나요|127.npz
+128-audio.npy|128-mel.npy|128-linear.npy|60000|200|내 행복하고 즐거운 하루 보내시길 바라네요|128.npz
+129-audio.npy|129-mel.npy|129-linear.npy|87300|291|돌아오기 싫어서 죽을 것 같다고 생각했는데 무사 귀환하셨군요|129.npz
+13-audio.npy|13-mel.npy|13-linear.npy|72000|240|아 빨리 치료하셔야 해요 이런 관계 있다던데|13.npz
+130-audio.npy|130-mel.npy|130-linear.npy|87000|290|트윗 시작 한지 5개월 정도 되어갑니다 앞으로 잘 부탁드립니다|130.npz
+131-audio.npy|131-mel.npy|131-linear.npy|93300|311|그것보다 중요한 건 질문자님이 실습을 하고 있다는 건데요|131.npz
+132-audio.npy|132-mel.npy|132-linear.npy|65700|219|별말씀을 녀 제가 더 잘 부탁드려요|132.npz
+133-audio.npy|133-mel.npy|133-linear.npy|84600|282|운동 세 번이나 괜찮다면 상담이라도 한 번 받아 보세요|133.npz
+134-audio.npy|134-mel.npy|134-linear.npy|72300|241|아 그러셨구나 허허까지 기다리기 너무 힘들었어요|134.npz
+135-audio.npy|135-mel.npy|135-linear.npy|77700|259|나는 자신의 창조물을 심판한다는 신을 상상할 수 없다|135.npz
+136-audio.npy|136-mel.npy|136-linear.npy|81000|270|가나가 공정 사회를 이룩하자고 하셔서 어쩔 수 없었어요|136.npz
+137-audio.npy|137-mel.npy|137-linear.npy|99300|331|지금 이 시간이면 거긴 낮이겠군요 해외 파티 재미나게 하세요|137.npz
+138-audio.npy|138-mel.npy|138-linear.npy|62100|207|재미있게 보셔요 이벤트 참여해 주셔서 감사|138.npz
+139-audio.npy|139-mel.npy|139-linear.npy|69300|231|어떤 방법으로 마케팅이 진행되는지 궁금합니다|139.npz
+14-audio.npy|14-mel.npy|14-linear.npy|61500|205|집에 가는 길이에요 엄청 쌀쌀하네요|14.npz
+140-audio.npy|140-mel.npy|140-linear.npy|73500|245|예배하는 이메일이나 전화로 노래를 부릅니다|140.npz
+141-audio.npy|141-mel.npy|141-linear.npy|71100|237|용량이 적다고 들어갔잖아요 계정 하나 만드세요|141.npz
+142-audio.npy|142-mel.npy|142-linear.npy|80700|269|들어가겠다는 꿈을 갖고 도전하시면 이루어 주시리라 믿어요|142.npz
+143-audio.npy|143-mel.npy|143-linear.npy|87300|291|좋은 말씀 고맙습니다 편안하고 행복한 저녁 시간 보내세요|143.npz
+144-audio.npy|144-mel.npy|144-linear.npy|76500|255|공기업 빚을 다 갚을 수 있는 아주 좋은 뒤에야 군요|144.npz
+145-audio.npy|145-mel.npy|145-linear.npy|79500|265|지난 토요일 제부도 같은 장소에서 찍은 사진입니다|145.npz
+146-audio.npy|146-mel.npy|146-linear.npy|108000|360|장동건 고소영 커플이 결혼 5개월 만에 득남하셨다고 하네요 안 갑니다|146.npz
+147-audio.npy|147-mel.npy|147-linear.npy|73800|246|오늘은 휘성 노래만 듣고 있네요 노래 정말 좋네요|147.npz
+148-audio.npy|148-mel.npy|148-linear.npy|87300|291|랩 하면 좋은 내용 알려 주시면 큰 도움이 될 것 같습니다|148.npz
+149-audio.npy|149-mel.npy|149-linear.npy|60600|202|이 시간까지 깨어 있으면 배고파서 안 되는데|149.npz
+15-audio.npy|15-mel.npy|15-linear.npy|101100|337|그래도 우리는 대하 고 있어야 하지 않을까요 기대가 무너지더라도 말해줘|15.npz
+150-audio.npy|150-mel.npy|150-linear.npy|80400|268|보쌈 맛있겠어요 즐거운 저녁 즐거운 추석 되세요|150.npz
+151-audio.npy|151-mel.npy|151-linear.npy|55200|184|벌써 9월의 마지막이라니 믿기지 않아|151.npz
+152-audio.npy|152-mel.npy|152-linear.npy|64200|214|과연 그럴까요 악마를 버리시면 안 됩니다|152.npz
+153-audio.npy|153-mel.npy|153-linear.npy|60000|200|그를 키우는 운동을 해야 된다|153.npz
+154-audio.npy|154-mel.npy|154-linear.npy|85800|286|오 그런가여 저도 지금 살까 말까 고민 중이라는|154.npz
+155-audio.npy|155-mel.npy|155-linear.npy|66600|222|진짜요 호 8강 진출했으면 좋겠네요|155.npz
+156-audio.npy|156-mel.npy|156-linear.npy|96300|321|감사합니다 도움이 많이 됐으면 좋겠어요 궁금한 건 언제나 물어보세요|156.npz
+157-audio.npy|157-mel.npy|157-linear.npy|99900|333|남편분도 트윗 하시나 봐요 산타 할아버지가 아이패드를 주셨으면 좋겠다|157.npz
+158-audio.npy|158-mel.npy|158-linear.npy|99000|330|나 전공의가 되는 게 아니군요 전 인천인데 함 시도해봐야겠어요|158.npz
+159-audio.npy|159-mel.npy|159-linear.npy|82500|275|저는 눈을 가지게 되면 보려구요 즐거운 하루 보내세요|159.npz
+16-audio.npy|16-mel.npy|16-linear.npy|102000|340|곰 파를 확인하는 방법을 몰라서 그건 잘 모르겠네요 아마 있을 듯|16.npz
+160-audio.npy|160-mel.npy|160-linear.npy|70800|236|안타깝습니다 허걱 지금 틀고 있는게 뭐야|160.npz
+161-audio.npy|161-mel.npy|161-linear.npy|61200|204|왕성하게 활동하시는 모습 보기 좋네요|161.npz
+162-audio.npy|162-mel.npy|162-linear.npy|104100|347|오늘 하루 마무리 잘 되어 가는지요 38 고맙습니다 맞팔 합니다|162.npz
+163-audio.npy|163-mel.npy|163-linear.npy|31800|106|훌륭한 카메라 군요|163.npz
+164-audio.npy|164-mel.npy|164-linear.npy|66300|221|교토 지방부터 수행하면 딱좋겠네요|164.npz
+165-audio.npy|165-mel.npy|165-linear.npy|69000|230|맞팔 완료 오늘 하루 행복하게 마무리하세요|165.npz
+166-audio.npy|166-mel.npy|166-linear.npy|64500|215|하지만 고객 센터로 전화하면 아주 빠릅니다|166.npz
+167-audio.npy|167-mel.npy|167-linear.npy|67200|224|다음주 금요일에 오픈 하우스 하는데 꼭 오세요|167.npz
+168-audio.npy|168-mel.npy|168-linear.npy|84900|283|동영상이나 음악 재생하는 거예요 이것도 다운 받아야 하나요|168.npz
+169-audio.npy|169-mel.npy|169-linear.npy|60300|201|지금도 충격에서 헤어나지 못하고 있어요|169.npz
+17-audio.npy|17-mel.npy|17-linear.npy|95400|318|간절히 바라면 이루어진데요 그 마음만 변치 않으시면 될 것 같아요|17.npz
+170-audio.npy|170-mel.npy|170-linear.npy|73500|245|기분 좋아 보이시네요 즐거운 한 주 시작되세요|170.npz
+171-audio.npy|171-mel.npy|171-linear.npy|72000|240|팔로 감사합니다 맞팔 했구요 굿 잠 되세요|171.npz
+172-audio.npy|172-mel.npy|172-linear.npy|102900|343|누구에게 나 위기가 있다 그러나 누구나 기회로 만들 수 있는 것은 아니다|172.npz
+173-audio.npy|173-mel.npy|173-linear.npy|65400|218|그런데 문제는 호텔 가서 교육을 받아야 합니다|173.npz
+174-audio.npy|174-mel.npy|174-linear.npy|86400|288|내 대학뿐 아니라 케이블만 연결하면 다른 걸로 아는데요|174.npz
+175-audio.npy|175-mel.npy|175-linear.npy|75600|252|옷 정말 다행입니다 맛있는 거 많이 해 드리세요|175.npz
+176-audio.npy|176-mel.npy|176-linear.npy|68700|229|시간 잘 맞춰서 오세요 혹 놀아드릴께요|176.npz
+177-audio.npy|177-mel.npy|177-linear.npy|52800|176|저는 어떤 가치든 맛있게 먹을 수 있습니다|177.npz
+178-audio.npy|178-mel.npy|178-linear.npy|76500|255|하나라도 보일 때도 있고 안 보일 때도 있어|178.npz
+179-audio.npy|179-mel.npy|179-linear.npy|75600|252|오늘 서울은 비도 안 오고 날씨가 선선하니 좋네요|179.npz
+18-audio.npy|18-mel.npy|18-linear.npy|92700|309|감사합니다 더욱더 친근하게 다가갈 수 있도록 노력하겠습니다|18.npz
+180-audio.npy|180-mel.npy|180-linear.npy|68100|227|반갑습니다 맞팔 합니다 좋은 저녁 되시기를|180.npz
+181-audio.npy|181-mel.npy|181-linear.npy|72000|240|경산 당 곱창 여행 한 번 더 봐야겠네요|181.npz
+182-audio.npy|182-mel.npy|182-linear.npy|63000|210|참고로 저희 회사 사장님 퇴진입니다|182.npz
+183-audio.npy|183-mel.npy|183-linear.npy|63300|211|응 부모님이 더 긴장하시는 것 같습니다|183.npz
+184-audio.npy|184-mel.npy|184-linear.npy|96600|322|내 희망을 봤다 끝까지 지켜보려고 합니다 좋은 일 있겠다|184.npz
+185-audio.npy|185-mel.npy|185-linear.npy|71400|238|아 극장판 준비하셨고 그냥 따뜻하겠어요|185.npz
+186-audio.npy|186-mel.npy|186-linear.npy|79800|266|안녕 잘 잤어요 신나는 금요일 되시기 바랍니다|186.npz
+187-audio.npy|187-mel.npy|187-linear.npy|81000|270|알렌 하시는 분들에게 추첨을 통해 티셔츠를 쏩니다|187.npz
+188-audio.npy|188-mel.npy|188-linear.npy|57300|191|오늘 반가웠구요 앞으로도 자주 대역|188.npz
+189-audio.npy|189-mel.npy|189-linear.npy|66900|223|가능성 있는 저의 내용을 물어보시는 건 아니죠|189.npz
+19-audio.npy|19-mel.npy|19-linear.npy|59100|197|감사합니다 좋은 친구 되어 보자구요|19.npz
+190-audio.npy|190-mel.npy|190-linear.npy|103200|344|남자 친구가 어학연수를 가서 요즘엔 저 자신에게 집중하고 있어요|190.npz
+191-audio.npy|191-mel.npy|191-linear.npy|66300|221|회원 가입을 안 하고 구하는 건 좀 어렵다고 합니다|191.npz
+192-audio.npy|192-mel.npy|192-linear.npy|79500|265|아이패드 사용하고 있다고 합니다 참 기쁜 소식입니다|192.npz
+193-audio.npy|193-mel.npy|193-linear.npy|56700|189|프런트에서 꼭 잡아줄 거라 생각합니다|193.npz
+194-audio.npy|194-mel.npy|194-linear.npy|66600|222|나는 한 살 더 먹어도 20대를 유지할 수 있습니다|194.npz
+195-audio.npy|195-mel.npy|195-linear.npy|89100|297|오랜만에 파란 하늘이 보이는 거 같네요 제가 하루 보내세요|195.npz
+196-audio.npy|196-mel.npy|196-linear.npy|63600|212|만남 저녁때 돼지가 행복한 밤 되시길|196.npz
+197-audio.npy|197-mel.npy|197-linear.npy|64800|216|흑백사진 그때 그 시절로 돌아가고 싶네요|197.npz
+198-audio.npy|198-mel.npy|198-linear.npy|64800|216|여름 정말 덥군 죽을 수도 있겠다|198.npz
+199-audio.npy|199-mel.npy|199-linear.npy|101400|338|몸이 너무 피곤합니다 좋은 밤 보내세요 내일도 바쁠 거 같네요|199.npz
+2-audio.npy|2-mel.npy|2-linear.npy|58800|196|그 와중에 하시니 더 대단하신 듯해요|2.npz
+20-audio.npy|20-mel.npy|20-linear.npy|69000|230|labview 문학소녀 날씨가 따뜻해서 좋네요|20.npz
+200-audio.npy|200-mel.npy|200-linear.npy|96900|323|내일 아침에 일어나셔서 우리가 진짜 듣던 한것으로 오해할 수 있는데요|200.npz
+201-audio.npy|201-mel.npy|201-linear.npy|73500|245|데이터 이용해서 수학 공부 하자 모임을 개설하였습니다|201.npz
+202-audio.npy|202-mel.npy|202-linear.npy|58200|194|메모지 지갑에 넣어 다니고 싶네요|202.npz
+203-audio.npy|203-mel.npy|203-linear.npy|79500|265|카페 마 싯당 내 앞으로 당 안에서 자주 돼요|203.npz
+204-audio.npy|204-mel.npy|204-linear.npy|51300|171|어나 지금 바쁘니까 나중에 통화해|204.npz
+205-audio.npy|205-mel.npy|205-linear.npy|49500|165|안다 웬만하면 전화 하장|205.npz
+206-audio.npy|206-mel.npy|206-linear.npy|95400|318|일본에 있는 동안 한국말 안 쓰기로 작정했는데 엄마 점촌 안과|206.npz
+207-audio.npy|207-mel.npy|207-linear.npy|70800|236|그런데 전화하는 사람이 또 엄마만 있는게 아니잖아|207.npz
+208-audio.npy|208-mel.npy|208-linear.npy|69900|233|근데 따져 보면 친구들은 전화가 안 온다|208.npz
+209-audio.npy|209-mel.npy|209-linear.npy|47100|157|내가 미용해봤자 얼마나 한다고|209.npz
+21-audio.npy|21-mel.npy|21-linear.npy|74100|247|아마 그건 트위터의 문제가 있어서 그랬던 겁니다|21.npz
+210-audio.npy|210-mel.npy|210-linear.npy|53400|178|이런 게 다 마음에 쌓이는 거야 안 그래|210.npz
+211-audio.npy|211-mel.npy|211-linear.npy|86400|288|게다가 종종 연락 뜸해지더니 이젠 단체 문자 오는 거야|211.npz
+212-audio.npy|212-mel.npy|212-linear.npy|85500|285|행복한 하루 보내라|212.npz
+213-audio.npy|213-mel.npy|213-linear.npy|58800|196|그럼 혼자 갔고 남편이 고민하는 거야|213.npz
+214-audio.npy|214-mel.npy|214-linear.npy|71100|237|답장을 해 말아 아 진짜|214.npz
+215-audio.npy|215-mel.npy|215-linear.npy|71700|239|night vi 인기가 보내는 당첨자는 귀엽기라도 하지|215.npz
+216-audio.npy|216-mel.npy|216-linear.npy|100500|335|응 나 말 많이 하면 안 되니까 전화하지 마 임마 아파트|216.npz
+217-audio.npy|217-mel.npy|217-linear.npy|67500|225|더 나은 사람이 되기 위한 자격이라고 생각하기를|217.npz
+218-audio.npy|218-mel.npy|218-linear.npy|130200|434|네 반갑습니다 들 거운 이야기로 자주 찾아뵙겠습니다 행복한 저녁 보내세요|218.npz
+219-audio.npy|219-mel.npy|219-linear.npy|102000|340|바이오에 개봉관 5개를 적어 놓으시는 게 좋을 것 같으나|219.npz
+22-audio.npy|22-mel.npy|22-linear.npy|86400|288|아직 인사는 나누지 못했지만 반갑습니다 저 도와 있습니다|22.npz
+220-audio.npy|220-mel.npy|220-linear.npy|104100|347|아직 일하세요 힘드시겠어요 버스 안이 정복한 내용|220.npz
+221-audio.npy|221-mel.npy|221-linear.npy|63600|212|친절한 답변 감사합니다 좋은 하루 되세요|221.npz
+222-audio.npy|222-mel.npy|222-linear.npy|92400|308|너무 최근 거라서 저 이거 말고 다른 것도 있었던 거 같은데 말이죠|222.npz
+223-audio.npy|223-mel.npy|223-linear.npy|107700|359|작금의 사태를 보고 있노라면 참 한심하다는 생각이 든다|223.npz
+224-audio.npy|224-mel.npy|224-linear.npy|90300|301|비용이 얼마나 하는지 저도 알려 주세요 참고하게|224.npz
+225-audio.npy|225-mel.npy|225-linear.npy|56400|188|아 아직도 그것을 기억하고 있으시다는|225.npz
+226-audio.npy|226-mel.npy|226-linear.npy|106500|355|팔로 감사함당 세 남자가 시작되었습니다 연휴 행복하세요|226.npz
+227-audio.npy|227-mel.npy|227-linear.npy|71700|239|오늘의 일기 끝이라고 적어야 할 거 같아|227.npz
+228-audio.npy|228-mel.npy|228-linear.npy|131100|437|마지막 시험 앞두고 있습니다 아담은 하루 마무리 잘 하시구요 종종 돼요|228.npz
+229-audio.npy|229-mel.npy|229-linear.npy|70800|236|그건 아니구요 그런 머리 모양이 되었어요|229.npz
+23-audio.npy|23-mel.npy|23-linear.npy|73800|246|얼마예요 전 이만 자러 가겠습니다 빠 밤|23.npz
+230-audio.npy|230-mel.npy|230-linear.npy|86100|287|수술하셨나 보네요 빨리 건강해 지시 바랍니다|230.npz
+231-audio.npy|231-mel.npy|231-linear.npy|123300|411|트위터에 적응이 끝나셨네요|231.npz
+232-audio.npy|232-mel.npy|232-linear.npy|73200|244|앞으로 군용 등록부터 일 시작 하시나 봐요|232.npz
+233-audio.npy|233-mel.npy|233-linear.npy|112500|375|아 안타깝네요 다음에 또 기회가 있겠지요|233.npz
+234-audio.npy|234-mel.npy|234-linear.npy|126000|420|꿀단지당 안녕하세요 주말이네요 오늘 하루 즐겁게 보내세요|234.npz
+235-audio.npy|235-mel.npy|235-linear.npy|48900|163|아 머리가 터질 거 같아|235.npz
+236-audio.npy|236-mel.npy|236-linear.npy|83700|279|선팔 했어요 연극 소식으로 트윗에서 만나요|236.npz
+237-audio.npy|237-mel.npy|237-linear.npy|71400|238|업데이트되었네요 깔끔해 지고 좋아졌네요|237.npz
+238-audio.npy|238-mel.npy|238-linear.npy|103200|344|감사합니다 잘 해결했어요|238.npz
+239-audio.npy|239-mel.npy|239-linear.npy|72600|242|저녁을 굶었다는 게 신기할 따름입니다 학|239.npz
+24-audio.npy|24-mel.npy|24-linear.npy|71400|238|내일부터 밤샐 준비 해야겠네요 화이팅|24.npz
+240-audio.npy|240-mel.npy|240-linear.npy|82500|275|수고하셨습니다 당 소통 정말 중요하죠|240.npz
+241-audio.npy|241-mel.npy|241-linear.npy|72300|241|세상에서 가장 더러운 개 한 마리 소개해 드립니다|241.npz
+242-audio.npy|242-mel.npy|242-linear.npy|89100|297|안녕하세요 맞팔 했습니다 타임 라인에서 자주 뵈어요|242.npz
+243-audio.npy|243-mel.npy|243-linear.npy|86700|289|없네 용 끝까지 좋은 인연으로 남을 것 같습니다|243.npz
+244-audio.npy|244-mel.npy|244-linear.npy|99900|333|한 번 제작해봤습니다|244.npz
+245-audio.npy|245-mel.npy|245-linear.npy|114000|380|나의 가슴에 불을 지르는 녀석이 발견되었다 소니 바이오|245.npz
+246-audio.npy|246-mel.npy|246-linear.npy|75300|251|사람 귀한 거 모르는 건 맞는 거 같아요|246.npz
+247-audio.npy|247-mel.npy|247-linear.npy|91800|306|세상은 너무 불공평해요 나도 이런 재능을 받았거든요|247.npz
+248-audio.npy|248-mel.npy|248-linear.npy|88800|296|아직 어린 학생들이 과도한 공부를 하지 않도록 하는 것일까요|248.npz
+249-audio.npy|249-mel.npy|249-linear.npy|98100|327|나도 친구한테 메일 보냈더니 밤새고 이제 잔다고 하더라구요|249.npz
+25-audio.npy|25-mel.npy|25-linear.npy|69900|233|저도 좀 그래요 시간이 안 가면 좋겠다 하면서|25.npz
+250-audio.npy|250-mel.npy|250-linear.npy|85500|285|형좋은 아침이에요 이제 2일 남았네요|250.npz
+251-audio.npy|251-mel.npy|251-linear.npy|54600|182|감사여 앞으로 친하게 지내요|251.npz
+252-audio.npy|252-mel.npy|252-linear.npy|76200|254|많이 수고했어요 오늘은 어디서 사업 하셨는지|252.npz
+253-audio.npy|253-mel.npy|253-linear.npy|98700|329|네이트 님 올만에 인사하는듯해요 좋은날 누구야|253.npz
+254-audio.npy|254-mel.npy|254-linear.npy|63300|211|어떻게많은 분들을 한 번에 넣어서 언급하는 거죠|254.npz
+255-audio.npy|255-mel.npy|255-linear.npy|60000|200|늦었다고 생각하면 참 잘 안 하더라구요|255.npz
+256-audio.npy|256-mel.npy|256-linear.npy|76200|254|라이트 쓰고 있거든요 물어봐야겠군요|256.npz
+257-audio.npy|257-mel.npy|257-linear.npy|83700|279|효린이 솔솔 얼른 귀가하셔서 푹 쉬세요|257.npz
+258-audio.npy|258-mel.npy|258-linear.npy|74700|249|퇴근하고 집에 왔는데 아무도 없는 것만 할까요|258.npz
+259-audio.npy|259-mel.npy|259-linear.npy|138000|460|형님 더운 날에 잘 지내시는지요 효과는 잘 다녀오셨어요 건강 챙기시구요|259.npz
+26-audio.npy|26-mel.npy|26-linear.npy|104400|348|이 때 최소한 의심하는 자세를 유지하려고 노력할 필요는 있는 것 같습니다|26.npz
+260-audio.npy|260-mel.npy|260-linear.npy|64800|216|위로의 말씀에 힘이 됩니다 감사합니다|260.npz
+261-audio.npy|261-mel.npy|261-linear.npy|77100|257|네 감사합니다 감기 걸리지 말아야겠습니다|261.npz
+262-audio.npy|262-mel.npy|262-linear.npy|50700|169|지금 아까 형태도 꿈이 아닐까요|262.npz
+263-audio.npy|263-mel.npy|263-linear.npy|71400|238|그럼 차에 갤럭시 탭을 들고 다녀야 하는 걸까요|263.npz
+264-audio.npy|264-mel.npy|264-linear.npy|69900|233|홈에서 예전 정의란 무엇인가는 어떻던가요|264.npz
+265-audio.npy|265-mel.npy|265-linear.npy|53400|178|다음을 사용하시면 무척 편리합니다|265.npz
+266-audio.npy|266-mel.npy|266-linear.npy|84900|283|내 감사합니다 좋은 결과 나오면 알려 드리겠습니다|266.npz
+267-audio.npy|267-mel.npy|267-linear.npy|79800|266|10시 20분 클래스가 있는데 그거 들어야 할 것 같네요|267.npz
+268-audio.npy|268-mel.npy|268-linear.npy|96900|323|이 때 1차 미팅 참석할께요 도움이 되셨으면 하네요|268.npz
+269-audio.npy|269-mel.npy|269-linear.npy|120300|401|오전 우리 손에 안 잡히네요|269.npz
+27-audio.npy|27-mel.npy|27-linear.npy|112800|376|날씨가 추워졌지만 마음 만은 크게 펴시고 행복한 일만 가득 한 하루 되세요|27.npz
+270-audio.npy|270-mel.npy|270-linear.npy|99300|331|우리 선수들 끝까지 최선을 다해줬으면 좋겠습니다 화이팅이에요|270.npz
+271-audio.npy|271-mel.npy|271-linear.npy|44700|149|연락은 나 주신 거예요|271.npz
+272-audio.npy|272-mel.npy|272-linear.npy|74700|249|전 더 일찍 올 거라고 생각했거든요|272.npz
+273-audio.npy|273-mel.npy|273-linear.npy|64500|215|좋은 거보면 사진이라도 하나 보내줄 줄 알았어요|273.npz
+274-audio.npy|274-mel.npy|274-linear.npy|58800|196|제가 뭐라고 무슨 말을 하겠어요|274.npz
+275-audio.npy|275-mel.npy|275-linear.npy|96000|320|빠르게 변화하는 모바일 환경에서 시대는 언제까지 지속될 것이다|275.npz
+276-audio.npy|276-mel.npy|276-linear.npy|82500|275|내일 최고로 불러서 안 해 주는 경우도 많다고 하더라구요|276.npz
+277-audio.npy|277-mel.npy|277-linear.npy|115500|385|억 저 좀 놀라도 될까요|277.npz
+278-audio.npy|278-mel.npy|278-linear.npy|73500|245|사회인 야구는 실력으로 하는 거 아니니까 걱정 마요|278.npz
+279-audio.npy|279-mel.npy|279-linear.npy|67800|226|아침 공기가 참 해 0 감기 조심하세요|279.npz
+28-audio.npy|28-mel.npy|28-linear.npy|75300|251|빼 자라고 있습니다 될까요 생각 환영합니다|28.npz
+280-audio.npy|280-mel.npy|280-linear.npy|57300|191|긍정적으로 해석해 주시니 감사할 따름|280.npz
+281-audio.npy|281-mel.npy|281-linear.npy|72000|240|아 좋으시겠네요 거기서 대학교 다니시는 거예요|281.npz
+282-audio.npy|282-mel.npy|282-linear.npy|90000|300|박용오 전 두산 회장 별세 삼가 고인의 명복을 빕니다|282.npz
+283-audio.npy|283-mel.npy|283-linear.npy|65700|219|좋은 아침입니다 늦었지만 감사합니다|283.npz
+284-audio.npy|284-mel.npy|284-linear.npy|61200|204|구체적으로 질문해 주시면 답변드리겠습니다|284.npz
+285-audio.npy|285-mel.npy|285-linear.npy|70200|234|어쩔 수 없이 어둠의 경로를 선택하셔야 겠네요|285.npz
+286-audio.npy|286-mel.npy|286-linear.npy|90900|303|제 주변 사람들이 가입해서 화면 저를 친구로 추천할까|286.npz
+287-audio.npy|287-mel.npy|287-linear.npy|100800|336|요즘 몇 개나 하면서 살고 계세요 아니면 하기 위한 준비를 하고 낭|287.npz
+288-audio.npy|288-mel.npy|288-linear.npy|117000|390|네 저는 힐러리 파워라는 책을 읽었습니다 그 책도 한 번 읽어봐야겠네요|288.npz
+289-audio.npy|289-mel.npy|289-linear.npy|95100|317|헐 전 계속 늦게 발견하는 걸까요 저랑 동갑이시네요|289.npz
+29-audio.npy|29-mel.npy|29-linear.npy|86100|287|사랑하고 있는 사람의 비는 아무리 낮은 소리라도 다 알아듣는다|29.npz
+290-audio.npy|290-mel.npy|290-linear.npy|59400|198|오징어 맛을 쉽게 만들 수 있을 것 같은 걸로|290.npz
+291-audio.npy|291-mel.npy|291-linear.npy|73200|244|칭찬해본 적이 없는 것 같아요 그래야 하는데|291.npz
+292-audio.npy|292-mel.npy|292-linear.npy|112200|374|와이프님도 트윗의 매력에 빠트려서 같이 하는 방법이 제일 좋을 것 같네요|292.npz
+293-audio.npy|293-mel.npy|293-linear.npy|110100|367|오오 이제 사진 많이 찍으시는 건가요 좋은 사진 많이 찍어 올려 주세요|293.npz
+294-audio.npy|294-mel.npy|294-linear.npy|75900|253|넵 신나게 즐기세요 머리도 이쁘게 하시구요|294.npz
+295-audio.npy|295-mel.npy|295-linear.npy|129900|433|네 감사합니다|295.npz
+296-audio.npy|296-mel.npy|296-linear.npy|56400|188|나도 이 시간까지 박혀 있어 보고 싶당|296.npz
+297-audio.npy|297-mel.npy|297-linear.npy|89400|298|안타깝습니다 위로의 말씀 전합니다 힘내세요|297.npz
+298-audio.npy|298-mel.npy|298-linear.npy|106500|355|얌 내가 착한 사람은 아니라서 내좋은 말만해도 그 수는 없다|298.npz
+299-audio.npy|299-mel.npy|299-linear.npy|66900|223|응 그거 마그네슘이 부족해서 그런 거래요|299.npz
+3-audio.npy|3-mel.npy|3-linear.npy|61800|206|아니요 아니요 좋은 밤 보내고 계신가요|3.npz
+30-audio.npy|30-mel.npy|30-linear.npy|78000|260|감사합니다 그리워하면서 살아야 한다는 게 아프지 마|30.npz
+300-audio.npy|300-mel.npy|300-linear.npy|105900|353|chai와 1시간 맥주 사랑 끝으로 전 이만 퇴근해야겠네요 좋은 밤 되세요|300.npz
+301-audio.npy|301-mel.npy|301-linear.npy|114600|382|눈이 큰 게 아닐까요 쿠키 만들었어요 어떤 게 제가 만든 걸까요|301.npz
+302-audio.npy|302-mel.npy|302-linear.npy|62100|207|보통은 그런 아이들이 다 수 있지 않을까요|302.npz
+303-audio.npy|303-mel.npy|303-linear.npy|63900|213|친구들과 좋은 추억 많이 만들고 가시 길|303.npz
+304-audio.npy|304-mel.npy|304-linear.npy|73200|244|빨리 올려 주세요 나른함이 몰려오고 있습니다|304.npz
+305-audio.npy|305-mel.npy|305-linear.npy|93000|310|동대구역입니다 서울로 출발합니다 즐거운 하루 되세요|305.npz
+306-audio.npy|306-mel.npy|306-linear.npy|88800|296|그런가요 내가 도움이 되어서 기쁘네요 하하|306.npz
+307-audio.npy|307-mel.npy|307-linear.npy|123300|411|네 좋은 야식 추천 이제 나가 봐야겠네요|307.npz
+308-audio.npy|308-mel.npy|308-linear.npy|89100|297|안녕하세요 답변이 늦었네요 제가 오히려 부탁드립니다|308.npz
+309-audio.npy|309-mel.npy|309-linear.npy|69000|230|테레비 당 안녕하세요 방금 가입했어요|309.npz
+31-audio.npy|31-mel.npy|31-linear.npy|55500|185|맞아요 아무래도 다시 시작해야 할 듯|31.npz
+310-audio.npy|310-mel.npy|310-linear.npy|92100|307|괜찮습니다 저는 오늘 저녁 족발을 맛나게 먹기로 했으니까요|310.npz
+311-audio.npy|311-mel.npy|311-linear.npy|79500|265|그렇군요 첨 알았어요 더 좋아지는데요|311.npz
+312-audio.npy|312-mel.npy|312-linear.npy|105600|352|친구 남자란 언제든지 뒤집어 생각하면 남자 친구가 될 수 있다는 뜻입니다|312.npz
+313-audio.npy|313-mel.npy|313-linear.npy|72600|242|아이코 감사합니다 덕분에 잘 봤습니다|313.npz
+314-audio.npy|314-mel.npy|314-linear.npy|105000|350|이재환 회원님은 트위터로 만날 수 있는 기회가 되어 정말 반갑습니다|314.npz
+315-audio.npy|315-mel.npy|315-linear.npy|65400|218|나도 나 자신을 아름답다고 느꼈음 좋겠습니다|315.npz
+316-audio.npy|316-mel.npy|316-linear.npy|102600|342|아 팔 감사합니다 초보라 아직 모르는 게 많아요 밤에 뵈요|316.npz
+317-audio.npy|317-mel.npy|317-linear.npy|63900|213|8월 4일 날 비가 오면 안 되는데 말이죠|317.npz
+318-audio.npy|318-mel.npy|318-linear.npy|93300|311|저한테 회신 했어야 하는 거 아니었어요 내용은 맞는 거 같은 데|318.npz
+319-audio.npy|319-mel.npy|319-linear.npy|84300|281|그런가 봐요|319.npz
+32-audio.npy|32-mel.npy|32-linear.npy|69600|232|야 기분 좋네요 저도 생각지도 못했던 거라|32.npz
+320-audio.npy|320-mel.npy|320-linear.npy|88200|294|프로텍트 사용자인 이유가 뭐죠 뭔가 이유가 있지 않을까요|320.npz
+321-audio.npy|321-mel.npy|321-linear.npy|87000|290|낸다는 것을 볼 때 기초 질서는 매우 중요하다고 생각해요|321.npz
+322-audio.npy|322-mel.npy|322-linear.npy|57600|192|날씨는 화창한데 나는 쌀쌀하네요|322.npz
+323-audio.npy|323-mel.npy|323-linear.npy|67500|225|제 불안한 마음을 달래 주세요|323.npz
+324-audio.npy|324-mel.npy|324-linear.npy|70200|234|여러분은 10대로 돌아가면 무엇을 하고 싶으신가요|324.npz
+325-audio.npy|325-mel.npy|325-linear.npy|69300|231|아 기사 링크가 있으면 소개 좀 부탁드립니다|325.npz
+326-audio.npy|326-mel.npy|326-linear.npy|83400|278|운동하기 전에 해답을 내려는 사람들이 늘고 있다는 느낌이 듭니다|326.npz
+327-audio.npy|327-mel.npy|327-linear.npy|71400|238|잠시 후 9시 30분쯤 서강대에서 공연합니다|327.npz
+328-audio.npy|328-mel.npy|328-linear.npy|104100|347|근데 또 막상 완성시켜 놓고 보면 안 그럴 때도 있고 그렇던데요|328.npz
+329-audio.npy|329-mel.npy|329-linear.npy|96000|320|전주당에서 보고 팔로 합니다 전 85년생입니다|329.npz
+33-audio.npy|33-mel.npy|33-linear.npy|57000|190|그런 의미는 아닌 데 즐거운 하루 되세요|33.npz
+330-audio.npy|330-mel.npy|330-linear.npy|77100|257|여행 좋아하시는 분들많으시네요 선 팔 합니다|330.npz
+331-audio.npy|331-mel.npy|331-linear.npy|91500|305|전화기 계속 꺼져 있더라구요|331.npz
+332-audio.npy|332-mel.npy|332-linear.npy|118200|394|반갑습니다 선 팔 감사드려요 즐거운 트윗 댄스구요 맞팔 합니다|332.npz
+333-audio.npy|333-mel.npy|333-linear.npy|95700|319|내 생애 가장 치열한 한 달이 될 것 같습니다 오늘도 그렇구요|333.npz
+334-audio.npy|334-mel.npy|334-linear.npy|43800|146|이런 대화 자체가 모순 아닌가요|334.npz
+335-audio.npy|335-mel.npy|335-linear.npy|87300|291|하나님은 우리에게 이렇게 말씀하고 싶어 지겠지요|335.npz
+336-audio.npy|336-mel.npy|336-linear.npy|65700|219|하지만 이런 바보 같은 사랑이 전 좋습니다|336.npz
+337-audio.npy|337-mel.npy|337-linear.npy|90300|301|올해는 작년보다 조금만 더 잘 해줬으면 하고 바래 봅니다|337.npz
+338-audio.npy|338-mel.npy|338-linear.npy|68400|228|강남 쪽이 아닌가 봐요 좋은 하루 되세요|338.npz
+339-audio.npy|339-mel.npy|339-linear.npy|82800|276|점심 뚝딱 먹고왔습니다 여러분들도 맛나게 드세요|339.npz
+34-audio.npy|34-mel.npy|34-linear.npy|91800|306|개발 인력을 해고하고 대대적인 구조조정에 들어간다고 밝혔다|34.npz
+340-audio.npy|340-mel.npy|340-linear.npy|70800|236|정말많은 분들이 오셨네요 인증샷 감사해요|340.npz
+341-audio.npy|341-mel.npy|341-linear.npy|77700|259|내 머릿속에는 뭐가 들었길래 이렇게 힘들게 할까|341.npz
+342-audio.npy|342-mel.npy|342-linear.npy|88200|294|그냥 오늘은 하루를 여유 있게 시작한 게 낫다고 생각하세요|342.npz
+343-audio.npy|343-mel.npy|343-linear.npy|72900|243|자미안 와아 오늘도 일찍 일어나버렸다|343.npz
+344-audio.npy|344-mel.npy|344-linear.npy|61200|204|인연에 대해 다시 한 번 생각하게 합니다|344.npz
+345-audio.npy|345-mel.npy|345-linear.npy|115500|385|기사 보고 팔 롱 합니다 근데 공동 구매는 어떤 식으로 참여할 수 있는 건가요|345.npz
+346-audio.npy|346-mel.npy|346-linear.npy|64800|216|아침 운동 힘드실 텐데 대단하시네요|346.npz
+347-audio.npy|347-mel.npy|347-linear.npy|81300|271|난 그냥 제자리에서 한참을 서 있다 보니까요|347.npz
+348-audio.npy|348-mel.npy|348-linear.npy|66000|220|전 이제 3월달이면 군대를 갑니다|348.npz
+349-audio.npy|349-mel.npy|349-linear.npy|67500|225|아이폰 카메라로 찍은 영상에서 재생할 수 잇당|349.npz
+35-audio.npy|35-mel.npy|35-linear.npy|108900|363|의사합니다 만족스러운 상품과 서비스를 제공하기 위해 노력하겠습니다|35.npz
+350-audio.npy|350-mel.npy|350-linear.npy|74700|249|이럴 때일수록 침착하고 이성적으로 행동해야 함|350.npz
+351-audio.npy|351-mel.npy|351-linear.npy|69000|230|마리 씨가 된다고 했거늘 집에만 있게 생겼네|351.npz
+352-audio.npy|352-mel.npy|352-linear.npy|90300|301|주말 즐겁게 보내셨나요 이번 한 주도 힘차게 보내셔요|352.npz
+353-audio.npy|353-mel.npy|353-linear.npy|97200|324|그래요 저는 공부를 못하는 거 아닙니다 인간적이고 싶어 합니다|353.npz
+354-audio.npy|354-mel.npy|354-linear.npy|78300|261|영웅이 오늘 가입했습니다 잘 부탁드립니다|354.npz
+355-audio.npy|355-mel.npy|355-linear.npy|63000|210|아 반가운 소식 알려 주셔서 고맙습니다|355.npz
+356-audio.npy|356-mel.npy|356-linear.npy|66300|221|사진 올려 주시는 거 기대할게요 감사해요|356.npz
+357-audio.npy|357-mel.npy|357-linear.npy|67200|224|덕분에 푹 잘 자고 일 잘 하고왔습니다|357.npz
+358-audio.npy|358-mel.npy|358-linear.npy|77400|258|아침도 못 먹었는데 벌써 점심때가 되었네요|358.npz
+359-audio.npy|359-mel.npy|359-linear.npy|56100|187|다행히도 시험을 무사히 잘 마쳤어요|359.npz
+36-audio.npy|36-mel.npy|36-linear.npy|84000|280|요 가방 노하우를 가지신 분들이 많이 있으신 거 같네요|36.npz
+360-audio.npy|360-mel.npy|360-linear.npy|78600|262|장마가 시작되려나 봅니다 바람이 심상치않네요|360.npz
+361-audio.npy|361-mel.npy|361-linear.npy|80400|268|초대장 드리겠습니다 디엠으로 메일 주소 알려 주세요|361.npz
+362-audio.npy|362-mel.npy|362-linear.npy|99300|331|알티 감사합니다 다이어트하는 분들에게 도움이 되었으면 합니다|362.npz
+363-audio.npy|363-mel.npy|363-linear.npy|80400|268|3과 책은 좋은 아침이에요 오늘 하루도 화이팅|363.npz
+364-audio.npy|364-mel.npy|364-linear.npy|55200|184|많은 분들이 걱정하는 신의 힘이 나네요|364.npz
+365-audio.npy|365-mel.npy|365-linear.npy|89100|297|사람들은 자기 나름대로의 삶의 방식을 정해 놓고 살아갑니다|365.npz
+366-audio.npy|366-mel.npy|366-linear.npy|65400|218|고생하셨어요 즐거운 방과 후 시간 되세요|366.npz
+367-audio.npy|367-mel.npy|367-linear.npy|98100|327|왜 죄송하신지 모르겠네요 저한테 잘못하신 거 없는 거 같은데요|367.npz
+368-audio.npy|368-mel.npy|368-linear.npy|83700|279|오픈 소셜 세미나를 통해 트위터의 세계로 오신 걸 환영합니다|368.npz
+369-audio.npy|369-mel.npy|369-linear.npy|72000|240|그냥 누군가에게 내 속마음을 얘기하고 싶었어|369.npz
+37-audio.npy|37-mel.npy|37-linear.npy|67200|224|즐거운 한 주 되세요 한식은땀이 줄줄|37.npz
+370-audio.npy|370-mel.npy|370-linear.npy|89100|297|네 좋은 하루 되세요 블리의 인사도 받고 좋습니다|370.npz
+371-audio.npy|371-mel.npy|371-linear.npy|61200|204|지금까지 상황을 정리해봤는데요|371.npz
+372-audio.npy|372-mel.npy|372-linear.npy|90600|302|한국에서도 이제 안드로이드 유료 앱 등록이 가능해졌네 용|372.npz
+373-audio.npy|373-mel.npy|373-linear.npy|111900|373|선팔 감사합니다 맞팔 완료 했구요 늘 건강하시고 행복하세요|373.npz
+374-audio.npy|374-mel.npy|374-linear.npy|79500|265|메일로 트윗 할 수 있다고 하는데 이런 수요가 있을까요|374.npz
+375-audio.npy|375-mel.npy|375-linear.npy|72600|242|내일 위해 오늘은 좀 일찍 주무세요 화이팅|375.npz
+376-audio.npy|376-mel.npy|376-linear.npy|76800|256|건승하시고 멀리 가시니 건강도 조심하세요|376.npz
+377-audio.npy|377-mel.npy|377-linear.npy|84900|283|이번주에 응모하신 분들은 다음주 월요일 오후에 발표합니다|377.npz
+378-audio.npy|378-mel.npy|378-linear.npy|59100|197|꼭 봐야 할 것은 잠시 잊어도 되지 마|378.npz
+379-audio.npy|379-mel.npy|379-linear.npy|77100|257|전반전 분위기를 계속해서 좀 이어갔으면 좋겠습니다|379.npz
+38-audio.npy|38-mel.npy|38-linear.npy|76500|255|반갑습니다 팔로 합니다 좋은 주말 보내세요|38.npz
+380-audio.npy|380-mel.npy|380-linear.npy|70500|235|기본적인 수준만 돼도 저 정도 나올 것 같긴 해요|380.npz
+381-audio.npy|381-mel.npy|381-linear.npy|74700|249|맛있겠어요 다음에 꼭 한 번 먹어봐야겠네요|381.npz
+382-audio.npy|382-mel.npy|382-linear.npy|77400|258|오빠가 나에게 함박웃음을 지어 보이며 인사를 해줬다|382.npz
+383-audio.npy|383-mel.npy|383-linear.npy|92100|307|한국도했다 모임 80년생 미완성 이 모임에 가입하셨습니다|383.npz
+384-audio.npy|384-mel.npy|384-linear.npy|96600|322|내일 일찍 일어나시나 봐요 좋은 아침입니다|384.npz
+385-audio.npy|385-mel.npy|385-linear.npy|108900|363|운동하시는 분들 대단해 보이세요 건강하세요 제 몫까지 부탁드려요|385.npz
+386-audio.npy|386-mel.npy|386-linear.npy|73800|246|지금 내가 이해 못 하고 있는 거 아니죠 왜 대화가 안 되지|386.npz
+387-audio.npy|387-mel.npy|387-linear.npy|93000|310|저도 비슷한 생각은 하지만 잘 모르겠다는 거 별 르당|387.npz
+388-audio.npy|388-mel.npy|388-linear.npy|108300|361|오호 찾아봐야겠다 주말에 족발 먹었는데 이야기하니까 또 먹고 싶다|388.npz
+389-audio.npy|389-mel.npy|389-linear.npy|88200|294|하지만 보고서는 늦어도 내년 1월쯤 나올 것 같다고 했을 때|389.npz
+39-audio.npy|39-mel.npy|39-linear.npy|72000|240|친구당 만입니다 즐거운 저녁과 주말 되세요|39.npz
+390-audio.npy|390-mel.npy|390-linear.npy|65700|219|시원하시겠습니다 즐거운 저녁 되세요|390.npz
+391-audio.npy|391-mel.npy|391-linear.npy|68700|229|아빠란 소리입니다 많은 활동 부탁드립니다|391.npz
+392-audio.npy|392-mel.npy|392-linear.npy|78300|261|의외로 아이폰의 활용을 잘 안 하시는 분들이 많은 것 같습니다|392.npz
+393-audio.npy|393-mel.npy|393-linear.npy|78300|261|인사도 자주 올려 주세요 좋은 하루 보내세요|393.npz
+394-audio.npy|394-mel.npy|394-linear.npy|87300|291|핫 초콜렛 생각나네요 좋은 하루 되세요|394.npz
+395-audio.npy|395-mel.npy|395-linear.npy|49800|166|아직 쌀쌀해도 봄은 오고 있나 봐|395.npz
+396-audio.npy|396-mel.npy|396-linear.npy|98100|327|아 그러고 보니 내가 스타 적응이 안되어서 이 시간에도 먹을 만한 건가|396.npz
+397-audio.npy|397-mel.npy|397-linear.npy|102600|342|오늘의 사진을 추천합니다 그녀에게 진심으로 얘를 먹고 싶었습니다|397.npz
+398-audio.npy|398-mel.npy|398-linear.npy|82800|276|네 잘 지내요 스 릉 여행 잘 다녀오셨죠|398.npz
+399-audio.npy|399-mel.npy|399-linear.npy|66300|221|저도 두툼한 뭔가를 가지고 다녀야 할 것 같습니다|399.npz
+4-audio.npy|4-mel.npy|4-linear.npy|67500|225|해태를 손으로 만드는 게 중요한 거 아닐까요|4.npz
+40-audio.npy|40-mel.npy|40-linear.npy|76800|256|네 그건 그렇고 안드로이드 용 앱 좀 만들어 주세요|40.npz
+400-audio.npy|400-mel.npy|400-linear.npy|74400|248|앞에서 말씀하시는 거 같은데 충분히 가능하십니다|400.npz
+401-audio.npy|401-mel.npy|401-linear.npy|73500|245|한국 트위터 모임 부평당 모임에 가입하였습니다|401.npz
+402-audio.npy|402-mel.npy|402-linear.npy|92100|307|요즘 많이 바쁘겠어요 그래도 꿀맛 같은 주말 되라|402.npz
+403-audio.npy|403-mel.npy|403-linear.npy|82500|275|오늘 산타가 봐요 찾을 수 있을 지도 모르니깐요|403.npz
+404-audio.npy|404-mel.npy|404-linear.npy|52200|174|제가 아직 그 말이 입에 붙지 않아서요|404.npz
+405-audio.npy|405-mel.npy|405-linear.npy|63000|210|저도 그래요 그래서 전 여름에 잘 안 나가잖아요|405.npz
+406-audio.npy|406-mel.npy|406-linear.npy|109800|366|뉴스를 보면서 마음이 짠했습니다 좋은 선생님이 되어 주세요 팔로 합니다|406.npz
+407-audio.npy|407-mel.npy|407-linear.npy|60300|201|오늘은 같으나 파가 다른 것으로 알고 있습니다|407.npz
+408-audio.npy|408-mel.npy|408-linear.npy|90900|303|그러게 용 어떻게 저런 말을 받게 되었는 지도 모르겠네요|408.npz
+409-audio.npy|409-mel.npy|409-linear.npy|83100|277|이 정도까진 아니랍니다 걱정해 주셔서 무한 감사드려요|409.npz
+41-audio.npy|41-mel.npy|41-linear.npy|81600|272|고가이니만큼 신중하게 생각하시고 결정하세요|41.npz
+410-audio.npy|410-mel.npy|410-linear.npy|75600|252|카메라가 듣기 좋은데 주인을 잘못 만난 거 같아요|410.npz
+411-audio.npy|411-mel.npy|411-linear.npy|61800|206|사무실에 우산이 2개 있는데 안타깝네요|411.npz
+412-audio.npy|412-mel.npy|412-linear.npy|75600|252|님 제가 할 줄은 몰라 그냥 해 주는 대로 하네요|412.npz
+413-audio.npy|413-mel.npy|413-linear.npy|86700|289|어제 잘 들어갔어요 먼저 들어가서 죄송합니다|413.npz
+414-audio.npy|414-mel.npy|414-linear.npy|99300|331|네 사전 교육을 받으시는 배정받은 학교에 가서 교육을 하시게 됩니다|414.npz
+415-audio.npy|415-mel.npy|415-linear.npy|75000|250|내 몸 관리 잘 하시고 편안한 밤 되세요|415.npz
+416-audio.npy|416-mel.npy|416-linear.npy|101400|338|9시 30분에 접수했는데 12시 에 오라고 하네요 어디일까요|416.npz
+417-audio.npy|417-mel.npy|417-linear.npy|96900|323|네 운영이 조금 문제가 있었지만 고생한 선수들에게 박수 따따|417.npz
+418-audio.npy|418-mel.npy|418-linear.npy|83700|279|어연 교회 회복하시고 활기찬 새해 되시길 기원합니다|418.npz
+419-audio.npy|419-mel.npy|419-linear.npy|105900|353|이 때 규모가 장난이 아니네요 보내기 말을 느낄 수 있는 곳이기도 합니다|419.npz
+42-audio.npy|42-mel.npy|42-linear.npy|57300|191|오늘 하루도 공부하시느라 애쓰셨어요|42.npz
+420-audio.npy|420-mel.npy|420-linear.npy|58800|196|그냥괜찮은 척 하려고 애쓰는 것 같았다|420.npz
+421-audio.npy|421-mel.npy|421-linear.npy|68400|228|인연은 사람을 막기 위해 애썼지만 헛수고였다|421.npz
+422-audio.npy|422-mel.npy|422-linear.npy|30600|102|용돈을 아껴 사랑|422.npz
+423-audio.npy|423-mel.npy|423-linear.npy|26400|88|그 애 전화번호 알아|423.npz
+424-audio.npy|424-mel.npy|424-linear.npy|31500|105|다르더라구요|424.npz
+425-audio.npy|425-mel.npy|425-linear.npy|62400|208|응응한테 도착하면 나한테 알려줘|425.npz
+426-audio.npy|426-mel.npy|426-linear.npy|55200|184|가을 동안 심하게 몸살을 앓았어요|426.npz
+427-audio.npy|427-mel.npy|427-linear.npy|38100|127|요즘 공부가 잘 안돼요|427.npz
+428-audio.npy|428-mel.npy|428-linear.npy|41400|138|농사가 잘 안돼서 온 거예요|428.npz
+429-audio.npy|429-mel.npy|429-linear.npy|33300|111|내가 그런 것 같애|429.npz
+43-audio.npy|43-mel.npy|43-linear.npy|69300|231|반갑습니다 맞팔 했어요 조남주 보내세요|43.npz
+430-audio.npy|430-mel.npy|430-linear.npy|39900|133|아 네 앉으세요|430.npz
+431-audio.npy|431-mel.npy|431-linear.npy|70200|234|114 전화해서 번호를 알아보시지 그러세요|431.npz
+432-audio.npy|432-mel.npy|432-linear.npy|33300|111|내가 누군지 알아보겠니|432.npz
+433-audio.npy|433-mel.npy|433-linear.npy|42600|142|어디에서 영어를 배우셨어요|433.npz
+434-audio.npy|434-mel.npy|434-linear.npy|48300|161|내가 다른 걸로 바꿀 수 있을까요|434.npz
+435-audio.npy|435-mel.npy|435-linear.npy|39600|132|카카오로 바꾸는 게 나을 거 같아|435.npz
+436-audio.npy|436-mel.npy|436-linear.npy|35100|117|고양이는 바꿔 주세요|436.npz
+437-audio.npy|437-mel.npy|437-linear.npy|46200|154|핸드폰에 오빠랑 바꾼 거 바|437.npz
+438-audio.npy|438-mel.npy|438-linear.npy|84000|280|모두가 시험을 통과했음을 발표하게 되어 기쁘게 생각합니다|438.npz
+439-audio.npy|439-mel.npy|439-linear.npy|99900|333|왜 밴드는 30번에 발표한 직후에 해체|439.npz
+44-audio.npy|44-mel.npy|44-linear.npy|80100|267|안양합니다 감사합니다 앞으로 자주 뵈었으면 하네요|44.npz
+440-audio.npy|440-mel.npy|440-linear.npy|51600|172|이지영 되는 농업이 발달했어요|440.npz
+441-audio.npy|441-mel.npy|441-linear.npy|44700|149|서면 무력 화영을 반대합니다|441.npz
+442-audio.npy|442-mel.npy|442-linear.npy|55800|186|밤늦게 남의 집에 방문하는 것을 내봐|442.npz
+443-audio.npy|443-mel.npy|443-linear.npy|42300|141|너는 브레이크를 너무 세게 봐봐|443.npz
+444-audio.npy|444-mel.npy|444-linear.npy|64800|216|어떤 남자가 지하철에서 대타를 받고 모른 척|444.npz
+445-audio.npy|445-mel.npy|445-linear.npy|67200|224|그냥 호기심으로 가득 한 눈으로 나를 바라보았다|445.npz
+446-audio.npy|446-mel.npy|446-linear.npy|64800|216|이 문제는 삼바를 생각해서 바라볼 필요가 있다|446.npz
+447-audio.npy|447-mel.npy|447-linear.npy|46500|155|나한테 너무 많은 걸 바라지 마세요|447.npz
+448-audio.npy|448-mel.npy|448-linear.npy|45300|151|나는 생일 선물로 찾아봤다|448.npz
+449-audio.npy|449-mel.npy|449-linear.npy|31800|106|스트레스 받는 일 있어|449.npz
+45-audio.npy|45-mel.npy|45-linear.npy|60600|202|그런 게 있군요 검색해 보겠습니다|45.npz
+450-audio.npy|450-mel.npy|450-linear.npy|51600|172|담배꽁초는 여기에 버리지 마세요|450.npz
+451-audio.npy|451-mel.npy|451-linear.npy|51600|172|오늘 가서 버렸어용|451.npz
+452-audio.npy|452-mel.npy|452-linear.npy|59700|199|아만에서 벗어나려면 습관부터 바꿔라|452.npz
+453-audio.npy|453-mel.npy|453-linear.npy|69000|230|옛날에 너무 바껴서 벗을 수가 없어요|453.npz
+454-audio.npy|454-mel.npy|454-linear.npy|60300|201|아침 햇빛에 비치는 걸 보니 상쾌 학원|454.npz
+455-audio.npy|455-mel.npy|455-linear.npy|69600|232|램프가 그의 작품을 비추게 배치되어 있어 방|455.npz
+456-audio.npy|456-mel.npy|456-linear.npy|60900|203|아침마다 내 얼굴을 거울에 비춰 봐요|456.npz
+457-audio.npy|457-mel.npy|457-linear.npy|57900|193|이틀 동안 차례 빌리고 싶은데요|457.npz
+458-audio.npy|458-mel.npy|458-linear.npy|22200|74|영화 보러 갈까|458.npz
+459-audio.npy|459-mel.npy|459-linear.npy|55500|185|오늘 우연히 길에서 그 여자를 봤어요|459.npz
+46-audio.npy|46-mel.npy|46-linear.npy|75900|253|알티 감사합니다 팔로 했어요 자주 대하여|46.npz
+460-audio.npy|460-mel.npy|460-linear.npy|23100|77|제가 해볼게요|460.npz
+461-audio.npy|461-mel.npy|461-linear.npy|48900|163|지난번에 배로 오랜만에 뵙습니다|461.npz
+462-audio.npy|462-mel.npy|462-linear.npy|60300|201|이 속보로 뉴욕으로 보내고 싶은데요|462.npz
+463-audio.npy|463-mel.npy|463-linear.npy|67500|225|왜냐면 짐 하나하나의 이름표를 붙였다|463.npz
+464-audio.npy|464-mel.npy|464-linear.npy|39300|131|바람이 많이 부러워|464.npz
+465-audio.npy|465-mel.npy|465-linear.npy|40500|135|노래 한 곡 부르세요|465.npz
+466-audio.npy|466-mel.npy|466-linear.npy|51900|173|명사 오라고 부탁하는 데 어때|466.npz
+467-audio.npy|467-mel.npy|467-linear.npy|63600|212|아니면 작년에 시험에 3번만 했었어요|467.npz
+468-audio.npy|468-mel.npy|468-linear.npy|31500|105|광안 변하셨네요|468.npz
+469-audio.npy|469-mel.npy|469-linear.npy|66600|222|그냥 공부하는 척하면서 상대의 상처를 탔다|469.npz
+47-audio.npy|47-mel.npy|47-linear.npy|90900|303|제 것이 아니라는 점에서 부러워하지 않으셔도 됩니다|47.npz
+470-audio.npy|470-mel.npy|470-linear.npy|38400|128|이러면 가득 채워 주세요|470.npz
+471-audio.npy|471-mel.npy|471-linear.npy|36900|123|인터넷 찾아봤어|471.npz
+472-audio.npy|472-mel.npy|472-linear.npy|41700|139|너무 필요하면 나를 찾아 왕|472.npz
+473-audio.npy|473-mel.npy|473-linear.npy|37800|126|은행에서 돈 찾아와|473.npz
+474-audio.npy|474-mel.npy|474-linear.npy|43200|144|얼른 비행 차를 사야 더|474.npz
+475-audio.npy|475-mel.npy|475-linear.npy|34500|115|이 책을 찾고 있어요|475.npz
+476-audio.npy|476-mel.npy|476-linear.npy|76200|254|그는 내 얼굴을 쳐서 자기 손목을 삐었다|476.npz
+477-audio.npy|477-mel.npy|477-linear.npy|34200|114|오늘 시험 잘 쳤어요|477.npz
+478-audio.npy|478-mel.npy|478-linear.npy|50400|168|오늘 밤에 춤추러 갈까요|478.npz
+479-audio.npy|479-mel.npy|479-linear.npy|53700|179|그녀는 나를 딸처럼 대한다|479.npz
+48-audio.npy|48-mel.npy|48-linear.npy|57600|192|아무도 안 타봤으면 하는 소망이 있습니다|48.npz
+480-audio.npy|480-mel.npy|480-linear.npy|46500|155|블라우스에 브로치를 달았다|480.npz
+481-audio.npy|481-mel.npy|481-linear.npy|72900|243|메렌 아주 친한 사이여서 사랑을 닮아 가고 있다|481.npz
+482-audio.npy|482-mel.npy|482-linear.npy|54600|182|아트를 너무 세게 맞아서 끊었어|482.npz
+483-audio.npy|483-mel.npy|483-linear.npy|55500|185|내 동생이 어제 교통사고를 당했어요|483.npz
+484-audio.npy|484-mel.npy|484-linear.npy|31200|104|어느 학교 다녔어요|484.npz
+485-audio.npy|485-mel.npy|485-linear.npy|60300|201|따라오세요 아니면 직장 다니세요|485.npz
+486-audio.npy|486-mel.npy|486-linear.npy|72900|243|창문 다 내려 주세요 한밤의 손이 안다|486.npz
+487-audio.npy|487-mel.npy|487-linear.npy|39900|133|7시쯤에 데리러 갈게|487.npz
+488-audio.npy|488-mel.npy|488-linear.npy|36600|122|앞에 동일아파트 와랑|488.npz
+489-audio.npy|489-mel.npy|489-linear.npy|54300|181|뒷풀이 때 회사 사람들 집에 데려와도 돼?|489.npz
+49-audio.npy|49-mel.npy|49-linear.npy|96000|320|그러게 말입니다|49.npz
+490-audio.npy|490-mel.npy|490-linear.npy|56400|188|사무실에 잠깐 들러 주실 수 있으세요|490.npz
+491-audio.npy|491-mel.npy|491-linear.npy|63300|211|열쇠를 잃어버려서 창문으로 집에 들어왔다|491.npz
+492-audio.npy|492-mel.npy|492-linear.npy|63000|210|방금 니가 한 말은 너의 무지를 드러내는 거야|492.npz
+493-audio.npy|493-mel.npy|493-linear.npy|42900|143|오늘은 집으로 일찍 들어와 랑|493.npz
+494-audio.npy|494-mel.npy|494-linear.npy|70500|235|이 지역에서 아파트가 여기저기 들어서고 있다|494.npz
+495-audio.npy|495-mel.npy|495-linear.npy|30600|102|도착하면 알려줘|495.npz
+496-audio.npy|496-mel.npy|496-linear.npy|49500|165|나는 10년 뒤에는 부자가 될 거야|496.npz
+497-audio.npy|497-mel.npy|497-linear.npy|50700|169|저는 애완견 돌보는 걸 좋아해요|497.npz
+498-audio.npy|498-mel.npy|498-linear.npy|50700|169|저는 애완견 돌보는 걸 좋아해요|498.npz
+499-audio.npy|499-mel.npy|499-linear.npy|49800|166|제 꿈은 한국으로 돌아가는 거에요|499.npz
+5-audio.npy|5-mel.npy|5-linear.npy|111900|373|트윗 애드온즈 보면 거의 당으로 끝 나서 그렇게 부르는 거예요|5.npz
+50-audio.npy|50-mel.npy|50-linear.npy|62400|208|그렇군요 따뜻하다는 분들도 계시네요|50.npz
+500-audio.npy|500-mel.npy|500-linear.npy|65400|218|이 문제를 둘러싸고 많은 논의가 있었다|500.npz
+51-audio.npy|51-mel.npy|51-linear.npy|55200|184|봤는데 이렇게 안 알려줘도 되는데|51.npz
+52-audio.npy|52-mel.npy|52-linear.npy|97200|324|돈가스 집에 있을 거예요 거기로 갈까요|52.npz
+53-audio.npy|53-mel.npy|53-linear.npy|90300|301|a는 꿈도 끄고 이루기 위해 많이 말하고 다녀야 하는 건가요|53.npz
+54-audio.npy|54-mel.npy|54-linear.npy|46500|155|불꽃 사진 찍으러 갈까 말까|54.npz
+55-audio.npy|55-mel.npy|55-linear.npy|63000|210|첫 강연 무사히 잘 맞지 모시길 바랍니다|55.npz
+56-audio.npy|56-mel.npy|56-linear.npy|83700|279|아 다 내일을 건너뛰고 빨리 금요일이 왔으면 좋겠네요|56.npz
+57-audio.npy|57-mel.npy|57-linear.npy|82500|275|오빠 게 환영해 주셔서 감사합니다 잘 부탁드려요|57.npz
+58-audio.npy|58-mel.npy|58-linear.npy|76800|256|한 달에 1번 따로 2번 정도 가는 것 같은데요|58.npz
+59-audio.npy|59-mel.npy|59-linear.npy|57000|190|제가 쓰고 있었는데 중간에 보내버렸네요|59.npz
+6-audio.npy|6-mel.npy|6-linear.npy|77700|259|즐거운 월요일 아침 맞이하시 길 38 드립니다|6.npz
+60-audio.npy|60-mel.npy|60-linear.npy|92700|309|일단 관련만 없었으면 좋겠습니다 제 마음이 아시나요|60.npz
+61-audio.npy|61-mel.npy|61-linear.npy|93000|310|도움이 되셨다니 다행입니다 남은 하루도 잘 마무리하세요|61.npz
+62-audio.npy|62-mel.npy|62-linear.npy|56400|188|모든 걸 다 알아야 이해할 수 있는 건 아니죠|62.npz
+63-audio.npy|63-mel.npy|63-linear.npy|63000|210|광고하시는 이외수 선생님한테 물어볼까요|63.npz
+64-audio.npy|64-mel.npy|64-linear.npy|76800|256|세상이 너무 많아서 죄송하다는 생각을 하고 있는 일인입니다|64.npz
+65-audio.npy|65-mel.npy|65-linear.npy|76500|255|선팔 감사드려요 그리고 영화 좋아하시나 봐요|65.npz
+66-audio.npy|66-mel.npy|66-linear.npy|84900|283|그냥 우리 엄마가 해 주는 따뜻한 밥 먹고 여기 붙어 있을래요|66.npz
+67-audio.npy|67-mel.npy|67-linear.npy|74400|248|내 반가워요 부동산 저녁 맛있게 드세요|67.npz
+68-audio.npy|68-mel.npy|68-linear.npy|74100|247|빨리 병원에 갈 수 있는 몇 번이 아니에요|68.npz
+69-audio.npy|69-mel.npy|69-linear.npy|87300|291|소녀의 오후 4시 5분 전 아파요 완료 반가워요|69.npz
+7-audio.npy|7-mel.npy|7-linear.npy|62100|207|이 시간엔 무한도전 본방 사수하 셔야죠|7.npz
+70-audio.npy|70-mel.npy|70-linear.npy|74400|248|그니까요 관심 없잖아요 사진 이쁘네요|70.npz
+71-audio.npy|71-mel.npy|71-linear.npy|64200|214|내 영혼 깊은 곳에 꿈을 간직하고 있었죠|71.npz
+72-audio.npy|72-mel.npy|72-linear.npy|124500|415|별말씀을 려 같아 하루 보내세요 질문 주셔서 감사합니다 호호|72.npz
+73-audio.npy|73-mel.npy|73-linear.npy|79200|264|애들 건강하세요 오랜만에 뵈니 반갑네요|73.npz
+74-audio.npy|74-mel.npy|74-linear.npy|92700|309|그러게요 저도 부럽지 않았는데 시간이 지날수록 커지더라구요|74.npz
+75-audio.npy|75-mel.npy|75-linear.npy|71100|237|운명이야 동현 오빠 문제 풀이해야 한다면서요|75.npz
+76-audio.npy|76-mel.npy|76-linear.npy|47400|158|엄마가 마루 청소기라고 생각하시는 듯|76.npz
+77-audio.npy|77-mel.npy|77-linear.npy|82200|274|넵 저도 재밌었어요 남은 시간 좋은 주말 되세요|77.npz
+78-audio.npy|78-mel.npy|78-linear.npy|54300|181|예쁜 옷 파는 사이트 추천해줘요|78.npz
+79-audio.npy|79-mel.npy|79-linear.npy|59100|197|우미 왕창 됐으면 좋겠네요|79.npz
+8-audio.npy|8-mel.npy|8-linear.npy|92700|309|이제 12시네요 내일 출근을 위해서 저는 이만 자 러 갑니다|8.npz
+80-audio.npy|80-mel.npy|80-linear.npy|79500|265|현대 방의 입장에서 보지 않고는 사람을 판단하지 말라|80.npz
+81-audio.npy|81-mel.npy|81-linear.npy|82200|274|응 집에서 놀고 있지 이상하네 내가 어딜 가겠어|81.npz
+82-audio.npy|82-mel.npy|82-linear.npy|85500|285|네 좋은 말씀 감사합니다 오늘도 즐거운 하루 되세요|82.npz
+83-audio.npy|83-mel.npy|83-linear.npy|109200|364|본의 아니게 현재 사용하는 트윗을 다른 목적으로 사용해야 하는 상황이 댐|83.npz
+84-audio.npy|84-mel.npy|84-linear.npy|63900|213|그렇게 믿을 근거가 없다고 알고 있습니다|84.npz
+85-audio.npy|85-mel.npy|85-linear.npy|75300|251|네 안녕하세요 반가워요 잘 부탁드립니다|85.npz
+86-audio.npy|86-mel.npy|86-linear.npy|60000|200|저랑 얼추 비슷하실 거 같은 데 아닌가요|86.npz
+87-audio.npy|87-mel.npy|87-linear.npy|73200|244|도착 할 테니 조금만 더 기다려 주세요|87.npz
+88-audio.npy|88-mel.npy|88-linear.npy|84600|282|즐거운 모임 되세요 저는 감기에 참석할게요|88.npz
+89-audio.npy|89-mel.npy|89-linear.npy|74700|249|아 그렇군요 참고해서 적용하시면 되는 거 군요|89.npz
+9-audio.npy|9-mel.npy|9-linear.npy|57600|192|제 타임 라인에서는 안 보이는 것 같은데요|9.npz
+90-audio.npy|90-mel.npy|90-linear.npy|112800|376|좋은 아침입니다 오늘은 모두 대한민국 짝짝짝 짝짝|90.npz
+91-audio.npy|91-mel.npy|91-linear.npy|100200|334|예전에 추천해 주셔서 들어 보고 나서 좋다고 말씀드렸던 것 같은데요|91.npz
+92-audio.npy|92-mel.npy|92-linear.npy|85800|286|폭 자고 일어나면 내일은 괜찮을 거예요 힘내세요|92.npz
+93-audio.npy|93-mel.npy|93-linear.npy|75900|253|커피와 담배가 입 했어요 잘 부탁드려요|93.npz
+94-audio.npy|94-mel.npy|94-linear.npy|104700|349|정부 청사에서 인천공항 바로 가는 버스 타시는 건 시간이 안 맞으시나요|94.npz
+95-audio.npy|95-mel.npy|95-linear.npy|95400|318|안녕하세요 인사를 잘 안 하시네요 다시 안녕하세요|95.npz
+96-audio.npy|96-mel.npy|96-linear.npy|98400|328|여러분들의 의견은 어떠세요 춥지는 않다고 생각됩니다만|96.npz
+97-audio.npy|97-mel.npy|97-linear.npy|66000|220|저랑 수다 딸로 오시는군요 좋은 아침 예약|97.npz
+98-audio.npy|98-mel.npy|98-linear.npy|95400|318|내일부터 아고라에서 온라인 서명하실 수 있도록 준비하겠습니다 박|98.npz
+99-audio.npy|99-mel.npy|99-linear.npy|67800|226|기다림 끝에 좋은 결과가 있을 거라고 보세요|99.npz
+Default-20200609-190502-audio.npy|Default-20200609-190502-mel.npy|Default-20200609-190502-linear.npy|51300|171|올해 6월은 유난히 쌀쌀해요|Default-20200609-190502.npz
+Default-20200609-190532-audio.npy|Default-20200609-190532-mel.npy|Default-20200609-190532-linear.npy|52800|176|이두 소설은 줄거리가 유사해요|Default-20200609-190532.npz
+Default-20200609-190558-audio.npy|Default-20200609-190558-mel.npy|Default-20200609-190558-linear.npy|46800|156|일찍 신청하는 사람이 유리할 거야|Default-20200609-190558.npz
+Default-20200609-190651-audio.npy|Default-20200609-190651-mel.npy|Default-20200609-190651-linear.npy|72000|240|아드님이 친구들과 야구를 하다 유리창을 깼어요|Default-20200609-190651.npz
+Default-20200609-190715-audio.npy|Default-20200609-190715-mel.npy|Default-20200609-190715-linear.npy|53100|177|깨진 유리 조각에 손가락을 뺐어요|Default-20200609-190715.npz
+Default-20200609-190724-audio.npy|Default-20200609-190724-mel.npy|Default-20200609-190724-linear.npy|56700|189|우리는 유럽 시장에 진출할 계획입니다|Default-20200609-190724.npz
+Default-20200609-190731-audio.npy|Default-20200609-190731-mel.npy|Default-20200609-190731-linear.npy|69600|232|그런 인재를 뽑는 것보다 더 중요한 일은 없어요|Default-20200609-190731.npz
+Default-20200609-190736-audio.npy|Default-20200609-190736-mel.npy|Default-20200609-190736-linear.npy|37200|124|올해는 유난히 봄이 되자|Default-20200609-190736.npz
+Default-20200609-190742-audio.npy|Default-20200609-190742-mel.npy|Default-20200609-190742-linear.npy|42900|143|부산은 국제 영화 축제로 유명해|Default-20200609-190742.npz
+Default-20200609-190746-audio.npy|Default-20200609-190746-mel.npy|Default-20200609-190746-linear.npy|62100|207|나는 스트레스를 해소하는 좋은 방법입니다|Default-20200609-190746.npz
+Default-20200609-190810-audio.npy|Default-20200609-190810-mel.npy|Default-20200609-190810-linear.npy|55800|186|일본어 랩 초가 아니고 67가|Default-20200609-190810.npz
+Default-20200609-190817-audio.npy|Default-20200609-190817-mel.npy|Default-20200609-190817-linear.npy|39000|130|마라톤은 육상의 꽃이다|Default-20200609-190817.npz
+Default-20200609-190822-audio.npy|Default-20200609-190822-mel.npy|Default-20200609-190822-linear.npy|61800|206|군대는 육군과 공군 해군으로 이루어진다|Default-20200609-190822.npz
+Default-20200609-190829-audio.npy|Default-20200609-190829-mel.npy|Default-20200609-190829-linear.npy|61200|204|육체적 고통은 얼마든지 이겨낼 수 있습니다|Default-20200609-190829.npz
+Default-20200609-190838-audio.npy|Default-20200609-190838-mel.npy|Default-20200609-190838-linear.npy|77700|259|사람의 육체는 언젠가 죽지만 정신은 영원한 것|Default-20200609-190838.npz
+Default-20200609-190845-audio.npy|Default-20200609-190845-mel.npy|Default-20200609-190845-linear.npy|67800|226|의사 말로는 저에게 남은 시간이 6개월이래요|Default-20200609-190845.npz
+Default-20200609-190851-audio.npy|Default-20200609-190851-mel.npy|Default-20200609-190851-linear.npy|46200|154|몸매를 유지하는 비결이 뭔 가요|Default-20200609-190851.npz
+Default-20200609-190856-audio.npy|Default-20200609-190856-mel.npy|Default-20200609-190856-linear.npy|43800|146|떨어뜨리지 않게 유의하세요|Default-20200609-190856.npz
+Default-20200609-190933-audio.npy|Default-20200609-190933-mel.npy|Default-20200609-190933-linear.npy|54900|183|이 문제는 많은 학생들이 틀리는 유형입니다|Default-20200609-190933.npz
+Default-20200609-190941-audio.npy|Default-20200609-190941-mel.npy|Default-20200609-190941-linear.npy|101400|338|우리 대학에는 외국인 유학생을 위한 한국어 혼자가 마련되어 있습니다|Default-20200609-190941.npz
+Default-20200609-190949-audio.npy|Default-20200609-190949-mel.npy|Default-20200609-190949-linear.npy|47400|158|한국에서의 유학 생활은 어때요|Default-20200609-190949.npz
+Default-20200609-191000-audio.npy|Default-20200609-191000-mel.npy|Default-20200609-191000-linear.npy|72900|243|올여름은 70년대 패션이 다시 유행하고 있어요|Default-20200609-191000.npz
+Default-20200609-191102-audio.npy|Default-20200609-191102-mel.npy|Default-20200609-191102-linear.npy|64800|216|한국 사회는 유교의 바탕을 두고 있다|Default-20200609-191102.npz
+Default-20200609-191123-audio.npy|Default-20200609-191123-mel.npy|Default-20200609-191123-linear.npy|53400|178|저는 유치원에서 한글을 배웠어요|Default-20200609-191123.npz
+Default-20200609-191137-audio.npy|Default-20200609-191137-mel.npy|Default-20200609-191137-linear.npy|47400|158|상황을 요약해서 설명해줄래|Default-20200609-191137.npz
+Default-20200609-191143-audio.npy|Default-20200609-191143-mel.npy|Default-20200609-191143-linear.npy|40800|136|요새 스트레스를 많이 받아|Default-20200609-191143.npz
+Default-20200609-191149-audio.npy|Default-20200609-191149-mel.npy|Default-20200609-191149-linear.npy|51600|172|저희 부모님은 두 분 다 요리 사세요|Default-20200609-191149.npz
+Default-20200609-191156-audio.npy|Default-20200609-191156-mel.npy|Default-20200609-191156-linear.npy|59400|198|미안하지만 지금은 요리하느라 너무 바빠|Default-20200609-191156.npz
+Default-20200609-191205-audio.npy|Default-20200609-191205-mel.npy|Default-20200609-191205-linear.npy|36000|120|저는 중국요리가 좋아요|Default-20200609-191205.npz
+Default-20200609-191210-audio.npy|Default-20200609-191210-mel.npy|Default-20200609-191210-linear.npy|60000|200|엄마 저 용돈 좀 올려 주시면 안 돼요|Default-20200609-191210.npz
+Default-20200609-191225-audio.npy|Default-20200609-191225-mel.npy|Default-20200609-191225-linear.npy|44100|147|제발 이번 한 번만 용서해 주세요|Default-20200609-191225.npz
+Default-20200609-191231-audio.npy|Default-20200609-191231-mel.npy|Default-20200609-191231-linear.npy|57900|193|그에게 데이트 신청할 용기가 없어요|Default-20200609-191231.npz
+Default-20200609-191237-audio.npy|Default-20200609-191237-mel.npy|Default-20200609-191237-linear.npy|39900|133|걔 보기보다 용감하던 데|Default-20200609-191237.npz
+Default-20200609-191315-audio.npy|Default-20200609-191315-mel.npy|Default-20200609-191315-linear.npy|48300|161|그냥 영화를 보면 머리가 아파요|Default-20200609-191315.npz
+Default-20200609-191320-audio.npy|Default-20200609-191320-mel.npy|Default-20200609-191320-linear.npy|58500|195|6차례 개인적인 용도로 사용한다면|Default-20200609-191320.npz
+Default-20200609-191326-audio.npy|Default-20200609-191326-mel.npy|Default-20200609-191326-linear.npy|38700|129|그 사람은 돈의 욕심이 많아요|Default-20200609-191326.npz
+Default-20200609-191330-audio.npy|Default-20200609-191330-mel.npy|Default-20200609-191330-linear.npy|72900|243|오늘 아침 욕실에서 비누를 밟고 미끄러졌어요|Default-20200609-191330.npz
+Default-20200609-191337-audio.npy|Default-20200609-191337-mel.npy|Default-20200609-191337-linear.npy|38100|127|그 앞에서 욕하지 마세요|Default-20200609-191337.npz
+Default-20200609-191342-audio.npy|Default-20200609-191342-mel.npy|Default-20200609-191342-linear.npy|28800|96|요즘 어떻게 지내요|Default-20200609-191342.npz
+Default-20200609-191347-audio.npy|Default-20200609-191347-mel.npy|Default-20200609-191347-linear.npy|39900|133|엄마 오늘이 무슨 요일이죠|Default-20200609-191347.npz
+Default-20200609-191353-audio.npy|Default-20200609-191353-mel.npy|Default-20200609-191353-linear.npy|50100|167|냉장고에서 요구르트 좀 꺼내 줄래|Default-20200609-191353.npz
+Default-20200609-191404-audio.npy|Default-20200609-191404-mel.npy|Default-20200609-191404-linear.npy|79500|265|한국의 부모들은 자식들에게 너무 많은 것을 요구하는 거 같아|Default-20200609-191404.npz
+Default-20200609-191433-audio.npy|Default-20200609-191433-mel.npy|Default-20200609-191433-linear.npy|37800|126|서울에 버스 요금은 얼마죠|Default-20200609-191433.npz
+Default-20200609-191438-audio.npy|Default-20200609-191438-mel.npy|Default-20200609-191438-linear.npy|94200|314|우리는 경찰에게 도움을 요청했지만 소용이 없었다|Default-20200609-191438.npz
+Default-20200609-191445-audio.npy|Default-20200609-191445-mel.npy|Default-20200609-191445-linear.npy|48600|162|요 며칠 동안 너무 바빴어요|Default-20200609-191445.npz
+Default-20200609-191504-audio.npy|Default-20200609-191504-mel.npy|Default-20200609-191504-linear.npy|42900|143|요 근처 아무 데나 내려 주세요|Default-20200609-191504.npz
+Default-20200609-191510-audio.npy|Default-20200609-191510-mel.npy|Default-20200609-191510-linear.npy|42900|143|이 꽃은 참 빨리 잘 하네요|Default-20200609-191510.npz
+Default-20200609-191515-audio.npy|Default-20200609-191515-mel.npy|Default-20200609-191515-linear.npy|57600|192|죄송하지만 예약을 취소하고 싶은데요|Default-20200609-191515.npz
+Default-20200609-191521-audio.npy|Default-20200609-191521-mel.npy|Default-20200609-191521-linear.npy|52200|174|그 노래를 들으면 내 추억이 떠오른다|Default-20200609-191521.npz
+Default-20200609-191530-audio.npy|Default-20200609-191530-mel.npy|Default-20200609-191530-linear.npy|39300|131|아버지는 예순이 넘으셨어요|Default-20200609-191530.npz
+Default-20200609-191541-audio.npy|Default-20200609-191541-mel.npy|Default-20200609-191541-linear.npy|56700|189|이 아이에게서 예술적 재능이 엿보입니다|Default-20200609-191541.npz
+Default-20200609-191546-audio.npy|Default-20200609-191546-mel.npy|Default-20200609-191546-linear.npy|66000|220|백남준은 한국이 낳은 위대한 예술가였어요|Default-20200609-191546.npz
+Default-20200609-191553-audio.npy|Default-20200609-191553-mel.npy|Default-20200609-191553-linear.npy|41700|139|나는 예술에 대해 아는 게 없어|Default-20200609-191553.npz
+Default-20200609-191559-audio.npy|Default-20200609-191559-mel.npy|Default-20200609-191559-linear.npy|61200|204|요즘에는 예식장 구하기가 하늘의 별따기야|Default-20200609-191559.npz
+Default-20200609-191604-audio.npy|Default-20200609-191604-mel.npy|Default-20200609-191604-linear.npy|33900|113|그 다음 장 예습해 오세요|Default-20200609-191604.npz
+Default-20200609-191609-audio.npy|Default-20200609-191609-mel.npy|Default-20200609-191609-linear.npy|64500|215|매년 50개 이상의 학교가 예선에 참가함|Default-20200609-191609.npz
+Default-20200609-191615-audio.npy|Default-20200609-191615-mel.npy|Default-20200609-191615-linear.npy|47400|158|오늘 밤에는 소나기가 예상됩니다|Default-20200609-191615.npz
+Default-20200609-191620-audio.npy|Default-20200609-191620-mel.npy|Default-20200609-191620-linear.npy|48300|161|제 예상보다 훨씬 어려웠어요|Default-20200609-191620.npz
+Default-20200609-191625-audio.npy|Default-20200609-191625-mel.npy|Default-20200609-191625-linear.npy|39300|131|예산이 부족한데 어떡하죠|Default-20200609-191625.npz
+Default-20200609-191632-audio.npy|Default-20200609-191632-mel.npy|Default-20200609-191632-linear.npy|34800|116|이 옷 정말 예쁘지않니|Default-20200609-191632.npz
+Default-20200609-191703-audio.npy|Default-20200609-191703-mel.npy|Default-20200609-191703-linear.npy|36900|123|긴장하지 말고 여유를 갖아|Default-20200609-191703.npz
+Default-20200609-191733-audio.npy|Default-20200609-191733-mel.npy|Default-20200609-191733-linear.npy|42000|140|서두르지 마 아직 여유 있어|Default-20200609-191733.npz
+Default-20200609-191748-audio.npy|Default-20200609-191748-mel.npy|Default-20200609-191748-linear.npy|36900|123|건강해야 일도 할 수 있지 차|Default-20200609-191748.npz
+Default-20200609-191759-audio.npy|Default-20200609-191759-mel.npy|Default-20200609-191759-linear.npy|31800|106|오늘 여왕 같은데요|Default-20200609-191759.npz
+Default-20200609-191810-audio.npy|Default-20200609-191810-mel.npy|Default-20200609-191810-linear.npy|57000|190|여자가 왜 영어로 공과 상관이 있는 거|Default-20200609-191810.npz
+Default-20200609-191851-audio.npy|Default-20200609-191851-mel.npy|Default-20200609-191851-linear.npy|53100|177|누가 자꾸나 엿보는 기분이 들어요|Default-20200609-191851.npz
+Default-20200609-191856-audio.npy|Default-20200609-191856-mel.npy|Default-20200609-191856-linear.npy|45600|152|그대는 가난했지만 행복했다|Default-20200609-191856.npz
+Default-20200609-191902-audio.npy|Default-20200609-191902-mel.npy|Default-20200609-191902-linear.npy|44400|148|남편은 저보다 6살 어려요|Default-20200609-191902.npz
+Default-20200609-191906-audio.npy|Default-20200609-191906-mel.npy|Default-20200609-191906-linear.npy|71100|237|당신은 여성으로 서는 처음 뽑힌 거라고 들었습니다|Default-20200609-191906.npz
+Default-20200609-191917-audio.npy|Default-20200609-191917-mel.npy|Default-20200609-191917-linear.npy|57600|192|어젯밤 너무 취해서 아무것도 기억이 안나|Default-20200609-191917.npz
+Default-20200609-191924-audio.npy|Default-20200609-191924-mel.npy|Default-20200609-191924-linear.npy|63300|211|우리는 2시에 도착해서 1시간 뒤에 떠났다|Default-20200609-191924.npz
+Default-20200609-191930-audio.npy|Default-20200609-191930-mel.npy|Default-20200609-191930-linear.npy|62700|209|어떤 정부도 여론을 무시하고 존재할 수 없다|Default-20200609-191930.npz
+Default-20200609-191937-audio.npy|Default-20200609-191937-mel.npy|Default-20200609-191937-linear.npy|44400|148|여름철에는 음식이 쉽게 상한다|Default-20200609-191937.npz
+Default-20200609-192004-audio.npy|Default-20200609-192004-mel.npy|Default-20200609-192004-linear.npy|44100|147|이번 여름에는 제주도에 핫|Default-20200609-192004.npz
+Default-20200609-192016-audio.npy|Default-20200609-192016-mel.npy|Default-20200609-192016-linear.npy|44400|148|라면 여럿이 먹으면 더 맛있는 밥|Default-20200609-192016.npz
+Default-20200609-192111-audio.npy|Default-20200609-192111-mel.npy|Default-20200609-192111-linear.npy|37200|124|여러 나라를 가 보고 싶어요|Default-20200609-192111.npz
+Default-20200609-192116-audio.npy|Default-20200609-192116-mel.npy|Default-20200609-192116-linear.npy|27000|90|필요한 게 있으면 말해라|Default-20200609-192116.npz
+Default-20200609-192120-audio.npy|Default-20200609-192120-mel.npy|Default-20200609-192120-linear.npy|53700|179|런던에 도착하면 엽서 보내는 거 잊지 마|Default-20200609-192120.npz
+Default-20200609-192126-audio.npy|Default-20200609-192126-mel.npy|Default-20200609-192126-linear.npy|30300|101|부모님이 옆 방에 재생|Default-20200609-192126.npz
+Default-20200609-192133-audio.npy|Default-20200609-192133-mel.npy|Default-20200609-192133-linear.npy|56100|187|오랜만에 달리기를 했더니 옆구리가 아파요|Default-20200609-192133.npz
+Default-20200609-192139-audio.npy|Default-20200609-192139-mel.npy|Default-20200609-192139-linear.npy|30300|101|옆으로 좀 가 주세요|Default-20200609-192139.npz
+Default-20200609-192144-audio.npy|Default-20200609-192144-mel.npy|Default-20200609-192144-linear.npy|43500|145|옆집은 다음 달에 이사 간대요|Default-20200609-192144.npz
+Default-20200609-192151-audio.npy|Default-20200609-192151-mel.npy|Default-20200609-192151-linear.npy|42000|140|니 옆에 있는 남자앤 누구니|Default-20200609-192151.npz
+Default-20200609-192156-audio.npy|Default-20200609-192156-mel.npy|Default-20200609-192156-linear.npy|63900|213|사실 대부분의 연예인들은 수입이 많지 않다|Default-20200609-192156.npz
+Default-20200609-192202-audio.npy|Default-20200609-192202-mel.npy|Default-20200609-192202-linear.npy|57300|191|이틀 연속 밤새 웠더니 피곤해 죽겠어|Default-20200609-192202.npz
+Default-20200609-192209-audio.npy|Default-20200609-192209-mel.npy|Default-20200609-192209-linear.npy|57000|190|그 사람의 인생은 불행의 연속이었다|Default-20200609-192209.npz
+Default-20200609-192215-audio.npy|Default-20200609-192215-mel.npy|Default-20200609-192215-linear.npy|50400|168|연습할 시간이 많지 않아요|Default-20200609-192215.npz
+Default-20200609-192222-audio.npy|Default-20200609-192222-mel.npy|Default-20200609-192222-linear.npy|60900|203|대통령이 국회의원들 앞에서 연설을 했다|Default-20200609-192222.npz
+Default-20200609-192228-audio.npy|Default-20200609-192228-mel.npy|Default-20200609-192228-linear.npy|52800|176|어머니 올해 연세가 어떻게 되세요|Default-20200609-192228.npz
+Default-20200609-192234-audio.npy|Default-20200609-192234-mel.npy|Default-20200609-192234-linear.npy|31800|106|연필로 써도 됩니까|Default-20200609-192234.npz
+Default-20200609-192239-audio.npy|Default-20200609-192239-mel.npy|Default-20200609-192239-linear.npy|33000|110|엄마네는 술자리가 많아|Default-20200609-192239.npz
+Default-20200609-192249-audio.npy|Default-20200609-192249-mel.npy|Default-20200609-192249-linear.npy|57600|192|저는 연주할 줄 아는 악기가 하나도 없어요|Default-20200609-192249.npz
+Default-20200609-192342-audio.npy|Default-20200609-192342-mel.npy|Default-20200609-192342-linear.npy|42000|140|체육관을 연장하고 싶은데요|Default-20200609-192342.npz
+Default-20200609-192346-audio.npy|Default-20200609-192346-mel.npy|Default-20200609-192346-linear.npy|51300|171|이 노래 된 연인들이 같이 부르기 좋아|Default-20200609-192346.npz
+Default-20200609-192351-audio.npy|Default-20200609-192351-mel.npy|Default-20200609-192351-linear.npy|27000|90|연휴 잘 보내세요|Default-20200609-192351.npz
+Default-20200609-192355-audio.npy|Default-20200609-192355-mel.npy|Default-20200609-192355-linear.npy|23700|79|고기가 참 연하네요|Default-20200609-192355.npz
+Default-20200609-192359-audio.npy|Default-20200609-192359-mel.npy|Default-20200609-192359-linear.npy|34800|116|좀 더 연한 색깔 없어요|Default-20200609-192359.npz
+Default-20200609-192404-audio.npy|Default-20200609-192404-mel.npy|Default-20200609-192404-linear.npy|48000|160|그 두 섬은 다리로 연결되어 있다|Default-20200609-192404.npz
+Default-20200609-192409-audio.npy|Default-20200609-192409-mel.npy|Default-20200609-192409-linear.npy|38700|129|담당자를 연결해 드리겠습니다|Default-20200609-192409.npz
+Default-20200609-192414-audio.npy|Default-20200609-192414-mel.npy|Default-20200609-192414-linear.npy|41400|138|그건 제 영역 박해 일이야|Default-20200609-192414.npz
+Default-20200609-203209-audio.npy|Default-20200609-203209-mel.npy|Default-20200609-203209-linear.npy|51000|170|이 옷 위아래를 따로 살 수는 없는 거야|Default-20200609-203209.npz
+Default-20200609-203213-audio.npy|Default-20200609-203213-mel.npy|Default-20200609-203213-linear.npy|45300|151|저는 3위를 목표로 하고 있습니다|Default-20200609-203213.npz
+Default-20200609-203225-audio.npy|Default-20200609-203225-mel.npy|Default-20200609-203225-linear.npy|25500|85|저는 위가 안 좋아|Default-20200609-203225.npz
+Default-20200609-203228-audio.npy|Default-20200609-203228-mel.npy|Default-20200609-203228-linear.npy|36000|120|누나는 저보다 4살 위예요|Default-20200609-203228.npz
+Default-20200609-203232-audio.npy|Default-20200609-203232-mel.npy|Default-20200609-203232-linear.npy|39000|130|니 핸드폰은 책상 위에 있어|Default-20200609-203232.npz
+Default-20200609-203236-audio.npy|Default-20200609-203236-mel.npy|Default-20200609-203236-linear.npy|43800|146|오늘 이렇게 일찍 오다니 웬일이야|Default-20200609-203236.npz
+Default-20200609-203240-audio.npy|Default-20200609-203240-mel.npy|Default-20200609-203240-linear.npy|30600|102|웬만하면 네가 참 아랑|Default-20200609-203240.npz
+Default-20200609-203244-audio.npy|Default-20200609-203244-mel.npy|Default-20200609-203244-linear.npy|51600|172|웬 남자가 대문 앞에서 널 기다리던 데|Default-20200609-203244.npz
+Default-20200609-203248-audio.npy|Default-20200609-203248-mel.npy|Default-20200609-203248-linear.npy|37200|124|이른 아침부터 웬 전화니|Default-20200609-203248.npz
+Default-20200609-203252-audio.npy|Default-20200609-203252-mel.npy|Default-20200609-203252-linear.npy|57000|190|그 빌딩은 올 겨울쯤에 완성될 예정입니다|Default-20200609-203252.npz
+Default-20200609-203258-audio.npy|Default-20200609-203258-mel.npy|Default-20200609-203258-linear.npy|60900|203|주어진 단어들을 이용해 문장을 완성하시오|Default-20200609-203258.npz
+Default-20200609-203303-audio.npy|Default-20200609-203303-mel.npy|Default-20200609-203303-linear.npy|48900|163|그 사람의 인기는 어떠니 완전히 달라졌어요|Default-20200609-203303.npz
+Default-20200609-203308-audio.npy|Default-20200609-203308-mel.npy|Default-20200609-203308-linear.npy|38100|127|이건 완전한 문장이 아닌 데|Default-20200609-203308.npz
+Default-20200609-203343-audio.npy|Default-20200609-203343-mel.npy|Default-20200609-203343-linear.npy|89400|298|어린 왕자는 우리나라에서 가장 인기 있는 외국 소설 라이|Default-20200609-203343.npz
+Default-20200609-203349-audio.npy|Default-20200609-203349-mel.npy|Default-20200609-203349-linear.npy|66000|220|엄마는 아버지에게 왕비 대접을 받고 사세요|Default-20200609-203349.npz
+Default-20200609-203355-audio.npy|Default-20200609-203355-mel.npy|Default-20200609-203355-linear.npy|41400|138|세상의 완벽한 번역은 없어|Default-20200609-203355.npz
+Default-20200609-203359-audio.npy|Default-20200609-203359-mel.npy|Default-20200609-203359-linear.npy|57000|190|이 와이셔츠 내일까지 드라이 좀 해 주세요|Default-20200609-203359.npz
+Default-20200609-203405-audio.npy|Default-20200609-203405-mel.npy|Default-20200609-203405-linear.npy|24600|82|와인 한잔 할래|Default-20200609-203405.npz
+Default-20200609-203409-audio.npy|Default-20200609-203409-mel.npy|Default-20200609-203409-linear.npy|84000|280|졌지만 괜찮아 형 왜냐하면 우리는 최선을 다했으니까|Default-20200609-203409.npz
+Default-20200609-203417-audio.npy|Default-20200609-203417-mel.npy|Default-20200609-203417-linear.npy|52500|175|제가 왜 이 남자랑 결혼했는지 모르겠어요|Default-20200609-203417.npz
+Default-20200609-203424-audio.npy|Default-20200609-203424-mel.npy|Default-20200609-203424-linear.npy|36300|121|와 이 노래 정말 좋은 데|Default-20200609-203424.npz
+Default-20200609-203428-audio.npy|Default-20200609-203428-mel.npy|Default-20200609-203428-linear.npy|46800|156|누구와 일하는 지는 중요하지 않아요|Default-20200609-203428.npz
+Default-20200609-203432-audio.npy|Default-20200609-203432-mel.npy|Default-20200609-203432-linear.npy|46500|155|사과 레몬은 비타민이 풍부해요|Default-20200609-203432.npz
+Default-20200609-203440-audio.npy|Default-20200609-203440-mel.npy|Default-20200609-203440-linear.npy|61200|204|어제 길에서 우연히 담임선생님을 만났어요|Default-20200609-203440.npz
+Default-20200609-203445-audio.npy|Default-20200609-203445-mel.npy|Default-20200609-203445-linear.npy|62400|208|크리스마스를 혼자 보내는 건 참 우울한 일이야|Default-20200609-203445.npz
+Default-20200609-203450-audio.npy|Default-20200609-203450-mel.npy|Default-20200609-203450-linear.npy|54300|181|그 영화는 웃기면서 동시에 감동적이다|Default-20200609-203450.npz
+Default-20200609-203455-audio.npy|Default-20200609-203455-mel.npy|Default-20200609-203455-linear.npy|37800|126|저는 사람들을 웃기는 게 좋아요|Default-20200609-203455.npz
+Default-20200609-203507-audio.npy|Default-20200609-203507-mel.npy|Default-20200609-203507-linear.npy|79500|265|이 학생은 제가 가르침 중에서 가장 우수한 학생입니다|Default-20200609-203507.npz
+Default-20200609-203537-audio.npy|Default-20200609-203537-mel.npy|Default-20200609-203537-linear.npy|33300|111|내가 그렇게 우스워 보여|Default-20200609-203537.npz
+Default-20200609-203540-audio.npy|Default-20200609-203540-mel.npy|Default-20200609-203540-linear.npy|56400|188|이제 다음 문제를 맞히시면 우승하게 됩니다|Default-20200609-203540.npz
+Default-20200609-203545-audio.npy|Default-20200609-203545-mel.npy|Default-20200609-203545-linear.npy|68100|227|그의 웃긴 표정을 보고 웃음을 참을 수가 없었어요|Default-20200609-203545.npz
+Default-20200609-203551-audio.npy|Default-20200609-203551-mel.npy|Default-20200609-203551-linear.npy|38100|127|우선 경찰에 신고부터 화장|Default-20200609-203551.npz
+Default-20200609-203555-audio.npy|Default-20200609-203555-mel.npy|Default-20200609-203555-linear.npy|37200|124|오늘 학교에 우산 가져왔니|Default-20200609-203555.npz
+Default-20200609-203559-audio.npy|Default-20200609-203559-mel.npy|Default-20200609-203559-linear.npy|56700|189|우리나라에서는 태어나면 바로 1살이에요|Default-20200609-203559.npz
+Default-20200609-203604-audio.npy|Default-20200609-203604-mel.npy|Default-20200609-203604-linear.npy|42000|140|우리말을 아끼고 사랑합시당|Default-20200609-203604.npz
+Default-20200609-203608-audio.npy|Default-20200609-203608-mel.npy|Default-20200609-203608-linear.npy|43500|145|우리 집 찾는데 힘들지는 않았니|Default-20200609-203608.npz
+Default-20200609-203612-audio.npy|Default-20200609-203612-mel.npy|Default-20200609-203612-linear.npy|35400|118|아기가 울음을 안 그쳐|Default-20200609-203612.npz
+Default-20200609-203615-audio.npy|Default-20200609-203615-mel.npy|Default-20200609-203615-linear.npy|41700|139|우편은 어디에서 살 수 있죠|Default-20200609-203615.npz
+Default-20200609-203620-audio.npy|Default-20200609-203620-mel.npy|Default-20200609-203620-linear.npy|39300|131|우편함에는 아무것도 없어요|Default-20200609-203620.npz
+Default-20200609-203642-audio.npy|Default-20200609-203642-mel.npy|Default-20200609-203642-linear.npy|53700|179|전화나 우편으로 결과를 알려 드리겠습니다|Default-20200609-203642.npz
+Default-20200609-203647-audio.npy|Default-20200609-203647-mel.npy|Default-20200609-203647-linear.npy|44700|149|저는 조그만 회사를 운영하고 있습니다|Default-20200609-203647.npz
+Default-20200609-203651-audio.npy|Default-20200609-203651-mel.npy|Default-20200609-203651-linear.npy|47400|158|제가 남편과 만난 것은 운명이었어요|Default-20200609-203651.npz
+Default-20200609-203656-audio.npy|Default-20200609-203656-mel.npy|Default-20200609-203656-linear.npy|60000|200|양쪽 운전자 모두 사고의 책임이 있었다|Default-20200609-203656.npz
+Default-20200609-203704-audio.npy|Default-20200609-203704-mel.npy|Default-20200609-203704-linear.npy|47700|159|운전을 오래 했더니 조금 피곤하네|Default-20200609-203704.npz
+Default-20200609-203708-audio.npy|Default-20200609-203708-mel.npy|Default-20200609-203708-linear.npy|38700|129|운동장에는 아무도 없어요|Default-20200609-203708.npz
+Default-20200609-203712-audio.npy|Default-20200609-203712-mel.npy|Default-20200609-203712-linear.npy|54600|182|깨지기 쉬우니까 조심해서 운반해 주세요|Default-20200609-203712.npz
+Default-20200609-203716-audio.npy|Default-20200609-203716-mel.npy|Default-20200609-203716-linear.npy|84600|282|당신이 눈을 움직이면 카메라가 그 움직임을 따라갈 것 같다|Default-20200609-203716.npz
+Default-20200609-203722-audio.npy|Default-20200609-203722-mel.npy|Default-20200609-203722-linear.npy|27300|91|팔을 움직여 보세요|Default-20200609-203722.npz
+Default-20200609-203726-audio.npy|Default-20200609-203726-mel.npy|Default-20200609-203726-linear.npy|46500|155|여기에 도착하면 배를 눌러 주세요|Default-20200609-203726.npz
+Default-20200609-203730-audio.npy|Default-20200609-203730-mel.npy|Default-20200609-203730-linear.npy|48900|163|왜 아무것도 아닌 일로 울 엉|Default-20200609-203730.npz
+Default-20200609-203735-audio.npy|Default-20200609-203735-mel.npy|Default-20200609-203735-linear.npy|41700|139|우주여행은 더 이상 꿈이 아니다|Default-20200609-203735.npz
+Default-20200609-203739-audio.npy|Default-20200609-203739-mel.npy|Default-20200609-203739-linear.npy|56100|187|한 여자 때문에 우리 둘의 우정이 금이 갔다|Default-20200609-203739.npz
+Default-20200609-203744-audio.npy|Default-20200609-203744-mel.npy|Default-20200609-203744-linear.npy|75300|251|그 사람은 아내와 헤어진 후 사회 의욕을 잃어버린 것|Default-20200609-203744.npz
+Default-20200609-203814-audio.npy|Default-20200609-203814-mel.npy|Default-20200609-203814-linear.npy|58200|194|여자들은 남자들보다 남의눈을 의식하는거 같아|Default-20200609-203814.npz
+Default-20200609-203821-audio.npy|Default-20200609-203821-mel.npy|Default-20200609-203821-linear.npy|33000|110|지금 날 의심하는 거야|Default-20200609-203821.npz
+Default-20200609-203827-audio.npy|Default-20200609-203827-mel.npy|Default-20200609-203827-linear.npy|47700|159|의사 선생님 문제가 뭔 가요|Default-20200609-203827.npz
+Default-20200609-203831-audio.npy|Default-20200609-203831-mel.npy|Default-20200609-203831-linear.npy|43800|146|전 아직 결혼할 의사가 없어요|Default-20200609-203831.npz
+Default-20200609-203835-audio.npy|Default-20200609-203835-mel.npy|Default-20200609-203835-linear.npy|79800|266|아내는 미국인이지만 우리는 의사소통에 전혀 문제가 없습니다|Default-20200609-203835.npz
+Default-20200609-203840-audio.npy|Default-20200609-203840-mel.npy|Default-20200609-203840-linear.npy|33300|111|시험이 의외로 쉬웠어요|Default-20200609-203840.npz
+Default-20200609-203844-audio.npy|Default-20200609-203844-mel.npy|Default-20200609-203844-linear.npy|38700|129|남성 의류는 3층에 있어요|Default-20200609-203844.npz
+Default-20200609-203848-audio.npy|Default-20200609-203848-mel.npy|Default-20200609-203848-linear.npy|60600|202|오랜 시간이 지났지만 한 가지 의문이 남아 있어요|Default-20200609-203848.npz
+Default-20200609-203852-audio.npy|Default-20200609-203852-mel.npy|Default-20200609-203852-linear.npy|42300|141|더 하고 의논할 게 있어서 왔어|Default-20200609-203852.npz
+Default-20200609-203856-audio.npy|Default-20200609-203856-mel.npy|Default-20200609-203856-linear.npy|46800|156|우리는 모두 벽을 지킬 의무가 있다|Default-20200609-203856.npz
+Default-20200609-203918-audio.npy|Default-20200609-203918-mel.npy|Default-20200609-203918-linear.npy|66000|220|한국 경제는 옛날부터 수출에 의존해왔어|Default-20200609-203918.npz
+Default-20200609-203923-audio.npy|Default-20200609-203923-mel.npy|Default-20200609-203923-linear.npy|45600|152|힘들 때 의지할 사람이 없어서 외로워|Default-20200609-203923.npz
+Default-20200609-203927-audio.npy|Default-20200609-203927-mel.npy|Default-20200609-203927-linear.npy|33900|113|남편은 의지가 강한 사람이|Default-20200609-203927.npz
+Default-20200609-203934-audio.npy|Default-20200609-203934-mel.npy|Default-20200609-203934-linear.npy|42300|141|그 병은 모기에 의해 발생한다|Default-20200609-203934.npz
+Default-20200609-203939-audio.npy|Default-20200609-203939-mel.npy|Default-20200609-203939-linear.npy|53700|179|의사 말에 의하면 저는 운동 부족이래|Default-20200609-203939.npz
+Default-20200609-204000-audio.npy|Default-20200609-204000-mel.npy|Default-20200609-204000-linear.npy|31800|106|다른 의견 있는 분 계세요|Default-20200609-204000.npz
+Default-20200609-204008-audio.npy|Default-20200609-204008-mel.npy|Default-20200609-204008-linear.npy|36300|121|한화 갤 의도는 아니었어요|Default-20200609-204008.npz
+Default-20200609-204018-audio.npy|Default-20200609-204018-mel.npy|Default-20200609-204018-linear.npy|55800|186|서울 시내 우체통 수가 점점 줄고 있다|Default-20200609-204018.npz
+Default-20200609-204041-audio.npy|Default-20200609-204041-mel.npy|Default-20200609-204041-linear.npy|50400|168|우체국은 커피숍 가는 길에 있어|Default-20200609-204041.npz
+Default-20200609-204045-audio.npy|Default-20200609-204045-mel.npy|Default-20200609-204045-linear.npy|43800|146|집을 아주 하게 잘 꾸미셨네요|Default-20200609-204045.npz
+Default-20200609-204048-audio.npy|Default-20200609-204048-mel.npy|Default-20200609-204048-linear.npy|41400|138|너겟 감자튀김 다 먹을 거야|Default-20200609-204048.npz
+Default-20200609-204102-audio.npy|Default-20200609-204102-mel.npy|Default-20200609-204102-linear.npy|50700|169|아이들은 대개 공 튀기는 것을 좋아해|Default-20200609-204102.npz
+Default-20200609-204107-audio.npy|Default-20200609-204107-mel.npy|Default-20200609-204107-linear.npy|32400|108|물 튀기지 않게 조심하세요|Default-20200609-204107.npz
+Default-20200609-204110-audio.npy|Default-20200609-204110-mel.npy|Default-20200609-204110-linear.npy|62700|209|아이가 골목에서 튀어나와서 사고 날 뻔 했어요|Default-20200609-204110.npz
+Default-20200609-204115-audio.npy|Default-20200609-204115-mel.npy|Default-20200609-204115-linear.npy|43500|145|저는 아내의 튀어나온 이마가 좋아|Default-20200609-204115.npz
+Default-20200609-204119-audio.npy|Default-20200609-204119-mel.npy|Default-20200609-204119-linear.npy|36900|123|누구한테 투표할 생각이세요|Default-20200609-204119.npz
+Default-20200609-204123-audio.npy|Default-20200609-204123-mel.npy|Default-20200609-204123-linear.npy|50700|169|물이 어찌나 투명한지 바닥이 다 보여요|Default-20200609-204123.npz
+Default-20200609-204127-audio.npy|Default-20200609-204127-mel.npy|Default-20200609-204127-linear.npy|60300|201|그 사람은 주식에 투자했다가 전재산을 날렸다|Default-20200609-204127.npz
+Default-20200609-204132-audio.npy|Default-20200609-204132-mel.npy|Default-20200609-204132-linear.npy|46200|154|집에서 여기까지 계속 뛰어왔어요|Default-20200609-204132.npz
+Default-20200609-204136-audio.npy|Default-20200609-204136-mel.npy|Default-20200609-204136-linear.npy|67800|226|시골에는 아이들이 뛰어놀 수 있는 공간이 충분히 있다|Default-20200609-204136.npz
+Default-20200609-204146-audio.npy|Default-20200609-204146-mel.npy|Default-20200609-204146-linear.npy|51600|172|예상을 뛰어넘어 우리 팀이 승리했다|Default-20200609-204146.npz
+Default-20200609-204232-audio.npy|Default-20200609-204232-mel.npy|Default-20200609-204232-linear.npy|90000|300|사람들은 땅이 흔들리는 것을 느끼고 건물 밖으로 튀어나왔다|Default-20200609-204232.npz
+Default-20200609-204321-audio.npy|Default-20200609-204321-mel.npy|Default-20200609-204321-linear.npy|40800|136|요즘 10대들은 개성이 뚜렷해|Default-20200609-204321.npz
+Default-20200609-204325-audio.npy|Default-20200609-204325-mel.npy|Default-20200609-204325-linear.npy|45000|150|제 발치 약속을 하면 뚜껑 좀 전화|Default-20200609-204325.npz
+Default-20200609-204329-audio.npy|Default-20200609-204329-mel.npy|Default-20200609-204329-linear.npy|35700|119|아드님이 참 똑똑하군|Default-20200609-204329.npz
+Default-20200609-204332-audio.npy|Default-20200609-204332-mel.npy|Default-20200609-204332-linear.npy|48000|160|혼자 중얼거리지 말고 똑바로 말해봐|Default-20200609-204332.npz
+Default-20200609-204337-audio.npy|Default-20200609-204337-mel.npy|Default-20200609-204337-linear.npy|37800|126|똑바로 가다가 왼쪽으로 도세요|Default-20200609-204337.npz
+Default-20200609-204340-audio.npy|Default-20200609-204340-mel.npy|Default-20200609-204340-linear.npy|39600|132|너는 고등학교 때랑 똑같구나|Default-20200609-204340.npz
+Default-20200609-204344-audio.npy|Default-20200609-204344-mel.npy|Default-20200609-204344-linear.npy|28500|95|나도 똑같이 했을 거야|Default-20200609-204344.npz
+Default-20200609-204347-audio.npy|Default-20200609-204347-mel.npy|Default-20200609-204347-linear.npy|48000|160|그녀는 예쁘고 또 잘 봐요|Default-20200609-204347.npz
+Default-20200609-204352-audio.npy|Default-20200609-204352-mel.npy|Default-20200609-204352-linear.npy|39900|133|우리는 배를 호수에 띄웠다|Default-20200609-204352.npz
+Default-20200609-204356-audio.npy|Default-20200609-204356-mel.npy|Default-20200609-204356-linear.npy|36900|123|이두 단어는 뛰어야 해요|Default-20200609-204356.npz
+Default-20200609-204400-audio.npy|Default-20200609-204400-mel.npy|Default-20200609-204400-linear.npy|55800|186|여기서 너를 만나다니 정말 뜻밖인데|Default-20200609-204400.npz
+Default-20200609-204405-audio.npy|Default-20200609-204405-mel.npy|Default-20200609-204405-linear.npy|36300|121|그래서 아이들이 뛰놀고 잇당|Default-20200609-204405.npz
+Default-20200609-204410-audio.npy|Default-20200609-204410-mel.npy|Default-20200609-204410-linear.npy|38400|128|회의 중에는 자리를 뜨지 마세요|Default-20200609-204410.npz
+Default-20200609-204414-audio.npy|Default-20200609-204414-mel.npy|Default-20200609-204414-linear.npy|57000|190|아버지는 생각되기도 전에 일을 시작하세요|Default-20200609-204414.npz
+Default-20200609-204424-audio.npy|Default-20200609-204424-mel.npy|Default-20200609-204424-linear.npy|31800|106|부엌에 떡이 있어요|Default-20200609-204424.npz
+Default-20200609-204428-audio.npy|Default-20200609-204428-mel.npy|Default-20200609-204428-linear.npy|37800|126|떠들고 싶으면 딴 데로 바람|Default-20200609-204428.npz
+Default-20200609-204431-audio.npy|Default-20200609-204431-mel.npy|Default-20200609-204431-linear.npy|29400|98|난 따뜻한 날씨가 좋아|Default-20200609-204431.npz
+Default-20200609-204523-audio.npy|Default-20200609-204523-mel.npy|Default-20200609-204523-linear.npy|35700|119|오늘 토론은 주제가 뭐예요|Default-20200609-204523.npz
+Default-20200609-204530-audio.npy|Default-20200609-204530-mel.npy|Default-20200609-204530-linear.npy|73500|245|한국에서는 택시에서 무료로 통역 서비스를 제공했다|Default-20200609-204530.npz
+Default-20200609-204550-audio.npy|Default-20200609-204550-mel.npy|Default-20200609-204550-linear.npy|44700|149|이메일은 효과적인 통신수단 익|Default-20200609-204550.npz
+Default-20200609-204554-audio.npy|Default-20200609-204554-mel.npy|Default-20200609-204554-linear.npy|39300|131|통로 쪽 좌석으로 부탁합니다|Default-20200609-204554.npz
+Default-20200609-204558-audio.npy|Default-20200609-204558-mel.npy|Default-20200609-204558-linear.npy|51900|173|인간은 날씨의 변화를 통제할 수 없어요|Default-20200609-204558.npz
+Default-20200609-204603-audio.npy|Default-20200609-204603-mel.npy|Default-20200609-204603-linear.npy|52200|174|시간이 없으니 주문을 한 가지로 통일하자|Default-20200609-204603.npz
+Default-20200609-204610-audio.npy|Default-20200609-204610-mel.npy|Default-20200609-204610-linear.npy|34200|114|지후하고 통화하고 싶은데요|Default-20200609-204610.npz
+Default-20200609-204614-audio.npy|Default-20200609-204614-mel.npy|Default-20200609-204614-linear.npy|56700|189|공사 때문에 통행에 불편을 드려 죄송합니다|Default-20200609-204614.npz
+Default-20200609-204635-audio.npy|Default-20200609-204635-mel.npy|Default-20200609-204635-linear.npy|43500|145|통계를 완전히 믿을 수는 없어요|Default-20200609-204635.npz
+Default-20200609-204639-audio.npy|Default-20200609-204639-mel.npy|Default-20200609-204639-linear.npy|64200|214|내 생각에는 피아노가 문을 통과하지 못할 거 같아|Default-20200609-204639.npz
+Default-20200609-204644-audio.npy|Default-20200609-204644-mel.npy|Default-20200609-204644-linear.npy|64500|215|10단이 넘는 철학은 이두를 이완할 수 없습니다|Default-20200609-204644.npz
+Default-20200609-204650-audio.npy|Default-20200609-204650-mel.npy|Default-20200609-204650-linear.npy|50400|168|안 쓰는 물건 담아 놓을 통 좀 가져와봐|Default-20200609-204650.npz
+Default-20200609-204658-audio.npy|Default-20200609-204658-mel.npy|Default-20200609-204658-linear.npy|62400|208|어젯밤에 술을 너무 많이 마셨더니 토할 거 같아|Default-20200609-204658.npz
+Default-20200609-204709-audio.npy|Default-20200609-204709-mel.npy|Default-20200609-204709-linear.npy|48900|163|어제 산 티셔츠를 교환하고 싶은데|Default-20200609-204709.npz
+Default-20200609-204723-audio.npy|Default-20200609-204723-mel.npy|Default-20200609-204723-linear.npy|53400|178|티켓과 신분증을 꺼내 주시기 바랍니다|Default-20200609-204723.npz
+Default-20200609-204729-audio.npy|Default-20200609-204729-mel.npy|Default-20200609-204729-linear.npy|66600|222|커튼 좀 다시 쳐줄래 틈 사이로 햇빛이 들어와|Default-20200609-204729.npz
+Default-20200609-204735-audio.npy|Default-20200609-204735-mel.npy|Default-20200609-204735-linear.npy|45300|151|더 좋은 방법이 틀림없이 있을 거야|Default-20200609-204735.npz
+Default-20200609-204741-audio.npy|Default-20200609-204741-mel.npy|Default-20200609-204741-linear.npy|70500|235|다음 사거리에서 오른쪽으로 틀면 병원이 나와요|Default-20200609-204741.npz
+Default-20200609-204746-audio.npy|Default-20200609-204746-mel.npy|Default-20200609-204746-linear.npy|40200|134|특별히 찾는 물건 있으세요|Default-20200609-204746.npz
+Default-20200609-204752-audio.npy|Default-20200609-204752-mel.npy|Default-20200609-204752-linear.npy|52500|175|남자들은 보통 쇼핑을 그리 좋아하지않아|Default-20200609-204752.npz
+Default-20200609-204757-audio.npy|Default-20200609-204757-mel.npy|Default-20200609-204757-linear.npy|56700|189|근처에 24시간 여는 슈퍼마켓 있나요|Default-20200609-204757.npz
+Default-20200609-204802-audio.npy|Default-20200609-204802-mel.npy|Default-20200609-204802-linear.npy|33300|111|나 지금 샤워하고 있어|Default-20200609-204802.npz
+Default-20200609-204805-audio.npy|Default-20200609-204805-mel.npy|Default-20200609-204805-linear.npy|47400|158|그는 쉰이 훨씬 넘어 보였다|Default-20200609-204805.npz
+Default-20200609-204810-audio.npy|Default-20200609-204810-mel.npy|Default-20200609-204810-linear.npy|21600|72|잠시 쉬지 그래|Default-20200609-204810.npz
+Default-20200609-204813-audio.npy|Default-20200609-204813-mel.npy|Default-20200609-204813-linear.npy|52200|174|저는 매주 수요일 저녁에 수업 있어요|Default-20200609-204813.npz
+Default-20200609-204821-audio.npy|Default-20200609-204821-mel.npy|Default-20200609-204821-linear.npy|40200|134|수영장 바닥에 발이 안 닿아요|Default-20200609-204821.npz
+Default-20200609-204828-audio.npy|Default-20200609-204828-mel.npy|Default-20200609-204828-linear.npy|46800|156|니가 베개 밑에 돈 숨긴 거 다 알아|Default-20200609-204828.npz
+Default-20200609-204834-audio.npy|Default-20200609-204834-mel.npy|Default-20200609-204834-linear.npy|42900|143|담배연기 때문에 숨이 막혀요|Default-20200609-204834.npz
+Default-20200609-204838-audio.npy|Default-20200609-204838-mel.npy|Default-20200609-204838-linear.npy|45600|152|어제 친구들과 술자리를 가졌다|Default-20200609-204838.npz
+Default-20200609-204842-audio.npy|Default-20200609-204842-mel.npy|Default-20200609-204842-linear.npy|63000|210|한국에서는 술 마실 때 서로의 술잔을 채워 줘요|Default-20200609-204842.npz
+Default-20200609-204849-audio.npy|Default-20200609-204849-mel.npy|Default-20200609-204849-linear.npy|45300|151|저 때문에 수고많으셨어요|Default-20200609-204849.npz
+Default-20200609-204854-audio.npy|Default-20200609-204854-mel.npy|Default-20200609-204854-linear.npy|49500|165|어른에게 인사할 때는 고개를 숙여라|Default-20200609-204854.npz
+Default-20200609-204858-audio.npy|Default-20200609-204858-mel.npy|Default-20200609-204858-linear.npy|36300|121|그 과목은 영어로 수업해요|Default-20200609-204858.npz
+Default-20200609-204901-audio.npy|Default-20200609-204901-mel.npy|Default-20200609-204901-linear.npy|68100|227|수돗물은 마셔도 되지만 사실 아무도 마시지 않습니다|Default-20200609-204901.npz
+Default-20200609-204906-audio.npy|Default-20200609-204906-mel.npy|Default-20200609-204906-linear.npy|50700|169|핸드폰 수출이 점점 어려워 지고 있어요|Default-20200609-204906.npz
+Default-20200609-204917-audio.npy|Default-20200609-204917-mel.npy|Default-20200609-204917-linear.npy|73800|246|매년 수 천명의 사람들이 교통사고로 목숨을 잃어요|Default-20200609-204917.npz
+Default-20200609-204922-audio.npy|Default-20200609-204922-mel.npy|Default-20200609-204922-linear.npy|54900|183|이 cd에는 수백 곡이 넘는 음악을 들어봐|Default-20200609-204922.npz
+Default-20200609-204927-audio.npy|Default-20200609-204927-mel.npy|Default-20200609-204927-linear.npy|42000|140|수박 1개랑 배 세 개 주세요|Default-20200609-204927.npz
+Default-20200609-204931-audio.npy|Default-20200609-204931-mel.npy|Default-20200609-204931-linear.npy|48300|161|차가 없으니 걸어가는 수밖에 없어요|Default-20200609-204931.npz
+Default-20200609-205023-audio.npy|Default-20200609-205023-mel.npy|Default-20200609-205023-linear.npy|51000|170|갑자기 엄청난 비가 쏟아지기 시작했다|Default-20200609-205023.npz
+Default-20200609-205042-audio.npy|Default-20200609-205042-mel.npy|Default-20200609-205042-linear.npy|47400|158|지금 박 아저씨 옷이라는 거|Default-20200609-205042.npz
+Default-20200609-205047-audio.npy|Default-20200609-205047-mel.npy|Default-20200609-205047-linear.npy|45900|153|밥 먹기 전에 반드시 손을 씻어라|Default-20200609-205047.npz
+Default-20200609-205104-audio.npy|Default-20200609-205104-mel.npy|Default-20200609-205104-linear.npy|63900|213|턱이 아파서 음식을 잘 씹을 수가 없어요|Default-20200609-205104.npz
+Default-20200609-205110-audio.npy|Default-20200609-205110-mel.npy|Default-20200609-205110-linear.npy|52500|175|그 사람은 피로 때문에 바닥에 쓰러졌다|Default-20200609-205110.npz
+Default-20200609-205116-audio.npy|Default-20200609-205116-mel.npy|Default-20200609-205116-linear.npy|31200|104|농담이 참 썰렁하군|Default-20200609-205116.npz
+Default-20200609-205148-audio.npy|Default-20200609-205148-mel.npy|Default-20200609-205148-linear.npy|45900|153|우선 토마토를 씻어서 살|Default-20200609-205148.npz
+Default-20200609-205153-audio.npy|Default-20200609-205153-mel.npy|Default-20200609-205153-linear.npy|43200|144|그건 썩 좋은 생각 같지 않은데|Default-20200609-205153.npz
+Default-20200609-205158-audio.npy|Default-20200609-205158-mel.npy|Default-20200609-205158-linear.npy|55200|184|너는 그 쌍둥이 형제를 구별할 수 있어|Default-20200609-205158.npz
+Default-20200609-205202-audio.npy|Default-20200609-205202-mel.npy|Default-20200609-205202-linear.npy|49200|164|걔는 책을 쌓아 두기만 하고 오지는|Default-20200609-205202.npz
+Default-20200609-205207-audio.npy|Default-20200609-205207-mel.npy|Default-20200609-205207-linear.npy|67800|226|싼값의 비행기 표를 구할 방법 없을까|Default-20200609-205207.npz
+Default-20200609-205216-audio.npy|Default-20200609-205216-mel.npy|Default-20200609-205216-linear.npy|43800|146|손뼉을 치는 건 건강에 좋아요|Default-20200609-205216.npz
+Default-20200609-205238-audio.npy|Default-20200609-205238-mel.npy|Default-20200609-205238-linear.npy|61500|205|오늘 밤에 우리 집에 손님이 오기로 되어 있어요|Default-20200609-205238.npz
+Default-20200609-205244-audio.npy|Default-20200609-205244-mel.npy|Default-20200609-205244-linear.npy|52200|174|컴퓨터를 오래 하고 나면 손목이 아파요|Default-20200609-205244.npz
+Default-20200609-205248-audio.npy|Default-20200609-205248-mel.npy|Default-20200609-205248-linear.npy|45300|151|너 머리 손질할 때 된 거 같은 데|Default-20200609-205248.npz
+Default-20200609-205254-audio.npy|Default-20200609-205254-mel.npy|Default-20200609-205254-linear.npy|47400|158|내일은 지켜서 손해 볼일은 없어요|Default-20200609-205254.npz
+Default-20200609-205258-audio.npy|Default-20200609-205258-mel.npy|Default-20200609-205258-linear.npy|66600|222|송탄 한국 사람들이 추석에 먹는 특별한 음식이|Default-20200609-205258.npz
+Default-20200609-205303-audio.npy|Default-20200609-205303-mel.npy|Default-20200609-205303-linear.npy|58500|195|너무 추워서 손발의 감각을 완전히 잃었어요|Default-20200609-205303.npz
+Default-20200609-205308-audio.npy|Default-20200609-205308-mel.npy|Default-20200609-205308-linear.npy|51600|172|오늘 오후에는 약한 소나기가 예상됩니다|Default-20200609-205308.npz
+Default-20200609-205313-audio.npy|Default-20200609-205313-mel.npy|Default-20200609-205313-linear.npy|36600|122|손해가 너무 귀엽지않나|Default-20200609-205313.npz
+Default-20200609-205317-audio.npy|Default-20200609-205317-mel.npy|Default-20200609-205317-linear.npy|72900|243|솔직히 말해서 돈 제 외모에 별로 자신이 없어요|Default-20200609-205317.npz
+Default-20200609-205322-audio.npy|Default-20200609-205322-mel.npy|Default-20200609-205322-linear.npy|32100|107|아무래도 속은 기분이 양|Default-20200609-205322.npz
+Default-20200609-205326-audio.npy|Default-20200609-205326-mel.npy|Default-20200609-205326-linear.npy|40500|135|수학 시험을 망쳐서 속상해요|Default-20200609-205326.npz
+Default-20200609-205330-audio.npy|Default-20200609-205330-mel.npy|Default-20200609-205330-linear.npy|37800|126|옆 사람하고 속상해 마세요|Default-20200609-205330.npz
+Default-20200609-205334-audio.npy|Default-20200609-205334-mel.npy|Default-20200609-205334-linear.npy|38700|129|이 영화는 어떤 장르에 속해요|Default-20200609-205334.npz
+Default-20200609-205338-audio.npy|Default-20200609-205338-mel.npy|Default-20200609-205338-linear.npy|57900|193|점심때 매운 음식을 먹었더니 속이 안 좋아|Default-20200609-205338.npz
+Default-20200609-205353-audio.npy|Default-20200609-205353-mel.npy|Default-20200609-205353-linear.npy|39600|132|컴퓨터 속을 봐야 할 것 같습니다|Default-20200609-205353.npz
+Default-20200609-205408-audio.npy|Default-20200609-205408-mel.npy|Default-20200609-205408-linear.npy|49200|164|아무래도 저는 마왕의 소질이 없나봐|Default-20200609-205408.npz
+Default-20200609-205413-audio.npy|Default-20200609-205413-mel.npy|Default-20200609-205413-linear.npy|73200|244|기차에서 내릴 때는 소지품을 챙겼는지 확인하시기 바람|Default-20200609-205413.npz
+Default-20200609-205418-audio.npy|Default-20200609-205418-mel.npy|Default-20200609-205418-linear.npy|57600|192|열나면 살인 사건을 소재로 하고 있습니다|Default-20200609-205418.npz
+Default-20200609-205424-audio.npy|Default-20200609-205424-mel.npy|Default-20200609-205424-linear.npy|40800|136|점심 먹은 게 소화가 잘 안돼|Default-20200609-205424.npz
+Default-20200609-205428-audio.npy|Default-20200609-205428-mel.npy|Default-20200609-205428-linear.npy|46500|155|아 라이브 속옷 한 벌 챙기는 거 잊지 마|Default-20200609-205428.npz
+Default-20200609-205432-audio.npy|Default-20200609-205432-mel.npy|Default-20200609-205432-linear.npy|58500|195|소고기하고 돼지고기 중에 어느 것이 더 비싸요|Default-20200609-205432.npz
+Default-20200609-205533-audio.npy|Default-20200609-205533-mel.npy|Default-20200609-205533-linear.npy|54000|180|세상의 소금 대신 설탕을 넣어 버렸어|Default-20200609-205533.npz
+Default-20200609-205539-audio.npy|Default-20200609-205539-mel.npy|Default-20200609-205539-linear.npy|54000|180|그런 뻔한 변명으로 나를 속이려 하지 마라|Default-20200609-205539.npz
+Default-20200609-205545-audio.npy|Default-20200609-205545-mel.npy|Default-20200609-205545-linear.npy|53100|177|그는 모든 일에 소극적인 태도를 보였다|Default-20200609-205545.npz
+Default-20200609-205612-audio.npy|Default-20200609-205612-mel.npy|Default-20200609-205612-linear.npy|25200|84|짐은 다 싫었어|Default-20200609-205612.npz
+Default-20200609-205616-audio.npy|Default-20200609-205616-mel.npy|Default-20200609-205616-linear.npy|50100|167|신문에 공고를 싫으면 어떨까요|Default-20200609-205616.npz
+Default-20200609-205623-audio.npy|Default-20200609-205623-mel.npy|Default-20200609-205623-linear.npy|44100|147|짙은 안개가 시야를 가리고 있어|Default-20200609-205623.npz
+Default-20200609-205632-audio.npy|Default-20200609-205632-mel.npy|Default-20200609-205632-linear.npy|51900|173|시스템이 복잡해서 이해가 잘 되지 않아|Default-20200609-205632.npz
+Default-20200609-205703-audio.npy|Default-20200609-205703-mel.npy|Default-20200609-205703-linear.npy|66600|222|모든 의류와 신발이 50% 세일 중입니다|Default-20200609-205703.npz
+Default-20200609-205712-audio.npy|Default-20200609-205712-mel.npy|Default-20200609-205712-linear.npy|60300|201|시나리오가 좋다고 공영화가 좋은 것은 아니야|Default-20200609-205712.npz
+Default-20200609-205718-audio.npy|Default-20200609-205718-mel.npy|Default-20200609-205718-linear.npy|61200|204|서울 지역 시내버스 요금이 얼마야|Default-20200609-205718.npz
+Default-20200609-205724-audio.npy|Default-20200609-205724-mel.npy|Default-20200609-205724-linear.npy|52500|175|4월 5일은 나무를 심는 날이에요|Default-20200609-205724.npz
+Default-20200609-205730-audio.npy|Default-20200609-205730-mel.npy|Default-20200609-205730-linear.npy|54300|181|선수는 심판의 판정은 존중해야 한다|Default-20200609-205730.npz
+Default-20200609-205804-audio.npy|Default-20200609-205804-mel.npy|Default-20200609-205804-linear.npy|46800|156|내일이 일요일이면 얼마나 좋을까|Default-20200609-205804.npz
+Default-20200609-205808-audio.npy|Default-20200609-205808-mel.npy|Default-20200609-205808-linear.npy|40500|135|언론의 자유를 보장해야 한다|Default-20200609-205808.npz
+Default-20200609-205813-audio.npy|Default-20200609-205813-mel.npy|Default-20200609-205813-linear.npy|38400|128|마음 변하기 전에 얼른 골라|Default-20200609-205813.npz
+Default-20200609-205817-audio.npy|Default-20200609-205817-mel.npy|Default-20200609-205817-linear.npy|44100|147|왜 그렇게 우울한 얼굴을 하고 있니|Default-20200609-205817.npz
+Default-20200609-205822-audio.npy|Default-20200609-205822-mel.npy|Default-20200609-205822-linear.npy|44700|149|큰 코가 그 사람 얼굴의 특징이야|Default-20200609-205822.npz
+Default-20200609-205827-audio.npy|Default-20200609-205827-mel.npy|Default-20200609-205827-linear.npy|43500|145|너무 추워서 얼어 죽을 뻔했어요|Default-20200609-205827.npz
+Default-20200609-205831-audio.npy|Default-20200609-205831-mel.npy|Default-20200609-205831-linear.npy|41100|137|일본의 인구는 1억이 넘어요|Default-20200609-205831.npz
+Default-20200609-205836-audio.npy|Default-20200609-205836-mel.npy|Default-20200609-205836-linear.npy|54900|183|영화가 어찌나 지루한지 내내 잤어요|Default-20200609-205836.npz
+Default-20200609-205841-audio.npy|Default-20200609-205841-mel.npy|Default-20200609-205841-linear.npy|42600|142|오늘은 어쩐지 일할 기분이 아니야|Default-20200609-205841.npz
+Default-20200609-205849-audio.npy|Default-20200609-205849-mel.npy|Default-20200609-205849-linear.npy|46200|154|우리 회사에 지원한 동기가 무엇입니까|Default-20200609-205849.npz
+Default-20200609-205854-audio.npy|Default-20200609-205854-mel.npy|Default-20200609-205854-linear.npy|49800|166|그래두 디자인은 거의 동일하다|Default-20200609-205854.npz
+Default-20200609-205859-audio.npy|Default-20200609-205859-mel.npy|Default-20200609-205859-linear.npy|83100|277|동물원은 동물을 좋아하는 사람에게는 즐겁지 않은 것이다|Default-20200609-205859.npz
+Default-20200609-205906-audio.npy|Default-20200609-205906-mel.npy|Default-20200609-205906-linear.npy|36600|122|이 자판기는 동전만 됩니다|Default-20200609-205906.npz
+Default-20200609-205913-audio.npy|Default-20200609-205913-mel.npy|Default-20200609-205913-linear.npy|38700|129|저는 마포구 합정동에 살아요|Default-20200609-205913.npz
+Default-20200609-205918-audio.npy|Default-20200609-205918-mel.npy|Default-20200609-205918-linear.npy|43200|144|그는 경찰을 보자마자 도망갔다|Default-20200609-205918.npz
+Default-20200609-205923-audio.npy|Default-20200609-205923-mel.npy|Default-20200609-205923-linear.npy|40200|134|그 사람은 아직 도망 다니고 있다|Default-20200609-205923.npz
+Default-20200609-205928-audio.npy|Default-20200609-205928-mel.npy|Default-20200609-205928-linear.npy|49800|166|도마는 사용 후에게 가치 있어야 한다|Default-20200609-205928.npz
+Default-20200609-205933-audio.npy|Default-20200609-205933-mel.npy|Default-20200609-205933-linear.npy|25500|85|채널 좀 그만 돌려|Default-20200609-205933.npz
+Default-20200609-205937-audio.npy|Default-20200609-205937-mel.npy|Default-20200609-205937-linear.npy|46500|155|손잡이를 시계 방향으로 돌리세요|Default-20200609-205937.npz
+Default-20200609-205944-audio.npy|Default-20200609-205944-mel.npy|Default-20200609-205944-linear.npy|35100|117|코너에서 오른쪽으로 도세요|Default-20200609-205944.npz
+Default-20200609-205950-audio.npy|Default-20200609-205950-mel.npy|Default-20200609-205950-linear.npy|48600|162|이 모텔은 분위기가 독특하네요|Default-20200609-205950.npz
+Default-20200609-205955-audio.npy|Default-20200609-205955-mel.npy|Default-20200609-205955-linear.npy|57600|192|독서는 시간을 보내는 좋은 방법이다|Default-20200609-205955.npz
+Default-20200609-210000-audio.npy|Default-20200609-210000-mel.npy|Default-20200609-210000-linear.npy|53700|179|지금 전국적으로 독감이 유행하고 있어요|Default-20200609-210000.npz
+Default-20200609-210005-audio.npy|Default-20200609-210005-mel.npy|Default-20200609-210005-linear.npy|54300|181|그 디자이너의 작품은 정말 독창적이에요|Default-20200609-210005.npz
+Default-20200609-210010-audio.npy|Default-20200609-210010-mel.npy|Default-20200609-210010-linear.npy|70200|234|또다시 시험에 떨어지지 않으려면 마음 독하게 먹어|Default-20200609-210010.npz
+Default-20200609-210016-audio.npy|Default-20200609-210016-mel.npy|Default-20200609-210016-linear.npy|34800|116|집에 오는 도중에 들린 거야|Default-20200609-210016.npz
+Default-20200609-210022-audio.npy|Default-20200609-210022-mel.npy|Default-20200609-210022-linear.npy|42300|141|학교가 독일어로 뭐죠|Default-20200609-210022.npz
+Default-20200609-210027-audio.npy|Default-20200609-210027-mel.npy|Default-20200609-210027-linear.npy|56400|188|독일의 자동차는 한국에서 인기가 있다|Default-20200609-210027.npz
+Default-20200609-210032-audio.npy|Default-20200609-210032-mel.npy|Default-20200609-210032-linear.npy|46200|154|밥에 된장찌개를 넣고 비벼 먹을까|Default-20200609-210032.npz
+Default-20200609-210037-audio.npy|Default-20200609-210037-mel.npy|Default-20200609-210037-linear.npy|42000|140|책을 맞으러 집으로 되돌아갔다|Default-20200609-210037.npz
+Default-20200609-210044-audio.npy|Default-20200609-210044-mel.npy|Default-20200609-210044-linear.npy|41400|138|비타민이 풍부한 음식을 드세요|Default-20200609-210044.npz
+Default-20200609-210048-audio.npy|Default-20200609-210048-mel.npy|Default-20200609-210048-linear.npy|61800|206|냉장고 안을 들여다봐도 먹을 것이 없었다|Default-20200609-210048.npz
+Default-20200609-210054-audio.npy|Default-20200609-210054-mel.npy|Default-20200609-210054-linear.npy|31200|104|과일 좀 드릴까요|Default-20200609-210054.npz
+Default-20200609-210120-audio.npy|Default-20200609-210120-mel.npy|Default-20200609-210120-linear.npy|49800|166|이 땅에 아파트가 들어설 예정 2|Default-20200609-210120.npz
+Default-20200609-210125-audio.npy|Default-20200609-210125-mel.npy|Default-20200609-210125-linear.npy|30900|103|김세련 드러나게 되어 있다|Default-20200609-210125.npz
+Default-20200609-210130-audio.npy|Default-20200609-210130-mel.npy|Default-20200609-210130-linear.npy|59400|198|귀에 물이 들어가서 움직일 때마다 소리가 나와요|Default-20200609-210130.npz
+Default-20200609-210135-audio.npy|Default-20200609-210135-mel.npy|Default-20200609-210135-linear.npy|45300|151|하던지 말던지 이젠 상관 안 할래|Default-20200609-210135.npz
+Default-20200609-210141-audio.npy|Default-20200609-210141-mel.npy|Default-20200609-210141-linear.npy|41100|137|홍대 있던지 자주 편재|Default-20200609-210141.npz
+Default-20200609-210240-audio.npy|Default-20200609-210240-mel.npy|Default-20200609-210240-linear.npy|45600|152|그 질문에는 답변하고 싶지 않아|Default-20200609-210240.npz
+Default-20200609-210244-audio.npy|Default-20200609-210244-mel.npy|Default-20200609-210244-linear.npy|40500|135|이 과자는 단맛이 너무 강해|Default-20200609-210244.npz
+Default-20200609-210249-audio.npy|Default-20200609-210249-mel.npy|Default-20200609-210249-linear.npy|42000|140|내가 단지 운이 좋았을 뿐이야|Default-20200609-210249.npz
+Default-20200609-210253-audio.npy|Default-20200609-210253-mel.npy|Default-20200609-210253-linear.npy|53100|177|의자를 조금만 앞으로 당겨 주시겠어요|Default-20200609-210253.npz
+Default-20200609-210259-audio.npy|Default-20200609-210259-mel.npy|Default-20200609-210259-linear.npy|50100|167|여행 중에는 단독으로 행동하면 된다|Default-20200609-210259.npz
+Default-20200609-210304-audio.npy|Default-20200609-210304-mel.npy|Default-20200609-210304-linear.npy|45600|152|내가 단단한 물체에 부딪쳤어요|Default-20200609-210304.npz
+Default-20200609-210309-audio.npy|Default-20200609-210309-mel.npy|Default-20200609-210309-linear.npy|56100|187|노란 단추가 달린 텀블러 스가 마음에 들어|Default-20200609-210309.npz
+Default-20200609-210316-audio.npy|Default-20200609-210316-mel.npy|Default-20200609-210316-linear.npy|50700|169|유치원은 몇 살을 대상으로 하나요|Default-20200609-210316.npz
+Default-20200609-210322-audio.npy|Default-20200609-210322-mel.npy|Default-20200609-210322-linear.npy|33300|111|커피 대신 물을 주세요|Default-20200609-210322.npz
+Default-20200609-210328-audio.npy|Default-20200609-210328-mel.npy|Default-20200609-210328-linear.npy|45000|150|파리는 대량 주문에만 해당됩니다|Default-20200609-210328.npz
+Default-20200609-210356-audio.npy|Default-20200609-210356-mel.npy|Default-20200609-210356-linear.npy|48900|163|끝내는 대로 바로 알려 드리겠습니다|Default-20200609-210356.npz
+Default-20200609-210405-audio.npy|Default-20200609-210405-mel.npy|Default-20200609-210405-linear.npy|50100|167|졸업 후에는 대기업에 입사하고 싶어|Default-20200609-210405.npz
+Default-20200609-210410-audio.npy|Default-20200609-210410-mel.npy|Default-20200609-210410-linear.npy|44100|147|그거 벌써 끝나다니 대단하다|Default-20200609-210410.npz
+Default-20200609-210417-audio.npy|Default-20200609-210417-mel.npy|Default-20200609-210417-linear.npy|60900|203|무릎 안 굽히고 발가락에 손을 쓸 수 있니|Default-20200609-210417.npz
+Default-20200609-210451-audio.npy|Default-20200609-210451-mel.npy|Default-20200609-210451-linear.npy|57000|190|요즘 은행의 대출 조건이 엄격하다|Default-20200609-210451.npz
+Default-20200609-210457-audio.npy|Default-20200609-210457-mel.npy|Default-20200609-210457-linear.npy|57600|192|대부분의 선진국은 주 5일 근무를 합니다|Default-20200609-210457.npz
+Imported-20200609-193641-audio.npy|Imported-20200609-193641-mel.npy|Imported-20200609-193641-linear.npy|37800|126|이 음식은 영양이 풍부 앞|Imported-20200609-193641.npz
+Imported-20200609-193646-audio.npy|Imported-20200609-193646-mel.npy|Imported-20200609-193646-linear.npy|57300|191|그이는 내 기억에서 영원히 지워 버리고 싶어|Imported-20200609-193646.npz
+Imported-20200609-193653-audio.npy|Imported-20200609-193653-mel.npy|Imported-20200609-193653-linear.npy|48000|160|기억은 없어 지지만 사진은 영어로|Imported-20200609-193653.npz
+Imported-20200609-193702-audio.npy|Imported-20200609-193702-mel.npy|Imported-20200609-193702-linear.npy|89700|299|많은 교통사고와 직접적 간접적으로 술과 관련이 있습니다|Imported-20200609-193702.npz
+Imported-20200609-193709-audio.npy|Imported-20200609-193709-mel.npy|Imported-20200609-193709-linear.npy|58200|194|저는 모든 연구소에서 일하고 있습니다|Imported-20200609-193709.npz
+Imported-20200609-193713-audio.npy|Imported-20200609-193713-mel.npy|Imported-20200609-193713-linear.npy|89100|297|이승훈의 올림픽에서 금메달을 획득한 뒤 국가적 영웅이 됐다|Imported-20200609-193713.npz
+Imported-20200609-193729-audio.npy|Imported-20200609-193729-mel.npy|Imported-20200609-193729-linear.npy|38100|127|저 암에 대해 연구하고 있습니다|Imported-20200609-193729.npz
+Imported-20200609-193752-audio.npy|Imported-20200609-193752-mel.npy|Imported-20200609-193752-linear.npy|44700|149|영수증이 없으면 왕이 안됩니다|Imported-20200609-193752.npz
+Imported-20200609-193757-audio.npy|Imported-20200609-193757-mel.npy|Imported-20200609-193757-linear.npy|32400|108|지금은 영상 2도 예약|Imported-20200609-193757.npz
+Imported-20200609-193802-audio.npy|Imported-20200609-193802-mel.npy|Imported-20200609-193802-linear.npy|55800|186|2tv는 아주 깨끗한 영상을 제공합니다|Imported-20200609-193802.npz
+Imported-20200609-193808-audio.npy|Imported-20200609-193808-mel.npy|Imported-20200609-193808-linear.npy|58200|194|저는 어릴 때부터 연기자의 꿈을 꿨어요|Imported-20200609-193808.npz
+Imported-20200609-193818-audio.npy|Imported-20200609-193818-mel.npy|Imported-20200609-193818-linear.npy|40500|135|재판은 다음 주로 연기 됐어요|Imported-20200609-193818.npz
+Imported-20200609-193824-audio.npy|Imported-20200609-193824-mel.npy|Imported-20200609-193824-linear.npy|37500|125|왜 회의를 연기했습니까|Imported-20200609-193824.npz
+Imported-20200609-193829-audio.npy|Imported-20200609-193829-mel.npy|Imported-20200609-193829-linear.npy|51600|172|여자 연기는 왠지 자연스럽지가|Imported-20200609-193829.npz
+Imported-20200609-193835-audio.npy|Imported-20200609-193835-mel.npy|Imported-20200609-193835-linear.npy|40800|136|용기가 너무 많이 나는 것 같아요|Imported-20200609-193835.npz
+Imported-20200609-193853-audio.npy|Imported-20200609-193853-mel.npy|Imported-20200609-193853-linear.npy|51600|172|김 부장은 우리 회사에서 영향력 있는 4|Imported-20200609-193853.npz
+Imported-20200609-193903-audio.npy|Imported-20200609-193903-mel.npy|Imported-20200609-193903-linear.npy|44400|148|아이들은 부모의 영향을 받게 되어 있다|Imported-20200609-193903.npz
+Imported-20200609-193942-audio.npy|Imported-20200609-193942-mel.npy|Imported-20200609-193942-linear.npy|40200|134|영화관에서 전화기를 꺼 주세요|Imported-20200609-193942.npz
+Imported-20200609-193950-audio.npy|Imported-20200609-193950-mel.npy|Imported-20200609-193950-linear.npy|42900|143|제일 좋아하는 영화배우는 누구임|Imported-20200609-193950.npz
+Imported-20200609-193955-audio.npy|Imported-20200609-193955-mel.npy|Imported-20200609-193955-linear.npy|31500|105|그냥 집에서 영화 보자|Imported-20200609-193955.npz
+Imported-20200609-194000-audio.npy|Imported-20200609-194000-mel.npy|Imported-20200609-194000-linear.npy|33600|112|영원히 정말 존재할까|Imported-20200609-194000.npz
+Imported-20200609-194004-audio.npy|Imported-20200609-194004-mel.npy|Imported-20200609-194004-linear.npy|44100|147|아침 기온이 영하로 떨어졌다|Imported-20200609-194004.npz
+Imported-20200609-194010-audio.npy|Imported-20200609-194010-mel.npy|Imported-20200609-194010-linear.npy|46500|155|1년 동안 영국에서 살 계획이|Imported-20200609-194010.npz
+Imported-20200609-194015-audio.npy|Imported-20200609-194015-mel.npy|Imported-20200609-194015-linear.npy|31800|106|어제 본 연극 어땠어|Imported-20200609-194015.npz
+Imported-20200609-194022-audio.npy|Imported-20200609-194022-mel.npy|Imported-20200609-194022-linear.npy|26400|88|정상 영업 중|Imported-20200609-194022.npz
+Imported-20200609-194026-audio.npy|Imported-20200609-194026-mel.npy|Imported-20200609-194026-linear.npy|43800|146|저희는 이십사 시간 영업합니다|Imported-20200609-194026.npz
+Imported-20200609-194031-audio.npy|Imported-20200609-194031-mel.npy|Imported-20200609-194031-linear.npy|27300|91|영어 할 줄 아세요|Imported-20200609-194031.npz
+Imported-20200609-194037-audio.npy|Imported-20200609-194037-mel.npy|Imported-20200609-194037-linear.npy|92400|308|연간 500 만 명의 외국인 관광객들이 서울을 방문하고 있다|Imported-20200609-194037.npz
+Imported-20200609-194045-audio.npy|Imported-20200609-194045-mel.npy|Imported-20200609-194045-linear.npy|46800|156|과자를 먹었더니 영웅 밥맛이 없어|Imported-20200609-194045.npz
+Imported-20200609-194050-audio.npy|Imported-20200609-194050-mel.npy|Imported-20200609-194050-linear.npy|31200|104|백만의 영이 몇 개지|Imported-20200609-194050.npz
+Imported-20200609-194057-audio.npy|Imported-20200609-194057-mel.npy|Imported-20200609-194057-linear.npy|51900|173|그 사람이 이 연극의 연출을 맡고 있습니다|Imported-20200609-194057.npz
+Imported-20200609-194102-audio.npy|Imported-20200609-194102-mel.npy|Imported-20200609-194102-linear.npy|53100|177|저희는 연애한 지 2년 만에 결혼했어요|Imported-20200609-194102.npz
+Imported-20200609-194109-audio.npy|Imported-20200609-194109-mel.npy|Imported-20200609-194109-linear.npy|66600|222|염려 마세요 내일 좋은 소식이 있을 거예요|Imported-20200609-194109.npz
+Imported-20200609-194115-audio.npy|Imported-20200609-194115-mel.npy|Imported-20200609-194115-linear.npy|36600|122|10시 아직도 못 찾았어요|Imported-20200609-194115.npz
+Imported-20200609-194128-audio.npy|Imported-20200609-194128-mel.npy|Imported-20200609-194128-linear.npy|45900|153|다음번엔 공부 더 열심히 할게요|Imported-20200609-194128.npz
+Imported-20200609-194133-audio.npy|Imported-20200609-194133-mel.npy|Imported-20200609-194133-linear.npy|35400|118|아직 열매를 따면 안 됩니다|Imported-20200609-194133.npz
+Imported-20200609-194142-audio.npy|Imported-20200609-194142-mel.npy|Imported-20200609-194142-linear.npy|52500|175|연령에 관계없이 누구나 지원할 수 있습니다|Imported-20200609-194142.npz
+Imported-20200609-194253-audio.npy|Imported-20200609-194253-mel.npy|Imported-20200609-194253-linear.npy|47400|158|이번 행사는 3일 간 서울에서 열린다|Imported-20200609-194253.npz
+Imported-20200609-194259-audio.npy|Imported-20200609-194259-mel.npy|Imported-20200609-194259-linear.npy|27300|91|창문이 안 열려요|Imported-20200609-194259.npz
+Imported-20200609-194302-audio.npy|Imported-20200609-194302-mel.npy|Imported-20200609-194302-linear.npy|36600|122|연락처 좀 알 수 있을까요|Imported-20200609-194302.npz
+Imported-20200609-194309-audio.npy|Imported-20200609-194309-mel.npy|Imported-20200609-194309-linear.npy|34500|115|우리 계속 연락하고 지내자|Imported-20200609-194309.npz
+Imported-20200609-194314-audio.npy|Imported-20200609-194314-mel.npy|Imported-20200609-194314-linear.npy|92400|308|딸아이는 어찌나 게임에 열중했던지 제가 다가가는 것도 몰랐어요|Imported-20200609-194314.npz
+Imported-20200609-194343-audio.npy|Imported-20200609-194343-mel.npy|Imported-20200609-194343-linear.npy|61500|205|우리 사장님은 교육에 대한 열정이 남다르세요|Imported-20200609-194343.npz
+Imported-20200609-194348-audio.npy|Imported-20200609-194348-mel.npy|Imported-20200609-194348-linear.npy|43800|146|이제 열흘만 있으면 올해도 끝나|Imported-20200609-194348.npz
+Imported-20200609-194359-audio.npy|Imported-20200609-194359-mel.npy|Imported-20200609-194359-linear.npy|32400|108|몇 시까지 문 여세요|Imported-20200609-194359.npz
+Imported-20200609-194403-audio.npy|Imported-20200609-194403-mel.npy|Imported-20200609-194403-linear.npy|31200|104|지금 열어봐도 될까요|Imported-20200609-194403.npz
+Imported-20200609-194407-audio.npy|Imported-20200609-194407-mel.npy|Imported-20200609-194407-linear.npy|53400|178|이 열차는 잠시 후 서울역에 도착합니다|Imported-20200609-194407.npz
+Imported-20200609-194413-audio.npy|Imported-20200609-194413-mel.npy|Imported-20200609-194413-linear.npy|60900|203|우리 부모님은 제가 10살 때 이혼하셨어요|Imported-20200609-194413.npz
+Imported-20200609-194418-audio.npy|Imported-20200609-194418-mel.npy|Imported-20200609-194418-linear.npy|40200|134|그 사람 때문에 정말 열 받아요|Imported-20200609-194418.npz
+Imported-20200609-194422-audio.npy|Imported-20200609-194422-mel.npy|Imported-20200609-194422-linear.npy|45000|150|배터리 10 근처에 두지 마세요|Imported-20200609-194422.npz
+Imported-20200609-194427-audio.npy|Imported-20200609-194427-mel.npy|Imported-20200609-194427-linear.npy|45000|150|열이 계속 나면 내일 다시 오세요|Imported-20200609-194427.npz
+Imported-20200609-194432-audio.npy|Imported-20200609-194432-mel.npy|Imported-20200609-194432-linear.npy|33300|111|역시 예상했던 대로구나|Imported-20200609-194432.npz
+Imported-20200609-194436-audio.npy|Imported-20200609-194436-mel.npy|Imported-20200609-194436-linear.npy|35700|119|나 역시 너와 같은 생각이야|Imported-20200609-194436.npz
+Imported-20200609-194439-audio.npy|Imported-20200609-194439-mel.npy|Imported-20200609-194439-linear.npy|64200|214|그것은 역사상 가장 충격적인 사건 가운데 하나였다|Imported-20200609-194439.npz
+Imported-20200609-194445-audio.npy|Imported-20200609-194445-mel.npy|Imported-20200609-194445-linear.npy|60000|200|이 영화는 역사적 사실을 바탕으로 하고 있어요|Imported-20200609-194445.npz
+Imported-20200609-194450-audio.npy|Imported-20200609-194450-mel.npy|Imported-20200609-194450-linear.npy|69600|232|내 친구 중에는 역사학을 전공한 사람이 하나 있어요|Imported-20200609-194450.npz
+Imported-20200609-194457-audio.npy|Imported-20200609-194457-mel.npy|Imported-20200609-194457-linear.npy|46500|155|저는 동양의 역사에 관심이 있어|Imported-20200609-194457.npz
+Imported-20200609-194501-audio.npy|Imported-20200609-194501-mel.npy|Imported-20200609-194501-linear.npy|41100|137|여권을 좀 볼 수 있을까요|Imported-20200609-194501.npz
+Imported-20200609-194515-audio.npy|Imported-20200609-194515-mel.npy|Imported-20200609-194515-linear.npy|52200|174|우리 회사는 근무 여건이 좋은 편입니다|Imported-20200609-194515.npz
+Imported-20200609-194541-audio.npy|Imported-20200609-194541-mel.npy|Imported-20200609-194541-linear.npy|74100|247|오늘날 작가의 사회적 역할은 무엇이라고 생각하세요|Imported-20200609-194541.npz
+Imported-20200609-194546-audio.npy|Imported-20200609-194546-mel.npy|Imported-20200609-194546-linear.npy|55500|185|저는 이번 드라마에서 왕비역을 맡았습니다|Imported-20200609-194546.npz
+Imported-20200609-194552-audio.npy|Imported-20200609-194552-mel.npy|Imported-20200609-194552-linear.npy|52500|175|역 근처에 추천할 만한 호텔이 있나요|Imported-20200609-194552.npz
+Imported-20200609-194558-audio.npy|Imported-20200609-194558-mel.npy|Imported-20200609-194558-linear.npy|35100|117|한 가지 여쭤봐도 될까요|Imported-20200609-194558.npz
+Imported-20200609-194602-audio.npy|Imported-20200609-194602-mel.npy|Imported-20200609-194602-linear.npy|49200|164|여직원이 전체 50 정도 됩니다|Imported-20200609-194602.npz
+Imported-20200609-194611-audio.npy|Imported-20200609-194611-mel.npy|Imported-20200609-194611-linear.npy|52800|176|어제 9시간을 잤는 데도 여전히 피곤 행|Imported-20200609-194611.npz
+Imported-20200609-194616-audio.npy|Imported-20200609-194616-mel.npy|Imported-20200609-194616-linear.npy|29400|98|부지런한 건 여전하구나|Imported-20200609-194616.npz
+Imported-20200609-194621-audio.npy|Imported-20200609-194621-mel.npy|Imported-20200609-194621-linear.npy|50400|168|내 평생 그런 여자는 다시 못 만날 거야|Imported-20200609-194621.npz
+Imported-20200609-194626-audio.npy|Imported-20200609-194626-mel.npy|Imported-20200609-194626-linear.npy|42600|142|우리 반은 남학생보다 여학생이|Imported-20200609-194626.npz
+Imported-20200609-194631-audio.npy|Imported-20200609-194631-mel.npy|Imported-20200609-194631-linear.npy|57000|190|여행사가 모든 여행 준비를 알아서 해줬어요|Imported-20200609-194631.npz
+Imported-20200609-194756-audio.npy|Imported-20200609-194756-mel.npy|Imported-20200609-194756-linear.npy|41100|137|이어 하는 서비스가 별로예요|Imported-20200609-194756.npz
+Imported-20200609-194813-audio.npy|Imported-20200609-194813-mel.npy|Imported-20200609-194813-linear.npy|49800|166|저는 16살이고 여고생이|Imported-20200609-194813.npz
+Imported-20200609-194817-audio.npy|Imported-20200609-194817-mel.npy|Imported-20200609-194817-linear.npy|51000|170|아직 여기저기 이력서를 내고 있어요|Imported-20200609-194817.npz
+Imported-20200609-194823-audio.npy|Imported-20200609-194823-mel.npy|Imported-20200609-194823-linear.npy|47100|157|여기저기서 사람들이 모여들었어요|Imported-20200609-194823.npz
+Imported-20200609-194829-audio.npy|Imported-20200609-194829-mel.npy|Imported-20200609-194829-linear.npy|58500|195|이것은 제가 가장 소중하게 여기는 작품입니다|Imported-20200609-194829.npz
+Imported-20200609-194845-audio.npy|Imported-20200609-194845-mel.npy|Imported-20200609-194845-linear.npy|83100|277|그 사람하고 10분간만 얘기한다는 게다 로써는 여간 힘든 일이|Imported-20200609-194845.npz
+Imported-20200609-194906-audio.npy|Imported-20200609-194906-mel.npy|Imported-20200609-194906-linear.npy|65400|218|여동생에게 졸업 선물로 최신 핸드폰을 사줬어요|Imported-20200609-194906.npz
+Imported-20200609-194926-audio.npy|Imported-20200609-194926-mel.npy|Imported-20200609-194926-linear.npy|41100|137|시험은 8시에 시작합니다|Imported-20200609-194926.npz
+Imported-20200609-194931-audio.npy|Imported-20200609-194931-mel.npy|Imported-20200609-194931-linear.npy|36300|121|할머니는 올해 여든이세요|Imported-20200609-194931.npz
+Imported-20200609-194936-audio.npy|Imported-20200609-194936-mel.npy|Imported-20200609-194936-linear.npy|35100|117|우리 누나는 여대생이에요|Imported-20200609-194936.npz
+Imported-20200609-194940-audio.npy|Imported-20200609-194940-mel.npy|Imported-20200609-194940-linear.npy|39300|131|여보세요 소영이 있나요|Imported-20200609-194940.npz
+Imported-20200609-194945-audio.npy|Imported-20200609-194945-mel.npy|Imported-20200609-194945-linear.npy|48900|163|여보 도시의 사는게 지겹지 않아요|Imported-20200609-194945.npz
+Imported-20200609-194951-audio.npy|Imported-20200609-194951-mel.npy|Imported-20200609-194951-linear.npy|40800|136|그 문제에 대해 어떻게 생각해|Imported-20200609-194951.npz
+Imported-20200609-195000-audio.npy|Imported-20200609-195000-mel.npy|Imported-20200609-195000-linear.npy|27900|93|그 사람은 영어를 잘 해|Imported-20200609-195000.npz
+Imported-20200609-195022-audio.npy|Imported-20200609-195022-mel.npy|Imported-20200609-195022-linear.npy|93600|312|그 사람은 술자리에서 자기 옛날 이야기를 사람들은 지루박|Imported-20200609-195022.npz
+Imported-20200609-195028-audio.npy|Imported-20200609-195028-mel.npy|Imported-20200609-195028-linear.npy|65700|219|어제 길에서 옛날에 여자 친구를 우연히 만났어요|Imported-20200609-195028.npz
+Imported-20200609-195034-audio.npy|Imported-20200609-195034-mel.npy|Imported-20200609-195034-linear.npy|39000|130|옛날 주소는 어떻게 되십니까|Imported-20200609-195034.npz
+Imported-20200609-195039-audio.npy|Imported-20200609-195039-mel.npy|Imported-20200609-195039-linear.npy|36000|120|제가 인터넷으로 예매할게요|Imported-20200609-195039.npz
+Imported-20200609-195042-audio.npy|Imported-20200609-195042-mel.npy|Imported-20200609-195042-linear.npy|31500|105|회의는 내일로 예정되어 있어요|Imported-20200609-195042.npz
+Imported-20200609-195047-audio.npy|Imported-20200609-195047-mel.npy|Imported-20200609-195047-linear.npy|41700|139|예정보다 약간 늦어지고 있습니다|Imported-20200609-195047.npz
+Imported-20200609-195051-audio.npy|Imported-20200609-195051-mel.npy|Imported-20200609-195051-linear.npy|69900|233|내 생각에는 우리 예전에 이 얘기를 한 거 같은 데|Imported-20200609-195051.npz
+Imported-20200609-195101-audio.npy|Imported-20200609-195101-mel.npy|Imported-20200609-195101-linear.npy|37200|124|그 사람은 식당 예절이 엉망이야|Imported-20200609-195101.npz
+Imported-20200609-195122-audio.npy|Imported-20200609-195122-mel.npy|Imported-20200609-195122-linear.npy|53400|178|이렇게 예고도 없이 찾아오시면 어떡해요|Imported-20200609-195122.npz
+Imported-20200609-195127-audio.npy|Imported-20200609-195127-mel.npy|Imported-20200609-195127-linear.npy|35100|117|얼마나 예금하실 건가요|Imported-20200609-195127.npz
+Imported-20200609-195132-audio.npy|Imported-20200609-195132-mel.npy|Imported-20200609-195132-linear.npy|62100|207|사실 지난주에 면접을 봤는데 예감이 좋아|Imported-20200609-195132.npz
+Imported-20200609-195137-audio.npy|Imported-20200609-195137-mel.npy|Imported-20200609-195137-linear.npy|46800|156|요즘 날씨는 예측할 수가 없어요|Imported-20200609-195137.npz
+Imported-20200609-195145-audio.npy|Imported-20200609-195145-mel.npy|Imported-20200609-195145-linear.npy|38100|127|이 사람이 제 예비 신부입니다|Imported-20200609-195145.npz
+Imported-20200609-195201-audio.npy|Imported-20200609-195201-mel.npy|Imported-20200609-195201-linear.npy|51300|171|막내를 위해서 돈을 예비로 남겨 두더라|Imported-20200609-195201.npz
+Imported-20200609-195206-audio.npy|Imported-20200609-195206-mel.npy|Imported-20200609-195206-linear.npy|50700|169|감기를 예방하려면 손을 자주 씻어라|Imported-20200609-195206.npz
+Imported-20200609-195211-audio.npy|Imported-20200609-195211-mel.npy|Imported-20200609-195211-linear.npy|33000|110|예를 들어 설명해 주세요|Imported-20200609-195211.npz
+Imported-20200609-195214-audio.npy|Imported-20200609-195214-mel.npy|Imported-20200609-195214-linear.npy|46800|156|우리 얕아서 발이 바닥에 닿여|Imported-20200609-195214.npz
+Imported-20200609-195219-audio.npy|Imported-20200609-195219-mel.npy|Imported-20200609-195219-linear.npy|50700|169|오늘 점심은 야외에서 먹는 게어 때요|Imported-20200609-195219.npz
+Imported-20200609-195223-audio.npy|Imported-20200609-195223-mel.npy|Imported-20200609-195223-linear.npy|42900|143|이번 일은 니 양심에 맡길게|Imported-20200609-195223.npz
+Imported-20200609-195227-audio.npy|Imported-20200609-195227-mel.npy|Imported-20200609-195227-linear.npy|49800|166|한식 먹을래 아니면 중식 먹을래|Imported-20200609-195227.npz
+Imported-20200609-195234-audio.npy|Imported-20200609-195234-mel.npy|Imported-20200609-195234-linear.npy|24300|81|양파 좀 까줄래|Imported-20200609-195234.npz
+Imported-20200609-195238-audio.npy|Imported-20200609-195238-mel.npy|Imported-20200609-195238-linear.npy|60300|201|출근은 비행기 양옆에 위치해 있습니다|Imported-20200609-195238.npz
+Imported-20200609-195244-audio.npy|Imported-20200609-195244-mel.npy|Imported-20200609-195244-linear.npy|57300|191|한국 사람들은 양력과 음력을 모두 사용해|Imported-20200609-195244.npz
+Imported-20200609-195250-audio.npy|Imported-20200609-195250-mel.npy|Imported-20200609-195250-linear.npy|41700|139|이역만리 다른한 짝이 안 보여|Imported-20200609-195250.npz
+Imported-20200609-195255-audio.npy|Imported-20200609-195255-mel.npy|Imported-20200609-195255-linear.npy|36000|120|나는 양주보다 소주가 좋아|Imported-20200609-195255.npz
+Imported-20200609-195259-audio.npy|Imported-20200609-195259-mel.npy|Imported-20200609-195259-linear.npy|30000|100|양쪽 다리가 부 모닝|Imported-20200609-195259.npz
+Imported-20200609-195304-audio.npy|Imported-20200609-195304-mel.npy|Imported-20200609-195304-linear.npy|51900|173|이 넥타이는 양복이랑 잘 어울릴 거야|Imported-20200609-195304.npz
+Imported-20200609-195310-audio.npy|Imported-20200609-195310-mel.npy|Imported-20200609-195310-linear.npy|39000|130|노인에게 자리를 양보하세요|Imported-20200609-195310.npz
+Imported-20200609-195314-audio.npy|Imported-20200609-195314-mel.npy|Imported-20200609-195314-linear.npy|36000|120|가위로 양끝을 잘라 줄래|Imported-20200609-195314.npz
+Imported-20200609-195319-audio.npy|Imported-20200609-195319-mel.npy|Imported-20200609-195319-linear.npy|25500|85|양보다는 질이다|Imported-20200609-195319.npz
+Imported-20200609-195323-audio.npy|Imported-20200609-195323-mel.npy|Imported-20200609-195323-linear.npy|30600|102|양은 풀을 먹고 산다|Imported-20200609-195323.npz
+Imported-20200609-195328-audio.npy|Imported-20200609-195328-mel.npy|Imported-20200609-195328-linear.npy|41400|138|왜 겨울에 얇은 옷을 입고 있냐|Imported-20200609-195328.npz
+Imported-20200609-195333-audio.npy|Imported-20200609-195333-mel.npy|Imported-20200609-195333-linear.npy|32100|107|저 남자 얄미워 죽겠어|Imported-20200609-195333.npz
+Imported-20200609-195338-audio.npy|Imported-20200609-195338-mel.npy|Imported-20200609-195338-linear.npy|38400|128|조용히 있겠다고 약속할게요|Imported-20200609-195338.npz
+Imported-20200609-195342-audio.npy|Imported-20200609-195342-mel.npy|Imported-20200609-195342-linear.npy|60000|200|죄송하지만 약속을 내일로 미룰 수 있을까요|Imported-20200609-195342.npz
+Imported-20200609-195347-audio.npy|Imported-20200609-195347-mel.npy|Imported-20200609-195347-linear.npy|44100|147|약국은 바로 병원 옆에 있어요|Imported-20200609-195347.npz
+Imported-20200609-195352-audio.npy|Imported-20200609-195352-mel.npy|Imported-20200609-195352-linear.npy|48000|160|이 블라우스가 저에게 약간 퍼|Imported-20200609-195352.npz
+Imported-20200609-195356-audio.npy|Imported-20200609-195356-mel.npy|Imported-20200609-195356-linear.npy|34200|114|약간의 문제가 생겼어요|Imported-20200609-195356.npz
+Imported-20200609-195401-audio.npy|Imported-20200609-195401-mel.npy|Imported-20200609-195401-linear.npy|34200|114|남의 약점을 이용하지 마|Imported-20200609-195401.npz
+Imported-20200609-195405-audio.npy|Imported-20200609-195405-mel.npy|Imported-20200609-195405-linear.npy|30000|100|우리 팀은 수비가 약해|Imported-20200609-195405.npz
+Imported-20200609-195409-audio.npy|Imported-20200609-195409-mel.npy|Imported-20200609-195409-linear.npy|70800|236|아침 7시에 출발해서 약 4시간 후에 도착해 스타트|Imported-20200609-195409.npz
+Imported-20200609-195416-audio.npy|Imported-20200609-195416-mel.npy|Imported-20200609-195416-linear.npy|49200|164|식사하고 30분 후에 이 약을 주세요|Imported-20200609-195416.npz
+Imported-20200609-195424-audio.npy|Imported-20200609-195424-mel.npy|Imported-20200609-195424-linear.npy|40800|136|그 사람은 야한 농담을 자주 해요|Imported-20200609-195424.npz
+Imported-20200609-195440-audio.npy|Imported-20200609-195440-mel.npy|Imported-20200609-195440-linear.npy|40200|134|야구팬 여러분 반갑습니다|Imported-20200609-195440.npz
+Imported-20200609-195445-audio.npy|Imported-20200609-195445-mel.npy|Imported-20200609-195445-linear.npy|28800|96|내가 전에 말한 게이|Imported-20200609-195445.npz
+Imported-20200609-195448-audio.npy|Imported-20200609-195448-mel.npy|Imported-20200609-195448-linear.npy|47700|159|별일 아닌 거 가지고 왜 야단이야|Imported-20200609-195448.npz
+Imported-20200609-195454-audio.npy|Imported-20200609-195454-mel.npy|Imported-20200609-195454-linear.npy|57300|191|어제 숙제를 하는 선생님에게 야단을 맞았어요|Imported-20200609-195454.npz
+Imported-20200609-195500-audio.npy|Imported-20200609-195500-mel.npy|Imported-20200609-195500-linear.npy|45900|153|과일하고 야채를 많이 드셔야겠네요|Imported-20200609-195500.npz
+Imported-20200609-195505-audio.npy|Imported-20200609-195505-mel.npy|Imported-20200609-195505-linear.npy|27900|93|두 사람 친구 아니야|Imported-20200609-195505.npz
+Imported-20200609-195510-audio.npy|Imported-20200609-195510-mel.npy|Imported-20200609-195510-linear.npy|34200|114|그 사람은 참 좋은 사람이야|Imported-20200609-195510.npz
+Imported-20200609-195514-audio.npy|Imported-20200609-195514-mel.npy|Imported-20200609-195514-linear.npy|40800|136|철수야 무슨 생각 하고 있니|Imported-20200609-195514.npz
+Imported-20200609-195520-audio.npy|Imported-20200609-195520-mel.npy|Imported-20200609-195520-linear.npy|51300|171|저는 월요일만 되면 회사에 가기가 싫어요|Imported-20200609-195520.npz
+Imported-20200609-195526-audio.npy|Imported-20200609-195526-mel.npy|Imported-20200609-195526-linear.npy|51000|170|원숭이도 나무에서 떨어질 때가 있다|Imported-20200609-195526.npz
+Imported-20200609-195534-audio.npy|Imported-20200609-195534-mel.npy|Imported-20200609-195534-linear.npy|49500|165|제 원룸에 놓을 소파를 찾고 있습니다|Imported-20200609-195534.npz
+Imported-20200609-195539-audio.npy|Imported-20200609-195539-mel.npy|Imported-20200609-195539-linear.npy|41700|139|흡연은 암의 주요 원인 중 하나|Imported-20200609-195539.npz
+Imported-20200609-195543-audio.npy|Imported-20200609-195543-mel.npy|Imported-20200609-195543-linear.npy|36000|120|도대체 니가 원하는 게 뭐야|Imported-20200609-195543.npz
+Imported-20200609-195548-audio.npy|Imported-20200609-195548-mel.npy|Imported-20200609-195548-linear.npy|43800|146|은거는 우편으로 보내 주세요|Imported-20200609-195548.npz
+Imported-20200609-195553-audio.npy|Imported-20200609-195553-mel.npy|Imported-20200609-195553-linear.npy|71100|237|요즘 워낙 바빠서 부모님께 전화도 드리지 못했어요|Imported-20200609-195553.npz
+Imported-20200609-195559-audio.npy|Imported-20200609-195559-mel.npy|Imported-20200609-195559-linear.npy|35400|118|여기 정도는 300원입니다|Imported-20200609-195559.npz
+Imported-20200609-202921-audio.npy|Imported-20200609-202921-mel.npy|Imported-20200609-202921-linear.npy|52800|176|다 쓴 후에는 원래 있던 곳에 갔다더라|Imported-20200609-202921.npz
+Imported-20200609-202926-audio.npy|Imported-20200609-202926-mel.npy|Imported-20200609-202926-linear.npy|39900|133|저는 제 월급에 만족해요|Imported-20200609-202926.npz
+Imported-20200609-202957-audio.npy|Imported-20200609-202957-mel.npy|Imported-20200609-202957-linear.npy|43800|146|다음 월드컵은 어느 나라에서 열리죠|Imported-20200609-202957.npz
+Imported-20200609-203022-audio.npy|Imported-20200609-203022-mel.npy|Imported-20200609-203022-linear.npy|38700|129|올해는 추석이 몇 월에 있지|Imported-20200609-203022.npz
+Imported-20200609-203027-audio.npy|Imported-20200609-203027-mel.npy|Imported-20200609-203027-linear.npy|62400|208|지금 그 선수에게 필요한 것은 따뜻한 위로해|Imported-20200609-203027.npz
+Imported-20200609-203032-audio.npy|Imported-20200609-203032-mel.npy|Imported-20200609-203032-linear.npy|51900|173|저희 반은 회화 위주로 수업을 합니다|Imported-20200609-203032.npz
+Imported-20200609-203036-audio.npy|Imported-20200609-203036-mel.npy|Imported-20200609-203036-linear.npy|40800|136|다음 페이지의 위쪽을 보세요|Imported-20200609-203036.npz
+Imported-20200609-203119-audio.npy|Imported-20200609-203119-mel.npy|Imported-20200609-203119-linear.npy|70800|236|음주운전은 다른 사람의 생명을 위협하는 행위입니다|Imported-20200609-203119.npz
+Imported-20200609-203126-audio.npy|Imported-20200609-203126-mel.npy|Imported-20200609-203126-linear.npy|38100|127|운전하면서 전화하는 건 위|Imported-20200609-203126.npz
+Imported-20200609-203130-audio.npy|Imported-20200609-203130-mel.npy|Imported-20200609-203130-linear.npy|30900|103|오빠 위해 뭐든 할게|Imported-20200609-203130.npz
+Imported-20200609-203133-audio.npy|Imported-20200609-203133-mel.npy|Imported-20200609-203133-linear.npy|49800|166|이번 경제 위기는 올해 계속될 것이다|Imported-20200609-203133.npz
+Imported-20200609-203138-audio.npy|Imported-20200609-203138-mel.npy|Imported-20200609-203138-linear.npy|31500|105|사랑의 힘은 위대하다|Imported-20200609-203138.npz
+Imported-20200609-203141-audio.npy|Imported-20200609-203141-mel.npy|Imported-20200609-203141-linear.npy|51000|170|집은 괜찮은데 위치가 마음에 안 들어요|Imported-20200609-203141.npz
+Imported-20200609-203148-audio.npy|Imported-20200609-203148-mel.npy|Imported-20200609-203148-linear.npy|41700|139|손님 좌석은 윗층에 있습니다|Imported-20200609-203148.npz
+Imported-20200609-203206-audio.npy|Imported-20200609-203206-mel.npy|Imported-20200609-203206-linear.npy|32400|108|신호 위반 하셨습니다|Imported-20200609-203206.npz
+Imported-20200609-203930-audio.npy|Imported-20200609-203930-mel.npy|Imported-20200609-203930-linear.npy|40200|134|감기는 현대 의학으로 고칠 수가 없다|Imported-20200609-203930.npz

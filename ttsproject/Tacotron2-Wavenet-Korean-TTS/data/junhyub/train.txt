@@ -1,0 +1,1993 @@
+voice001-audio.npy|voice001-mel.npy|voice001-linear.npy|63600|212|의욕만으로 되는 일은 아닌 것 같습니다       
+|voice001.npz
+voice002-audio.npy|voice002-mel.npy|voice002-linear.npy|60600|202|선거운동 하시느라고 수고 많으십니다         
+|voice002.npz
+voice003-audio.npy|voice003-mel.npy|voice003-linear.npy|71400|238|당신의 하루를 전 세계 사람들과 공유하세요     
+|voice003.npz
+voice004-audio.npy|voice004-mel.npy|voice004-linear.npy|79800|266|낼 눈 온다는데 눈을 보면서 기분 전환해 보세요  
+|voice004.npz
+voice005-audio.npy|voice005-mel.npy|voice005-linear.npy|66300|221|맞팔을 해도 못 보는 사람이 많더라구요       
+|voice005.npz
+voice006-audio.npy|voice006-mel.npy|voice006-linear.npy|68400|228|반갑습니다 좋은 얘기 많이 부탁드립니다       
+|voice006.npz
+voice007-audio.npy|voice007-mel.npy|voice007-linear.npy|66600|222|아침입니다 오늘도 즐거운 하루 되세요        
+|voice007.npz
+voice008-audio.npy|voice008-mel.npy|voice008-linear.npy|127200|424|퇴근하고 와서 지금 멘션 봤네요 즐 트윗하시고 편안한 저녁되세요       
+|voice008.npz
+voice009-audio.npy|voice009-mel.npy|voice009-linear.npy|74100|247|청승맞은 게 아니라 감수성이 풍부한 거죠      
+|voice009.npz
+voice010-audio.npy|voice010-mel.npy|voice010-linear.npy|82200|274|머 그런 것은 큰 문제는 아니라고 생각합니다    
+|voice010.npz
+voice011-audio.npy|voice011-mel.npy|voice011-linear.npy|75300|251|점심 맛있게 드세요 전 밥 먹으러 갑니당      
+|voice011.npz
+voice012-audio.npy|voice012-mel.npy|voice012-linear.npy|77700|259|잘 다녀오셨나요 당직 언니 얼굴 까먹겠어요     
+|voice012.npz
+voice013-audio.npy|voice013-mel.npy|voice013-linear.npy|84900|283|아이폰은 본인이 능력되시면 구매하셔야 할 듯    
+|voice013.npz
+voice014-audio.npy|voice014-mel.npy|voice014-linear.npy|84000|280|네 다음에 인증샷 하겠습니다 좋은 하루 되세요   
+|voice014.npz
+voice015-audio.npy|voice015-mel.npy|voice015-linear.npy|89100|297|주말엔 방송을 쉬시나 보네요 즐거운 주말 보내세요 
+|voice015.npz
+voice016-audio.npy|voice016-mel.npy|voice016-linear.npy|67200|224|일단 먼저 팔로잉을 하시는 게 좋습니다       
+|voice016.npz
+voice017-audio.npy|voice017-mel.npy|voice017-linear.npy|98400|328|정말 담배 냄새 싫어요 으윽 숨을 못 쉬겠어요   
+|voice017.npz
+voice018-audio.npy|voice018-mel.npy|voice018-linear.npy|79800|266|저는 전쟁 나는 꿈 꿨어요 이상하당         
+|voice018.npz
+voice019-audio.npy|voice019-mel.npy|voice019-linear.npy|106500|355|사무실에서 음악을 들으면서 일할 수 있는 분위기가 너무 부럽다        
+|voice019.npz
+voice020-audio.npy|voice020-mel.npy|voice020-linear.npy|101400|338|말씀만 들어도 배가 부르네요 넉넉한 인심에 감사드립니다            
+|voice020.npz
+voice021-audio.npy|voice021-mel.npy|voice021-linear.npy|72600|242|조금 늦었지만 새해 복 많이많이 받으세요      
+|voice021.npz
+voice022-audio.npy|voice022-mel.npy|voice022-linear.npy|83100|277|만나서 반가워요 앞으로 타임 라인에서 자주 봐요  
+|voice022.npz
+voice023-audio.npy|voice023-mel.npy|voice023-linear.npy|79200|264|그 무수한 걸 하나도 못 만들어봤다는 게 문제   
+|voice023.npz
+voice024-audio.npy|voice024-mel.npy|voice024-linear.npy|93900|313|점점 마음을 나눌 수 있는 사람이 줄어드는 것 같아 슬프다          
+|voice024.npz
+voice025-audio.npy|voice025-mel.npy|voice025-linear.npy|85500|285|트위터 하다가 내릴 곳 지나쳤네요 더 우울해 짐  
+|voice025.npz
+voice026-audio.npy|voice026-mel.npy|voice026-linear.npy|103500|345|좋으시겠어요 즐거운 관람하시고 생생한 후기 올려주세요             
+|voice026.npz
+voice027-audio.npy|voice027-mel.npy|voice027-linear.npy|98100|327|완성 사진 꼭 올려주세요 기다릴께요 팔로우합니다  
+|voice027.npz
+voice028-audio.npy|voice028-mel.npy|voice028-linear.npy|113700|379|선팔감사합니다 타임 라인에서 뵙고 좋은 말씀 나누겠습니다           
+|voice028.npz
+voice029-audio.npy|voice029-mel.npy|voice029-linear.npy|103200|344|어젠 못 봤는데 추천해 주신 거라 생각하고 꼭 볼께요             
+|voice029.npz
+voice030-audio.npy|voice030-mel.npy|voice030-linear.npy|99600|332|오 앨범 나오시는 거에요 좋은 음악 기대할게요   
+|voice030.npz
+voice031-audio.npy|voice031-mel.npy|voice031-linear.npy|100200|334|그러고 보니 이번 주에 한번 보기로 하지 않았었나요 클클           
+|voice031.npz
+voice032-audio.npy|voice032-mel.npy|voice032-linear.npy|97200|324|선팔 감사합니다 항상 즐겁고 좋은 일들만 가득하시길              
+|voice032.npz
+voice033-audio.npy|voice033-mel.npy|voice033-linear.npy|89100|297|반갑습니다 팔로 합니다 평안한 휴일 보내세요    
+|voice033.npz
+voice034-audio.npy|voice034-mel.npy|voice034-linear.npy|104700|349|선팔을 받아 주셔서 감사합니다 늘 건강하시고 행복하세요            
+|voice034.npz
+voice035-audio.npy|voice035-mel.npy|voice035-linear.npy|63900|213|외교부 특채분들이 많이 힘드시겠어요         
+|voice035.npz
+voice036-audio.npy|voice036-mel.npy|voice036-linear.npy|69000|230|좋은 아침입니다 날씨가 꾸리꾸리 하네요 킁     
+|voice036.npz
+voice037-audio.npy|voice037-mel.npy|voice037-linear.npy|70800|236|저도 메일 보내드렸습니다 확인 부탁드려요      
+|voice037.npz
+voice038-audio.npy|voice038-mel.npy|voice038-linear.npy|95100|317|화이팅 감사해요 트위터에서 자주 뵙길 바라겠습니다 
+|voice038.npz
+voice039-audio.npy|voice039-mel.npy|voice039-linear.npy|69900|233|그런가 갑자기 저도 놀고 싶어졌어요         
+|voice039.npz
+voice040-audio.npy|voice040-mel.npy|voice040-linear.npy|144600|482|트친소 여러분 저는 이제 자러 갑니다 월요일이네요 멋진 한 주 시작하세요  
+|voice040.npz
+voice041-audio.npy|voice041-mel.npy|voice041-linear.npy|133500|445|죄송합니다 제가 그 더러움을 쌓는데 한 몫 한 것 같습니다 반성하겠습니다  
+|voice041.npz
+voice042-audio.npy|voice042-mel.npy|voice042-linear.npy|69900|233|감사합니다 부족하지만 잘 부탁드립니다        
+|voice042.npz
+voice043-audio.npy|voice043-mel.npy|voice043-linear.npy|79500|265|그래서 헬스클럽을 등록했는데 잘 안 가게 되네요  
+|voice043.npz
+voice044-audio.npy|voice044-mel.npy|voice044-linear.npy|80400|268|뒤늦게 점호 손 합니다 편안한 밤 되세요      
+|voice044.npz
+voice045-audio.npy|voice045-mel.npy|voice045-linear.npy|115800|386|오늘은 좀 일찍 자야지 트친님들 즐거운 시간 가지세요             
+|voice045.npz
+voice046-audio.npy|voice046-mel.npy|voice046-linear.npy|65700|219|멍 때리는 거 보단 괜찮은 거 같은데요       
+|voice046.npz
+voice047-audio.npy|voice047-mel.npy|voice047-linear.npy|78600|262|팔로우 감사합니다 비 피해 없으시길 바랍니다    
+|voice047.npz
+voice048-audio.npy|voice048-mel.npy|voice048-linear.npy|64500|215|센스쟁이로 거듭나도록 노력해야겠어요         
+|voice048.npz
+voice049-audio.npy|voice049-mel.npy|voice049-linear.npy|96000|320|오늘 황사가 장난이 아니라던뎅 실내에서 즐기세요  
+|voice049.npz
+voice050-audio.npy|voice050-mel.npy|voice050-linear.npy|73500|245|날씨가 우중충하네요 비 안 왔음하는데        
+|voice050.npz
+voice051-audio.npy|voice051-mel.npy|voice051-linear.npy|62700|209|집에 가는데 이동시간이 오래 걸리나요        
+|voice051.npz
+voice052-audio.npy|voice052-mel.npy|voice052-linear.npy|114900|383|우리 선수들 표정이 밝고 좋네요 좀 더 정비해서 여유찾으면 좋겠어요     
+|voice052.npz
+voice053-audio.npy|voice053-mel.npy|voice053-linear.npy|71700|239|시간만 되신다면 참여 가능하실 것 같아요      
+|voice053.npz
+voice054-audio.npy|voice054-mel.npy|voice054-linear.npy|73500|245|오라버니 감사요 새해 복 많이 받으세요       
+|voice054.npz
+voice055-audio.npy|voice055-mel.npy|voice055-linear.npy|127500|425|님 언제나 좋은 말씀 감사합니다 모두 기분 좋은 하루 되시기 바랍니다    
+|voice055.npz
+voice056-audio.npy|voice056-mel.npy|voice056-linear.npy|63000|210|저도 뭐가 이상한 지 한참 생각했습니다       
+|voice056.npz
+voice057-audio.npy|voice057-mel.npy|voice057-linear.npy|123000|410|정말 야한 생각에 집중해야 할 때인 거 같아요 즐거운 오후 보내세요     
+|voice057.npz
+voice058-audio.npy|voice058-mel.npy|voice058-linear.npy|74400|248|이런 저와 같은 생각을 가지고 계시는군요      
+|voice058.npz
+voice059-audio.npy|voice059-mel.npy|voice059-linear.npy|131700|439|아 노조 지부장 만나셨나요 오늘 대전에 출장 가 있는 걸로 아는데      
+|voice059.npz
+voice060-audio.npy|voice060-mel.npy|voice060-linear.npy|102900|343|반갑습니다 선팔 감사합니다 늘 행복하시기 바랍니다 
+|voice060.npz
+voice061-audio.npy|voice061-mel.npy|voice061-linear.npy|97800|326|미국은 신종 플루 백신의 신뢰도가 낮다고 하네요 사실인가요          
+|voice061.npz
+voice062-audio.npy|voice062-mel.npy|voice062-linear.npy|81300|271|네 노력해 보겠습니다 좋은 가르침 감사합니다    
+|voice062.npz
+voice063-audio.npy|voice063-mel.npy|voice063-linear.npy|73200|244|그래도 열심히 해야죠 공부는 할 때 해야 해요   
+|voice063.npz
+voice064-audio.npy|voice064-mel.npy|voice064-linear.npy|127200|424|대리님 생신 진심으로 축하 드립니다 언제나 좋은 일만 있으셨으면 좋겠습니다 
+|voice064.npz
+voice065-audio.npy|voice065-mel.npy|voice065-linear.npy|111900|373|스타크래프트 투를 설치해 보는 중입니다 느낌이 어떨까요      
+|voice065.npz
+voice066-audio.npy|voice066-mel.npy|voice066-linear.npy|65700|219|외국어영역을 세번 정도 풀어봤어요
+|voice066.npz
+voice067-audio.npy|voice067-mel.npy|voice067-linear.npy|101100|337|어떻게 만들고 계신지 궁금하네요 꼭 성공하시기를 바랍니다           
+|voice067.npz
+voice068-audio.npy|voice068-mel.npy|voice068-linear.npy|132300|441|안녕하세요 기사 관심있게 읽어주셔서 감사합니다 즐거운 금요일 밤 되세요   
+|voice068.npz
+voice069-audio.npy|voice069-mel.npy|voice069-linear.npy|126600|422|늦게까지 안 주무셨는데 출근은 잘하셨나요 오늘도 즐거운 하루 되세요     
+|voice069.npz
+voice070-audio.npy|voice070-mel.npy|voice070-linear.npy|64800|216|무언가 굉장히 안 좋은 일이 있으셨나 보네요    
+|voice070.npz
+voice071-audio.npy|voice071-mel.npy|voice071-linear.npy|120000|400|맞아 즐길 수 없으면 피해야지 피할 수 없으면 즐기는 게 아니라       
+|voice071.npz
+voice072-audio.npy|voice072-mel.npy|voice072-linear.npy|63000|210|다들 크리스마스 계획이 어떻게 되세요        
+|voice072.npz
+voice073-audio.npy|voice073-mel.npy|voice073-linear.npy|78600|262|와 이런 곳이 있군요 웹에서 찾아봐야겠다      
+|voice073.npz
+voice074-audio.npy|voice074-mel.npy|voice074-linear.npy|96000|320|넵 잘 알겠습니다 그리하도록 하겠습니다 고맙습니다 
+|voice074.npz
+voice075-audio.npy|voice075-mel.npy|voice075-linear.npy|70200|234|이학기 시간표는 언제쯤 나올까요 궁금하네요           
+|voice075.npz
+voice076-audio.npy|voice076-mel.npy|voice076-linear.npy|62100|207|정말 대인배라는 말이 딱인 거 같습니다       
+|voice076.npz
+voice077-audio.npy|voice077-mel.npy|voice077-linear.npy|96900|323|앗 네 오랜만이에요 요즘 넘 바빠서 못 들어왔었어요              
+|voice077.npz
+voice078-audio.npy|voice078-mel.npy|voice078-linear.npy|103800|346|페이스북 페이지를 좋아해 주셔서 감사해요 앞으로 더욱 번창하길        
+|voice078.npz
+voice079-audio.npy|voice079-mel.npy|voice079-linear.npy|102600|342|단기전이 재미있기도 하고 이것 때문에 짜증나기도 하고 그런 것 같아요    
+|voice079.npz
+voice080-audio.npy|voice080-mel.npy|voice080-linear.npy|83400|278|공지로 남겨야 하는 필요한 글 있으면 말씀 좀 해주실래요           
+|voice080.npz
+voice081-audio.npy|voice081-mel.npy|voice081-linear.npy|63900|213|감독님 오랜 만에 뵈요 잘 지내셨나요        
+|voice081.npz
+voice082-audio.npy|voice082-mel.npy|voice082-linear.npy|53100|177|빠른 이길래 친구처럼 지내고 있습니다        
+|voice082.npz
+voice083-audio.npy|voice083-mel.npy|voice083-linear.npy|67800|226|재미있겠다 난 아직 회사에서 일하는뎅        
+|voice083.npz
+voice084-audio.npy|voice084-mel.npy|voice084-linear.npy|76200|254|수능보던 날 눈이 엄청나게 펑펑 왔던 기억이 나네요              
+|voice084.npz
+voice085-audio.npy|voice085-mel.npy|voice085-linear.npy|75000|250|생일 축하드려요 마음 따뜻한 하루 되시길 바래요  
+|voice085.npz
+voice086-audio.npy|voice086-mel.npy|voice086-linear.npy|93600|312|장관님께서 좀 힘 좀 써주셨으면 합니다 부탁드립니다              
+|voice086.npz
+voice087-audio.npy|voice087-mel.npy|voice087-linear.npy|71700|239|정말 헷갈리겠어요 어제부터 헷갈려 죽겠네      
+|voice087.npz
+voice088-audio.npy|voice088-mel.npy|voice088-linear.npy|54900|183|제가 이런 디자인을 좋아하는 것 같아요       
+|voice088.npz
+voice089-audio.npy|voice089-mel.npy|voice089-linear.npy|77100|257|여름철 운동은 건강을 해칠 수 있습니다 적당히 하세요             
+|voice089.npz
+voice090-audio.npy|voice090-mel.npy|voice090-linear.npy|72300|241|선팔감사합니다 추운 날씨 감기 조심하세요      
+|voice090.npz
+voice091-audio.npy|voice091-mel.npy|voice091-linear.npy|81600|272|걱정 안 하셔도 됩니다 의사가 친절하게 다 알려줍니다             
+|voice091.npz
+voice092-audio.npy|voice092-mel.npy|voice092-linear.npy|84300|281|선팔 감사요 맞팔 완료 좋은 하루 되세요      
+|voice092.npz
+voice093-audio.npy|voice093-mel.npy|voice093-linear.npy|93600|312|그 말씀 듣고 뜨끔해하는 사람이 없어야 될텐데 말입니다            
+|voice093.npz
+voice094-audio.npy|voice094-mel.npy|voice094-linear.npy|70200|234|소스를 보니 자바 스크립트로 만든 거 같아요    
+|voice094.npz
+voice095-audio.npy|voice095-mel.npy|voice095-linear.npy|90300|301|누가 뜨끈한 국물에 밥 말아서 대령해줬음 좋겠어요 
+|voice095.npz
+voice096-audio.npy|voice096-mel.npy|voice096-linear.npy|109200|364|좋은 정보 감사합니다 여행 준비하다가 궁금한 거 있으면 여쭤볼께요      
+|voice096.npz
+voice097-audio.npy|voice097-mel.npy|voice097-linear.npy|69600|232|감사합니다 앞으로 좋은 음악 부탁해요        
+|voice097.npz
+voice098-audio.npy|voice098-mel.npy|voice098-linear.npy|109200|364|그러게요 일 하느라 좀 있다 먹어야 할 듯 점심 맛나게 드세요        
+|voice098.npz
+voice099-audio.npy|voice099-mel.npy|voice099-linear.npy|59100|197|이렇게 다른 곳으로 시선을 돌리는 건가요      
+|voice099.npz
+voice100-audio.npy|voice100-mel.npy|voice100-linear.npy|94500|315|네 덕분에 잘 지내고 있어요 모임 있을 때 불러주세요             
+|voice100.npz
+voice101-audio.npy|voice101-mel.npy|voice101-linear.npy|93000|310|수강 신청할 때 새벽에 밤새며 하던 기억이 나네요 
+|voice101.npz
+voice102-audio.npy|voice102-mel.npy|voice102-linear.npy|119400|398|그 맘 이해할 수 있을 거 같아요 생각보다 열배는 더 어려운 거 같아요         
+|voice102.npz
+voice103-audio.npy|voice103-mel.npy|voice103-linear.npy|91800|306|어제 늦게까지 트윗하시는 것 같던데 편안한 밤 되셨나요            
+|voice103.npz
+voice104-audio.npy|voice104-mel.npy|voice104-linear.npy|63000|210|예 잘 부탁 드려요 즐거운 추석 보내세요      
+|voice104.npz
+voice105-audio.npy|voice105-mel.npy|voice105-linear.npy|85800|286|무슨 일이 있더라도 본방사수하겠습니다 고생 하셨네요              
+|voice105.npz
+voice106-audio.npy|voice106-mel.npy|voice106-linear.npy|103200|344|날이 밝아오네요 굿 모닝 굿나잇 저는 이만 자러 갑니다            
+|voice106.npz
+voice107-audio.npy|voice107-mel.npy|voice107-linear.npy|72900|243|아 그러시군요 준비해야 할 게 많네요        
+|voice107.npz
+voice108-audio.npy|voice108-mel.npy|voice108-linear.npy|118200|394|글쎄요 그냥 막 먹고 싶은 게 많네요 뷔페를 한번 갔다 와야 할지      
+|voice108.npz
+voice109-audio.npy|voice109-mel.npy|voice109-linear.npy|105000|350|트윗 좋은 인연 내년에도 이어가길 바래요 새해 복 많이 받으세요       
+|voice109.npz
+voice110-audio.npy|voice110-mel.npy|voice110-linear.npy|66900|223|트위터 세계여행 모임에 가입 신청하였습니다     
+|voice110.npz
+voice111-audio.npy|voice111-mel.npy|voice111-linear.npy|77100|257|운전미숙으로 사고 나는 경우가 많기 때문이죠    
+|voice111.npz
+voice112-audio.npy|voice112-mel.npy|voice112-linear.npy|99600|332|네 감사합니다 트위터가 이상합니다 글이 잘 안 올라가네요           
+|voice112.npz
+voice113-audio.npy|voice113-mel.npy|voice113-linear.npy|111300|371|흠흠 서핑을 해봐야겠네요 요즘은 광고성 글이 많아서리             
+|voice113.npz
+voice114-audio.npy|voice114-mel.npy|voice114-linear.npy|78900|263|이 질문 귀찮으시더라도 많은 답변 부탁 드립니다  
+|voice114.npz
+voice115-audio.npy|voice115-mel.npy|voice115-linear.npy|61200|204|아무쪼록 가계에 보탬이 되시면 좋겠네요       
+|voice115.npz
+voice116-audio.npy|voice116-mel.npy|voice116-linear.npy|76800|256|우리 나라에 내리는 눈은 그다지 문제가 되지 않습니다             
+|voice116.npz
+voice117-audio.npy|voice117-mel.npy|voice117-linear.npy|55500|185|쿠폰 프린트 해 가시는 거 잊지 마시고       
+|voice117.npz
+voice118-audio.npy|voice118-mel.npy|voice118-linear.npy|58500|195|저보고 선배라고 하시는 줄 알고 깜놀        
+|voice118.npz
+voice119-audio.npy|voice119-mel.npy|voice119-linear.npy|122700|409|진중권씨 말을 들어야 할지 이정희씨 말을 들어야 할지 정말 모르겠어요    
+|voice119.npz
+voice120-audio.npy|voice120-mel.npy|voice120-linear.npy|98100|327|알티와 좋은 말씀 고맙습니다 즐겁고 편안한 오후 되세요            
+|voice120.npz
+voice121-audio.npy|voice121-mel.npy|voice121-linear.npy|73500|245|네 좋지는 않을 거에요 근데 잠깐이니깐요      
+|voice121.npz
+voice122-audio.npy|voice122-mel.npy|voice122-linear.npy|72000|240|네 꼭 주셔야 해요 수당도 다 챙겨주세요      
+|voice122.npz
+voice123-audio.npy|voice123-mel.npy|voice123-linear.npy|69600|232|팔로잉 해 주셔서 감사합니다 맞팔 완료하였습니다  
+|voice123.npz
+voice124-audio.npy|voice124-mel.npy|voice124-linear.npy|68100|227|밑에 네임카드 보시고 한번 방문해 주세요      
+|voice124.npz
+voice125-audio.npy|voice125-mel.npy|voice125-linear.npy|105600|352|기다리다 지쳐 집에 왔습니다 당신의 숙제를 기대하고 있습니다         
+|voice125.npz
+voice126-audio.npy|voice126-mel.npy|voice126-linear.npy|115800|386|진도가 좀 더디긴 한데 배고플 땐 좋을 것 같아요 맛점하셨나요        
+|voice126.npz
+voice127-audio.npy|voice127-mel.npy|voice127-linear.npy|87300|291|좋은 아침입니다 오늘도 감동이 함께하는 하루 되세요              
+|voice127.npz
+voice128-audio.npy|voice128-mel.npy|voice128-linear.npy|73500|245|그러시군요 암튼 반갑습니다 자주 뵈요        
+|voice128.npz
+voice129-audio.npy|voice129-mel.npy|voice129-linear.npy|70800|236|자기 자신이 몇 번 바이러스에 감염되었는지 알아야 합니다           
+|voice129.npz
+voice130-audio.npy|voice130-mel.npy|voice130-linear.npy|58200|194|이게 가장 최근에 나왔다고 하더라구요        
+|voice130.npz
+voice131-audio.npy|voice131-mel.npy|voice131-linear.npy|117000|390|음 자세한 답변 드리지 못한 점 죄송하구요 많은 도움 되셨으면 합니다    
+|voice131.npz
+voice132-audio.npy|voice132-mel.npy|voice132-linear.npy|108600|362|저희 집에서 강아지를 키우려는데요 저희 엄마가 강아지를 싫어하시네요     
+|voice132.npz
+voice133-audio.npy|voice133-mel.npy|voice133-linear.npy|65100|217|좋은 결과 있을 겁니다 오늘도 힘내세요       
+|voice133.npz
+voice134-audio.npy|voice134-mel.npy|voice134-linear.npy|86400|288|그리고 곧 우리 모두는 한 살을 더 먹게 되겠죠 흑흑             
+|voice134.npz
+voice135-audio.npy|voice135-mel.npy|voice135-linear.npy|74100|247|네 출근했어여 네 꾹 누르고 있어여         
+|voice135.npz
+voice136-audio.npy|voice136-mel.npy|voice136-linear.npy|105000|350|아 그러고 보니 저 찰리와 초콜릿 공장 무지하게 좋아했었어요         
+|voice136.npz
+voice137-audio.npy|voice137-mel.npy|voice137-linear.npy|89400|298|살아간다는 것은 기적 우리가 함께 한다는 것도 기적              
+|voice137.npz
+voice138-audio.npy|voice138-mel.npy|voice138-linear.npy|66900|223|꼭 해리 포터에 나오는 움직이는 그림 같네요    
+|voice138.npz
+voice139-audio.npy|voice139-mel.npy|voice139-linear.npy|67500|225|신도림 테크노마트에 있는 서점에서 샀어요      
+|voice139.npz
+voice140-audio.npy|voice140-mel.npy|voice140-linear.npy|126000|420|맞팔합니다 근데 사업하시나 봐요 부도어음 이라니 힘드시겠어요         
+|voice140.npz
+voice141-audio.npy|voice141-mel.npy|voice141-linear.npy|110700|369|강풀님은 맘이 따뜻한 분이신 듯 저도 빠른 쾌유를 빌게요           
+|voice141.npz
+voice142-audio.npy|voice142-mel.npy|voice142-linear.npy|101700|339|판매의사가 있으시다면 아래 네임카드의 연락처로 문의 주세요          
+|voice142.npz
+voice143-audio.npy|voice143-mel.npy|voice143-linear.npy|122700|409|여성 화장품 관련해서 질문합니다 많은 여성분들의 답변 부탁 드립니다     
+|voice143.npz
+voice144-audio.npy|voice144-mel.npy|voice144-linear.npy|124500|415|네 요즘 트위터에 재미를 느끼고 있었지만 덕분에 더 많이 잼있어졌어여    
+|voice144.npz
+voice145-audio.npy|voice145-mel.npy|voice145-linear.npy|142200|474|우아 이거 정말 재미있네요 아저씨는 전우치와 악마를 보았다          
+|voice145.npz
+voice146-audio.npy|voice146-mel.npy|voice146-linear.npy|57000|190|빠른 시일 내에 답변을 해주시기 바랍니다      
+|voice146.npz
+voice147-audio.npy|voice147-mel.npy|voice147-linear.npy|106200|354|상쾌한 아침입니다 모기에 시달리지 않는 행복한 하루 되시길 바랍니다     
+|voice147.npz
+voice148-audio.npy|voice148-mel.npy|voice148-linear.npy|61800|206|음주운전의 경각심을 일으키는 내용입니다       
+|voice148.npz
+voice149-audio.npy|voice149-mel.npy|voice149-linear.npy|68100|227|서서히 안정을 되찾고 있습니다 감사합니다      
+|voice149.npz
+voice150-audio.npy|voice150-mel.npy|voice150-linear.npy|80700|269|그리고 무엇보다 수업시간에 집중하시는 게 중요하답니다             
+|voice150.npz
+voice151-audio.npy|voice151-mel.npy|voice151-linear.npy|59100|197|머리가 깨질 것 같아요 더 자야겠어요        
+|voice151.npz
+voice152-audio.npy|voice152-mel.npy|voice152-linear.npy|113100|377|안녕하세요 어제부터 트윗 시작한 초보예요 앞으로 친하게 지내요        
+|voice152.npz
+voice153-audio.npy|voice153-mel.npy|voice153-linear.npy|56100|187|여행자를 위한 음악 한 곡 들어보실래요       
+|voice153.npz
+voice154-audio.npy|voice154-mel.npy|voice154-linear.npy|48900|163|그래서요 제가 알려달라고 하는데요          
+|voice154.npz
+voice155-audio.npy|voice155-mel.npy|voice155-linear.npy|89100|297|점잖게 화를 내는 법을 터득하는 것도 중요할 것 같아요            
+|voice155.npz
+voice156-audio.npy|voice156-mel.npy|voice156-linear.npy|108900|363|제가 마음속으로나마 태평소를 불며 응원할게요 좋은 하루 되세요        
+|voice156.npz
+voice157-audio.npy|voice157-mel.npy|voice157-linear.npy|90000|300|고인의 명복을 빕니다 하늘도 오늘 같이 울고 있습니다             
+|voice157.npz
+voice158-audio.npy|voice158-mel.npy|voice158-linear.npy|92400|308|여러분이 대통령이 된다면 가장 먼저 하고 싶은 일은 무엇인가요        
+|voice158.npz
+voice159-audio.npy|voice159-mel.npy|voice159-linear.npy|70200|234|너무 졸려서 자야겠네요 좋은 아침 되세요      
+|voice159.npz
+voice160-audio.npy|voice160-mel.npy|voice160-linear.npy|111000|370|으헉헉헉 저 돼지 껍데기 완전 좋아하는데 저도 끼워주세요           
+|voice160.npz
+voice161-audio.npy|voice161-mel.npy|voice161-linear.npy|74400|248|밤은 깊어가는데 기상 시간은 정해져 있다      
+|voice161.npz
+voice162-audio.npy|voice162-mel.npy|voice162-linear.npy|80700|269|네 반가워요 선팔 감사합니다 맞팔 완료       
+|voice162.npz
+voice163-audio.npy|voice163-mel.npy|voice163-linear.npy|71700|239|형님 아버님 건강 회복되시길 기도 합니다      
+|voice163.npz
+voice164-audio.npy|voice164-mel.npy|voice164-linear.npy|66600|222|맞팔했습니다 오전 중으로 부탁 드려요        
+|voice164.npz
+voice165-audio.npy|voice165-mel.npy|voice165-linear.npy|93600|312|저는 이만 자러 갑니다 다들 즐거운 금요일 밤 보내세요            
+|voice165.npz
+voice166-audio.npy|voice166-mel.npy|voice166-linear.npy|67500|225|좋은 말씀 감사합니다 즐거운 하루 되세요      
+|voice166.npz
+voice167-audio.npy|voice167-mel.npy|voice167-linear.npy|95100|317|제가 시간이 별로 없어서 일주일에 한 번씩밖에 못 놀아 주거든요       
+|voice167.npz
+voice168-audio.npy|voice168-mel.npy|voice168-linear.npy|69900|233|네 저희 블로그 댓글로 알려 주시면 되겠습니다   
+|voice168.npz
+voice169-audio.npy|voice169-mel.npy|voice169-linear.npy|80400|268|아고 감사합니다 앞으로도 좋은 정보 올려야겠어요  
+|voice169.npz
+voice170-audio.npy|voice170-mel.npy|voice170-linear.npy|95700|319|함께 때리고 욕하면서 웃을 수 있는 친구가 있어서 행복합니다         
+|voice170.npz
+voice171-audio.npy|voice171-mel.npy|voice171-linear.npy|78600|262|전 어렸을 때부터 가수가 꿈인 열한 살 소녀입니다       
+|voice171.npz
+voice172-audio.npy|voice172-mel.npy|voice172-linear.npy|63600|212|감사합니다 팔로 하고 가요 좋은 밤 되세요     
+|voice172.npz
+voice173-audio.npy|voice173-mel.npy|voice173-linear.npy|97500|325|이벤트 종료 여러분의 성원에 힘입어 이벤트가 종료되었습니다          
+|voice173.npz
+voice174-audio.npy|voice174-mel.npy|voice174-linear.npy|112500|375|몰라서 한 시간이나 걸렸음 흑흑 죄송해요 점심 맛있게 드세요         
+|voice174.npz
+voice175-audio.npy|voice175-mel.npy|voice175-linear.npy|87600|292|오마이 갇 캄사합니다 기억해둬야겠어요        
+|voice175.npz
+voice176-audio.npy|voice176-mel.npy|voice176-linear.npy|88200|294|저는 닉넴이 더 어려울 때도 있어요 네 좋은 꿈 꾸세요            
+|voice176.npz
+voice177-audio.npy|voice177-mel.npy|voice177-linear.npy|75000|250|이해하고 들으시면 가사가 귀에 쏙쏙 들어오실 거예요              
+|voice177.npz
+voice178-audio.npy|voice178-mel.npy|voice178-linear.npy|93300|311|아이유 데리고 오면 여기 있는 사람들하고 이야기를 한데요           
+|voice178.npz
+voice179-audio.npy|voice179-mel.npy|voice179-linear.npy|112500|375|아 감사합니다 오늘도 행복한 하루 되세요 점심식사 맛있게 하세요       
+|voice179.npz
+voice180-audio.npy|voice180-mel.npy|voice180-linear.npy|90000|300|트위터로 팔로윙을 해주셨으면 트위터를 잘하시는 건데요             
+|voice180.npz
+voice181-audio.npy|voice181-mel.npy|voice181-linear.npy|92400|308|검사할 때 보면 의외로 폐쇄공포증 있는 사람이 많은 거 같다         
+|voice181.npz
+voice182-audio.npy|voice182-mel.npy|voice182-linear.npy|104400|348|안녕히 주무세요 이제 저도 자러 갑니다 모두들 편한 밤 되세요        
+|voice182.npz
+voice183-audio.npy|voice183-mel.npy|voice183-linear.npy|99300|331|턱 관절 때문에 그런 것 같은데 병원 가서 턱 관절 치료해야겠죠       
+|voice183.npz
+voice184-audio.npy|voice184-mel.npy|voice184-linear.npy|81300|271|날이 갑자기 추워졌습니다 감기 조심하시구요 팔로 합니다            
+|voice184.npz
+voice185-audio.npy|voice185-mel.npy|voice185-linear.npy|69900|233|앨범 작업은 잘 되시나요 기대하고 있습니다     
+|voice185.npz
+voice186-audio.npy|voice186-mel.npy|voice186-linear.npy|117600|392|모두 좋은 하루 되세요 오늘 내일 비 소식이 있다니 우산들 꼭 챙기시구요  
+|voice186.npz
+voice187-audio.npy|voice187-mel.npy|voice187-linear.npy|79500|265|악 너무 귀여워요 공개사과입니다 받아 주세요    
+|voice187.npz
+voice188-audio.npy|voice188-mel.npy|voice188-linear.npy|71400|238|리스트를 팔로우하는 거 아닐까요 그런 것 같아요  
+|voice188.npz
+voice189-audio.npy|voice189-mel.npy|voice189-linear.npy|61800|206|제 답이 틀린 것처럼 말씀하시더라고요        
+|voice189.npz
+voice190-audio.npy|voice190-mel.npy|voice190-linear.npy|63000|210|할 것이 많은 밤 조금은 답답하네요         
+|voice190.npz
+voice191-audio.npy|voice191-mel.npy|voice191-linear.npy|76500|255|네 꼭 인증샷 보내주세요 기다리겠습니다       
+|voice191.npz
+voice192-audio.npy|voice192-mel.npy|voice192-linear.npy|63600|212|한국 온라인 게임 시장은 감소하고 있다       
+|voice192.npz
+voice193-audio.npy|voice193-mel.npy|voice193-linear.npy|78000|260|사이트 하나 추천해주세요 귀찮게 해드려 죄송 죄송 
+|voice193.npz
+voice194-audio.npy|voice194-mel.npy|voice194-linear.npy|58800|196|나중에 저 같은 사람이랑 만나면 안 되요      
+|voice194.npz
+voice195-audio.npy|voice195-mel.npy|voice195-linear.npy|70800|236|전 너무 억울해서 신고하고 싶습니다 도와주세요   
+|voice195.npz
+voice196-audio.npy|voice196-mel.npy|voice196-linear.npy|73200|244|온라인으로 물건을 구입하거나 팔아본 경험이 있으신가요             
+|voice196.npz
+voice197-audio.npy|voice197-mel.npy|voice197-linear.npy|54300|181|곧 있으면 시작이에요 영화 기대되네요        
+|voice197.npz
+voice198-audio.npy|voice198-mel.npy|voice198-linear.npy|65700|219|울지마 톤즈를 다시 한번 보심을 추천 드립니다   
+|voice198.npz
+voice199-audio.npy|voice199-mel.npy|voice199-linear.npy|68700|229|적어도 지금까지 살면서 까지는 그랬던 것 같아요  
+|voice199.npz
+voice200-audio.npy|voice200-mel.npy|voice200-linear.npy|70200|234|와우 축하 드립니다 신세계를 경험해 보시길     
+|voice200.npz
+voice201-audio.npy|voice201-mel.npy|voice201-linear.npy|33000|110|이런 상상을 했다     
+|voice201.npz
+voice202-audio.npy|voice202-mel.npy|voice202-linear.npy|70200|234|혜연님 오늘 하루도 뜻 깊은 하루 되세요      
+|voice202.npz
+voice203-audio.npy|voice203-mel.npy|voice203-linear.npy|67500|225|아이패드 관심 있는 분들 꼭 참고하세요       
+|voice203.npz
+voice204-audio.npy|voice204-mel.npy|voice204-linear.npy|101400|338|리트위트 하면서 나의 메모를 추가하는 법 좀 가르쳐 주세요          
+|voice204.npz
+voice205-audio.npy|voice205-mel.npy|voice205-linear.npy|117300|391|아 그렇군요 전제가 잘 못하는 건 줄 알았어요 고맙습니다           
+|voice205.npz
+voice206-audio.npy|voice206-mel.npy|voice206-linear.npy|78600|262|아이폰 실시간 방송 보는 방법이 있기는 있습니다  
+|voice206.npz
+voice207-audio.npy|voice207-mel.npy|voice207-linear.npy|85500|285|기특하네요 선한 결과 있을 거에요 기도 하겠습니다 
+|voice207.npz
+voice208-audio.npy|voice208-mel.npy|voice208-linear.npy|104100|347|네 도움이 되었다니 다행이네요 책 읽고 리뷰 기다릴게요            
+|voice208.npz
+voice209-audio.npy|voice209-mel.npy|voice209-linear.npy|98100|327|인간 사회의 법은 행복한 삶을 영위하기 위해서 있는 것 아닌가요       
+|voice209.npz
+voice210-audio.npy|voice210-mel.npy|voice210-linear.npy|48900|163|제가 틀릴 수도 있으니 확인해보세요         
+|voice210.npz
+voice211-audio.npy|voice211-mel.npy|voice211-linear.npy|113100|377|젠장 눈물이 나려 하네요 개고기를 먹지 말아야 하는 이유 좀 보세요     
+|voice211.npz
+voice212-audio.npy|voice212-mel.npy|voice212-linear.npy|72600|242|별 말씀을요 또 궁금한 건 언제든지 물어 보세요  
+|voice212.npz
+voice213-audio.npy|voice213-mel.npy|voice213-linear.npy|74400|248|유시민후보 때문에 눈물이 앞을 가리고 있습니다   
+|voice213.npz
+voice214-audio.npy|voice214-mel.npy|voice214-linear.npy|90000|300|미래를 예측하는 가장 좋은 방법은 미래를 발명하는 것             
+|voice214.npz
+voice215-audio.npy|voice215-mel.npy|voice215-linear.npy|87300|291|한국 국민들은 언어영역 공부를 열심히 해야 한다  
+|voice215.npz
+voice216-audio.npy|voice216-mel.npy|voice216-linear.npy|64200|214|오늘 행복한 사랑을 할 수 있으면 좋으련만     
+|voice216.npz
+voice217-audio.npy|voice217-mel.npy|voice217-linear.npy|104100|347|이젠 그 여자의 미래를 위해 제가 놓아 주었으니 잘 찾아보세요        
+|voice217.npz
+voice218-audio.npy|voice218-mel.npy|voice218-linear.npy|102300|341|역시 올라왔습니다 최종 버전과 크게 다르지 않을 것으로 생각되네요      
+|voice218.npz
+voice219-audio.npy|voice219-mel.npy|voice219-linear.npy|66900|223|힘내자구요 대한민국에 사는 게 다 그렇지 뭐    
+|voice219.npz
+voice220-audio.npy|voice220-mel.npy|voice220-linear.npy|99900|333|고맙습니다 선배님이셨네요 즐거운 월요일 보내시기 바랍니다           
+|voice220.npz
+voice221-audio.npy|voice221-mel.npy|voice221-linear.npy|75300|251|시간 나실 때 알려 주세요 기분 좋게 고기나 먹어요              
+|voice221.npz
+voice222-audio.npy|voice222-mel.npy|voice222-linear.npy|101400|338|눈이 생각보다 엄청 오네요 겁나요 즐건 하루 되세요              
+|voice222.npz
+voice223-audio.npy|voice223-mel.npy|voice223-linear.npy|59400|198|오후 두시에 약속이 있어서 가능합니다  
+|voice223.npz
+voice224-audio.npy|voice224-mel.npy|voice224-linear.npy|105600|352|히힛 오늘도 커피 맛있당과 함께하는 즐거운 하루 되세요            
+|voice224.npz
+voice225-audio.npy|voice225-mel.npy|voice225-linear.npy|75900|253|선팔 감사합니다 타임 라인에서 자주 만나요     
+|voice225.npz
+voice226-audio.npy|voice226-mel.npy|voice226-linear.npy|72300|241|네 행복하고 즐거운 하루 보내시길 바라네요     
+|voice226.npz
+voice227-audio.npy|voice227-mel.npy|voice227-linear.npy|108300|361|돌아오기 시러서 죽을 것 같다고 생각했는데 무사 귀환하셨군요         
+|voice227.npz
+voice228-audio.npy|voice228-mel.npy|voice228-linear.npy|109200|364|트윗 시작한 지 오개월 정도 되어갑니다 앞으로 잘 부탁 드립니다 
+|voice228.npz
+voice229-audio.npy|voice229-mel.npy|voice229-linear.npy|95100|317|그것보다 중요한 건 질문자님이 실수를 한 게 있단 건데요           
+|voice229.npz
+voice230-audio.npy|voice230-mel.npy|voice230-linear.npy|67200|224|별 말씀을요 제가 더 잘 부탁 드려요 후후     
+|voice230.npz
+voice231-audio.npy|voice231-mel.npy|voice231-linear.npy|90000|300|님도 혹시 거리가 괜찮다면 상담이라도 한번 받아보세요             
+|voice231.npz
+voice232-audio.npy|voice232-mel.npy|voice232-linear.npy|97500|325|아 그러셨구나 구월까지 기다리긴 너무 힘들었어요          
+|voice232.npz
+voice233-audio.npy|voice233-mel.npy|voice233-linear.npy|88500|295|나는 자신의 창조물을 심판한다는 신을 상상할 수 없다             
+|voice233.npz
+voice234-audio.npy|voice234-mel.npy|voice234-linear.npy|101100|337|가나가 공정 사회를 이룩하자고 하셔서 어쩔 수 없었어요            
+|voice234.npz
+voice235-audio.npy|voice235-mel.npy|voice235-linear.npy|114300|381|지금 이 시간이면 거기에는 낮이겠군요 생일 파티 재미나게 하세요       
+|voice235.npz
+voice236-audio.npy|voice236-mel.npy|voice236-linear.npy|70500|235|재밌게 보셔요 이벤트 참여해 주셔서 감사      
+|voice236.npz
+voice237-audio.npy|voice237-mel.npy|voice237-linear.npy|70800|236|어떤 방법으로 마케팅이 진행되는지 궁금합니다    
+|voice237.npz
+voice238-audio.npy|voice238-mel.npy|voice238-linear.npy|75600|252|일 일 차는 이메일이나 전화로 노래를 부릅니다           
+|voice238.npz
+voice239-audio.npy|voice239-mel.npy|voice239-linear.npy|77700|259|용량이 작다고 들어가지 않아요 계정하나 만드세요  
+|voice239.npz
+voice240-audio.npy|voice240-mel.npy|voice240-linear.npy|101700|339|들어가겠다는 꿈을 갖고 도전하시면 이루어 지시리라 믿어요           
+|voice240.npz
+voice241-audio.npy|voice241-mel.npy|voice241-linear.npy|99600|332|좋은 말씀 고맙습니다 편안하고 행복한 저녁시간 보내세요            
+|voice241.npz
+voice242-audio.npy|voice242-mel.npy|voice242-linear.npy|72600|242|공기업 빚을 다 갚을 수 있는 아주 좋은 기회였군요              
+|voice242.npz
+voice243-audio.npy|voice243-mel.npy|voice243-linear.npy|91500|305|지난 토요일 제부도 같은 장소에서 찍은 사진입니다 
+|voice243.npz
+voice244-audio.npy|voice244-mel.npy|voice244-linear.npy|126600|422|장동건 고소영 커플이 결혼 오개월 만에 득남하였다고 하네요 축하합니다            
+|voice244.npz
+voice245-audio.npy|voice245-mel.npy|voice245-linear.npy|88800|296|오늘은 휘성 노래만 듣고 있네요 노래 정말 좋네요 
+|voice245.npz
+voice246-audio.npy|voice246-mel.npy|voice246-linear.npy|105600|352|넵 사전에 좋은 내용을 알려 주시면 큰 도움이 될 것 같습니다        
+|voice246.npz
+voice247-audio.npy|voice247-mel.npy|voice247-linear.npy|65400|218|이 시간까지 깨어 있으면 배고파서 안 되는데    
+|voice247.npz
+voice248-audio.npy|voice248-mel.npy|voice248-linear.npy|95400|318|보쌈 맛있겠어요 즐거운 저녁 즐거운 추석 되세요  
+|voice248.npz
+voice249-audio.npy|voice249-mel.npy|voice249-linear.npy|73200|244|벌써 구월의 마지막 날이라니 믿기지 않아              
+|voice249.npz
+voice250-audio.npy|voice250-mel.npy|voice250-linear.npy|69900|233|과연 그럴까요 정말 버리시면 안됩니다        
+|voice250.npz
+voice251-audio.npy|voice251-mel.npy|voice251-linear.npy|65400|218|복근을 키우는 운동을 해야 된다           
+|voice251.npz
+voice252-audio.npy|voice252-mel.npy|voice252-linear.npy|78600|262|오오 그런가요 저도 지금 살까 말까 고민 중이라는 
+|voice252.npz
+voice253-audio.npy|voice253-mel.npy|voice253-linear.npy|67800|226|진짜요 꼭 팔강 진출했으면 좋겠네요   
+|voice253.npz
+voice254-audio.npy|voice254-mel.npy|voice254-linear.npy|114000|380|감사합니다 도움이 많이 됐음 좋겠어요 궁금한 건 언제나 물어보세요      
+|voice254.npz
+voice255-audio.npy|voice255-mel.npy|voice255-linear.npy|111600|372|남편 분도 트윗하시나봐요 산타 할아버지가 아이패드를 주셨으면 좋겠다     
+|voice255.npz
+voice256-audio.npy|voice256-mel.npy|voice256-linear.npy|125400|418|아 전국이 다 되는 게 아니군요 전인천인데 함 시도해봐야겠어요        
+|voice256.npz
+voice257-audio.npy|voice257-mel.npy|voice257-linear.npy|95400|318|저는 님이 가지고 오면 보려구요 즐거운 하루 보내세요             
+|voice257.npz
+voice258-audio.npy|voice258-mel.npy|voice258-linear.npy|99300|331|안타깝습니다 허걱 지금 들고 있는 게 뭐야     
+|voice258.npz
+voice259-audio.npy|voice259-mel.npy|voice259-linear.npy|63600|212|왕성하게 활동하시는 모습 보기 좋네요        
+|voice259.npz
+voice260-audio.npy|voice260-mel.npy|voice260-linear.npy|126600|422|오늘 하루 마무리 잘 되어가는지요 선팔 고맙습니다 맞팔 합니다        
+|voice260.npz
+voice261-audio.npy|voice261-mel.npy|voice261-linear.npy|44100|147|훌륭한 카메라군요     
+|voice261.npz
+voice262-audio.npy|voice262-mel.npy|voice262-linear.npy|72900|243|좋죠 지방부터 시행하면 딱 좋겠네요         
+|voice262.npz
+voice263-audio.npy|voice263-mel.npy|voice263-linear.npy|72600|242|맞팔 완료 오늘 하루 행복하게 마무리하세요     
+|voice263.npz
+voice264-audio.npy|voice264-mel.npy|voice264-linear.npy|67500|225|하지만 고객센터로 전화 하면 아주 빠릅니다     
+|voice264.npz
+voice265-audio.npy|voice265-mel.npy|voice265-linear.npy|74400|248|다음주 금요일에 오픈 하우스 하는데 꼭 오세요   
+|voice265.npz
+voice266-audio.npy|voice266-mel.npy|voice266-linear.npy|95100|317|동영상이나 음악 재생하는 거요 이것도 다운받아야 하나요            
+|voice266.npz
+voice267-audio.npy|voice267-mel.npy|voice267-linear.npy|69300|231|지금도 그 충격에서 헤어나질 못하고 있어요     
+|voice267.npz
+voice268-audio.npy|voice268-mel.npy|voice268-linear.npy|74100|247|기분 좋아 보이시네요 즐거운 한 주 시작되세요   
+|voice268.npz
+voice269-audio.npy|voice269-mel.npy|voice269-linear.npy|89400|298|팔로 감사합니다 맞팔 했구요 꿀점 되세요      
+|voice269.npz
+voice270-audio.npy|voice270-mel.npy|voice270-linear.npy|132000|440|누구에게나 위기가 있다 그러나 누구나 기회로 만들 수 있는 것은 아니다   
+|voice270.npz
+voice271-audio.npy|voice271-mel.npy|voice271-linear.npy|76200|254|근데 문제는 호텔 가서 교육을 받아야 합니다    
+|voice271.npz
+voice272-audio.npy|voice272-mel.npy|voice272-linear.npy|91800|306|맥북에어 뿐 아니라 케이블로 연결하면 다 되는 걸로 아는데요         
+|voice272.npz
+voice273-audio.npy|voice273-mel.npy|voice273-linear.npy|70200|234|오옷 정말 다행입니다 맛있는 거 많이 해드리세요  
+|voice273.npz
+voice274-audio.npy|voice274-mel.npy|voice274-linear.npy|64500|215|시간 잘 맞춰서 오세요 꼭 놀아 드릴게요      
+|voice274.npz
+voice275-audio.npy|voice275-mel.npy|voice275-linear.npy|57000|190|저는 어떤 것이든 맛있게 먹을 수 있습니다     
+|voice275.npz
+voice276-audio.npy|voice276-mel.npy|voice276-linear.npy|62700|209|설마 나도 보일 때도 있고 안 보일 때도 있어   
+|voice276.npz
+voice277-audio.npy|voice277-mel.npy|voice277-linear.npy|64500|215|오늘 서울은 비도 안 오고 날씨가 선선하니 좋네요 
+|voice277.npz
+voice278-audio.npy|voice278-mel.npy|voice278-linear.npy|63900|213|반갑습니다 맞팔 합니다 좋은 저녁 되시기를     
+|voice278.npz
+voice279-audio.npy|voice279-mel.npy|voice279-linear.npy|66900|223|감사합니당 곱창 여행 한번 떠나야겠네요       
+|voice279.npz
+voice280-audio.npy|voice280-mel.npy|voice280-linear.npy|67200|224|참고로 저희 회사 사장님 트윗은 이겁니다      
+|voice280.npz
+voice281-audio.npy|voice281-mel.npy|voice281-linear.npy|75300|251|님 부모님이 더 긴장하시는 것 같습니다       
+|voice281.npz
+voice282-audio.npy|voice282-mel.npy|voice282-linear.npy|106800|356|네 희망을 갖고 끝까지 지켜보려고 합니다 좋은 일 있겠죠           
+|voice282.npz
+voice283-audio.npy|voice283-mel.npy|voice283-linear.npy|69000|230|전기장판 준비하셨군요 따뜻하겠어요          
+|voice283.npz
+voice284-audio.npy|voice284-mel.npy|voice284-linear.npy|77100|257|안녕히 주무셨어요 신나는 금요일 되시기 바랍니다  
+|voice284.npz
+voice285-audio.npy|voice285-mel.npy|voice285-linear.npy|89400|298|팔로 우 하시는 분들에게 추첨을 통해 티셔츠를 쏩니다             
+|voice285.npz
+voice286-audio.npy|voice286-mel.npy|voice286-linear.npy|70800|236|오늘 넘 반가웠구요 앞으로도 자주 봬요       
+|voice286.npz
+voice287-audio.npy|voice287-mel.npy|voice287-linear.npy|74400|248|가능성 있는 죄의 내용을 물어 보시는 건 아니죠  
+|voice287.npz
+voice288-audio.npy|voice288-mel.npy|voice288-linear.npy|115500|385|전 여자 친구가 어학연수를 가서 요즘엔 저 자신에게 집중하고 있어요     
+|voice288.npz
+voice289-audio.npy|voice289-mel.npy|voice289-linear.npy|66600|222|회원 가입을 안하고 구하는 건 좀 어렵다고 합니다 
+|voice289.npz
+voice290-audio.npy|voice290-mel.npy|voice290-linear.npy|85500|285|아이패드 사용하고 있다고 합니다 참 기쁜 소식입니다              
+|voice290.npz
+voice291-audio.npy|voice291-mel.npy|voice291-linear.npy|69000|230|프런트에서 꼭 잡아줄 거라 생각합니다        
+|voice291.npz
+voice292-audio.npy|voice292-mel.npy|voice292-linear.npy|88500|295|저는 한 살 더 먹어도 이십대를 유지할 수 있습니다       
+|voice292.npz
+voice293-audio.npy|voice293-mel.npy|voice293-linear.npy|102000|340|오랜만에 파란 하늘이 보이는 것 같네요 즐건 하루 보내세요          
+|voice293.npz
+voice294-audio.npy|voice294-mel.npy|voice294-linear.npy|69300|231|맛난 저녁들 드시고 행복한 밤 되시길        
+|voice294.npz
+voice295-audio.npy|voice295-mel.npy|voice295-linear.npy|66000|220|흑백 사진 그때 그 시절로 돌아가고 싶네요     
+|voice295.npz
+voice296-audio.npy|voice296-mel.npy|voice296-linear.npy|65100|217|음 정말 덥군 죽을 수도 있겠다           
+|voice296.npz
+voice297-audio.npy|voice297-mel.npy|voice297-linear.npy|110100|367|몸이 너무 피곤 합니다 좋은 밤 보내세요 내일도 바쁠 거 같네요       
+|voice297.npz
+voice298-audio.npy|voice298-mel.npy|voice298-linear.npy|121500|405|낼 아침에 일어나셔서 우리가 진짜 뒷담화한 것으로 오해하시겠는데요      
+|voice298.npz
+voice299-audio.npy|voice299-mel.npy|voice299-linear.npy|129000|430|한국 트위터모임트위터 이용해서 수학 공부하자 모임을 개설하였습니다      
+|voice299.npz
+voice300-audio.npy|voice300-mel.npy|voice300-linear.npy|64500|215|그 메모지 지갑에 넣어 다니고 싶네요        
+|voice300.npz
+voice301-audio.npy|voice301-mel.npy|voice301-linear.npy|88800|296|커피 맛있당 네 앞으로 당 안에서 자주 뵈요    
+|voice301.npz
+voice302-audio.npy|voice302-mel.npy|voice302-linear.npy|71400|238|더 나은 사람이 되기 위한 약이라고 생각하기를   
+|voice302.npz
+voice303-audio.npy|voice303-mel.npy|voice303-linear.npy|129600|432|넵 방갑습니다 즐거운 이야기로 자주 찾아 뵙겠습니다 행복한 저녁 보내세요  
+|voice303.npz
+voice304-audio.npy|voice304-mel.npy|voice304-linear.npy|106500|355|바이오에 개봉관 다섯개를 적어 놓으시는 게 좋을 것 같습니다  
+|voice304.npz
+voice305-audio.npy|voice305-mel.npy|voice305-linear.npy|85500|285|아직 일하세요 힘드시겠어요 버스 안이 천국 같네요 
+|voice305.npz
+voice306-audio.npy|voice306-mel.npy|voice306-linear.npy|69000|230|친절한 답변감사합니다 좋은 하루 되세요       
+|voice306.npz
+voice307-audio.npy|voice307-mel.npy|voice307-linear.npy|108600|362|너무 최근 꺼라서 전에 이거 말고 다른 것도 있었던 거 같은데 말이죠    
+|voice307.npz
+voice308-audio.npy|voice308-mel.npy|voice308-linear.npy|134100|447|작금의 사태를 보고 있노라면 참 한심하다는 생각이 든다 쯧          
+|voice308.npz
+voice309-audio.npy|voice309-mel.npy|voice309-linear.npy|90000|300|비용이 얼마 나오는지 저도 좀 알려 주세요 참고를 하게요           
+|voice309.npz
+voice310-audio.npy|voice310-mel.npy|voice310-linear.npy|70800|236|헉 아직도 그것을 기억하고 있으시다니        
+|voice310.npz
+voice311-audio.npy|voice311-mel.npy|voice311-linear.npy|115200|384|팔로 감사합니다 새로운 한 주가 시작되었습니다 내내 행복하세요        
+|voice311.npz
+voice312-audio.npy|voice312-mel.npy|voice312-linear.npy|63000|210|오늘의 일기 끝이라고 적어야 할 것 같아      
+|voice312.npz
+voice313-audio.npy|voice313-mel.npy|voice313-linear.npy|144300|481|마지막 시험 앞두고 있습니다 아 남은 하루 마무리 잘 하시구요 종종 뵈요  
+|voice313.npz
+voice314-audio.npy|voice314-mel.npy|voice314-linear.npy|64500|215|그건 아니구요 그런 머리 모양이 되었어요      
+|voice314.npz
+voice315-audio.npy|voice315-mel.npy|voice315-linear.npy|77100|257|수술하셨나 보네요 빨리 건강해지시길 바랍니다    
+|voice315.npz
+voice316-audio.npy|voice316-mel.npy|voice316-linear.npy|98100|327|트위터에 적응이 끝나셨네요 이런 멋진 사진 종종 올려주세요          
+|voice316.npz
+voice317-audio.npy|voice317-mel.npy|voice317-linear.npy|80400|268|헉 그렇군요 저녁부터 일을 시작하시나봐요      
+|voice317.npz
+voice318-audio.npy|voice318-mel.npy|voice318-linear.npy|80100|267|하 안타깝네요 다음에 또 기회가 있겠지요      
+|voice318.npz
+voice319-audio.npy|voice319-mel.npy|voice319-linear.npy|120900|403|꿀단지 당 안녕하세요 주말이네요 오늘 하루 즐겁게 보내세요          
+|voice319.npz
+voice320-audio.npy|voice320-mel.npy|voice320-linear.npy|83100|277|아 머리가 터질 거 같아 이 미칠 듯한 두통    
+|voice320.npz
+voice321-audio.npy|voice321-mel.npy|voice321-linear.npy|75600|252|선팔했어요 영국 소식으로 트윗에서 만나요      
+|voice321.npz
+voice322-audio.npy|voice322-mel.npy|voice322-linear.npy|64500|215|업데이트되었네요 깔끔해지고 좋아졌네요        
+|voice322.npz
+voice323-audio.npy|voice323-mel.npy|voice323-linear.npy|102300|341|앗 감사합니다 잘 해결했어요 신경 써 주셔서 감사합니다            
+|voice323.npz
+voice324-audio.npy|voice324-mel.npy|voice324-linear.npy|72600|242|저녁을 굶었다는 게 신기할 따름입니다 하하     
+|voice324.npz
+voice325-audio.npy|voice325-mel.npy|voice325-linear.npy|66600|222|수고하셨습니당 소통 정말 중요하지요         
+|voice325.npz
+voice326-audio.npy|voice326-mel.npy|voice326-linear.npy|69600|232|세상에서 가장 더러운 개 한 마리 소개해 드립니다 
+|voice326.npz
+voice327-audio.npy|voice327-mel.npy|voice327-linear.npy|93300|311|안녕하세요 맞팔했습니다타임 라인에서 자주 뵈어요  
+|voice327.npz
+voice328-audio.npy|voice328-mel.npy|voice328-linear.npy|75000|250|그렇네요 끝까지 좋은 인연으로 남을 것 같습니다  
+|voice328.npz
+voice329-audio.npy|voice329-mel.npy|voice329-linear.npy|86400|288|한번 제작해 보았습니다 윈도우에 최적화되어 있습니다              
+|voice329.npz
+voice330-audio.npy|voice330-mel.npy|voice330-linear.npy|87000|290|나의 가슴에 불을 지르는 녀석이 발견되었다 소니 바이오            
+|voice330.npz
+voice331-audio.npy|voice331-mel.npy|voice331-linear.npy|65700|219|사람 귀한 거 모르는 건 맞는 것 같아요      
+|voice331.npz
+voice332-audio.npy|voice332-mel.npy|voice332-linear.npy|79800|266|세상은 너무 불공평해요 나도 이런 재능을 받았거든요              
+|voice332.npz
+voice333-audio.npy|voice333-mel.npy|voice333-linear.npy|99000|330|아직 어린 학생들이 과도한 공부를 하지 않도록 하는 것일까요         
+|voice333.npz
+voice334-audio.npy|voice334-mel.npy|voice334-linear.npy|109200|364|낮에 친구한테 메일 보냈더니 밤새고 이제 잔다고 그러더라구요         
+|voice334.npz
+voice335-audio.npy|voice335-mel.npy|voice335-linear.npy|67200|224|형 좋은 아침이에요 이제 2일 남았네요       
+|voice335.npz
+voice336-audio.npy|voice336-mel.npy|voice336-linear.npy|93600|312|육아당 워킹 맘만 감사해요 앞으로 친하게 지내요  
+|voice336.npz
+voice337-audio.npy|voice337-mel.npy|voice337-linear.npy|73500|245|많이 수고했어요 오늘은 어디서 사업하셨는지     
+|voice337.npz
+voice338-audio.npy|voice338-mel.npy|voice338-linear.npy|91800|306|네이트님 올만에 인사하는 듯해요 좋은 날 되세요  
+|voice338.npz
+voice339-audio.npy|voice339-mel.npy|voice339-linear.npy|74100|247|어떻게 많은 분들을 한번에 넣어서 언급하는 거져  
+|voice339.npz
+voice340-audio.npy|voice340-mel.npy|voice340-linear.npy|64200|214|늦었다고 생각하면 잠이 잘 안 오더라구요      
+|voice340.npz
+voice341-audio.npy|voice341-mel.npy|voice341-linear.npy|63600|212|라이트 쓰고 있거든요 물어봐야겠군요         
+|voice341.npz
+voice342-audio.npy|voice342-mel.npy|voice342-linear.npy|72000|240|졸음이 솔솔 얼른 귀가하셔서 푹 쉬세요       
+|voice342.npz
+voice343-audio.npy|voice343-mel.npy|voice343-linear.npy|75600|252|퇴근하고 집에 왔는데 아무도 없는 것만 할까요   
+|voice343.npz
+voice344-audio.npy|voice344-mel.npy|voice344-linear.npy|137700|459|형님 더운 날에 잘 지내시는지요 휴가는 다녀오셨어요 건강 챙기시구요     
+|voice344.npz
+voice345-audio.npy|voice345-mel.npy|voice345-linear.npy|67800|226|위로의 말씀이 힘이 됩니다 감사합니다        
+|voice345.npz
+voice346-audio.npy|voice346-mel.npy|voice346-linear.npy|70800|236|네 감사합니다 감기 걸리지 말아야겠습니다      
+|voice346.npz
+voice347-audio.npy|voice347-mel.npy|voice347-linear.npy|58500|195|지금 하고 계신 트윗도 꿈이 아닐까요        
+|voice347.npz
+voice348-audio.npy|voice348-mel.npy|voice348-linear.npy|76800|256|그럼 차에 갤럭시 탭을 두고 다녀야 하는 걸까요  
+|voice348.npz
+voice349-audio.npy|voice349-mel.npy|voice349-linear.npy|71700|239|꿈에서 읽은 정의란 무엇인가는 어떻던가요      
+|voice349.npz
+voice350-audio.npy|voice350-mel.npy|voice350-linear.npy|74400|248|아웃룩을 사용하시면 무척 편리합니다         
+|voice350.npz
+voice351-audio.npy|voice351-mel.npy|voice351-linear.npy|86400|288|넵 감사합니다 좋은 결과가 나오면 알려 드리겠습니다              
+|voice351.npz
+voice352-audio.npy|voice352-mel.npy|voice352-linear.npy|89700|299|열시 이십분 클래스가 있는데 그거 들어야 할 것 같네요              
+|voice352.npz
+voice353-audio.npy|voice353-mel.npy|voice353-linear.npy|98100|327|네 내일 일차 미팅 참석할께요 도움이 되었으면 하네요      
+|voice353.npz
+voice354-audio.npy|voice354-mel.npy|voice354-linear.npy|75900|253|도저히 일이 손에 안 잡히네요 그냥 퇴근해야겠네요 
+|voice354.npz
+voice355-audio.npy|voice355-mel.npy|voice355-linear.npy|105000|350|우리 선수들 끝까지 최선을 다해줬으면 좋겠습니다 화이팅이예요         
+|voice355.npz
+voice356-audio.npy|voice356-mel.npy|voice356-linear.npy|104400|348|빠르게 변화하는 모바일 환경에서 시대는 언제까지 지속될 것인가        
+|voice356.npz
+voice357-audio.npy|voice357-mel.npy|voice357-linear.npy|89100|297|개인의 책임으로 돌려서 안 해주는 경우도 많다구 하더라구요          
+|voice357.npz
+voice358-audio.npy|voice358-mel.npy|voice358-linear.npy|129900|433|헉 저 조금 놀라도 될까요 제가 알고 있는 분들을 다 알고 계시는군요    
+|voice358.npz
+voice359-audio.npy|voice359-mel.npy|voice359-linear.npy|90900|303|사회인 야구는 실력으로 하는 게 아니니까 걱정 마요              
+|voice359.npz
+voice360-audio.npy|voice360-mel.npy|voice360-linear.npy|65700|219|아침 공기가 차네요 감기 조심하세요         
+|voice360.npz
+voice361-audio.npy|voice361-mel.npy|voice361-linear.npy|74700|249|긍정적으로 해석해 주시니 감사할 따름        
+|voice361.npz
+voice362-audio.npy|voice362-mel.npy|voice362-linear.npy|73800|246|아 좋으시겠네요 거기서 대학 다니시는 거예요    
+|voice362.npz
+voice363-audio.npy|voice363-mel.npy|voice363-linear.npy|126000|420|박용오 전두산 회장 별세 삼가고인의 명복을 빕니다 
+|voice363.npz
+voice364-audio.npy|voice364-mel.npy|voice364-linear.npy|71700|239|좋은 아침입니다 늦었지만 감사합니다         
+|voice364.npz
+voice365-audio.npy|voice365-mel.npy|voice365-linear.npy|63300|211|구체적으로 질문해 주시면 답변 드리겠습니다     
+|voice365.npz
+voice366-audio.npy|voice366-mel.npy|voice366-linear.npy|67200|224|어쩔 수 없이 어둠의 경로를 선택 하셔야겠네요   
+|voice366.npz
+voice367-audio.npy|voice367-mel.npy|voice367-linear.npy|107700|359|제주변 사람들이 가입해서 하면 저를 친구로 추천할 테니까           
+|voice367.npz
+voice368-audio.npy|voice368-mel.npy|voice368-linear.npy|110700|369|그중 몇 개는 하면서 살고 계세요 아니면 하기 위한 준비를 하거나      
+|voice368.npz
+voice369-audio.npy|voice369-mel.npy|voice369-linear.npy|124200|414|네 저는 힐러리 파워라는 책을 읽었습니다 그 책도 한번 읽어봐야겠네요    
+|voice369.npz
+voice370-audio.npy|voice370-mel.npy|voice370-linear.npy|103200|344|헐 전 계속 왜 늦게 발견하는 걸까여 저랑 동갑이시네여            
+|voice370.npz
+voice371-audio.npy|voice371-mel.npy|voice371-linear.npy|73800|246|오징어 맛은 쉽게 만들 수 있을 것 같은걸요    
+|voice371.npz
+voice372-audio.npy|voice372-mel.npy|voice372-linear.npy|81300|271|칭찬을 해본 적이 없는 거 같아요 그래야 하는데  
+|voice372.npz
+voice373-audio.npy|voice373-mel.npy|voice373-linear.npy|121800|406|와이프님도 트윗의 매력에 빠뜨려서 같이하는 방법이 제일 좋을 것 같네요   
+|voice373.npz
+voice374-audio.npy|voice374-mel.npy|voice374-linear.npy|139800|466|오호 이제 사진 많이 찍으시는 건가요 좋은 사진 많이 찍어 올려주세요    
+|voice374.npz
+voice375-audio.npy|voice375-mel.npy|voice375-linear.npy|75000|250|넵 신나게 즐기세요 머리도 이쁘게 하시구요     
+|voice375.npz
+voice376-audio.npy|voice376-mel.npy|voice376-linear.npy|141900|473|네 감사합니다 치마당 생일 축하해요 늘 건강하시고 행복하시길 바랍니다    
+|voice376.npz
+voice377-audio.npy|voice377-mel.npy|voice377-linear.npy|70800|236|나두 이 시간까지 밖에 있어 보구 싶당       
+|voice377.npz
+voice378-audio.npy|voice378-mel.npy|voice378-linear.npy|82200|274|안타깝습니다 위로의 말씀 전합니다 힘내세요     
+|voice378.npz
+voice379-audio.npy|voice379-mel.npy|voice379-linear.npy|121200|404|미안 내가 그다지 착한 사람은 아니라서 매일 좋은 말만 해줄 수는 없다   
+|voice379.npz
+voice380-audio.npy|voice380-mel.npy|voice380-linear.npy|64500|215|음 그거 마그네슘이 부족해서 그런 거래요      
+|voice380.npz
+voice381-audio.npy|voice381-mel.npy|voice381-linear.npy|120600|402|시원한 싱하 맥주 사진을 끝으로 전이만 퇴근해야겠네요 좋은 밤 되세요    
+|voice381.npz
+voice382-audio.npy|voice382-mel.npy|voice382-linear.npy|114300|381|눈이 큰 게 아닐까요 쿠키 만들었어요 어떤게 제가 만든 걸까요        
+|voice382.npz
+voice383-audio.npy|voice383-mel.npy|voice383-linear.npy|63600|212|보통은 그런 아이들이 다소 있지 않을까요      
+|voice383.npz
+voice384-audio.npy|voice384-mel.npy|voice384-linear.npy|64800|216|친구들과 좋은 추억 많이 만들고 가시길       
+|voice384.npz
+voice385-audio.npy|voice385-mel.npy|voice385-linear.npy|71700|239|빨리 올려주세요 나른함이 몰려오고 있습니다     
+|voice385.npz
+voice386-audio.npy|voice386-mel.npy|voice386-linear.npy|105000|350|동대구 역입니다 서울로 출발합니다 즐거운 하루 되세요             
+|voice386.npz
+voice387-audio.npy|voice387-mel.npy|voice387-linear.npy|89100|297|그런가요 제가 도움이 되어서 기쁘네요 하하     
+|voice387.npz
+voice388-audio.npy|voice388-mel.npy|voice388-linear.npy|131100|437|네 좋은 야식 전 이제 나가봐야겠네요 좋은 밤 보내시길 바랍니다       
+|voice388.npz
+voice389-audio.npy|voice389-mel.npy|voice389-linear.npy|93600|312|안녕하세요 답변이 늦었네요 제가 오히려 부탁드립니다              
+|voice389.npz
+voice390-audio.npy|voice390-mel.npy|voice390-linear.npy|69900|233|스릴있당 안녕하세요 방금 가입했어요         
+|voice390.npz
+voice391-audio.npy|voice391-mel.npy|voice391-linear.npy|114600|382|괜찮습니다 저는 오늘 저녁 족발을 맛나게 먹기로 했으니까요          
+|voice391.npz
+voice392-audio.npy|voice392-mel.npy|voice392-linear.npy|72600|242|그렇군요 첨 알았어요 더 좋아지는데요        
+|voice392.npz
+voice393-audio.npy|voice393-mel.npy|voice393-linear.npy|132000|440|친구 남자란 언제든지 뒤집어 생각하면 남자친구가 될 수 있다는 뜻입니다   
+|voice393.npz
+voice394-audio.npy|voice394-mel.npy|voice394-linear.npy|75000|250|아이코 감사합니다 덕분에 잘 보았습니다       
+|voice394.npz
+voice395-audio.npy|voice395-mel.npy|voice395-linear.npy|106500|355|이계안 의원님을 트위터로 만날 수 있는 기회가 되어 정말 반갑습니다     
+|voice395.npz
+voice396-audio.npy|voice396-mel.npy|voice396-linear.npy|68100|227|나도 나 자신을 아름답다고 느꼇음 좋겠습니다    
+|voice396.npz
+voice397-audio.npy|voice397-mel.npy|voice397-linear.npy|103500|345|맞팔감사합니다 초보라 아직 모르는 게 많아요 담에 뵈여            
+|voice397.npz
+voice398-audio.npy|voice398-mel.npy|voice398-linear.npy|66000|220|팔월 사일날 비가 오면 안 되는데 말이죠         
+|voice398.npz
+voice399-audio.npy|voice399-mel.npy|voice399-linear.npy|96300|321|저한테 회신했어야 하는 거 아니었어요 내용은 맞는 거 같은데         
+|voice399.npz
+voice400-audio.npy|voice400-mel.npy|voice400-linear.npy|69900|233|그런가요 삼일 전 쯤엔 꼭 해야겠어요        
+|voice400.npz
+voice401-audio.npy|voice401-mel.npy|voice401-linear.npy|85800|286|프로텍트 사용자인 이유가 뭐죠 뭔가 이유가 있지 않을까요           
+|voice401.npz
+voice402-audio.npy|voice402-mel.npy|voice402-linear.npy|87300|291|된다는 것을 볼 때 기초질서는 매우 중요하다고 생각해요            
+|voice402.npz
+voice403-audio.npy|voice403-mel.npy|voice403-linear.npy|57900|193|날씨는 화창한데 날은 쌀쌀하네요           
+|voice403.npz
+voice404-audio.npy|voice404-mel.npy|voice404-linear.npy|49800|166|제 불안한 마음을 달래주세요             
+|voice404.npz
+voice405-audio.npy|voice405-mel.npy|voice405-linear.npy|72600|242|여러분은 십대로 돌아가면 무엇을 하고 싶으신가요        
+|voice405.npz
+voice406-audio.npy|voice406-mel.npy|voice406-linear.npy|72300|241|아 기사 링크가 있으면 소개 좀 부탁 드립니다   
+|voice406.npz
+voice407-audio.npy|voice407-mel.npy|voice407-linear.npy|91800|306|행동하기 전에 해답을 내려는 사람들이 늘고 있다는 느낌이 든다        
+|voice407.npz
+voice408-audio.npy|voice408-mel.npy|voice408-linear.npy|97500|325|잠시 후 아홉시 삼십분쯤 서강대에서 공연합니다
+|voice408.npz
+voice409-audio.npy|voice409-mel.npy|voice409-linear.npy|91500|305|근데 또 막상 완성시켜 놓고 보면 안 그럴 때도 있고 그렇던데요       
+|voice409.npz
+voice410-audio.npy|voice410-mel.npy|voice410-linear.npy|108300|361|전주당에서 보고 팔롱 합니다 전 팔십오년생입니다        
+|voice410.npz
+voice411-audio.npy|voice411-mel.npy|voice411-linear.npy|70800|236|여행 좋아하시는 분들 많으시네요 선팔합니다     
+|voice411.npz
+voice412-audio.npy|voice412-mel.npy|voice412-linear.npy|87900|293|전화기 계속 꺼져 있더라고요 제 안부 좀 전해주세요              
+|voice412.npz
+voice413-audio.npy|voice413-mel.npy|voice413-linear.npy|117600|392|반갑습니다 선팔 감사 드려요 즐건 트윗 되시구요 맞팔합니다          
+|voice413.npz
+voice414-audio.npy|voice414-mel.npy|voice414-linear.npy|104400|348|내 생에 가장 치열한 한 달이 될 것 같습니다 오늘도 그렇구요        
+|voice414.npz
+voice415-audio.npy|voice415-mel.npy|voice415-linear.npy|45900|153|이런 대화 자체가 모순 아닌가요           
+|voice415.npz
+voice416-audio.npy|voice416-mel.npy|voice416-linear.npy|68100|227|하나님은 우리에게 이렇게 말씀하고 싶으시겠지요   
+|voice416.npz
+voice417-audio.npy|voice417-mel.npy|voice417-linear.npy|64500|215|하지만 이런 바보 같은 사랑이 전 좋습니다     
+|voice417.npz
+voice418-audio.npy|voice418-mel.npy|voice418-linear.npy|95700|319|올해는 작년보다 조금만 더 잘해줬으면 하고 바래봅니다             
+|voice418.npz
+voice419-audio.npy|voice419-mel.npy|voice419-linear.npy|67200|224|강남 쪽이 아니신가 봐요 좋은 하루 되세요     
+|voice419.npz
+voice420-audio.npy|voice420-mel.npy|voice420-linear.npy|93300|311|점심 뚝딱 먹고 왔습니다 여러분들도 맛나게 드세요 
+|voice420.npz
+voice421-audio.npy|voice421-mel.npy|voice421-linear.npy|75000|250|정말 많은 분들이 오셨네요 인증 샷 감사해요    
+|voice421.npz
+voice422-audio.npy|voice422-mel.npy|voice422-linear.npy|86100|287|내 머릿속에는 뭐가 들었길래 이렇게 나를 힘들게 할까             
+|voice422.npz
+voice423-audio.npy|voice423-mel.npy|voice423-linear.npy|94500|315|그냥 오늘은 하루를 여유 있게 시작하기로 했다고 생각하세요          
+|voice423.npz
+voice424-audio.npy|voice424-mel.npy|voice424-linear.npy|84000|280|잠이 안와 아 오늘도 일찍 일어나 버렸다      
+|voice424.npz
+voice425-audio.npy|voice425-mel.npy|voice425-linear.npy|55500|185|인연에 대해 다시 한번 생각하게 합니다       
+|voice425.npz
+voice426-audio.npy|voice426-mel.npy|voice426-linear.npy|130500|435|기사보고 팔롱 합니다 근데 공동 구매는 어떤 식으로 참여할 수 있는 건가요 
+|voice426.npz
+voice427-audio.npy|voice427-mel.npy|voice427-linear.npy|57300|191|아침 운동 힘드실 텐데 대단하시네요         
+|voice427.npz
+voice428-audio.npy|voice428-mel.npy|voice428-linear.npy|75600|252|그냥 그냥 제자리에서 한참을 서 있다 보니까요   
+|voice428.npz
+voice429-audio.npy|voice429-mel.npy|voice429-linear.npy|57600|192|전 이제 삼월달이면 군대를 갑니다   
+|voice429.npz
+voice430-audio.npy|voice430-mel.npy|voice430-linear.npy|71400|238|아이폰 카메라로 찍은 영상에서 재생할 수 있다   
+|voice430.npz
+voice431-audio.npy|voice431-mel.npy|voice431-linear.npy|69900|233|이럴 때일수록 침착하고 이성적으로 행동해야 함   
+|voice431.npz
+voice432-audio.npy|voice432-mel.npy|voice432-linear.npy|67500|225|말이 씨가 된다고 했거늘 집에만 있게 생겼네    
+|voice432.npz
+voice433-audio.npy|voice433-mel.npy|voice433-linear.npy|88800|296|주말 즐겁게 보내셨나요 이번 한 주도 힘차게 보내셔요             
+|voice433.npz
+voice434-audio.npy|voice434-mel.npy|voice434-linear.npy|103200|344|그래요 저는 공부를 못하는 게 아닙니다 인간적이고 싶은 겁니다        
+|voice434.npz
+voice435-audio.npy|voice435-mel.npy|voice435-linear.npy|67500|225|영웅이 오늘 가입했습니다 잘 부탁 드립니다     
+|voice435.npz
+voice436-audio.npy|voice436-mel.npy|voice436-linear.npy|60000|200|아 반가운 소식을 알려 주셔서 고맙습니다      
+|voice436.npz
+voice437-audio.npy|voice437-mel.npy|voice437-linear.npy|66000|220|사진 올려주시는 거 기대할게요 감사해요       
+|voice437.npz
+voice438-audio.npy|voice438-mel.npy|voice438-linear.npy|61800|206|덕분에 푹 잘 자고 일 잘하고 왔습니다       
+|voice438.npz
+voice439-audio.npy|voice439-mel.npy|voice439-linear.npy|65700|219|아침도 못 먹었는데 벌써 점심때가 되었네요     
+|voice439.npz
+voice440-audio.npy|voice440-mel.npy|voice440-linear.npy|57000|190|다행히도 시험을 무사히 잘 마쳤어요         
+|voice440.npz
+voice441-audio.npy|voice441-mel.npy|voice441-linear.npy|75300|251|장마가 시작되려나 봅니다 바람이 심상치 않네요   
+|voice441.npz
+voice442-audio.npy|voice442-mel.npy|voice442-linear.npy|82200|274|초대장 드리겠습니다 디엠으로 메일 주소 알려 주세요              
+|voice442.npz
+voice443-audio.npy|voice443-mel.npy|voice443-linear.npy|101400|338|알티 감사합니다 다이어트하는 분들에게 도움이 되었으면 합니다         
+|voice443.npz
+voice444-audio.npy|voice444-mel.npy|voice444-linear.npy|82500|275|최고의 책은 좋은 아침이에요 오늘 하루도 화이팅  
+|voice444.npz
+voice445-audio.npy|voice445-mel.npy|voice445-linear.npy|54300|181|많은 분들이 걱정해 주시니 힘이 나네요       
+|voice445.npz
+voice446-audio.npy|voice446-mel.npy|voice446-linear.npy|95400|318|사람들은 자기 나름대로의 삶의 방식을 정해놓고 살아갑니다           
+|voice446.npz
+voice447-audio.npy|voice447-mel.npy|voice447-linear.npy|75000|250|고생하셨어요 즐거운 방과 후 시간 되세요      
+|voice447.npz
+voice448-audio.npy|voice448-mel.npy|voice448-linear.npy|99600|332|왜 죄송하신지 모르겠네요 저한테 잘못 하신 것 없는 것 같은데요       
+|voice448.npz
+voice449-audio.npy|voice449-mel.npy|voice449-linear.npy|84600|282|오픈소셜 세미나를 통해 트위터의 세계로 오신 걸 환영합니다          
+|voice449.npz
+voice450-audio.npy|voice450-mel.npy|voice450-linear.npy|68400|228|그냥 누군가에게 내 속마음을 얘기하고 싶었어    
+|voice450.npz
+voice451-audio.npy|voice451-mel.npy|voice451-linear.npy|86100|287|네 좋은 하루 되세요 둘리의 인사도 받고 좋습니다 
+|voice451.npz
+voice452-audio.npy|voice452-mel.npy|voice452-linear.npy|56100|187|지금까지 상황을 좀 정리해봤는데요          
+|voice452.npz
+voice453-audio.npy|voice453-mel.npy|voice453-linear.npy|91200|304|한국에서도 이제 안드로이드 유료 앱 등록이 가능해졌네요            
+|voice453.npz
+voice454-audio.npy|voice454-mel.npy|voice454-linear.npy|108300|361|선팔 감사합니다 맞팔 완료했고요 늘 건강하시고 행복하세요           
+|voice454.npz
+voice455-audio.npy|voice455-mel.npy|voice455-linear.npy|86700|289|메일로 트윗할 수 있다고 하는데 이런 수요가 있을까요             
+|voice455.npz
+voice456-audio.npy|voice456-mel.npy|voice456-linear.npy|81600|272|내일을 위해 오늘은 좀 일찍 주무세요 화이팅    
+|voice456.npz
+voice457-audio.npy|voice457-mel.npy|voice457-linear.npy|73500|245|건승하시고 멀리 가시니 건강도 조심하세요      
+|voice457.npz
+voice458-audio.npy|voice458-mel.npy|voice458-linear.npy|89400|298|이번 주에 응모하신 분들은 다음주 월요일 오후에 발표합니다          
+|voice458.npz
+voice459-audio.npy|voice459-mel.npy|voice459-linear.npy|63600|212|꼭 가 봐야 할 곳은 잠시 잊어도 되지만      
+|voice459.npz
+voice460-audio.npy|voice460-mel.npy|voice460-linear.npy|81300|271|전반전 분위기를 계속해서 쭉 이어갔으면 좋겠습니다 
+|voice460.npz
+voice461-audio.npy|voice461-mel.npy|voice461-linear.npy|69000|230|기본적인 수준만 되도 저 정도 나올 거 같긴 해요 
+|voice461.npz
+voice462-audio.npy|voice462-mel.npy|voice462-linear.npy|75600|252|맛있겠어요 다음엔 꼭 한 번 먹어 보아야겠네요   
+|voice462.npz
+voice463-audio.npy|voice463-mel.npy|voice463-linear.npy|77400|258|오빠가 나에게 함박웃음을 지어 보이며 인사를 해줬다              
+|voice463.npz
+voice464-audio.npy|voice464-mel.npy|voice464-linear.npy|101100|337|한국 트위터모임 팔십 년생 원숭이 모임 모임에 가입하셨습니다              
+|voice464.npz
+voice465-audio.npy|voice465-mel.npy|voice465-linear.npy|65100|217|늘 일찍 일어나시나 봐요 좋은 아침입니다      
+|voice465.npz
+voice466-audio.npy|voice466-mel.npy|voice466-linear.npy|111000|370|운동하시는 분들 대단해 보이세요 건강하세요 제 몫까지 부탁 드려요      
+|voice466.npz
+voice467-audio.npy|voice467-mel.npy|voice467-linear.npy|83700|279|지금 내가 이해 못하고 있는 거 아니죠 왜 대화가 안되지           
+|voice467.npz
+voice468-audio.npy|voice468-mel.npy|voice468-linear.npy|83700|279|저도 비슷한 생각이긴 하지만 잘 모르겠다는게 결론입니당            
+|voice468.npz
+voice469-audio.npy|voice469-mel.npy|voice469-linear.npy|122100|407|오호 찾아봐야겠다 주말에 족발 먹었는데 이야기하니까 또 먹고 싶다      
+|voice469.npz
+voice470-audio.npy|voice470-mel.npy|voice470-linear.npy|89400|298|하지만 구글은 늦어도 내년 일월쯤 나올 거 같다고 했음     
+|voice470.npz
+voice471-audio.npy|voice471-mel.npy|voice471-linear.npy|64800|216|시원하시겠습니다 즐거운 저녁 되세요         
+|voice471.npz
+voice472-audio.npy|voice472-mel.npy|voice472-linear.npy|69900|233|답답한 현실입니다 많은 활동 부탁 드립니다     
+|voice472.npz
+voice473-audio.npy|voice473-mel.npy|voice473-linear.npy|88800|296|의외로 아이폰의 활용을 잘 안 하시는 분들이 많은 것 같습니다        
+|voice473.npz
+voice474-audio.npy|voice474-mel.npy|voice474-linear.npy|72300|241|인증샷도 자주 올려주세요 좋은 하루 보내세요    
+|voice474.npz
+voice475-audio.npy|voice475-mel.npy|voice475-linear.npy|65100|217|핫 초콜릿이 생각나네요 좋은 하루 되세요      
+|voice475.npz
+voice476-audio.npy|voice476-mel.npy|voice476-linear.npy|52200|174|아직 쌀쌀해도 봄은 오고 있나 봐          
+|voice476.npz
+voice477-audio.npy|voice477-mel.npy|voice477-linear.npy|123600|412|아 그러고 보니 내가 시차 적응이 안되어서 이 시간에 똘망똘망한 건가    
+|voice477.npz
+voice478-audio.npy|voice478-mel.npy|voice478-linear.npy|115800|386|오늘의 사진으로 추천합니다 그녀에게 진심으로 이유를 묻고 싶었습니다     
+|voice478.npz
+voice479-audio.npy|voice479-mel.npy|voice479-linear.npy|73800|246|네 잘 지내요 신혼 여행 잘 다녀오셨죠       
+|voice479.npz
+voice480-audio.npy|voice480-mel.npy|voice480-linear.npy|78300|261|저도 두툼한 뭔가를 가지고 다녀야 할 거 같습니다 
+|voice480.npz
+voice481-audio.npy|voice481-mel.npy|voice481-linear.npy|84900|283|프로필 사진 말씀하시는 것 같은데 충분히 가능하십니다             
+|voice481.npz
+voice482-audio.npy|voice482-mel.npy|voice482-linear.npy|77700|259|한국 트위터모임 부평당 모임에 가입하였습니다    
+|voice482.npz
+voice483-audio.npy|voice483-mel.npy|voice483-linear.npy|88500|295|요즘 많이 바쁘겠어요 그래도 꿀맛 같은 주말 되세요              
+|voice483.npz
+voice484-audio.npy|voice484-mel.npy|voice484-linear.npy|87300|291|오늘 센터 함 가봐여 찾을 수 있을지도 모르니깐요 
+|voice484.npz
+voice485-audio.npy|voice485-mel.npy|voice485-linear.npy|60300|201|제가 아직 그 말이 입에 붙질 않아서요       
+|voice485.npz
+voice486-audio.npy|voice486-mel.npy|voice486-linear.npy|69900|233|저도 그래요 그래서 전 여름에 잘 안 나가잖아요  
+|voice486.npz
+voice487-audio.npy|voice487-mel.npy|voice487-linear.npy|124500|415|뉴스 보면서 마음이 짠했습니다 좋은 선생님이 되어 주세요 팔로 합니다    
+|voice487.npz
+voice488-audio.npy|voice488-mel.npy|voice488-linear.npy|66600|222|본은 같으나 파가 다른 것으로 알고 있습니다    
+|voice488.npz
+voice489-audio.npy|voice489-mel.npy|voice489-linear.npy|74100|247|그러게요 어떻게 저런 말을 받게 되었는지도 모르겠네요             
+|voice489.npz
+voice490-audio.npy|voice490-mel.npy|voice490-linear.npy|93600|312|그 정도까진 아니랍니다 걱정해 주셔서 무한 감사드려용             
+|voice490.npz
+voice491-audio.npy|voice491-mel.npy|voice491-linear.npy|79500|265|카메라가 좋긴 좋은데 주인을 잘못 만난 것 같아요 
+|voice491.npz
+voice492-audio.npy|voice492-mel.npy|voice492-linear.npy|66600|222|사무실에 우산이 두 개 있는데 안타깝네요             
+|voice492.npz
+voice493-audio.npy|voice493-mel.npy|voice493-linear.npy|75600|252|님 제가 할 줄은 몰라 그냥 해 주는 대로 하네요 
+|voice493.npz
+voice494-audio.npy|voice494-mel.npy|voice494-linear.npy|83400|278|어제 잘 들어갔어요 먼저 들어가서 죄송함다     
+|voice494.npz
+voice495-audio.npy|voice495-mel.npy|voice495-linear.npy|120300|401|네 사전 교육을 받으신 후 배정받은 학교에 가셔서 교육을 하시게 됩니다   
+|voice495.npz
+voice496-audio.npy|voice496-mel.npy|voice496-linear.npy|69000|230|네 몸 관리 잘 하시고 편안한 밤 되세요      
+|voice496.npz
+voice497-audio.npy|voice497-mel.npy|voice497-linear.npy|105600|352|아홉시 삼십 분에 접수했는데 열두 시에 오라고 하네요 어딜까요
+|voice497.npz
+voice498-audio.npy|voice498-mel.npy|voice498-linear.npy|120900|403|네 운영이 조금 문제가 있었지만 고생한 선수들에게 박수 짝짝짝        
+|voice498.npz
+voice499-audio.npy|voice499-mel.npy|voice499-linear.npy|87300|291|어여 원기 회복하시고 활기찬 새해 되시길 기원합니다              
+|voice499.npz
+voice500-audio.npy|voice500-mel.npy|voice500-linear.npy|117000|390|네 규모가 장난이 아니네요 돈의 규모를 느낄 수 있는 곳이기도 합니다    
+|voice500.npz
+voice501-audio.npy|voice501-mel.npy|voice501-linear.npy|65100|217|광합성을 겸해서 다녀오기로 결정했어요        
+|voice501.npz
+voice502-audio.npy|voice502-mel.npy|voice502-linear.npy|61200|204|성남 그냥 포기하고 시켜 먹어야겠어요        
+|voice502.npz
+voice503-audio.npy|voice503-mel.npy|voice503-linear.npy|62100|207|열심히 하셔서 좋은 결과 얻으시길 바랄께요     
+|voice503.npz
+voice504-audio.npy|voice504-mel.npy|voice504-linear.npy|63000|210|그러게요 다시 잘 들어와야 하는데 말이죠      
+|voice504.npz
+voice505-audio.npy|voice505-mel.npy|voice505-linear.npy|53100|177|그런 좋은 세미나 정보는 공유해야죠         
+|voice505.npz
+voice506-audio.npy|voice506-mel.npy|voice506-linear.npy|63900|213|아쉽게도 다른 공간은 거의 없는 거 같습니다    
+|voice506.npz
+voice507-audio.npy|voice507-mel.npy|voice507-linear.npy|87000|290|그쵸그쵸 예 그리하도록 노력해 보겠습니다      
+|voice507.npz
+voice508-audio.npy|voice508-mel.npy|voice508-linear.npy|84000|280|이제 산책하기 좋은 저녁도 얼마 남지 않은 듯하다 
+|voice508.npz
+voice509-audio.npy|voice509-mel.npy|voice509-linear.npy|82500|275|외국에서도 가끔씩 있는 것으로 알고 있습니다    
+|voice509.npz
+voice510-audio.npy|voice510-mel.npy|voice510-linear.npy|69000|230|네 감사합니다 저도 더 열심히 살아야겠군요     
+|voice510.npz
+voice511-audio.npy|voice511-mel.npy|voice511-linear.npy|53400|178|잘은 모르겠지만 세상이 그런 거 같다        
+|voice511.npz
+voice512-audio.npy|voice512-mel.npy|voice512-linear.npy|99300|331|좋은 사이트 운영하시는군요 팔로우 하였습니다 맞팔 부탁드립니다        
+|voice512.npz
+voice513-audio.npy|voice513-mel.npy|voice513-linear.npy|76800|256|일단 삼겹살에 소주 한잔하면서 생각해 보아요 같이 
+|voice513.npz
+voice514-audio.npy|voice514-mel.npy|voice514-linear.npy|67500|225|네 날씨 넘 좋아요 즐거운 일요일 되세요      
+|voice514.npz
+voice515-audio.npy|voice515-mel.npy|voice515-linear.npy|84900|283|와하하 게스트하우스라고 외국인들도 자주 온다고 하네요             
+|voice515.npz
+voice516-audio.npy|voice516-mel.npy|voice516-linear.npy|69900|233|대체 왜 이러고 있는지 내가 날 알 수가 없다 진짜              
+|voice516.npz
+voice517-audio.npy|voice517-mel.npy|voice517-linear.npy|57300|191|독설님 야식 챙겨 드시면서 일하세요         
+|voice517.npz
+voice518-audio.npy|voice518-mel.npy|voice518-linear.npy|97200|324|배우들 연기도 좋고 세 시간 동안 지루하지 않았어요 챙겨 보시길       
+|voice518.npz
+voice519-audio.npy|voice519-mel.npy|voice519-linear.npy|190800|636|아 무슨 말씀인가 했어요 친구분이신가 보군요 허락을 받아야 하는       
+|voice519.npz
+voice520-audio.npy|voice520-mel.npy|voice520-linear.npy|85800|286|잘 생각하셨어요 지금 은행에서 기둘리는 중     
+|voice520.npz
+voice521-audio.npy|voice521-mel.npy|voice521-linear.npy|67200|224|전 갑자기 배고프네요 뭐 좀 먹어야 할 듯     
+|voice521.npz
+voice522-audio.npy|voice522-mel.npy|voice522-linear.npy|102600|342|아 그랬구나 좋네요 재밌게 구경 많이 하고 오세요 
+|voice522.npz
+voice523-audio.npy|voice523-mel.npy|voice523-linear.npy|78000|260|즐거운 시간 보내시는군요 축하해 주신 거 고마워요 
+|voice523.npz
+voice524-audio.npy|voice524-mel.npy|voice524-linear.npy|82200|274|오늘 저녁 여덟시까지 용산 올 수 있으신 분           
+|voice524.npz
+voice525-audio.npy|voice525-mel.npy|voice525-linear.npy|72300|241|날씨가 흐려서 벌써 시간이 이렇게 된 줄도 몰랐네요              
+|voice525.npz
+voice526-audio.npy|voice526-mel.npy|voice526-linear.npy|84900|283|갑자기 감기 걸려서 죽네요 다들 감기 조심하세요  
+|voice526.npz
+voice527-audio.npy|voice527-mel.npy|voice527-linear.npy|84300|281|트위터 친구당 저 퇴근합니다 오늘도 즐겁게 보내세요              
+|voice527.npz
+voice528-audio.npy|voice528-mel.npy|voice528-linear.npy|95100|317|예를 쓸 때는 같이 확인하겠습니다 그런데 언제가 될지는 모릅니다       
+|voice528.npz
+voice529-audio.npy|voice529-mel.npy|voice529-linear.npy|67800|226|그런 의미셨군요 감사합니다 편한 하루 되세요    
+|voice529.npz
+voice530-audio.npy|voice530-mel.npy|voice530-linear.npy|61200|204|프로요가 참으로 많은 문제를 해결 해주는군요    
+|voice530.npz
+voice531-audio.npy|voice531-mel.npy|voice531-linear.npy|68100|227|그렇군요 감사합니다 담에는 참석해 볼께요      
+|voice531.npz
+voice532-audio.npy|voice532-mel.npy|voice532-linear.npy|66000|220|미국에서 인턴 하실 때 서로 대화는 가능하셨나요  
+|voice532.npz
+voice533-audio.npy|voice533-mel.npy|voice533-linear.npy|95700|319|위룰 하시나 바요 전 아뒤와 같아요 즐거운 주말 되세요            
+|voice533.npz
+voice534-audio.npy|voice534-mel.npy|voice534-linear.npy|52500|175|약간이라도 힘이 생기셨다니 다행이네요        
+|voice534.npz
+voice535-audio.npy|voice535-mel.npy|voice535-linear.npy|75300|251|수고하셨어요 한국에 있음 구경 가는데 아쉽네요   
+|voice535.npz
+voice536-audio.npy|voice536-mel.npy|voice536-linear.npy|54900|183|나 밥 좀 먹고 갈게 이야기하고 있어        
+|voice536.npz
+voice537-audio.npy|voice537-mel.npy|voice537-linear.npy|82500|275|오랜만의 트윗 나 없어도 잘 돌아가고 있었구나   
+|voice537.npz
+voice538-audio.npy|voice538-mel.npy|voice538-linear.npy|99000|330|두 분 모두 삼가 명복을 빕니다 부디 좋은 곳에 가시길 기원합니다      
+|voice538.npz
+voice539-audio.npy|voice539-mel.npy|voice539-linear.npy|58200|194|미국용은 사용이 안되는 문제가 있지요        
+|voice539.npz
+voice540-audio.npy|voice540-mel.npy|voice540-linear.npy|68100|227|벌써 일년의 반이 지나갔다는 게 너무 아쉽네요          
+|voice540.npz
+voice541-audio.npy|voice541-mel.npy|voice541-linear.npy|51300|171|트위터에 오신 걸 매우 매우 환영합니다       
+|voice541.npz
+voice542-audio.npy|voice542-mel.npy|voice542-linear.npy|53400|178|금연 때문에 너무 스트레스 받지 마시길       
+|voice542.npz
+voice543-audio.npy|voice543-mel.npy|voice543-linear.npy|89700|299|레지던트이블 재미있다고 보러 왔는데 열한시까지 기다려야 함 |voice543.npz
+voice544-audio.npy|voice544-mel.npy|voice544-linear.npy|57300|191|저도 반가웠습니다 즐거운 주말 되세요        
+|voice544.npz
+voice545-audio.npy|voice545-mel.npy|voice545-linear.npy|99000|330|열한시가 넘은 시간이지만 라면에 소주 한잔하고 싶은 비 오 는 밤이다          
+|voice545.npz
+voice546-audio.npy|voice546-mel.npy|voice546-linear.npy|96000|320|방학 중 결식 아동 지원 예산 삭감은 도저히 용서가 안 된다         
+|voice546.npz
+voice547-audio.npy|voice547-mel.npy|voice547-linear.npy|102000|340|타인의 권력을 비판하면서 자신의 권력을 휘두르는 것은 더 보기가 힘들다   
+|voice547.npz
+voice548-audio.npy|voice548-mel.npy|voice548-linear.npy|99900|333|로켓 발사하시고 문명을 완성하셨는지요 좋은 아침입니다             
+|voice548.npz
+voice549-audio.npy|voice549-mel.npy|voice549-linear.npy|88500|295|관심 늘 감사 드립니다 오늘도 즐거운 하루 보내세요              
+|voice549.npz
+voice550-audio.npy|voice550-mel.npy|voice550-linear.npy|60300|201|현장에 갔던 사람이 편집하는 게 나을 수도 있죠  
+|voice550.npz
+voice551-audio.npy|voice551-mel.npy|voice551-linear.npy|89100|297|대통령이 이 글 보고 국방 장관 사표 수리한 것 같네요            
+|voice551.npz
+voice552-audio.npy|voice552-mel.npy|voice552-linear.npy|105300|351|제 말이요 하늘도 높고 공기도 깨끗하고 가을이 온 것 같은데 덥네요     
+|voice552.npz
+voice553-audio.npy|voice553-mel.npy|voice553-linear.npy|69900|233|네 그럼요 날이 너무 춥네요 건강 챙기시구요    
+|voice553.npz
+voice554-audio.npy|voice554-mel.npy|voice554-linear.npy|98400|328|저는 간혹 제목은 기억이 안 나는데 노래가 입에서 흥얼거려요         
+|voice554.npz
+voice555-audio.npy|voice555-mel.npy|voice555-linear.npy|65400|218|전 이미 읽었거든요 책도 진짜 재밌어요       
+|voice555.npz
+voice556-audio.npy|voice556-mel.npy|voice556-linear.npy|86100|287|나랑 비슷한 고민을 하고 있는 듯 공부 자체에 회의가 많이 느껴진다     
+|voice556.npz
+voice557-audio.npy|voice557-mel.npy|voice557-linear.npy|84900|283|오우 맛있겠어요 지금이라도 당장 달려가고 싶어요  
+|voice557.npz
+voice558-audio.npy|voice558-mel.npy|voice558-linear.npy|103200|344|분리수거 하느라 밖에 나갔다 왔는데 날씨 정말 좋네요 완전한 봄       
+|voice558.npz
+voice559-audio.npy|voice559-mel.npy|voice559-linear.npy|51900|173|피곤한데 눈만 아프고 잠은 안 오네요        
+|voice559.npz
+voice560-audio.npy|voice560-mel.npy|voice560-linear.npy|110700|369|개봉기 잘 보고 갑니다 다음엔 따로 카메라 설치하시는 게 더 나을 듯 합니다              
+|voice560.npz
+voice561-audio.npy|voice561-mel.npy|voice561-linear.npy|271200|904|반갑습니다 맞팔 날렸습니다 오늘도 좋은 하루 되십시요             
+|voice561.npz
+voice562-audio.npy|voice562-mel.npy|voice562-linear.npy|54900|183|무한 도전에 나온 책 한 번 봐봐야겠다       
+|voice562.npz
+voice563-audio.npy|voice563-mel.npy|voice563-linear.npy|67500|225|그건 모르겠어요 그냥 너무 기대하지 말고 보세요  
+|voice563.npz
+voice564-audio.npy|voice564-mel.npy|voice564-linear.npy|71700|239|살 빼는 데는 규칙적인 식사가 더 좋아용      
+|voice564.npz
+voice565-audio.npy|voice565-mel.npy|voice565-linear.npy|58500|195|좋아 왠지 이번에는 답이 나올 것 같은데      
+|voice565.npz
+voice566-audio.npy|voice566-mel.npy|voice566-linear.npy|82800|276|누나 나를 항상 매의 눈으로 주시하고 있는 건 아니죠             
+|voice566.npz
+voice567-audio.npy|voice567-mel.npy|voice567-linear.npy|126300|421|지금 웃지 않고 있다면 당신의 소중한 시간을 낭비하고 있는 것이다 샹포르  
+|voice567.npz
+voice568-audio.npy|voice568-mel.npy|voice568-linear.npy|73200|244|감사 드립니다 알차고 좋은 행사로 보답하겠습니다  
+|voice568.npz
+voice569-audio.npy|voice569-mel.npy|voice569-linear.npy|102000|340|해안포 사격으로 해병대 이명 사망 고인의 명복을 빕니다     
+|voice569.npz
+voice570-audio.npy|voice570-mel.npy|voice570-linear.npy|88800|296|인터넷 정말 대단한 거 같아요 그리고 축하해 주셔서 감사합니다        
+|voice570.npz
+voice571-audio.npy|voice571-mel.npy|voice571-linear.npy|61800|206|이거 제가 미안하게 되었습니다 울지 마세요     
+|voice571.npz
+voice572-audio.npy|voice572-mel.npy|voice572-linear.npy|65700|219|너무 약 올리신 듯 퀵으로 보내주세요        
+|voice572.npz
+voice573-audio.npy|voice573-mel.npy|voice573-linear.npy|69900|233|어느 장단에 맞춰야 할지 모르겠는 콘택트 렌즈   
+|voice573.npz
+voice574-audio.npy|voice574-mel.npy|voice574-linear.npy|63000|210|술 마시고 나서 부은 것 이길 빌어요        
+|voice574.npz
+voice575-audio.npy|voice575-mel.npy|voice575-linear.npy|67800|226|맞팔드립니다 오늘부터 이벤트 진행합니다       
+|voice575.npz
+voice576-audio.npy|voice576-mel.npy|voice576-linear.npy|74100|247|쩝 운동 열심히 하세요 저도 운동해야 하는데    
+|voice576.npz
+voice577-audio.npy|voice577-mel.npy|voice577-linear.npy|73200|244|선팔감사합니다 복 받으실 꺼에요 맞팔 완료     
+|voice577.npz
+voice578-audio.npy|voice578-mel.npy|voice578-linear.npy|71400|238|일요일 아침부터 기분 좋은 소식 들려주셔서 감사합니다             
+|voice578.npz
+voice579-audio.npy|voice579-mel.npy|voice579-linear.npy|83400|278|남들이 진정으로 가치 있는 일을 찾고 그 일을 해주는 것을 즐긴다      
+|voice579.npz
+voice580-audio.npy|voice580-mel.npy|voice580-linear.npy|89400|298|제주도 올레길 여행을 다시 한번 가보고 싶어서 가입합니다           
+|voice580.npz
+voice581-audio.npy|voice581-mel.npy|voice581-linear.npy|96300|321|서울엔 또 눈발이 날리기 시작하네요 새해 복 많이 받으세요 꾸벅       
+|voice581.npz
+voice582-audio.npy|voice582-mel.npy|voice582-linear.npy|84600|282|허걱 대한민국에 교회가 얼마나 많은지 아세요 놀라지 마세요          
+|voice582.npz
+voice583-audio.npy|voice583-mel.npy|voice583-linear.npy|53700|179|눈물 나는 감동의 모습이 기대되네요         
+|voice583.npz
+voice584-audio.npy|voice584-mel.npy|voice584-linear.npy|59400|198|저도 처음 일주일은 팔아 버릴까 생각했다는            
+|voice584.npz
+voice585-audio.npy|voice585-mel.npy|voice585-linear.npy|49800|166|이렇게든 저렇게든 뭐든 해야겠지요          
+|voice585.npz
+voice586-audio.npy|voice586-mel.npy|voice586-linear.npy|94500|315|선팔 감사합니다 앞으로 자주 뵐께요 즐거운 밤 되세요             
+|voice586.npz
+voice587-audio.npy|voice587-mel.npy|voice587-linear.npy|87300|291|하고 싶은 일보다 해야 할 일을 먼저 해야 하는데 
+|voice587.npz
+voice588-audio.npy|voice588-mel.npy|voice588-linear.npy|70500|235|아 고맙습니다 늦은 시간까지 안 주무시고 계시네요 
+|voice588.npz
+voice589-audio.npy|voice589-mel.npy|voice589-linear.npy|85800|286|언젠가 티비에서 그분 뵙길 바래요 좋은 저녁 되세요              
+|voice589.npz
+voice590-audio.npy|voice590-mel.npy|voice590-linear.npy|106500|355|한국 트위터모임 금융권 취업을 원한당 모임에 가입하였습니다          
+|voice590.npz
+voice591-audio.npy|voice591-mel.npy|voice591-linear.npy|56400|188|트윗에서 볼 때마다 웃게 만드는 사람들은      
+|voice591.npz
+voice592-audio.npy|voice592-mel.npy|voice592-linear.npy|112800|376|트위터 친구당 저는 감사하면서 있어야겠어요 까불면 안되겠는걸요        
+|voice592.npz
+voice593-audio.npy|voice593-mel.npy|voice593-linear.npy|96900|323|포르투갈과 스페인 축구에 입문하려 합니다 어디서부터 시작해야 할까요     
+|voice593.npz
+voice594-audio.npy|voice594-mel.npy|voice594-linear.npy|85500|285|아이폰 개발할 때에 참고하면 좋은 서적 추천해주세요              
+|voice594.npz
+voice595-audio.npy|voice595-mel.npy|voice595-linear.npy|58500|195|반가워요 타임 라인에서 자주 인사 나눠요      
+|voice595.npz
+voice596-audio.npy|voice596-mel.npy|voice596-linear.npy|61800|206|아닙니다 좋은 책 많이 읽으셨으면 합니당      
+|voice596.npz
+voice597-audio.npy|voice597-mel.npy|voice597-linear.npy|58800|196|젊은 사람들은 귀찮아서 다 끊어버리니까요      
+|voice597.npz
+voice598-audio.npy|voice598-mel.npy|voice598-linear.npy|100200|334|약간 애매하지만 누가 주면 받을 수 있고 누가 주면 받을 수 없을까요    
+|voice598.npz
+voice599-audio.npy|voice599-mel.npy|voice599-linear.npy|82500|275|이런 죄송 죄송해야 하는 건가요 피곤하시겠어요   
+|voice599.npz
+voice600-audio.npy|voice600-mel.npy|voice600-linear.npy|56100|187|오늘도 웃을 수 있는 하루가 되시길 바랍니다    
+|voice600.npz
+voice601-audio.npy|voice601-mel.npy|voice601-linear.npy|79800|266|트위터를 통해서 뵙게 되어서 반갑습니다 자주 뵙지요              
+|voice601.npz
+voice602-audio.npy|voice602-mel.npy|voice602-linear.npy|87300|291|트위터가 뭔지 잘 모르겠지만 암튼 지금 난 가입했당              
+|voice602.npz
+voice603-audio.npy|voice603-mel.npy|voice603-linear.npy|115200|384|시작되었으면 좋겠습니다 오는 시월 어도비의 화려한 귀환이 시작될까요           
+|voice603.npz
+voice604-audio.npy|voice604-mel.npy|voice604-linear.npy|83700|279|그러게요 흠 안타깝네요 열심히 하는 모습이 보기 좋았는데           
+|voice604.npz
+voice605-audio.npy|voice605-mel.npy|voice605-linear.npy|52500|175|저도 가끔 그럴 때가 있는데 왜 그런 거죠     
+|voice605.npz
+voice606-audio.npy|voice606-mel.npy|voice606-linear.npy|63000|210|예 초대 감사합니다 고려해 보도록 하겠습니다    
+|voice606.npz
+voice607-audio.npy|voice607-mel.npy|voice607-linear.npy|84900|283|네 저 지금 완전 잘 즐기고 있는 거 같아요 맞죠 
+|voice607.npz
+voice608-audio.npy|voice608-mel.npy|voice608-linear.npy|83100|277|그러게 말입니다 참 답답하네요 네 정말 싫습니다  
+|voice608.npz
+voice609-audio.npy|voice609-mel.npy|voice609-linear.npy|63900|213|삼십 년 전 오늘을 기억하는지 비가 내리네요          
+|voice609.npz
+voice610-audio.npy|voice610-mel.npy|voice610-linear.npy|87900|293|노래를 들으니 그림이 그려지는 듯합니다 아름답습니다              
+|voice610.npz
+voice611-audio.npy|voice611-mel.npy|voice611-linear.npy|69900|233|김밥은 세 줄 정도는 먹어줘야 합니다 맛있게 드세요              
+|voice611.npz
+voice612-audio.npy|voice612-mel.npy|voice612-linear.npy|66600|222|여행을 만드는 일을 했었기에 많은 관심이 가네요  
+|voice612.npz
+voice613-audio.npy|voice613-mel.npy|voice613-linear.npy|88500|295|감사합니다 맛있는 반찬이 나오길 바라며 많이 드세요              
+|voice613.npz
+voice614-audio.npy|voice614-mel.npy|voice614-linear.npy|90600|302|시민단체들이 김미화씨를 위한 모금운동을 시작했다고 하네요           
+|voice614.npz
+voice615-audio.npy|voice615-mel.npy|voice615-linear.npy|48300|161|시간이 일주일 단위로 가는 것 같아요        
+|voice615.npz
+voice616-audio.npy|voice616-mel.npy|voice616-linear.npy|57600|192|봄이 오니까 바빠지는 걸까요 좋은 하루 되세요   
+|voice616.npz
+voice617-audio.npy|voice617-mel.npy|voice617-linear.npy|101400|338|남해 스포츠파크 정말 좋다던데 빨리 갈 기회를 만들어야겠어요         
+|voice617.npz
+voice618-audio.npy|voice618-mel.npy|voice618-linear.npy|61800|206|주말 잘 보내세요 더운데 건강 조심하시구요     
+|voice618.npz
+voice619-audio.npy|voice619-mel.npy|voice619-linear.npy|50100|167|이 책을 참고하셔도 좋을 것 같습니다        
+|voice619.npz
+voice620-audio.npy|voice620-mel.npy|voice620-linear.npy|72000|240|어떤 마음가짐을 가져야 현명한 선택을 할 수 있을까요             
+|voice620.npz
+voice621-audio.npy|voice621-mel.npy|voice621-linear.npy|52500|175|감사합니다 앞으로 함께 많은 이야기 나눠요     
+|voice621.npz
+voice622-audio.npy|voice622-mel.npy|voice622-linear.npy|60300|201|사진 바꾸셨네요 제일 맘에 드는 사진인가요     
+|voice622.npz
+voice623-audio.npy|voice623-mel.npy|voice623-linear.npy|49500|165|무슨 일을 하시는데 메모리가 필요한가요       
+|voice623.npz
+voice624-audio.npy|voice624-mel.npy|voice624-linear.npy|82800|276|별 기대 안하고 본 영화 불량남녀가 의외로 재밌었어요             
+|voice624.npz
+voice625-audio.npy|voice625-mel.npy|voice625-linear.npy|55200|184|남은 시간도 잼나게 보내세요 고맙습니다       
+|voice625.npz
+voice626-audio.npy|voice626-mel.npy|voice626-linear.npy|74400|248|약간의 긴장은 항상 필요해요 편안한 저녁시간 보내시구요            
+|voice626.npz
+voice627-audio.npy|voice627-mel.npy|voice627-linear.npy|79200|264|한국에 다시 오셨나요 워싱턴 특파원 가시지 않으셨나요             
+|voice627.npz
+voice628-audio.npy|voice628-mel.npy|voice628-linear.npy|86100|287|오랜만에 뵙는 듯하네요 와인 좋아하시는 줄은 몰랐습니다            
+|voice628.npz
+voice629-audio.npy|voice629-mel.npy|voice629-linear.npy|54600|182|저는 통장과 현금카드를 만들려고 하는데요      
+|voice629.npz
+voice630-audio.npy|voice630-mel.npy|voice630-linear.npy|81600|272|전혀 없지는 않고요 하지만 국내 최저 수준으로 알고 있습니다         
+|voice630.npz
+voice631-audio.npy|voice631-mel.npy|voice631-linear.npy|61200|204|헉 언제 주문하셨는데 벌써 받으셨어요        
+|voice631.npz
+voice632-audio.npy|voice632-mel.npy|voice632-linear.npy|60000|200|감사해요 열심히 할게요 많이 사랑해 주세요     
+|voice632.npz
+voice633-audio.npy|voice633-mel.npy|voice633-linear.npy|64500|215|내가 희망이 되지 못하더라도 절망은 안될 거예요  
+|voice633.npz
+voice634-audio.npy|voice634-mel.npy|voice634-linear.npy|89100|297|자신의 응석을 이길 수 없는 인간이 어떻게 다른 사람을 이길 수 있을까   
+|voice634.npz
+voice635-audio.npy|voice635-mel.npy|voice635-linear.npy|54300|181|못하는 게 아니라 안 하는 거라고 말해 봅니다   
+|voice635.npz
+voice636-audio.npy|voice636-mel.npy|voice636-linear.npy|61200|204|날씨 추워지면 더 공감대 형성되는 건가여      
+|voice636.npz
+voice637-audio.npy|voice637-mel.npy|voice637-linear.npy|48000|160|바로 사람을 사랑하는 능력이 아닐까요        
+|voice637.npz
+voice638-audio.npy|voice638-mel.npy|voice638-linear.npy|74400|248|인터넷 쇼핑몰을 운영하고 있는 서른일곱 살의 남자입니다    
+|voice638.npz
+voice639-audio.npy|voice639-mel.npy|voice639-linear.npy|48300|161|늦었지만 동남아는 잘 다녀오셨어요          
+|voice639.npz
+voice640-audio.npy|voice640-mel.npy|voice640-linear.npy|79500|265|제가 생각하는 작품활동의 개념은 두 가지로 정리될 수 있습니다        
+|voice640.npz
+voice641-audio.npy|voice641-mel.npy|voice641-linear.npy|66600|222|야근을 마치고 이제 퇴근합니다 다들 좋은 밤 보내세요             
+|voice641.npz
+voice642-audio.npy|voice642-mel.npy|voice642-linear.npy|82500|275|어제는 너무 피곤해서 일찍 잠을 청했더니 너무도 일찍 일어났네요       
+|voice642.npz
+voice643-audio.npy|voice643-mel.npy|voice643-linear.npy|91500|305|감사합니다 열심히 쓰도록 하겠습니다 행복한 주말 보내세요           
+|voice643.npz
+voice644-audio.npy|voice644-mel.npy|voice644-linear.npy|54300|181|대전에서의 촬영을 마치고 이제 서울로 갑니다    
+|voice644.npz
+voice645-audio.npy|voice645-mel.npy|voice645-linear.npy|71400|238|네 서울 언제 한번 올라오실 일 있으시면 연락 주세요             
+|voice645.npz
+voice646-audio.npy|voice646-mel.npy|voice646-linear.npy|71400|238|그래도 작가님의 작품에 대한 호불호는 말할 수 있지 않나요          
+|voice646.npz
+voice647-audio.npy|voice647-mel.npy|voice647-linear.npy|44400|148|합격하신 분들은 축하드리구여             
+|voice647.npz
+voice648-audio.npy|voice648-mel.npy|voice648-linear.npy|50100|167|정말 좋은 환경인 거 같아서 더 좋구요       
+|voice648.npz
+voice649-audio.npy|voice649-mel.npy|voice649-linear.npy|72300|241|초보 인사드립니다 많은 가르침 부탁드립니다 꾸벅  
+|voice649.npz
+voice650-audio.npy|voice650-mel.npy|voice650-linear.npy|93000|310|잠을 자고 싶었는데 또 잠이 오니까 자기 싫어요  
+|voice650.npz
+voice651-audio.npy|voice651-mel.npy|voice651-linear.npy|61200|204|와 대단하시네요 미술 쪽 관련 일하시나 봐요    
+|voice651.npz
+voice652-audio.npy|voice652-mel.npy|voice652-linear.npy|69600|232|새해에는 하시는 일 정말 모두 잘 되셨으면 합니다 
+|voice652.npz
+voice653-audio.npy|voice653-mel.npy|voice653-linear.npy|77700|259|헉 벌써 점심 시간이 다가왔군요 모두 맛점하세요  
+|voice653.npz
+voice654-audio.npy|voice654-mel.npy|voice654-linear.npy|90000|300|트위터를 시작하고 난 후부터 쓰리지 망의 사용량이 많아졌다
+|voice654.npz
+voice655-audio.npy|voice655-mel.npy|voice655-linear.npy|74100|247|얼굴도 마음도 너무 이뻐요 늘 행복한 일만 있기를 
+|voice655.npz
+voice656-audio.npy|voice656-mel.npy|voice656-linear.npy|66300|221|아는 사람 중 요즘 트윗 시작하는 사람이 많네   
+|voice656.npz
+voice657-audio.npy|voice657-mel.npy|voice657-linear.npy|86700|289|저만 그런 게 아니었군요 오후 네 시만 되면 배가 고프다    
+|voice657.npz
+voice658-audio.npy|voice658-mel.npy|voice658-linear.npy|53700|179|저녁에 안 드시고 밤에 드시겠구려          
+|voice658.npz
+voice659-audio.npy|voice659-mel.npy|voice659-linear.npy|59400|198|아예 기억에서 지워버리면 수월할 텐데 말이죠    
+|voice659.npz
+voice660-audio.npy|voice660-mel.npy|voice660-linear.npy|51300|171|그래도 물귀신이 있을 때 행복하지 않나요      
+|voice660.npz
+voice661-audio.npy|voice661-mel.npy|voice661-linear.npy|65700|219|네 그게 다 막혀 있어서 불가능하게 되어 있네요  
+|voice661.npz
+voice662-audio.npy|voice662-mel.npy|voice662-linear.npy|75900|253|이 편지를 쓰는 동안 왜 이렇게 눈물이 나는지 모르겠구나           
+|voice662.npz
+voice663-audio.npy|voice663-mel.npy|voice663-linear.npy|55200|184|어제 늦게까지 좋은 시간 보내셨나 보네요      
+|voice663.npz
+voice664-audio.npy|voice664-mel.npy|voice664-linear.npy|87300|291|난 사차원 개그가 크게 자리잡았을 줄 알았는데         
+|voice664.npz
+voice665-audio.npy|voice665-mel.npy|voice665-linear.npy|85200|284|고생하셨어요 그래도 나중에 벽화 보시는 분들은 따뜻할 거에요         
+|voice665.npz
+voice666-audio.npy|voice666-mel.npy|voice666-linear.npy|82800|276|박지성 선수 오늘 컨디션이 좋아 보이지는 않는군요 
+|voice666.npz
+voice667-audio.npy|voice667-mel.npy|voice667-linear.npy|71400|238|동영상을 찍고 있으니 나중에 보실 기회가 있을 겁니다             
+|voice667.npz
+voice668-audio.npy|voice668-mel.npy|voice668-linear.npy|66000|220|아 그냥 신경도 안 썼는데 뭔지 봐야겠네요     
+|voice668.npz
+voice669-audio.npy|voice669-mel.npy|voice669-linear.npy|48300|161|오빠 목소리도 들을 수 없잖아요           
+|voice669.npz
+voice670-audio.npy|voice670-mel.npy|voice670-linear.npy|66900|223|선팔감사합니다 앞으로 좋은 소식 나눠요       
+|voice670.npz
+voice671-audio.npy|voice671-mel.npy|voice671-linear.npy|56100|187|이제는 거의 매일 편지를 쓰게 되는구나       
+|voice671.npz
+voice672-audio.npy|voice672-mel.npy|voice672-linear.npy|90900|303|한국 트위터모임의 의미는 당 모임에 가입 신청하였습니다            
+|voice672.npz
+voice673-audio.npy|voice673-mel.npy|voice673-linear.npy|63000|210|금요일 밤 이런 곳에서 와인 한잔하면 좋을 듯   
+|voice673.npz
+voice674-audio.npy|voice674-mel.npy|voice674-linear.npy|62400|208|새로운 한 주시작 멋진 한 주 되시길 바래요    
+|voice674.npz
+voice675-audio.npy|voice675-mel.npy|voice675-linear.npy|90300|301|아 그렇군요 저도 제거하고 다시 설치해 봐야겠어요 감사합니다         
+|voice675.npz
+voice676-audio.npy|voice676-mel.npy|voice676-linear.npy|84000|280|경찰 트위터로 전국 열 여섯 곳 교통정보 알린다        
+|voice676.npz
+voice677-audio.npy|voice677-mel.npy|voice677-linear.npy|65400|218|네 정말 정말 재밌게 보고 있습니다 파이팅     
+|voice677.npz
+voice678-audio.npy|voice678-mel.npy|voice678-linear.npy|65700|219|제 주변에도 정말 심각한 사람들이 넘 많아요    
+|voice678.npz
+voice679-audio.npy|voice679-mel.npy|voice679-linear.npy|55500|185|싫으면 조용히 지나가 줬으면 좋겠어요        
+|voice679.npz
+voice680-audio.npy|voice680-mel.npy|voice680-linear.npy|73500|245|축하해 주셔서 고맙습니다 앞으로도 지켜봐 주세요  
+|voice680.npz
+voice681-audio.npy|voice681-mel.npy|voice681-linear.npy|81000|270|나이가 들어갈수록 자고 일어나는 것도 개운하지 않은 듯해요          
+|voice681.npz
+voice682-audio.npy|voice682-mel.npy|voice682-linear.npy|86400|288|아직 보셔야 할 것들 너무 많아서 걱정 안 하셔도 될 거 같아요       
+|voice682.npz
+voice683-audio.npy|voice683-mel.npy|voice683-linear.npy|61800|206|반갑습니다 팔로 감사합니다 맞팔했어요        
+|voice683.npz
+voice684-audio.npy|voice684-mel.npy|voice684-linear.npy|88200|294|이렇게 살아가고 있는 저희 부부에게 힘내라는 말해주세요            
+|voice684.npz
+voice685-audio.npy|voice685-mel.npy|voice685-linear.npy|47700|159|그건 사실이에요 점심은 드셨어요           
+|voice685.npz
+voice686-audio.npy|voice686-mel.npy|voice686-linear.npy|87900|293|정말 급한 일이 아니면 다음날 전화하는 게 좋을 거 같습니다         
+|voice686.npz
+voice687-audio.npy|voice687-mel.npy|voice687-linear.npy|51900|173|맛있겠어요 늦은 식사 맛있게 하세요         
+|voice687.npz
+voice688-audio.npy|voice688-mel.npy|voice688-linear.npy|79200|264|아하 말씀 감사합니다 잘 찾아볼게요 복 받으세요  
+|voice688.npz
+voice689-audio.npy|voice689-mel.npy|voice689-linear.npy|57000|190|흣 오늘은 비명을 지르지 않았습니다         
+|voice689.npz
+voice690-audio.npy|voice690-mel.npy|voice690-linear.npy|83100|277|팔로잉합니다 주말 잘 보내시구 앞으로 잘 부탁드려염              
+|voice690.npz
+voice691-audio.npy|voice691-mel.npy|voice691-linear.npy|69000|230|한국 트위터모임 스냅당모임에 가입하였습니다     
+|voice691.npz
+voice692-audio.npy|voice692-mel.npy|voice692-linear.npy|52500|175|그래도 비 오는 날에는 파전이 기다립니다      
+|voice692.npz
+voice693-audio.npy|voice693-mel.npy|voice693-linear.npy|86400|288|이거 치료 끝나고 버리냐고 했더니 버린다고 해서 달라고 했어요        
+|voice693.npz
+voice694-audio.npy|voice694-mel.npy|voice694-linear.npy|64200|214|그런 건 아니고 한번 먹어봤는데 맛있어서요     
+|voice694.npz
+voice695-audio.npy|voice695-mel.npy|voice695-linear.npy|66600|222|요즘 소셜 게임이 인기 있는 이유는 무엇일까요   
+|voice695.npz
+voice696-audio.npy|voice696-mel.npy|voice696-linear.npy|109200|364|팔로우 해 주셔서 감사해요 저야말로 잘 부탁 드려요 좋은 아침 되세요    
+|voice696.npz
+voice697-audio.npy|voice697-mel.npy|voice697-linear.npy|72900|243|죄송해요 저도 무슨 소리를 하는 건지 정신이 없네요              
+|voice697.npz
+voice698-audio.npy|voice698-mel.npy|voice698-linear.npy|49800|166|좀 더 알아보고 결정 해야겠습니다          
+|voice698.npz
+voice699-audio.npy|voice699-mel.npy|voice699-linear.npy|69600|232|이미 하늘은 반짝반짝 하네요 즐거운 하루 되세요  
+|voice699.npz
+voice700-audio.npy|voice700-mel.npy|voice700-linear.npy|84000|280|목이동에 빌라를 갖고 있는데요 이거 어떻게 하는 게 좋을까요              
+|voice700.npz
+voice701-audio.npy|voice701-mel.npy|voice701-linear.npy|73500|245|수강 신청할 때 새벽에 밤새며 하던 기억이 나네요 
+|voice701.npz
+voice702-audio.npy|voice702-mel.npy|voice702-linear.npy|108900|363|그 맘 이해할 수 있을 거 같아요 생각보다 열배는 더 어려운 거 같아요         
+|voice702.npz
+voice703-audio.npy|voice703-mel.npy|voice703-linear.npy|87900|293|어제 늦게까지 트윗하시는 것 같던데 편안한 밤 되셨나요            
+|voice703.npz
+voice704-audio.npy|voice704-mel.npy|voice704-linear.npy|61500|205|예 잘 부탁 드려요 즐거운 추석 보내세요      
+|voice704.npz
+voice705-audio.npy|voice705-mel.npy|voice705-linear.npy|88500|295|무슨 일이 있더라도 본방사수하겠습니다 고생 하셨네요              
+|voice705.npz
+voice706-audio.npy|voice706-mel.npy|voice706-linear.npy|88500|295|날이 밝아오네요 굿 모닝 굿나잇 저는 이만 자러 갑니다            
+|voice706.npz
+voice707-audio.npy|voice707-mel.npy|voice707-linear.npy|59400|198|아 그러시군요 준비해야 할 게 많네요        
+|voice707.npz
+voice708-audio.npy|voice708-mel.npy|voice708-linear.npy|99300|331|글쎄요 그냥 막 먹고 싶은 게 많네요 뷔페를 한번 갔다 와야 할지      
+|voice708.npz
+voice709-audio.npy|voice709-mel.npy|voice709-linear.npy|85800|286|트윗 좋은 인연 내년에도 이어가길 바래요 새해 복 많이 받으세요       
+|voice709.npz
+voice710-audio.npy|voice710-mel.npy|voice710-linear.npy|62100|207|트위터 세계여행 모임에 가입 신청하였습니다     
+|voice710.npz
+voice711-audio.npy|voice711-mel.npy|voice711-linear.npy|62700|209|운전미숙으로 사고 나는 경우가 많기 때문이죠    
+|voice711.npz
+voice712-audio.npy|voice712-mel.npy|voice712-linear.npy|82200|274|네 감사합니다 트위터가 이상합니다 글이 잘 안 올라가네요           
+|voice712.npz
+voice713-audio.npy|voice713-mel.npy|voice713-linear.npy|91800|306|흠흠 서핑을 해봐야겠네요 요즘은 광고성 글이 많아서리             
+|voice713.npz
+voice714-audio.npy|voice714-mel.npy|voice714-linear.npy|71700|239|이 질문 귀찮으시더라도 많은 답변 부탁 드립니다  
+|voice714.npz
+voice715-audio.npy|voice715-mel.npy|voice715-linear.npy|59400|198|아무쪼록 가계에 보탬이 되시면 좋겠네요       
+|voice715.npz
+voice716-audio.npy|voice716-mel.npy|voice716-linear.npy|72900|243|우리 나라에 내리는 눈은 그다지 문제가 되지 않습니다             
+|voice716.npz
+voice717-audio.npy|voice717-mel.npy|voice717-linear.npy|51300|171|쿠폰 프린트 해 가시는 거 잊지 마시고       
+|voice717.npz
+voice718-audio.npy|voice718-mel.npy|voice718-linear.npy|49800|166|저보고 선배라고 하시는 줄 알고 깜놀        
+|voice718.npz
+voice719-audio.npy|voice719-mel.npy|voice719-linear.npy|102300|341|진중권씨 말을 들어야 할지 이정희씨 말을 들어야 할지 정말 모르겠어요    
+|voice719.npz
+voice720-audio.npy|voice720-mel.npy|voice720-linear.npy|80700|269|알티와 좋은 말씀 고맙습니다 즐겁고 편안한 오후 되세요            
+|voice720.npz
+voice721-audio.npy|voice721-mel.npy|voice721-linear.npy|71700|239|네 좋지는 않을 거에요 근데 잠깐이니깐요      
+|voice721.npz
+voice722-audio.npy|voice722-mel.npy|voice722-linear.npy|69600|232|네 꼭 주셔야 해요 수당도 다 챙겨주세요      
+|voice722.npz
+voice723-audio.npy|voice723-mel.npy|voice723-linear.npy|77100|257|팔로잉 해 주셔서 감사합니다 맞팔 완료하였습니다  
+|voice723.npz
+voice724-audio.npy|voice724-mel.npy|voice724-linear.npy|63900|213|밑에 네임카드 보시고 한번 방문해 주세요      
+|voice724.npz
+voice725-audio.npy|voice725-mel.npy|voice725-linear.npy|86700|289|기다리다 지쳐 집에 왔습니다 당신의 숙제를 기대하고 있습니다         
+|voice725.npz
+voice726-audio.npy|voice726-mel.npy|voice726-linear.npy|104100|347|진도가 좀 더디긴 한데 배고플 땐 좋을 것 같아요 맛점하셨나요        
+|voice726.npz
+voice727-audio.npy|voice727-mel.npy|voice727-linear.npy|93000|310|좋은 아침입니다 오늘도 감동이 함께하는 하루 되세요              
+|voice727.npz
+voice728-audio.npy|voice728-mel.npy|voice728-linear.npy|65700|219|그러시군요 암튼 반갑습니다 자주 뵈요        
+|voice728.npz
+voice729-audio.npy|voice729-mel.npy|voice729-linear.npy|83100|277|자기 자신이 몇 번 바이러스에 감염되었는지 알아야 합니다           
+|voice729.npz
+voice730-audio.npy|voice730-mel.npy|voice730-linear.npy|52200|174|이게 가장 최근에 나왔다고 하더라구요        
+|voice730.npz
+voice731-audio.npy|voice731-mel.npy|voice731-linear.npy|112500|375|음 자세한 답변 드리지 못한 점 죄송하구요 많은 도움 되셨으면 합니다    
+|voice731.npz
+voice732-audio.npy|voice732-mel.npy|voice732-linear.npy|93600|312|저희 집에서 강아지를 키우려는데요 저희 엄마가 강아지를 싫어하시네요     
+|voice732.npz
+voice733-audio.npy|voice733-mel.npy|voice733-linear.npy|54900|183|좋은 결과 있을 겁니다 오늘도 힘내세요       
+|voice733.npz
+voice734-audio.npy|voice734-mel.npy|voice734-linear.npy|81600|272|그리고 곧 우리 모두는 한 살을 더 먹게 되겠죠 흑흑             
+|voice734.npz
+voice735-audio.npy|voice735-mel.npy|voice735-linear.npy|58500|195|네 출근했어여 네 꾹 누르고 있어여         
+|voice735.npz
+voice736-audio.npy|voice736-mel.npy|voice736-linear.npy|89100|297|아 그러고 보니 저 찰리와 초콜릿 공장 무지하게 좋아했었어요         
+|voice736.npz
+voice737-audio.npy|voice737-mel.npy|voice737-linear.npy|75300|251|살아간다는 것은 기적 우리가 함께 한다는 것도 기적              
+|voice737.npz
+voice738-audio.npy|voice738-mel.npy|voice738-linear.npy|53100|177|꼭 해리 포터에 나오는 움직이는 그림 같네요    
+|voice738.npz
+voice739-audio.npy|voice739-mel.npy|voice739-linear.npy|60000|200|신도림 테크노마트에 있는 서점에서 샀어요      
+|voice739.npz
+voice740-audio.npy|voice740-mel.npy|voice740-linear.npy|100200|334|맞팔합니다 근데 사업하시나 봐요 부도어음 이라니 힘드시겠어요         
+|voice740.npz
+voice741-audio.npy|voice741-mel.npy|voice741-linear.npy|220800|736|강풀님은 맘이 따뜻한 분이신 듯 저도 빠른 쾌유를 빌게요           
+|voice741.npz
+voice742-audio.npy|voice742-mel.npy|voice742-linear.npy|106200|354|판매의사가 있으시다면 아래 네임카드의 연락처로 문의 주세요          
+|voice742.npz
+voice743-audio.npy|voice743-mel.npy|voice743-linear.npy|109500|365|여성 화장품 관련해서 질문합니다 많은 여성분들의 답변 부탁 드립니다     
+|voice743.npz
+voice744-audio.npy|voice744-mel.npy|voice744-linear.npy|88500|295|네 요즘 트위터에 재미를 느끼고 있었지만 덕분에 더 많이 잼있어졌어여    
+|voice744.npz
+voice745-audio.npy|voice745-mel.npy|voice745-linear.npy|84600|282|우아 이거 정말 재미있네요 아저씨는 전우치와 악마를 보았다          
+|voice745.npz
+voice746-audio.npy|voice746-mel.npy|voice746-linear.npy|55200|184|빠른 시일 내에 답변을 해주시기 바랍니다      
+|voice746.npz
+voice747-audio.npy|voice747-mel.npy|voice747-linear.npy|91500|305|상쾌한 아침입니다 모기에 시달리지 않는 행복한 하루 되시길 바랍니다     
+|voice747.npz
+voice748-audio.npy|voice748-mel.npy|voice748-linear.npy|54600|182|음주운전의 경각심을 일으키는 내용입니다       
+|voice748.npz
+voice749-audio.npy|voice749-mel.npy|voice749-linear.npy|58500|195|서서히 안정을 되찾고 있습니다 감사합니다      
+|voice749.npz
+voice750-audio.npy|voice750-mel.npy|voice750-linear.npy|68100|227|그리고 무엇보다 수업시간에 집중하시는 게 중요하답니다             
+|voice750.npz
+voice751-audio.npy|voice751-mel.npy|voice751-linear.npy|58800|196|머리가 깨질 것 같아요 더 자야겠어요        
+|voice751.npz
+voice752-audio.npy|voice752-mel.npy|voice752-linear.npy|90600|302|안녕하세요 어제부터 트윗 시작한 초보예요 앞으로 친하게 지내요        
+|voice752.npz
+voice753-audio.npy|voice753-mel.npy|voice753-linear.npy|54300|181|여행자를 위한 음악 한 곡 들어보실래요       
+|voice753.npz
+voice754-audio.npy|voice754-mel.npy|voice754-linear.npy|48300|161|그래서요 제가 알려달라고 하는데요          
+|voice754.npz
+voice755-audio.npy|voice755-mel.npy|voice755-linear.npy|78300|261|점잖게 화를 내는 법을 터득하는 것도 중요할 것 같아요            
+|voice755.npz
+voice756-audio.npy|voice756-mel.npy|voice756-linear.npy|83100|277|제가 마음속으로나마 태평소를 불며 응원할게요 좋은 하루 되세요        
+|voice756.npz
+voice757-audio.npy|voice757-mel.npy|voice757-linear.npy|81300|271|고인의 명복을 빕니다 하늘도 오늘 같이 울고 있습니다             
+|voice757.npz
+voice758-audio.npy|voice758-mel.npy|voice758-linear.npy|81900|273|여러분이 대통령이 된다면 가장 먼저 하고 싶은 일은 무엇인가요        
+|voice758.npz
+voice759-audio.npy|voice759-mel.npy|voice759-linear.npy|57600|192|너무 졸려서 자야겠네요 좋은 아침 되세요      
+|voice759.npz
+voice760-audio.npy|voice760-mel.npy|voice760-linear.npy|83100|277|으헉헉헉 저 돼지 껍데기 완전 좋아하는데 저도 끼워주세요           
+|voice760.npz
+voice761-audio.npy|voice761-mel.npy|voice761-linear.npy|60600|202|밤은 깊어가는데 기상 시간은 정해져 있다      
+|voice761.npz
+voice762-audio.npy|voice762-mel.npy|voice762-linear.npy|66000|220|네 반가워요 선팔 감사합니다 맞팔 완료       
+|voice762.npz
+voice763-audio.npy|voice763-mel.npy|voice763-linear.npy|61200|204|형님 아버님 건강 회복되시길 기도 합니다      
+|voice763.npz
+voice764-audio.npy|voice764-mel.npy|voice764-linear.npy|52800|176|맞팔했습니다 오전 중으로 부탁 드려요        
+|voice764.npz
+voice765-audio.npy|voice765-mel.npy|voice765-linear.npy|77400|258|저는 이만 자러 갑니다 다들 즐거운 금요일 밤 보내세요            
+|voice765.npz
+voice766-audio.npy|voice766-mel.npy|voice766-linear.npy|60300|201|좋은 말씀 감사합니다 즐거운 하루 되세요      
+|voice766.npz
+voice767-audio.npy|voice767-mel.npy|voice767-linear.npy|76200|254|제가 시간이 별로 없어서 일주일에 한 번씩밖에 못 놀아 주거든요       
+|voice767.npz
+voice768-audio.npy|voice768-mel.npy|voice768-linear.npy|61500|205|네 저희 블로그 댓글로 알려 주시면 되겠습니다   
+|voice768.npz
+voice769-audio.npy|voice769-mel.npy|voice769-linear.npy|86400|288|아고 감사합니다 앞으로도 좋은 정보 올려야겠어요  
+|voice769.npz
+voice770-audio.npy|voice770-mel.npy|voice770-linear.npy|79800|266|함께 때리고 욕하면서 웃을 수 있는 친구가 있어서 행복합니다         
+|voice770.npz
+voice771-audio.npy|voice771-mel.npy|voice771-linear.npy|84600|282|전 어렸을 때부터 가수가 꿈인 열한 살 소녀입니다       
+|voice771.npz
+voice772-audio.npy|voice772-mel.npy|voice772-linear.npy|63600|212|감사합니다 팔로 하고 가요 좋은 밤 되세요     
+|voice772.npz
+voice773-audio.npy|voice773-mel.npy|voice773-linear.npy|75900|253|이벤트 종료 여러분의 성원에 힘입어 이벤트가 종료되었습니다          
+|voice773.npz
+voice774-audio.npy|voice774-mel.npy|voice774-linear.npy|113100|377|몰라서 한 시간이나 걸렸음 흑흑 죄송해요 점심 맛있게 드세요         
+|voice774.npz
+voice775-audio.npy|voice775-mel.npy|voice775-linear.npy|71700|239|오마이 갇 캄사합니다 기억해둬야겠어요        
+|voice775.npz
+voice776-audio.npy|voice776-mel.npy|voice776-linear.npy|77100|257|저는 닉넴이 더 어려울 때도 있어요 네 좋은 꿈 꾸세요            
+|voice776.npz
+voice777-audio.npy|voice777-mel.npy|voice777-linear.npy|72900|243|이해하고 들으시면 가사가 귀에 쏙쏙 들어오실 거예요              
+|voice777.npz
+voice778-audio.npy|voice778-mel.npy|voice778-linear.npy|74400|248|아이유 데리고 오면 여기 있는 사람들하고 이야기를 한데요           
+|voice778.npz
+voice779-audio.npy|voice779-mel.npy|voice779-linear.npy|97200|324|아 감사합니다 오늘도 행복한 하루 되세요 점심식사 맛있게 하세요       
+|voice779.npz
+voice780-audio.npy|voice780-mel.npy|voice780-linear.npy|88800|296|트위터로 팔로윙을 해주셨으면 트위터를 잘하시는 건데요             
+|voice780.npz
+voice781-audio.npy|voice781-mel.npy|voice781-linear.npy|87900|293|검사할 때 보면 의외로 폐쇄공포증 있는 사람이 많은 거 같다         
+|voice781.npz
+voice782-audio.npy|voice782-mel.npy|voice782-linear.npy|86700|289|안녕히 주무세요 이제 저도 자러 갑니다 모두들 편한 밤 되세요        
+|voice782.npz
+voice783-audio.npy|voice783-mel.npy|voice783-linear.npy|87900|293|턱 관절 때문에 그런 것 같은데 병원 가서 턱 관절 치료해야겠죠       
+|voice783.npz
+voice784-audio.npy|voice784-mel.npy|voice784-linear.npy|89100|297|날이 갑자기 추워졌습니다 감기 조심하시구요 팔로 합니다            
+|voice784.npz
+voice785-audio.npy|voice785-mel.npy|voice785-linear.npy|60300|201|앨범 작업은 잘 되시나요 기대하고 있습니다     
+|voice785.npz
+voice786-audio.npy|voice786-mel.npy|voice786-linear.npy|105000|350|모두 좋은 하루 되세요 오늘 내일 비 소식이 있다니 우산들 꼭 챙기시구요  
+|voice786.npz
+voice787-audio.npy|voice787-mel.npy|voice787-linear.npy|75900|253|악 너무 귀여워요 공개사과입니다 받아 주세요    
+|voice787.npz
+voice788-audio.npy|voice788-mel.npy|voice788-linear.npy|69300|231|리스트를 팔로우하는 거 아닐까요 그런 것 같아요  
+|voice788.npz
+voice789-audio.npy|voice789-mel.npy|voice789-linear.npy|55200|184|제 답이 틀린 것처럼 말씀하시더라고요        
+|voice789.npz
+voice790-audio.npy|voice790-mel.npy|voice790-linear.npy|52200|174|할 것이 많은 밤 조금은 답답하네요         
+|voice790.npz
+voice791-audio.npy|voice791-mel.npy|voice791-linear.npy|63300|211|네 꼭 인증샷 보내주세요 기다리겠습니다       
+|voice791.npz
+voice793-audio.npy|voice793-mel.npy|voice793-linear.npy|72000|240|사이트 하나 추천해주세요 귀찮게 해드려 죄송 죄송 
+|voice793.npz
+voice794-audio.npy|voice794-mel.npy|voice794-linear.npy|51000|170|나중에 저 같은 사람이랑 만나면 안 되요      
+|voice794.npz
+voice795-audio.npy|voice795-mel.npy|voice795-linear.npy|66300|221|전 너무 억울해서 신고하고 싶습니다 도와주세요   
+|voice795.npz
+voice796-audio.npy|voice796-mel.npy|voice796-linear.npy|84000|280|온라인으로 물건을 구입하거나 팔아본 경험이 있으신가요             
+|voice796.npz
+voice797-audio.npy|voice797-mel.npy|voice797-linear.npy|51900|173|곧 있으면 시작이에요 영화 기대되네요        
+|voice797.npz
+voice798-audio.npy|voice798-mel.npy|voice798-linear.npy|59400|198|울지마 톤즈를 다시 한번 보심을 추천 드립니다   
+|voice798.npz
+voice799-audio.npy|voice799-mel.npy|voice799-linear.npy|66600|222|적어도 지금까지 살면서 까지는 그랬던 것 같아요  
+|voice799.npz
+voice800-audio.npy|voice800-mel.npy|voice800-linear.npy|59400|198|와우 축하 드립니다 신세계를 경험해 보시길     
+|voice800.npz
+voice801-audio.npy|voice801-mel.npy|voice801-linear.npy|55800|186|그렇게 믿고 더 이상은 묻지 않겠습니다       
+|voice801.npz
+voice802-audio.npy|voice802-mel.npy|voice802-linear.npy|44100|147|죽기 전에 이런 거 하나 해보고 싶네요       
+|voice802.npz
+voice803-audio.npy|voice803-mel.npy|voice803-linear.npy|63600|212|맞팔했습니다 앞으로 모두들 잘 부탁 드립니다    
+|voice803.npz
+voice804-audio.npy|voice804-mel.npy|voice804-linear.npy|111000|370|네 저희도 기대 많이 하고 있답니다 시어스에 대해 관심 가져 주셔서 감사해요              
+|voice804.npz
+voice805-audio.npy|voice805-mel.npy|voice805-linear.npy|90000|300|아하 그렇군요 가장 좋았던 것이 무엇이었는지 여쭤봐도 될까요         
+|voice805.npz
+voice806-audio.npy|voice806-mel.npy|voice806-linear.npy|38700|129|따뜻하고 맛있는 점심 드세요             
+|voice806.npz
+voice807-audio.npy|voice807-mel.npy|voice807-linear.npy|67500|225|근데 덴마크가 너무 당황해서 걱정 안 해도 되겠네요              
+|voice807.npz
+voice808-audio.npy|voice808-mel.npy|voice808-linear.npy|98700|329|트친소 월트 디즈니 영화 캐리비안의 해적을 좋아하시는 분들입니다       
+|voice808.npz
+voice809-audio.npy|voice809-mel.npy|voice809-linear.npy|45000|150|님이 극찬을 해주셔서 팔로합니당           
+|voice809.npz
+voice810-audio.npy|voice810-mel.npy|voice810-linear.npy|74700|249|할 일이 쌓였을 때 훌쩍 여행을 가고 싶다     
+|voice810.npz
+voice811-audio.npy|voice811-mel.npy|voice811-linear.npy|88500|295|노래하는 것을 보기가 힘드네요 요즘 헤어스타일은 어떤지 궁금해요       
+|voice811.npz
+voice812-audio.npy|voice812-mel.npy|voice812-linear.npy|63900|213|옴냐 투를 가끔 쓰고 있어요 버리고 싶네요          
+|voice812.npz
+voice813-audio.npy|voice813-mel.npy|voice813-linear.npy|55200|184|편안한 새벽 되세요 전 이만 물러갑니다       
+|voice813.npz
+voice814-audio.npy|voice814-mel.npy|voice814-linear.npy|69900|233|금요일이라 퇴근이 빠르시군요 즐거운 주말 보내세요 
+|voice814.npz
+voice815-audio.npy|voice815-mel.npy|voice815-linear.npy|185100|617|감사합니다 게임 방 가 봐야 할 것 같아요     
+|voice815.npz
+voice816-audio.npy|voice816-mel.npy|voice816-linear.npy|57000|190|지금은 괜찮습니다 관심에 감사 드립니다       
+|voice816.npz
+voice817-audio.npy|voice817-mel.npy|voice817-linear.npy|95700|319|말이 그렇죠 정말 천냥 빚을 갚을 수도 있고 사람을 죽일 수도 있고     
+|voice817.npz
+voice818-audio.npy|voice818-mel.npy|voice818-linear.npy|85200|284|그렇죠 제가 말하고 싶은 걸 잘 표현해 주셨네요  
+|voice818.npz
+voice819-audio.npy|voice819-mel.npy|voice819-linear.npy|91800|306|밤에 비가 오더니 더 시원한 아침이네요 기분 좋은 하루 되세요        
+|voice819.npz
+voice820-audio.npy|voice820-mel.npy|voice820-linear.npy|46800|156|다음에 기회가 되면 가입해 봐야겠군요        
+|voice820.npz
+voice821-audio.npy|voice821-mel.npy|voice821-linear.npy|85500|285|좋은 생각이지만 저는 그렇게 못할 것 같아요 아이고              
+|voice821.npz
+voice822-audio.npy|voice822-mel.npy|voice822-linear.npy|49200|164|오늘 같은 날 바람 소리가 참 듣기 좋음      
+|voice822.npz
+voice823-audio.npy|voice823-mel.npy|voice823-linear.npy|79800|266|저도 봤어요 내일부터 추워진다니까 건강 조심하세요 
+|voice823.npz
+voice824-audio.npy|voice824-mel.npy|voice824-linear.npy|82500|275|동해로 엄청난 인파로 인해 온도가 더 높아진 것도 같네요           
+|voice824.npz
+voice825-audio.npy|voice825-mel.npy|voice825-linear.npy|63600|212|그래요 살 좀 빠졌어요 뭐 좋아하냐구요       
+|voice825.npz
+voice826-audio.npy|voice826-mel.npy|voice826-linear.npy|75900|253|만고의 진리 어떻게 해야 하나 고민할 필요가 없더라구요            
+|voice826.npz
+voice827-audio.npy|voice827-mel.npy|voice827-linear.npy|66900|223|오 내가 너무 늙어버린 건 아닐까 걱정했는데 다행 
+|voice827.npz
+voice828-audio.npy|voice828-mel.npy|voice828-linear.npy|55200|184|밥값 계산을 하면서 먹어서 그런 거 같아요     
+|voice828.npz
+voice829-audio.npy|voice829-mel.npy|voice829-linear.npy|51900|173|정말 열심히 홍보해 주셔서 감사합니다        
+|voice829.npz
+voice830-audio.npy|voice830-mel.npy|voice830-linear.npy|50700|169|사용하시는 분 한 번만 부탁할려구요         
+|voice830.npz
+voice831-audio.npy|voice831-mel.npy|voice831-linear.npy|66300|221|보수 진보 따지지 않고 그냥 즐기고 있습니다    
+|voice831.npz
+voice832-audio.npy|voice832-mel.npy|voice832-linear.npy|85800|286|눈이 더 나빠진 것 같다 어떻게 여기서 더 나빠질 수가 있지         
+|voice832.npz
+voice833-audio.npy|voice833-mel.npy|voice833-linear.npy|86400|288|그런 의문이 아니었어요 드라마 보다가 그냥 궁금해서요             
+|voice833.npz
+voice834-audio.npy|voice834-mel.npy|voice834-linear.npy|89100|297|네 뭔가 스마트라는 단어를 정의하기는 힘든 거겠죠 
+|voice834.npz
+voice835-audio.npy|voice835-mel.npy|voice835-linear.npy|104100|347|정말요 하긴 저도 회사 입사하기 전 까진 한번도 못 타봤어요         
+|voice835.npz
+voice836-audio.npy|voice836-mel.npy|voice836-linear.npy|58800|196|많진 않지만 조심할 필요는 있을 거 같아요     
+|voice836.npz
+voice837-audio.npy|voice837-mel.npy|voice837-linear.npy|59700|199|그쪽에서 지진이 자주 일어나는 것 같습니다     
+|voice837.npz
+voice838-audio.npy|voice838-mel.npy|voice838-linear.npy|92100|307|맞아요 저도 반가웠어요 자주 이야기해요 좋은 저녁 되세요           
+|voice838.npz
+voice839-audio.npy|voice839-mel.npy|voice839-linear.npy|57300|191|공연 준비 다 되어가는데 언제 어디서 하죠     
+|voice839.npz
+voice840-audio.npy|voice840-mel.npy|voice840-linear.npy|71700|239|자신이 원하는 것이 무엇인지 확실하게 만들어야 합니다             
+|voice840.npz
+voice841-audio.npy|voice841-mel.npy|voice841-linear.npy|90900|303|근데 우리는 왜 자라면서 세상에 순응하면서 살라는 말을 많이 들었을까요   
+|voice841.npz
+voice842-audio.npy|voice842-mel.npy|voice842-linear.npy|108300|361|당근이죠 오실 수 있구말구요 중요한 건 기회를 놓치지 않는 매의 눈     
+|voice842.npz
+voice843-audio.npy|voice843-mel.npy|voice843-linear.npy|50400|168|그건 누구에게 기대를 걸어봐야 할까요        
+|voice843.npz
+voice844-audio.npy|voice844-mel.npy|voice844-linear.npy|51600|172|전 노래방 안 좋아해서 잘 모르겠습니다       
+|voice844.npz
+voice845-audio.npy|voice845-mel.npy|voice845-linear.npy|108600|362|소개 감사합니다 더 좋은 서비스가 되도록 노력하겠습니다 많이 알려 주세요  
+|voice845.npz
+voice846-audio.npy|voice846-mel.npy|voice846-linear.npy|83700|279|한국 트위터모임 한남대학교당 모임에 가입하였습니다 
+|voice846.npz
+voice847-audio.npy|voice847-mel.npy|voice847-linear.npy|87300|291|하루 종일 비가 오락가락 하네요 제발 퇴근할 땐 비가 오지 말아야 할 텐데 
+|voice847.npz
+voice848-audio.npy|voice848-mel.npy|voice848-linear.npy|98700|329|안녕하세요 우리 가족 모두 의원님을 응원하고 있습니다 힘내세요        
+|voice848.npz
+voice849-audio.npy|voice849-mel.npy|voice849-linear.npy|48000|160|오늘도 이 노래에 중독되어 또 들어요        
+|voice849.npz
+voice850-audio.npy|voice850-mel.npy|voice850-linear.npy|49500|165|실패를 두려워하는 사회적 분위기지요         
+|voice850.npz
+voice851-audio.npy|voice851-mel.npy|voice851-linear.npy|85500|285|남자친구랑 본 것도 아니고 그래도 내용은 진짜 재미있었어요          
+|voice851.npz
+voice852-audio.npy|voice852-mel.npy|voice852-linear.npy|51000|170|저번에 말씀 드렸는데 님보다 많네요         
+|voice852.npz
+voice853-audio.npy|voice853-mel.npy|voice853-linear.npy|88800|296|지금까지 살면서 후회 없을 정도로 열심히 해본 것이 있는지 생각해 보았다  
+|voice853.npz
+voice854-audio.npy|voice854-mel.npy|voice854-linear.npy|61800|206|아 그러시군요 고인의 명복을 기도 합니다      
+|voice854.npz
+voice855-audio.npy|voice855-mel.npy|voice855-linear.npy|58800|196|그러니까요 뭔가 새로운 게 필요한 것 같아요    
+|voice855.npz
+voice856-audio.npy|voice856-mel.npy|voice856-linear.npy|83700|279|점심 시간 쯤 맞춰서 전화할게요 놀라지 마세요   
+|voice856.npz
+voice857-audio.npy|voice857-mel.npy|voice857-linear.npy|62100|207|빨리 다음 주가 지나갔으면 좋겠다 너무 바쁘다   
+|voice857.npz
+voice858-audio.npy|voice858-mel.npy|voice858-linear.npy|51300|171|인천대교 위를 달리며 집으로 가는 길        
+|voice858.npz
+voice859-audio.npy|voice859-mel.npy|voice859-linear.npy|51300|171|재미있으셨다니 다행입니다 감사합니다         
+|voice859.npz
+voice860-audio.npy|voice860-mel.npy|voice860-linear.npy|104400|348|그건 훈련으로 충분히 가능하리라 생각합니다 매일 연습해보세요         
+|voice860.npz
+voice861-audio.npy|voice861-mel.npy|voice861-linear.npy|81600|272|이 시간에도 무언가를 끊임없이 하고 계시는 분들 모두 파이팅         
+|voice861.npz
+voice862-audio.npy|voice862-mel.npy|voice862-linear.npy|73200|244|아 방가워요 저는 지금 상담 공부를 하고 있는 학생입니다           
+|voice862.npz
+voice863-audio.npy|voice863-mel.npy|voice863-linear.npy|96900|323|지금은 곤란하다 조금만 기달려 달라 하던 어떤 사람이 생각나는군요      
+|voice863.npz
+voice864-audio.npy|voice864-mel.npy|voice864-linear.npy|53100|177|그래서 아무도 축하해 주지 않는 거에요       
+|voice864.npz
+voice865-audio.npy|voice865-mel.npy|voice865-linear.npy|75600|252|걱정 마요 이번 겨울은 그렇게 춥진 않을 거 같아요              
+|voice865.npz
+voice866-audio.npy|voice866-mel.npy|voice866-linear.npy|62100|207|반갑습니당 트윗 시작을 축하 드려요         
+|voice866.npz
+voice867-audio.npy|voice867-mel.npy|voice867-linear.npy|70800|236|건강이 최고입니다 푹 쉬시고 어서 회복되시길    
+|voice867.npz
+voice868-audio.npy|voice868-mel.npy|voice868-linear.npy|103200|344|빨리 오세요 너무 좋아요 좋은 정보 감사합니다 바로 찾아봐야겠네요      
+|voice868.npz
+voice869-audio.npy|voice869-mel.npy|voice869-linear.npy|77100|257|네 고맙습니다 님도 좋은 꿈꾸고 안녕히 주무세요  
+|voice869.npz
+voice870-audio.npy|voice870-mel.npy|voice870-linear.npy|69300|231|음 어떤 기준으로 보내주는 건지 모르겠네요     
+|voice870.npz
+voice871-audio.npy|voice871-mel.npy|voice871-linear.npy|270300|901|저도 건축을 전공했지만 건축을 전공하셨다면 추천합니다             
+|voice871.npz
+voice872-audio.npy|voice872-mel.npy|voice872-linear.npy|86700|289|삼성전자의 소셜 미디어에 대해 나름 정리해 보았습니다             
+|voice872.npz
+voice873-audio.npy|voice873-mel.npy|voice873-linear.npy|84900|283|이 사람도 가끔은 라면 먹을 거에요 걱정 마세요  
+|voice873.npz
+voice874-audio.npy|voice874-mel.npy|voice874-linear.npy|86400|288|이외수 선생님 저 기억하세요 어렸을 적에 놀러 가고 했는데          
+|voice874.npz
+voice875-audio.npy|voice875-mel.npy|voice875-linear.npy|65400|218|전 좋은걸요 계속 부둥켜안고 있을 거예요      
+|voice875.npz
+voice876-audio.npy|voice876-mel.npy|voice876-linear.npy|87300|291|맞아요 오랜 만에 들으니까 옛날 생각도 나고 좋더라구요            
+|voice876.npz
+voice877-audio.npy|voice877-mel.npy|voice877-linear.npy|61500|205|내일 아침은 정말 일찍 일어나서 운동해야겠다    
+|voice877.npz
+voice878-audio.npy|voice878-mel.npy|voice878-linear.npy|56100|187|그렇구나 눈이 오면 또 볼 수 있는 거구나     
+|voice878.npz
+voice879-audio.npy|voice879-mel.npy|voice879-linear.npy|69000|230|히히 좀 위험해 보이는 이 사진은 어떨까요     
+|voice879.npz
+voice880-audio.npy|voice880-mel.npy|voice880-linear.npy|106200|354|그러게요 그 밑에 연락 주세요 라고 적혀 있었다면 으 닭살          
+|voice880.npz
+voice881-audio.npy|voice881-mel.npy|voice881-linear.npy|84300|281|투표한다고 크게 달라지나요 누구에게 투표하면 크게 달라지나요         
+|voice881.npz
+voice882-audio.npy|voice882-mel.npy|voice882-linear.npy|59400|198|요새 계속 고민이 많으시네요 힘드시겠어요      
+|voice882.npz
+voice883-audio.npy|voice883-mel.npy|voice883-linear.npy|47700|159|뭐야 너도 누나랑 얘기하고 있었냐          
+|voice883.npz
+voice884-audio.npy|voice884-mel.npy|voice884-linear.npy|87300|291|공감 그리고 허를 찌르는 질문하는 사람 참 멋진 것 같아요          
+|voice884.npz
+voice885-audio.npy|voice885-mel.npy|voice885-linear.npy|81900|273|어떤 앱이 그런가요 저는 대부분 되는 걸로 알고 있었는데           
+|voice885.npz
+voice886-audio.npy|voice886-mel.npy|voice886-linear.npy|63900|213|선팔 감사합니다 행복한 일요일 저녁 되세요     
+|voice886.npz
+voice887-audio.npy|voice887-mel.npy|voice887-linear.npy|57300|191|누굴 만나느냐에 따라 인생이 달라진다        
+|voice887.npz
+voice888-audio.npy|voice888-mel.npy|voice888-linear.npy|83100|277|오 너무 좋은데요 좋은 음악 듣게 해주셔서 감사합니다             
+|voice888.npz
+voice889-audio.npy|voice889-mel.npy|voice889-linear.npy|105000|350|예상했던 일이라 그런지 견딜만한가 봐요 맘 속으로는 힘들겠지만        
+|voice889.npz
+voice890-audio.npy|voice890-mel.npy|voice890-linear.npy|63600|212|그런데 자꾸 다른 사람한테 알리려고 하는 것은 뭐죠              
+|voice890.npz
+voice891-audio.npy|voice891-mel.npy|voice891-linear.npy|85800|286|한국 트위터모임 좋은 아침입니당 모임에 가입하였습니다             
+|voice891.npz
+voice892-audio.npy|voice892-mel.npy|voice892-linear.npy|72600|242|공부를 할 순 없었습니다 결국 모임을 가졌죠    
+|voice892.npz
+voice893-audio.npy|voice893-mel.npy|voice893-linear.npy|103500|345|한 분 더 달아 드렸어요 딱 세 개만 더 달아 드릴게요    
+|voice893.npz
+voice894-audio.npy|voice894-mel.npy|voice894-linear.npy|56400|188|부럽네요 점심 때 가실 수 있다고 하니       
+|voice894.npz
+voice895-audio.npy|voice895-mel.npy|voice895-linear.npy|85800|286|팔로 했어요 좋은 정보 보고 바로 했다는      
+|voice895.npz
+voice896-audio.npy|voice896-mel.npy|voice896-linear.npy|87000|290|아이폰이 일부 그런 깨달음을 준 것이라고 생각합니다              
+|voice896.npz
+voice897-audio.npy|voice897-mel.npy|voice897-linear.npy|107700|359|꼭 가보고 싶던 곳이었는데 명복을 빕니다 고인의 명복을 빕니다        
+|voice897.npz
+voice898-audio.npy|voice898-mel.npy|voice898-linear.npy|82500|275|새해 복 많이 받으시고 행복한 결과 있으시길 빕니다              
+|voice898.npz
+voice899-audio.npy|voice899-mel.npy|voice899-linear.npy|72600|242|죄송합니다 무엇인지 모르는 영상이길 바래요     
+|voice899.npz
+voice900-audio.npy|voice900-mel.npy|voice900-linear.npy|89100|297|무엇보다 중요한 것은 각 개인이 스스로 보안에 신경 쓰는 것이겠죠      
+|voice900.npz
+voice901-audio.npy|voice901-mel.npy|voice901-linear.npy|55500|185|키보드 하나 가지고 있으면 좋을 것 같아요     
+|voice901.npz
+voice902-audio.npy|voice902-mel.npy|voice902-linear.npy|62400|208|담배 한 대 피우면서 곰곰이 생각을 해보았습니다  
+|voice902.npz
+voice903-audio.npy|voice903-mel.npy|voice903-linear.npy|64500|215|녜 알겠습니당 오늘도 좋은 하루 보내세요      
+|voice903.npz
+voice904-audio.npy|voice904-mel.npy|voice904-linear.npy|41700|139|오늘 날씨는 너무 좋네요 
+|voice904.npz
+voice905-audio.npy|voice905-mel.npy|voice905-linear.npy|87000|290|아 진짜요 그렇다면 중국집으로 변경하는 게 좋을 듯              
+|voice905.npz
+voice906-audio.npy|voice906-mel.npy|voice906-linear.npy|78600|262|이런 비는 좀 좋은 거 같아요 시원하면서 따뜻한 느낌도 들고         
+|voice906.npz
+voice907-audio.npy|voice907-mel.npy|voice907-linear.npy|81300|271|내 아이폰은 언제쯤 다시 살아날까요 포맷을 시켜야 하나            
+|voice907.npz
+voice908-audio.npy|voice908-mel.npy|voice908-linear.npy|83400|278|아 트위터 오랜 만에 하는데 안 좋은 소식들이 더 많네요           
+|voice908.npz
+voice909-audio.npy|voice909-mel.npy|voice909-linear.npy|46200|154|사람들만 그렇단 얘기도 있던데요           
+|voice909.npz
+voice910-audio.npy|voice910-mel.npy|voice910-linear.npy|144600|482|베리님 트윗 하시는 거 보면 정말 놀랍다니까요   
+|voice910.npz
+voice911-audio.npy|voice911-mel.npy|voice911-linear.npy|64800|216|기분 좋은 꿈 그리고 행복한 하루 되세요      
+|voice911.npz
+voice912-audio.npy|voice912-mel.npy|voice912-linear.npy|87300|291|아 옵티머스라 음 좀만 더 기다리시는 것은 어떨까요              
+|voice912.npz
+voice913-audio.npy|voice913-mel.npy|voice913-linear.npy|62700|209|축하를 받을 일은 아니지만 감사합니다        
+|voice913.npz
+voice914-audio.npy|voice914-mel.npy|voice914-linear.npy|55800|186|오랜만에 듣는 노래네요 여전히 좋네요        
+|voice914.npz
+voice915-audio.npy|voice915-mel.npy|voice915-linear.npy|126600|422|잘 부탁 드립니다 맞팔 완료했습니당 앞으로 타임란에서 자주 뵙길 바라며   
+|voice915.npz
+voice916-audio.npy|voice916-mel.npy|voice916-linear.npy|80700|269|넵 즐거운 소통이 되었으면 합니다 아름다운 밤 되세요             
+|voice916.npz
+voice917-audio.npy|voice917-mel.npy|voice917-linear.npy|84000|280|기둥 뒤에 공간 있어요 로 구글 검색하시면 나올 거에요            
+|voice917.npz
+voice918-audio.npy|voice918-mel.npy|voice918-linear.npy|90300|301|그러게요 천재지변으로 인해 업무 시간에 잠을 청하고 있습니다         
+|voice918.npz
+voice919-audio.npy|voice919-mel.npy|voice919-linear.npy|55500|185|저는 기쁘고 즐거운 미래를 생각할래요        
+|voice919.npz
+voice920-audio.npy|voice920-mel.npy|voice920-linear.npy|78900|263|스스로 위안하면서 해결점을 찾아보려고 하고 있거든요              
+|voice920.npz
+voice921-audio.npy|voice921-mel.npy|voice921-linear.npy|57900|193|전 이만 자러 갑니다 좋은 꿈 꾸세용        
+|voice921.npz
+voice922-audio.npy|voice922-mel.npy|voice922-linear.npy|84000|280|축하 드려요 어썸노트 잘 사용하고 있는 일 인이랍니다      
+|voice922.npz
+voice923-audio.npy|voice923-mel.npy|voice923-linear.npy|66600|222|날씨 무자게 좋아졌네요 행복한 저녁시간 보내세요  
+|voice923.npz
+voice924-audio.npy|voice924-mel.npy|voice924-linear.npy|50700|169|스프링필드에 오신 것을 환영합니다          
+|voice924.npz
+voice925-audio.npy|voice925-mel.npy|voice925-linear.npy|84000|280|너무 생각이 많으신 듯 오늘도 행복하고 즐거운 하루 되세요          
+|voice925.npz
+voice926-audio.npy|voice926-mel.npy|voice926-linear.npy|78000|260|의원님 대안학교에도 관심 가져주시길 부탁 드립니다 
+|voice926.npz
+voice927-audio.npy|voice927-mel.npy|voice927-linear.npy|75300|251|이게 한 두 번이 아니에요 누군지 이름도 알고 있음              
+|voice927.npz
+voice929-audio.npy|voice929-mel.npy|voice929-linear.npy|82800|276|슈퍼스타 장재인 가로수 그늘 아래 서면 멋지네요  
+|voice929.npz
+voice930-audio.npy|voice930-mel.npy|voice930-linear.npy|86400|288|건강이 최고에요 저도 몸 생각하면서 일하고 있습니다              
+|voice930.npz
+voice931-audio.npy|voice931-mel.npy|voice931-linear.npy|88500|295|완전 빵 터졌어요 자꾸 그러시면 팔십 칠 년생인 줄 알고
+|voice931.npz
+voice932-audio.npy|voice932-mel.npy|voice932-linear.npy|52500|175|은행 사이트에서 한 다섯 개 깔아 주나요             
+|voice932.npz
+voice933-audio.npy|voice933-mel.npy|voice933-linear.npy|87000|290|잠을 못 잤다 넘 피곤햐 잘 지내고 있지      
+|voice933.npz
+voice934-audio.npy|voice934-mel.npy|voice934-linear.npy|83100|277|저도 며칠 전에 트위터를 하는데요 아직까지는 적응이 안 되네요        
+|voice934.npz
+voice935-audio.npy|voice935-mel.npy|voice935-linear.npy|70500|235|고생 많으십니다 많은 기운 불어 넣어 주세여    
+|voice935.npz
+voice936-audio.npy|voice936-mel.npy|voice936-linear.npy|78600|262|그게 습관이 되는 게 더 무섭죠 그래서 교육이 필요한 것인데         
+|voice936.npz
+voice937-audio.npy|voice937-mel.npy|voice937-linear.npy|80400|268|오늘은 하루 종일 바빠 이제서야 트위터에 들어오네요              
+|voice937.npz
+voice938-audio.npy|voice938-mel.npy|voice938-linear.npy|78000|260|물론 좋은 선택을 할 수도 나쁜 선택을 할 수도 있다             
+|voice938.npz
+voice939-audio.npy|voice939-mel.npy|voice939-linear.npy|105300|351|오늘은 일찍 자야겠습니다 내일은 개운한 월요일을 맞이할 수 있기를      
+|voice939.npz
+voice940-audio.npy|voice940-mel.npy|voice940-linear.npy|63600|212|새로운 시대가 열리고 있습니다 인건가요       
+|voice940.npz
+voice941-audio.npy|voice941-mel.npy|voice941-linear.npy|60300|201|어제 저녁은 이랬는데 오늘은 비가 오네요      
+|voice941.npz
+voice942-audio.npy|voice942-mel.npy|voice942-linear.npy|61200|204|아 제가 거기까지 미처 생각은 못했네요       
+|voice942.npz
+voice943-audio.npy|voice943-mel.npy|voice943-linear.npy|86100|287|여기는 수원 날씨 정말 좋네 뭐라 표현하기도 어렵네              
+|voice943.npz
+voice944-audio.npy|voice944-mel.npy|voice944-linear.npy|81600|272|이런 곳에 가 보고 싶네요 저기서 낮잠 자고 싶어요              
+|voice944.npz
+voice945-audio.npy|voice945-mel.npy|voice945-linear.npy|68100|227|필기 입력 기를 공개하라고 압력을 가하세요     
+|voice945.npz
+voice946-audio.npy|voice946-mel.npy|voice946-linear.npy|96600|322|한국 트위터모임 댄스 플라워 모임에 가입 신청하였습니다            
+|voice946.npz
+voice947-audio.npy|voice947-mel.npy|voice947-linear.npy|91800|306|반갑습니다 된다면 회사 식구들과 가족들과 함께하고 싶네요           
+|voice947.npz
+voice948-audio.npy|voice948-mel.npy|voice948-linear.npy|86700|289|추천 감사합니다 주말 동안 열심히 들어봐야겠어요  
+|voice948.npz
+voice949-audio.npy|voice949-mel.npy|voice949-linear.npy|78600|262|삼 년 간 무역회사에서 정말 열심히 일을 했습니다      
+|voice949.npz
+voice950-audio.npy|voice950-mel.npy|voice950-linear.npy|68400|228|목요일 오늘도 행복하고 즐건 하루 되세요      
+|voice950.npz
+voice951-audio.npy|voice951-mel.npy|voice951-linear.npy|82800|276|밥도 제대로 못 먹고 은근 부담되기까지 하더이다  
+|voice951.npz
+voice952-audio.npy|voice952-mel.npy|voice952-linear.npy|99600|332|이거 완전 맛있어 보이네요 다들 즐퇴 맛저녁 하세요              
+|voice952.npz
+voice953-audio.npy|voice953-mel.npy|voice953-linear.npy|112200|374|잘 다녀오셨어요 일주일 만에 트윗 세상에 다시 오신 걸 환영합니다      
+|voice953.npz
+voice954-audio.npy|voice954-mel.npy|voice954-linear.npy|81300|271|무언가 제가 잊고 있는 게 있는 듯한 느낌을 지우기 힘드네요         
+|voice954.npz
+voice955-audio.npy|voice955-mel.npy|voice955-linear.npy|59400|198|지난 금요일에 실종된 저희 삼촌입니다        
+|voice955.npz
+voice956-audio.npy|voice956-mel.npy|voice956-linear.npy|83700|279|그러게요 꿀점 드시고 행복한 주말 되세요      
+|voice956.npz
+voice957-audio.npy|voice957-mel.npy|voice957-linear.npy|91200|304|스키 타러 가는 거 아니고 그냥 바람 쐬고 맛있는 거 먹으러 가는 거에요  
+|voice957.npz
+voice958-audio.npy|voice958-mel.npy|voice958-linear.npy|85800|286|정작 중요한 것은 진 다음에 어떻게 하느냐가 아닐까요             
+|voice958.npz
+voice959-audio.npy|voice959-mel.npy|voice959-linear.npy|72300|241|오늘 하루도 수고 많으셨습니다 즐퇴하세요      
+|voice959.npz
+voice960-audio.npy|voice960-mel.npy|voice960-linear.npy|62700|209|트위팅 감축 드립니다 좋은 하루 되세요       
+|voice960.npz
+voice961-audio.npy|voice961-mel.npy|voice961-linear.npy|93900|313|굿모닝입니다 제발 오늘 밤 늦게 비가 왔으면 좋겠어요             
+|voice961.npz
+voice962-audio.npy|voice962-mel.npy|voice962-linear.npy|56700|189|올해는 우리 예쁜 아기 갖기로 했죠         
+|voice962.npz
+voice963-audio.npy|voice963-mel.npy|voice963-linear.npy|80400|268|쉬는 시간 겜하고 놀아야겠어요 쉬세요        
+|voice963.npz
+voice964-audio.npy|voice964-mel.npy|voice964-linear.npy|71700|239|그래도 볼 수 있다니 다행이네요 아 재밌다     
+|voice964.npz
+voice965-audio.npy|voice965-mel.npy|voice965-linear.npy|61500|205|저는 트위터는 재래시장이다 에 한 표        
+|voice965.npz
+voice966-audio.npy|voice966-mel.npy|voice966-linear.npy|96000|320|반갑습니다 맞팔했습니다 타임 라인에서 자주 이야기 나눠요           
+|voice966.npz
+voice967-audio.npy|voice967-mel.npy|voice967-linear.npy|86400|288|전혀 상관없습니다 과학 책 많이 추천해주세요    
+|voice967.npz
+voice968-audio.npy|voice968-mel.npy|voice968-linear.npy|119400|398|여러분들의 소리를 접하며 하루를 시작합니다 좋은 아침 좋은 하루 되세요   
+|voice968.npz
+voice969-audio.npy|voice969-mel.npy|voice969-linear.npy|86100|287|그것이 알고 싶다 백두산 폭발 위험에 대해서 나오네요             
+|voice969.npz
+voice970-audio.npy|voice970-mel.npy|voice970-linear.npy|79500|265|셤은 잘 보셨나요 언제까지 셤 기간 인가요     
+|voice970.npz
+voice971-audio.npy|voice971-mel.npy|voice971-linear.npy|77400|258|앗 어떤 일을 하고 계신지 더욱 궁금해지는걸요   
+|voice971.npz
+voice972-audio.npy|voice972-mel.npy|voice972-linear.npy|85800|286|그럼 살 안 찌는 사람이 근육을 만들려면 어떻게 해야 할까요         
+|voice972.npz
+voice973-audio.npy|voice973-mel.npy|voice973-linear.npy|48000|160|한 주 잘 마무리하시기 바랍니다           
+|voice973.npz
+voice974-audio.npy|voice974-mel.npy|voice974-linear.npy|84000|280|비 오는 날에 늦은 손 편안하고 즐거운 하루들 보내세요            
+|voice974.npz
+voice975-audio.npy|voice975-mel.npy|voice975-linear.npy|67800|226|네네 화이팅입니다 즐건 하루 보내세요        
+|voice975.npz
+voice976-audio.npy|voice976-mel.npy|voice976-linear.npy|127500|425|광화문 교보문고 팔월초에 재 오픈 된다는데 정확한 날짜가 정해졌나요            
+|voice976.npz
+voice977-audio.npy|voice977-mel.npy|voice977-linear.npy|68100|227|내일을 위해서 맥주 한 병 마시고 자야겠네요    
+|voice977.npz
+voice978-audio.npy|voice978-mel.npy|voice978-linear.npy|89400|298|반갑습니다 잘 부탁 드립니다 글 잘 읽었습니다   
+|voice978.npz
+voice979-audio.npy|voice979-mel.npy|voice979-linear.npy|84900|283|오늘 생일이세요 생일 축하 드려요 행복한 하루 되세요             
+|voice979.npz
+voice980-audio.npy|voice980-mel.npy|voice980-linear.npy|86700|289|신임 사장에 김재철 청주 사장이 선임됐습니다    
+|voice980.npz
+voice981-audio.npy|voice981-mel.npy|voice981-linear.npy|130200|434|벌써 한국 트위터모임 대구 젠틀맨들의 모임 모임에 가입 신청하였습니다    
+|voice981.npz
+voice982-audio.npy|voice982-mel.npy|voice982-linear.npy|78600|262|트윗에 관한 좋은 글 잘 읽었습니다 감사합니다   
+|voice982.npz
+voice983-audio.npy|voice983-mel.npy|voice983-linear.npy|85800|286|인간사에서 힘의 균형이 이루어지기란 참 힘든 듯하네요             
+|voice983.npz
+voice984-audio.npy|voice984-mel.npy|voice984-linear.npy|96300|321|카페보고 왔습니다 좋은 인연이 되었으면 좋겠네요 좋은 하루 되세요      
+|voice984.npz
+voice985-audio.npy|voice985-mel.npy|voice985-linear.npy|62700|209|아 그렇군요 잘 해결되시길 바랍니다         
+|voice985.npz
+voice986-audio.npy|voice986-mel.npy|voice986-linear.npy|100800|336|그런데 한 가지 궁금한 것이 있어요 왜 이런 질문을 하셨던 건가요      
+|voice986.npz
+voice987-audio.npy|voice987-mel.npy|voice987-linear.npy|219600|732|음 용도에 따라 다르겠지만 업무 비중이 많다면 자제하시길 권장합니다     
+|voice987.npz
+voice988-audio.npy|voice988-mel.npy|voice988-linear.npy|95400|318|무슨 일하시는지 모르겠지만 엄청 힘드시겠어요    
+|voice988.npz
+voice989-audio.npy|voice989-mel.npy|voice989-linear.npy|55800|186|꼭 그렇게 될 수 있도록 노력하겠습니다       
+|voice989.npz
+voice990-audio.npy|voice990-mel.npy|voice990-linear.npy|81900|273|저 또한 잘 부탁 드려요 좋은 책 많이 공유해요  
+|voice990.npz
+voice991-audio.npy|voice991-mel.npy|voice991-linear.npy|117000|390|전 야근하고 이제 집에 들어왔는데 넘 부럽네요 즐거운 주말 보내세요     
+|voice991.npz
+voice992-audio.npy|voice992-mel.npy|voice992-linear.npy|78900|263|우리가 함께 하면 내가 무엇을 해야 할지 정확히 알아요            
+|voice992.npz
+voice993-audio.npy|voice993-mel.npy|voice993-linear.npy|96900|323|가서 내가 소개팅 시켜줄게 라고 외치면 되지 않을까요             
+|voice993.npz
+voice994-audio.npy|voice994-mel.npy|voice994-linear.npy|84000|280|옙 오늘도 힘내시고 즐건 하루 되세요        
+|voice994.npz
+voice995-audio.npy|voice995-mel.npy|voice995-linear.npy|77400|258|토요일에도 택배 배송하시는 분들 너무 감사합니다  
+|voice995.npz
+voice996-audio.npy|voice996-mel.npy|voice996-linear.npy|67500|225|지금 봤는데 사진과 프로필이 정말 멋지네요     
+|voice996.npz
+voice997-audio.npy|voice997-mel.npy|voice997-linear.npy|56400|188|그전에 미리 백업 받아놓는 거 잊지마        
+|voice997.npz
+voice998-audio.npy|voice998-mel.npy|voice998-linear.npy|60600|202|핸드폰에 알람을 설정해서 사용하세요         
+|voice998.npz
+voice999-audio.npy|voice999-mel.npy|voice999-linear.npy|93300|311|트윗하는 사람의 현재 위치정보가 담겨 있다는 뜻인 거 같은데요        
+|voice999.npz

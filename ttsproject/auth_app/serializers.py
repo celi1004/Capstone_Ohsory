@@ -2,9 +2,11 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from .models import Profile
+from tts_app.serializers import FileUploadSerializer
 
 # Join
 class CreateUserSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = User
         fields = ("id", "username", "password", 'last_name', 'first_name', "email")
@@ -40,6 +42,13 @@ class LoginUserSerializer(serializers.Serializer):
 
 #profile serializer
 class ProgressSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Profile
-        fields = ("user_pk", "progress")
+        fields = ("user_pk", "progress", "audio_time")
+
+
+class FcmKeySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ("user_pk", "fcm_key")

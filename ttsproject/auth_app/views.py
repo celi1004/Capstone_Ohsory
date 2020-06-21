@@ -3,8 +3,9 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.decorators import api_view
 from knox.models import AuthToken
-from .serializers import CreateUserSerializer, UserSerializer, LoginUserSerializer, ProgressSerializer
+from .serializers import CreateUserSerializer, UserSerializer, LoginUserSerializer, ProgressSerializer, FcmKeySerializer
 from .models import Profile
+from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
 
@@ -14,10 +15,7 @@ class RegistrationAPI(generics.GenericAPIView):
     def post(self, request, *args, **kwargs):
         if len(request.data["username"]) < 6 or len(request.data["password"]) < 8:
             body = {"message": "short field"}
-            return Response(body, status=status.HTTP_400_BAD_REQUEST)
-        if request.data["password"] != request.data["password_check"]:
-            body = {"message": "password and password confirmation are different"}
-            return Response(body, status=status.HTTP_400_BAD_REQUEST)
+            return Response(body, status=status.HTTP_406_NOT_ACCEPTABLE)
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
@@ -56,7 +54,25 @@ class UserAPI(generics.RetrieveAPIView):
         return self.request.user
 
 
-class ProgressUpdateAPI(generics.UpdateAPIView):
+class ProgressAPI(generics.RetrieveAPIView):
     lookup_field = "user_pk"
     queryset = Profile.objects.all()
     serializer_class = ProgressSerializer
+
+class FcmKeyUpdateAPI(generics.UpdateAPIView):
+    lookup_field = "user_pk"
+    queryset = Profile.objects.all()
+    serializer_class = FcmKeySerializer
+
+class ModelAPI(APIView):
+
+    def post(self, request, *args, **kwargs):
+        
+        user_id = request.data['user_id']
+
+        profile = get_object_or_404(Profile, user_pk=user_id)
+
+        if profile.model is '':
+            return Response(status=status.HTTP_400_BAD_REQUEST)
+        else:
+            return Response(status=status.HTTP_200_OK)

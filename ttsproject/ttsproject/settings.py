@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+BROKER_URL = 'django://'
+
 
 # Application definition
 
@@ -39,10 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'knox',
-    'test_app',
     'auth_app',
     'share_app',
-    'tts_app'
+    'tts_app',
+    'drf_yasg',
+    'kombu.transport.django',
 ]
 
 REST_FRAMEWORK = {
@@ -90,7 +93,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'jinyoung22!m',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '3307',
     }
 }
 
@@ -134,5 +137,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Media files
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/Tacotron2-Wavenet-Korean-TTS/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'Tacotron2-Wavenet-Korean-TTS')
+
+FILE_UPLOAD_TEMP_DIR = 'C:\\Users\\pjpp8\\tts_project\\ttsproject\\tmp'
+FILE_UPLOAD_MAX_MEMORY_SIZE = 1000000000

@@ -1,0 +1,1 @@
+@"c:\users\pjpp8\tts_project\myvenv\scripts\python.exe" "c:\users\pjpp8\tts_project\myvenv\Scripts\markdown_py" %*

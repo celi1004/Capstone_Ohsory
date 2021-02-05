@@ -32,7 +32,7 @@ djangorestframework-files==1.1.0
 drf-yasg==1.17.1
 entrypoints==0.3
 ffprobe==0.5
-Flask==0.12.2
+Flask==1.0
 Flask-Cors==3.0.3
 flex==6.14.1
 future==0.16.0

@@ -27,7 +27,7 @@ defusedxml==0.6.0
 dill==0.2.7.1
 Django==3.0.5
 django-rest-knox==4.1.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-files==1.1.0
 drf-yasg==1.17.1
 entrypoints==0.3

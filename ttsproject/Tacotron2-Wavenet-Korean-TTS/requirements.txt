@@ -114,7 +114,7 @@ pyreadline==2.1
 pyrsistent==0.16.0
 python-dateutil==2.6.1
 pytz==2017.2
-pywin32==227
+pywin32==301
 pywinpty==0.5.7
 pyzmq==19.0.0
 qtconsole==4.7.2

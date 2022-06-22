@@ -114,7 +114,7 @@ nbformat==5.0.5
 nltk==3.2.5
 notebook==6.0.3
 numba==0.49.0
-numpy==1.18.3
+numpy==1.22.0
 oauth2client==3.0.0
 opt-einsum==3.2.1
 packaging==20.3
